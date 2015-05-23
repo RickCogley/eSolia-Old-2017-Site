@@ -1,3 +1,5 @@
 baseurl = "http://esolia.co.jp/"
 languageCode = "ja-jp"
 title = "イソリア"
+contentdir = "content/ja"
+publishdir = "public/ja"
