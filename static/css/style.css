@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+html {
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -28,6 +32,13 @@ p {
   .parallax-container .section {
     width: 100%;
   }
+
+.top-info-bar {
+    position: relative;
+    min-height: 46px;
+    line-height: 1.3;
+    padding: 0 0;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {

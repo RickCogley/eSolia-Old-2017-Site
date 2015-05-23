@@ -1,4 +1,4 @@
-# Set default behaviour for text files, in case users don't have core.autocrlf set. 
+# Set default behaviour for text files, in case users don't have core.autocrlf set.
 # This handles all files not specified.
 
 * text=auto eol=lf
@@ -59,6 +59,8 @@
 *.ICNS binary
 *.woff binary
 *.WOFF binary
+*.woff2 binary
+*.WOFF2 binary
 *.ttf binary
 *.TTF binary
 *.svg binary
