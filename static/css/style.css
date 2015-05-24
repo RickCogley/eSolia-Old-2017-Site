@@ -40,6 +40,16 @@ p {
     padding: 0 0;
 }
 
+.esolia-logo {
+    width: 170px;
+    padding-top: 7px;
+}
+
+.index-social-icons {
+  padding: 0px 0px 150px 0px;
+  height: 115px;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -56,6 +66,12 @@ p {
   }
 }
 
+@media only screen and (min-width : 601px) {
+  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 74px;
+    line-height: 74px; }
+  .navbar-fixed {
+    height: 74px; } }
 
 .icon-block {
   padding: 0 15px;
