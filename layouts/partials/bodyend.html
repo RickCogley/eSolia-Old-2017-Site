@@ -3,6 +3,19 @@
 <script src="/js/prism.js"></script>
 <script src="/js/materialize.js"></script>
 <script src="/js/init.js"></script>
+<!-- CNN Feed: http://rss.cnn.com/rss/edition.rss -->
+<script type="text/javascript">
+    $('#divRss').FeedEk({
+        FeedUrl:'http://rick.cogley.info/index.xml',
+        MaxCount : 3,
+        ShowDesc : false,
+        ShowPubDate:true,
+        DescCharacterLimit:50,
+        TitleLinkTarget:'_blank',
+        DateFormat: 'DD-MMM-YYYY, ddd, HH:MM',
+        DateFormatLang:'en'
+    });
+</script>
 <!-- GOOGLE ANALYTICS -->
 {{ if not .Site.BuildDrafts }}
 {{ if .Site.Params.googleAnalytics }}
