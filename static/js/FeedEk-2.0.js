@@ -32,7 +32,7 @@
                         dt= new Date(item.publishedDate);
                         if ($.trim(def.DateFormat).length > 0) {
                             try {
-                                moment.lang(def.DateFormatLang);
+                                moment.locale(def.DateFormatLang);
                                 s += '<div class="itemDate">' + moment(dt).format(def.DateFormat) + "</div>";
                             }
                             catch (e){s += '<div class="itemDate">' + dt.toLocaleDateString() + "</div>";}
