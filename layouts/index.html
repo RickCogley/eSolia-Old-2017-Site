@@ -1,21 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Parallax Template - Materialize</title>
-
-  <!-- CSS  -->
-  <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="/css/typography.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="/css/fontello.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-
-</head>
+{{ partial "header.html" . }}
 <body>
 
-  <nav class="white z-depth-2" role="navigation">
-    <div class="nav-wrapper container">
+  <nav class="white z-depth-2 valign-wrapper" role="navigation">
+    <div class="nav-wrapper container valign">
       <a id="logo-container" href="#" class="brand-logo"><img id="front-page-logo" class="esolia-logo responsive-img" src="img/eSolia-Logo-Color.svg"></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#" class="deep-orange-text text-lighten-1">Some link</a></li>
@@ -28,8 +15,8 @@
     </div>
   </nav>
 
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
+  <div id="index-banner" class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot valign">
       <div class="container">
         <br><br>
         <h1 class="header center orange-text text-lighten-1">{{ if eq .Site.LanguageCode "en-us" }}Your Japan IT Department{{ else }}株式会社イソリア{{ end }}</h1>
@@ -184,12 +171,6 @@
       </div>
     </div>
   </footer>
-
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="/js/materialize.js"></script>
-  <script src="/js/init.js"></script>
-
+  {{ partial "bodyend.html" . }}
   </body>
 </html>

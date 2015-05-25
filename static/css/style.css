@@ -41,8 +41,8 @@ p {
 }
 
 .esolia-logo {
-    width: 170px;
-    padding-top: 7px;
+    width: 210px;
+    padding-top: 0px;
 }
 
 .index-social-icons {
@@ -64,6 +64,10 @@ p {
   #index-banner .section {
     top: 0;
   }
+  .esolia-logo {
+      width: 155px;
+      padding-top: 0px;
+  }
 }
 
 @media only screen and (min-width : 601px) {
@@ -71,7 +75,9 @@ p {
     height: 74px;
     line-height: 74px; }
   .navbar-fixed {
-    height: 74px; } }
+    height: 74px;
+    }
+}
 
 .icon-block {
   padding: 0 15px;
