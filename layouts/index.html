@@ -1,9 +1,12 @@
 {{ partial "header.html" . }}
+
 <body>
 
   <nav class="white z-depth-2 valign-wrapper" role="navigation">
     <div class="nav-wrapper container valign">
-      <a id="logo-container" href="#" class="brand-logo"><img id="front-page-logo" class="esolia-logo responsive-img" src="img/eSolia-Logo-Color.svg"></a>
+      <a id="logo-container" href="#" class="brand-logo">
+        <img id="front-page-logo" class="esolia-logo responsive-img" src="img/eSolia-Logo-Flat-2015.svg">
+      </a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#" class="deep-orange-text text-lighten-1">Some link</a></li>
       </ul>
@@ -18,7 +21,8 @@
   <div id="index-banner" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot valign">
       <div class="container">
-        <br><br>
+        <br>
+        <br>
         <h1 class="header center orange-text text-lighten-1">{{ if eq .Site.Params.locale "en-us" }}Your Japan IT Department{{ else }}株式会社イソリア{{ end }}</h1>
 
         <div class="row center">
@@ -27,121 +31,153 @@
         <div class="row center">
           <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
         </div>
-        <br><br>
+        <br>
+        <br>
 
       </div>
     </div>
-    <div class="parallax"><img src="img/eSolia-Cogley-Azabudai-to-Atago-Tokyo-20131031-5318b.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax">
+      <img src="img/eSolia-Cogley-Azabudai-to-Atago-Tokyo-20131031-5318b.jpg" alt="Unsplashed background img 2">
+    </div>
   </div>
 
-    <div class="indigo white-text z-depth-2">
-      <div class="container">
-        <div class="section">
-          <div class="row">
-            <div class="col s12 center">
-              <h3><i class="large mdi-social-whatshot green-text accent-1"></i></h3>
-              <h4>Building Strong Foundations</h4>
-              <p class="left-align light">eSolia is a Tokyo-based Information Technology management firm that has been providing high-quality business-focused consulting, project and outsourcing services since 1999, to a variety of blue-chip foreign and Japanese organizations in Japan, the Asia Pacific region and any location abroad. We are a globally-minded organization that focuses on the challenges of multi-cultural, multi-language environments, and have a successful track record in handling complex high-pressure projects. We have the confidence to find solutions for all your system and process challenges. At eSolia, we build on strong foundations – let us begin developing a long-term relationship with you today.</p>
+  <div class="indigo white-text z-depth-2">
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 center">
+            <h3><i class="large mdi-social-whatshot green-text accent-1"></i></h3>
+            <h4>Building Strong Foundations</h4>
+            <p class="left-align light">eSolia is a Tokyo-based Information Technology management firm that has been providing high-quality business-focused consulting, project and outsourcing services since 1999, to a variety of blue-chip foreign and Japanese organizations in Japan, the Asia Pacific region and any location abroad. We are a globally-minded organization that focuses on the challenges of multi-cultural, multi-language environments, and have a successful track record in handling complex high-pressure projects. We have the confidence to find solutions for all your system and process challenges.<br><br>
+
+            <em>At eSolia, we build on strong foundations</em> – let us develop a long-term relationship together.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="white z-depth-2">
+    <div class="container">
+      <div class="section">
+
+        <!--   Card Section   -->
+        <div class="row">
+
+          <div class="col s12 m3">
+            <div class="card brown darken-4">
+              <div class="card-content white-text">
+                <p class="brown-text text-lighten-4">
+                  <strong>OFFICE SETUP</strong>
+                </p>
+                <p>Full support for new office setup management, upgrades or internal moves.</p>
+                <br>
+              </div>
+              <div class="card-action brown darken-3">
+                <a href="#" class="light-blue-text text-accent-2">More Info</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="card blue-grey darken-4">
+              <div class="card-content white-text">
+                <p class="blue-grey-text text-lighten-4">
+                  <strong>HELPDESK</strong>
+                </p>
+                <p>Your users' support questions, answered quickly.</p>
+              </div>
+              <div class="card-action blue-grey darken-3">
+                <a href="#" class="light-blue-text text-accent-2">More Info</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="card teal darken-4">
+              <div class="card-content white-text">
+                <p class="teal-text text-lighten-4">
+                  <strong>PROCESS</strong>
+                </p>
+                <p>Management of Procurement, Asset Mgt, Compliance, Upgrade or any other IT processes.</p>
+              </div>
+              <div class="card-action teal darken-3">
+                <a href="#" class="light-blue-text text-accent-2">More Info</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="card indigo darken-4">
+              <div class="card-content white-text">
+                <p class="indigo-text text-lighten-4">
+                  <strong>ON-SITE</strong>
+                </p>
+                <p>Engineers visits at your site, for user support, regular systems admin tasks, or troubleshooting.</p>
+              </div>
+              <div class="card-action indigo darken-3">
+                <a href="#" class="light-blue-text text-accent-2">More Info</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+
+          <div class="col s12 m3">
+            <div class="card deep-purple darken-4">
+              <div class="card-content white-text">
+                <p class="deep-purple-text text-lighten-4">
+                  <strong>PROJECT MGT</strong>
+                </p>
+                <p>Successful coordination for all your local or global projects.</p>
+                <br>
+              </div>
+              <div class="card-action deep-purple darken-3">
+                <a href="#" class="light-blue-text text-accent-2">More Info</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="card cyan darken-4">
+              <div class="card-content white-text">
+                <p class="cyan-text text-lighten-4">
+                  <strong>IT MGT</strong>
+                </p>
+                <p>Interim or ongoing IT management services on- or off-site.</p>
+              </div>
+              <div class="card-action cyan darken-3">
+                <a href="#" class="light-blue-text text-accent-2">More Info</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="card grey darken-4">
+              <div class="card-content white-text">
+                <p class="grey-text text-lighten-4">
+                  <strong>CLOUD DB</strong>
+                </p>
+                <p>Rapid development of your ops database in eSolia "PROdb" cloud database.</p>
+              </div>
+              <div class="card-action grey darken-3">
+                <a href="#" class="light-blue-text text-accent-2">More Info</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="card deep-orange darken-4">
+              <div class="card-content white-text">
+                <p class="deep-orange-text text-lighten-4">
+                  <strong>MANDATE</strong>
+                </p>
+                <p>Flexible accommodation of your directives, your standards, your mandate.</p>
+              </div>
+              <div class="card-action deep-orange darken-3">
+                <a href="#" class="light-blue-text text-accent-2">More Info</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="white z-depth-2">
-      <div class="container">
-        <div class="section">
-
-          <!--   Icon Section   -->
-          <div class="row">
-            <div class="col s12 m4">
-              <div class="icon-block">
-                <h2 class="center brown-text"><i class="mdi-image-flash-on"></i></h2>
-                <h5 class="center">Speeds up development</h5>
-
-                <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-              </div>
-            </div>
-
-            <div class="col s12 m4">
-              <div class="icon-block">
-                <h2 class="center brown-text"><i class="mdi-social-group"></i></h2>
-                <h5 class="center">User Experience Focused</h5>
-
-                <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-              </div>
-            </div>
-
-            <div class="col s12 m4">
-              <div class="icon-block">
-                <h2 class="center brown-text"><i class="mdi-action-settings"></i></h2>
-                <h5 class="center">Latest on eSolia.pro</h5>
-
-                <p class="light"><div id="divRss" width="100px"></div></p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="white z-depth-2">
-      <div class="container">
-        <div class="section">
-
-          <!--   Card Section   -->
-          <div class="row">
-
-                <div class="col s12 m3">
-                    <div class="card orange darken-1">
-                        <div class="card-content white-text">
-                            <span class="card-title">Card Title</span>
-                            <p>I am a very simple card. I am good at containing small bits of information.</p>
-                        </div>
-                        <div class="card-action orange lighten-4">
-                            <a href="#">This is a link</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m3">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                            <span class="card-title">Card Title</span>
-                            <p>I am a very simple card. I am good at containing small bits of information.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m3">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                            <span class="card-title">Card Title</span>
-                            <p>I am a very simple card. I am good at containing small bits of information.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m3">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                            <span class="card-title">Card Title</span>
-                            <p>I am a very simple card. I am good at containing small bits of information.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-      </div>
-    </div>
+  </div>
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
@@ -151,7 +187,63 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="img/eSolia-Cogley-Azabudai-to-Atago-Tokyo-20131031-5355b.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax">
+      <img src="img/eSolia-Cogley-Azabudai-to-Atago-Tokyo-20131031-5355b.jpg" alt="Unsplashed background img 2">
+    </div>
+  </div>
+
+  <div class="white z-depth-2">
+    <div class="container">
+      <div class="section">
+
+        <!--   Icon Section   -->
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="mdi-image-flash-on"></i></h2>
+              <h5 class="center">Speeds up development</h5>
+
+              <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="mdi-social-group"></i></h2>
+              <h5 class="center">User Experience Focused</h5>
+
+              <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms
+                allow for a more unified user experience.</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="mdi-action-settings"></i></h2>
+              <h5 class="center">Latest on eSolia.pro</h5>
+
+              <p class="light">
+                <div id="divRss" width="100px"></div>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="img/eSolia-Cogley-Network-Switch-1.jpg" alt="Unsplashed background img 3">
+    </div>
   </div>
 
   <div class="container">
@@ -160,37 +252,28 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra
+            ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices
+            erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
         </div>
       </div>
     </div>
   </div>
 
   <div class="index-social-icons blue-grey darken-3 z-depth-1">
-      <div class="container">
-        <div class="section">
-          <div class="row">
-            <div class="col s12 center">
-            　<a href="https://plus.google.com/+Esolia/posts" target="_blank"><i class="large icon-gplus red-text text-darken-1"></i></a>
-            　<a href="https://twitter.com/esolia_inc" target="_blank"><i class="large icon-twitter light-blue-text"></i></a>
-              <a href="http://www.linkedin.com/company/esolia-inc" target="_blank"><i class="large icon-linkedin white-text"></i></a>
-              <a href="http://www.facebook.com/eSolia" target="_blank"><i class="large icon-facebook indigo-text"></i></a>
-              <a href="https://vimeo.com/channels/esolia" target="_blank"><i class="large icon-vimeo lime-text text-accent-3"></i></a>
-            </div>
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 center">
+            <a href="https://plus.google.com/+Esolia/posts" target="_blank"><i class="large icon-gplus red-text text-darken-1"></i></a>
+            <a href="https://twitter.com/esolia_inc" target="_blank"><i class="large icon-twitter light-blue-text"></i></a>
+            <a href="http://www.linkedin.com/company/esolia-inc" target="_blank"><i class="large icon-linkedin white-text"></i></a>
+            <a href="http://www.facebook.com/eSolia" target="_blank"><i class="large icon-facebook indigo-text"></i></a>
+            <a href="https://vimeo.com/channels/esolia" target="_blank"><i class="large icon-vimeo lime-text text-accent-3"></i></a>
           </div>
         </div>
       </div>
-  </div>
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
     </div>
-    <div class="parallax"><img src="img/eSolia-Cogley-Network-Switch-1.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
   <footer class="page-footer teal">
@@ -224,10 +307,11 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Powered by <a class="brown-text text-lighten-3" href="http://gohugo.io">Hugo</a> & <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        Powered by <a class="brown-text text-lighten-3" href="http://gohugo.io">Hugo</a> & <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
       </div>
     </div>
   </footer>
   {{ partial "bodyend.html" . }}
-  </body>
+</body>
+
 </html>
