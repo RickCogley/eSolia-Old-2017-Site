@@ -23,5 +23,21 @@ $('#divRss').FeedEk({
     DateFormatLang:'en'
 });
 
+// Lazy-loading Google Map
+
+$( '.google-map' ).lazyLoadGoogleMaps(
+        {
+            callback: function( container, map )
+            {
+                var $container  = $( container ),
+                    center      = new google.maps.LatLng( $container.attr( 'data-lat' ), $container.attr( 'data-lng' ) );
+
+                map.setOptions({ zoom: 15, center: center });
+                new google.maps.Marker({ position: center, map: map });
+            }
+});
+
+
+
   }); // end of document ready
 })(jQuery); // end of jQuery name space
