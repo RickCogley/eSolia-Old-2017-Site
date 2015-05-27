@@ -1,5 +1,16 @@
 {{ "<!-- ENTERING partial seo-og.html (open graph) -->" | safeHTML }}
 {{ $baseurl := .Site.BaseURL }}
+{{ if .IsNode }}
+<!-- Required Open Graph Info -->
+<meta property="og:title" content="{{ .Title }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}" />
+
+{{ with $.Site.Data.general.images }}{{ range first 6 . }}<meta property="og:image" content="{{ if in . "http" }}{{ . }}{{ else }}{{ $baseurl }}{{ . }}{{ end }}" />
+{{ end }}
+{{ end }}
+
+
+
+{{ end }}
 {{ if .IsPage }}
 <!-- Required Open Graph Info -->
 <meta property="og:title" content="{{ .Title }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}" />
