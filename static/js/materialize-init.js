@@ -37,17 +37,17 @@ $('#divRss2').FeedEk({
 
 // Lazy-loading Google Map
 
-$( '.google-map' ).lazyLoadGoogleMaps(
-        {
-            callback: function( container, map )
-            {
-                var $container  = $( container ),
-                    center      = new google.maps.LatLng( $container.attr( 'data-lat' ), $container.attr( 'data-lng' ) );
-
-                map.setOptions({ zoom: 15, center: center });
-                new google.maps.Marker({ position: center, map: map });
-            }
-});
+// $( '.google-map' ).lazyLoadGoogleMaps(
+//         {
+//             callback: function( container, map )
+//             {
+//                 var $container  = $( container ),
+//                     center      = new google.maps.LatLng( $container.attr( 'data-lat' ), $container.attr( 'data-lng' ) );
+//
+//                 map.setOptions({ zoom: 15, center: center });
+//                 new google.maps.Marker({ position: center, map: map });
+//             }
+// });
 
 
 
