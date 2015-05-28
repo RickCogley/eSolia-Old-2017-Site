@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <!-- IN .HTACCESS!! <meta http-equiv="x-ua-compatible" content="ie=edge"> -->
-  <title>{{ if .IsHome }}Welcome to {{ end }}{{ .Title }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}</title>
+  <title>{{ if eq .Site.Params.locale "en-us" }}{{ if .IsHome }}Welcome to {{ end }}{{ end }}{{ .Title }}{{ if eq .Site.Params.locale "ja-jp" }}{{ if .IsHome }}へようこそ{{ end }}{{ end }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{if .IsPage}}{{ .Summary }}{{else}}{{.Site.Params.description}}{{end}}">
   <meta name="keywords" content="{{if .IsPage}}{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}{{else}}{{.Site.Params.keywords}}{{end}}">
   {{ if .Params.author }}<meta name="author" content="{{ .Params.author }}">{{ end }}
