@@ -10,10 +10,13 @@
 <!-- Optional Open Graph Info -->
 <meta property="og:description" content="{{ .Site.Params.description }}" />
 <meta property="og:locale" content="{{ .Site.Params.locale }}" />
+{{ with .Site.Params.alternatelocales }}{{ range . }}
+<meta property="og:locale:alternate" content="{{ . }}" />
+{{ end }}
+{{ end }}
 {{ with $.Site.Data.general.videos }}{{ range . }}<meta property="og:video" content="{{ . }}" />
 {{ end }}
 {{ end }}
-
 
 {{ end }}
 {{ if .IsPage }}
@@ -26,6 +29,10 @@
 <!-- Optional Open Graph Info -->
 <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}" />
 <meta property="og:locale" content="{{ if .Params.locale }}{{ .Params.locale }}{{ else }}en_US{{ end }}" />
+{{ with .Params.alternatelocales }}{{ range . }}
+<meta property="og:locale:alternate" content="{{ . }}" />
+{{ end }}
+{{ end }}
 {{ with .Params.audio }}<meta property="og:audio" content="{{ . }}" />{{ end }}
 {{ with .Params.videos }}{{ range . }}
 <meta property="og:video" content="{{ . }}" />

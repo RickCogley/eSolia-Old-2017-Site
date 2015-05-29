@@ -23,6 +23,7 @@ languageCode = "ja-JP"
 
 [params]
     locale = "ja-JP"
+    alternatelocales = ["en-US"]
     description = "東京をベースにしたITマネージメントやサポート会社、株式会社イソリアのウェブサイト"
     keywords = "日本,IT,マネージメント,サポート,アウトソーシング,ヘルプデスク,ウェブサイト,開発,統括"
     author = "Team eSolia"
