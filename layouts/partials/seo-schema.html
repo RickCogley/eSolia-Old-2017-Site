@@ -1,8 +1,30 @@
 {{ "<!-- ENTERING partial seo-schema.html -->" | safeHTML }}
+{{ if .IsNode }}
+<script type="application/ld+json">
+{
+    "@context" : "http://schema.org",
+    "@type" : "WebPage",
+    "name" : "{{ .Title }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}",
+    "headline" : "{{ .Title }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}",
+    "description" : "{{ .Site.Params.description }}",
+    "inLanguage" : "{{ .Site.Params.locale }}",
+    "author" : "{{ .Site.Params.author }}",
+    "creator" : "{{ .Site.Params.author }}",
+    "accountablePerson" : "{{ .Site.Params.accountableperson }}",
+    "copyrightHolder" : "{{ .Site.Params.entityname }}",
+    "copyrightYear" : "{{ .Site.LastChange.Format "2006" }}",
+    "datePublished": "{{ .Site.LastChange.Format $.Site.Params.ISO8601 }}",
+    "dateModified" : "{{ .Site.LastChange.Format $.Site.Params.ISO8601 }}",
+    "url" : "{{ .Permalink }}",
+    "keywords" : [ {{ range $i, $e := .Site.Params.keywords }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} ],
+    "image" : [ {{ range $i, $e := $.Site.Data.general.images }}{{ if $i }}, {{ end }}{{ $e | absURL }}{{ end }} ]
+}
+</script>
+{{ end }}
 {{ if .IsPage }}
 {{ if eq .Type "post" }}
 <script type="application/ld+json">
-{ 
+{
     "@context" : "http://schema.org",
     "@type" : "BlogPosting",
     "articleSection" : "{{ .Section }}",
@@ -20,14 +42,14 @@
     "dateModified" : "{{ .Date.Format $.Site.Params.ISO8601 }}",
     "url" : "{{ .Permalink }}",
     "wordCount" : "{{ .WordCount }}",
-    "image" : {{ apply .Params.images "absURL" "." }}
+    "image" : {{ apply .Params.images "absURL" "." }},
     "keywords" : [ {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} ]
 }
 </script>
 
 {{ else if eq .Type "aboutpage" }}
 <script type="application/ld+json">
-{ 
+{
     "@context" : "http://schema.org",
     "@type" : "Person",
     "name" : "Rick Cogley",
@@ -36,13 +58,13 @@
         "author" : "{{ .Params.author }}",
         "contentLocation" : "Yokohama, Japan",
         "contentUrl" : "/img/rick-cogley-avatar-900x900.jpg",
-        "thumbnailUrl" : "/img/rick-cogley-avatar-90x90.png"
+        "thumbnailUrl" : "/img/rick-cogley-avatar-90x90.png",
         "datePublished" : "2014-09-25",
         "description" : "Photo taken by myself in Yokohama Japan.",
         "name" : "Rick Cogley Autumn 2014"
     },
-    "description" : "Rick Cogley: helping people in Japan since 1987. Experienced technology manager. CEO and co-owner of eSolia Inc. Jogger and cyclist. Fluent in Japanese. Family man with Japanese wife and daughters. Pun-smith puzzle solver."
-    "nationality" : "USA"
+    "description" : "Rick Cogley: helping people in Japan since 1987. Experienced technology manager. CEO and co-owner of eSolia Inc. Jogger and cyclist. Fluent in Japanese. Family man with Japanese wife and daughters. Pun-smith puzzle solver.",
+    "nationality" : "USA",
     "jobTitle" : "CEO",
     "telephone" : "+81-3-6273-3501",
     "email" : "rick@cogley.info",
@@ -55,8 +77,7 @@
         "foundingDate" : "1999-07-07",
         "email" : "info@esolia.co.jp",
         "telephone" : "+81-3-6273-3510",
-        "fax" : "+81-3-3593-3511",
-        "logo" : "http://static.cogley.info/img/eSolia_Logo-500px.gif"  
+        "logo" : "http://static.cogley.info/img/eSolia_Logo-500px.gif"
     },
     "address" : {
         "@type" : "PostalAddress",
@@ -78,7 +99,7 @@
         "https://vimeo.com/rickcogley",
         "https://github.com/RickCogley",
         "https://www.pinterest.com/rickcogley/",
-        "https://pinboard.in/u:rickcogley"] 
+        "https://pinboard.in/u:rickcogley"]
 }
 </script>
 <script type="application/ld+json">
@@ -103,7 +124,7 @@
         "author" : "{{ .Params.author }}",
         "contentLocation" : "Yokohama, Japan",
         "contentUrl" : "/img/rick-cogley-avatar-900x900.jpg",
-        "thumbnailUrl" : "/img/rick-cogley-avatar-90x90.png"
+        "thumbnailUrl" : "/img/rick-cogley-avatar-90x90.png",
         "datePublished" : "2014-09-25",
         "description" : "Photo taken by myself in Yokohama Japan.",
         "name" : "Rick Cogley Autumn 2014"
@@ -114,7 +135,7 @@
 
 {{ else if eq .Type "colophonpage" }}
 <script type="application/ld+json">
-{ 
+{
     "@context" : "http://schema.org",
     "@type" : "WebPage",
     "name" : "{{ .Title }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}",
@@ -130,15 +151,14 @@
     "datePublished": "{{ .PublishDate.Format $.Site.Params.ISO8601 }}",
     "dateModified" : "{{ .Date.Format $.Site.Params.ISO8601 }}",
     "url" : "{{ .Permalink }}",
-    "wordCount" : "{{ .WordCount }}",
-    "image" : {{ apply .Params.images "absURL" "." }}
+    "image" : {{ apply .Params.images "absURL" "." }},
     "keywords" : [ {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} ]
 }
 </script>
 
 {{ else if eq .Type "licensepage" }}
 <script type="application/ld+json">
-{ 
+{
     "@context" : "http://schema.org",
     "@type" : "WebPage",
     "name" : "{{ .Title }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}",
@@ -153,8 +173,7 @@
     "datePublished": "{{ .PublishDate.Format $.Site.Params.ISO8601 }}",
     "dateModified" : "{{ .Date.Format $.Site.Params.ISO8601 }}",
     "url" : "{{ .Permalink }}",
-    "wordCount" : "{{ .WordCount }}",
-    "image" : {{ apply .Params.images "absURL" "." }}
+    "image" : {{ apply .Params.images "absURL" "." }},
     "keywords" : [ {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} ]
 }
 </script>
