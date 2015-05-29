@@ -985,3 +985,18 @@ FileETag None
 #     RewriteCond %{REQUEST_FILENAME} !-f
 #     RewriteRule ^(.+)\.(\d+)\.(bmp|css|cur|gif|ico|jpe?g|js|png|svgz?|webp|webmanifest)$ $1.$3 [L]
 # </IfModule>
+
+# ----------------------------------------------------------------------
+# | Password protect
+# ----------------------------------------------------------------------
+
+AuthUserFile /home/rcogley/webapps/es_hugo_esolia_com_01/.htpasswd
+AuthName EnterPassword
+AuthType Basic
+require valid-user
+
+# Hide files starting with a dot (.htaccess and .htpasswd in particular)
+<Files .*>
+order allow,deny
+deny from all
+</Files>
