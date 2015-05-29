@@ -6,7 +6,7 @@ canonifyurls = "false"
 copyright = "This work is copyright. All rights reserved by eSolia Inc."
 MetaDataFormat = "yaml"
 # For RSS only, apparently
-languageCode = "en-us"
+languageCode = "en-US"
 
 [author]
     name = "Rick Cogley"
@@ -22,7 +22,7 @@ languageCode = "en-us"
     series = "series"
 
 [params]
-    locale = "en-us"
+    locale = "en-US"
     description = "Website of eSolia Inc. - a Tokyo-based IT Management and support firm."
     keywords = "Japan,IT,Management,Support,Outsourcing,Helpdesk,Website,Development,Operations"
     author = "Team eSolia"
