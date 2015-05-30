@@ -1,12 +1,26 @@
 {{ "<!-- ENTERING partial seo-twittercard.html -->" | safeHTML }}
 {{ $baseurl := .Site.BaseURL }}
+{{ if .IsNode }}
+<!-- Twitter Card data -->
+<meta name="twitter:title" content="{{ .Title }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}"/>
+<meta name="twitter:description" content="{{ .Site.Params.description }}"/>
+<meta name="twitter:site" content="@eSolia_Inc"/>
+<meta name="twitter:domain" content="{{ if eq .Site.Params.locale "en-US" }}esolia.com{{ else if eq .Site.Params.locale "ja-JP" }}esolia.co.jp{{ else }}esolia.com{{ end }}"/>
+<meta name="twitter:creator" content="@eSolia_Inc"/>
+<meta name="twitter:url" content="{{ .Permalink }}">
+<!-- Twitter summary card with large image must be at least 280x150px -->
+{{ with $.Site.Data.general.twitterimages }}
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image:src" content="{{ if in (index . 0) "http" }}{{ index . 0 }}{{ else }}{{ $baseurl }}{{ index . 0 }}{{ end }}"/>
+{{ else }}<meta name="twitter:card" content="summary"/>{{ end }}
+{{ end }}
 {{ if .IsPage }}
 <!-- Twitter Card data -->
 <meta name="twitter:title" content="{{ .Title }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}"/>
 <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}"/>
-<meta name="twitter:site" content="@rickcogley"/>
-<meta name="twitter:domain" content="rick.cogley.info"/>
-<meta name="twitter:creator" content="@rickcogley"/>
+<meta name="twitter:site" content="@eSolia_Inc"/>
+<meta name="twitter:domain" content="{{ if eq .Site.Params.locale "en-US" }}esolia.com{{ else if eq .Site.Params.locale "ja-JP" }}esolia.co.jp{{ else }}esolia.com{{ end }}"/>
+<meta name="twitter:creator" content="@eSolia_Inc"/>
 <meta name="twitter:url" content="{{ .Permalink }}">
 {{ with .Params.images }}
 <!-- Twitter summary card with large image must be at least 280x150px -->
@@ -17,4 +31,3 @@
 {{ end }}
 {{ end }}
 {{ "<!-- LEAVING partial seo-twittercard.html -->" | safeHTML }}
-
