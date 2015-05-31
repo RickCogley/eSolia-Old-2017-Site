@@ -7,14 +7,48 @@
  */
 
 html {
-    font-family: 'Noto Sans Japanese', sans-serif;
-}
+  line-height: 1.5;
+  font-family: 'Noto Sans Japanese', sans-serif;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.87); }
+  @media only screen and (min-width: 0) {
+    html {
+      font-size: 15.5px; } }
+  @media only screen and (min-width: 992px) {
+    html {
+      font-size: 16px; } }
+  @media only screen and (min-width: 1200px) {
+    html {
+      font-size: 16.5px; } }
+
 nav ul a, nav .brand-logo {
     color: #444;
 }
 p {
-    line-height: 2rem;
+    line-height: 1.8rem;
 }
+.header {
+  color: #039be5;
+}
+h1  {
+  color: #01579b;
+}
+h2  {
+  color: #0277bd;
+}
+h3  {
+  color: #0288d1;
+}
+h4  {
+  color: #039be5 ;
+}
+h5  {
+  color: #03a9f4 ;
+}
+h6  {
+  color: #29b6f6 ;
+}
+
 .button-collapse {
     color: #26a69a;
 }
@@ -41,6 +75,16 @@ p {
     padding: 0px 0px 150px 0px;
     height: 115px;
 }
+.waves-effect.waves-brown .waves-ripple {
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: rgba(121, 85, 72, 0.65);
+    }
+.waves-effect.waves-light-blue .waves-ripple {
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: rgba(3, 169, 244, 0.65);
+    }
 @media only screen and (max-width: 992px) {
     .parallax-container .section {
         position: absolute;
