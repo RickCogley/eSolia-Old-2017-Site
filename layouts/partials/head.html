@@ -1,4 +1,4 @@
-{{ "<!-- ENTERING partial header.html -->" | safeHTML }}
+{{ "<!-- ENTERING partial head.html -->" | safeHTML }}
 <!DOCTYPE html>
 <html class="no-js" lang="{{ .Site.Params.locale }}" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile# website: http://ogp.me/ns/website#">
 
@@ -20,8 +20,13 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="msapplication-tap-highlight" content="no">
   <!-- Load CSS -->
+  {{ if .IsHome }}
   <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  {{ else }}
+  <link href="/css/ghpages-materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  {{ end }}
   <link href="/css/typography.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="/css/fontello.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -62,4 +67,4 @@
   {{ partial "seo-googlenews.html" . }}
   {{ partial "headend.html" . }}
 </head>
-{{ "<!-- LEAVING partial header.html -->" | safeHTML }}
+{{ "<!-- LEAVING partial head.html -->" | safeHTML }}
