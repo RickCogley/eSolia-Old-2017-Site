@@ -1,0 +1,88 @@
+{{ "<!-- ENTERING layouts/_default/single.html -->" | safeHTML }}
+{{ partial "head.html" . }}
+
+<body>
+
+  <header>
+    <div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse top-nav waves-effect waves-light circle"><i class="mdi-navigation-menu"></i></a></div>
+
+{{ partial "sidebar.html" . }}
+
+
+  </header>
+
+  <main>
+    <div class="section amber lighten-4" id="index-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m9">
+            <h1 class="header center-on-small-only">{{ .Title }}</h1>
+            <h4 class="light light-blue-text text-lighten-3 center-on-small-only">{{ .Params.subtitle }}</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!--  Outer row  -->
+      <div class="row">
+
+        <div class="col s12 m9 l10">
+          <!--  Material Design -->
+          <div id="materialdesign" class="section scrollspy">
+
+            {{ .Content }}
+
+          </div>
+
+        </div>
+        <!-- Table of Contents -->
+        <!--
+<div class="col hide-on-small-only m3 l2">
+          <div id="toc" class="toc-wrapper">
+            <div style="height: 1px;">
+              {{ .TableOfContents }}
+            </div>
+          </div>
+        </div>-->
+
+
+      </div>
+    </div>
+    <!-- End Container -->
+  </main>
+
+  <footer class="page-footer blue-grey lighten-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l4 s12">
+          <h5 class="white-text">Links 1</h5>
+          <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+
+        </div>
+        <div class="col l4 s12">
+          <h5 class="white-text">Links 2</h5>
+          <p class="grey-text text-lighten-4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="col l4 s12" style="overflow: hidden;">
+          <h5 class="white-text">Connect & Latest</h5>
+
+          asdf
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2014-2015 Materialize, All rights reserved.
+        <a class="grey-text text-lighten-4 right" href="https://github.com/Dogfalo/materialize/blob/master/LICENSE">MIT License</a>
+      </div>
+    </div>
+  </footer>
+
+  {{ partial "bodyend.html" . }}
+</body>
+
+</html>
+{{ "<!-- LEAVING layouts/_default/single.html -->" | safeHTML }}

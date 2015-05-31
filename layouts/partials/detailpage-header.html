@@ -1,0 +1,14 @@
+{{ "<!-- ENTERING layouts/partials/detailpage-header.html -->" | safeHTML }}
+<header>
+  <div class="section amber lighten-4" id="index-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m9">
+          <h1 class="header center-on-small-only">{{ .Title }}</h1>
+          <h4 class="light light-blue-text text-lighten-3 center-on-small-only">{{ .Params.subtitle }}</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+{{ "<!-- LEAVING layouts/partials/detailpage-header.html -->" | safeHTML }}
