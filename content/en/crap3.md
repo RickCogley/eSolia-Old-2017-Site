@@ -2,32 +2,32 @@
 author: Rick Cogley
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
-description: About eSolia.
+description: crap3.
 draft: false
-slug: about
-subtitle: Background for eSolia
+slug: crap3
+subtitle: asdf3
 weight: 9999
 tags:
   - Bio
   - About Page
   - History
   - eSolia
-title: About Us
+title: Crap3
 topics:
   - Professional
   - Us
-type: aboutpage
 images:
   - /img/rick-cogley-avatar-240x240.png
 menu:
   main:
-    Name: About eSolia
+    Name: crap3
     Weight: -30
-    Identifier: about
-    Url: /about
+    Identifier: crap3
+    Url: /crap3
+    Parent: crap
 ---
 
-# Testing
+# CRAP
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 株式会社イソリアは東京をベースに、「ITコンサルティング」、「ITプロジェクト・マネージメント」、「ITアウトソーシング」サービスを 外資系・日本企業のお客様に提供するITマネージメント企業です。
