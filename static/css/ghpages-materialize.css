@@ -1965,7 +1965,7 @@ html {
   box-sizing: inherit; }
 
 ul {
-  list-style-type: none; }
+  list-style-type: disc; }
 
 a {
   color: #039be5;
@@ -1988,7 +1988,7 @@ a {
 ul {
   padding: 0; }
   ul li {
-    list-style-type: none; }
+    list-style-type: disc; }
 
 .clearfix {
   clear: both; }
