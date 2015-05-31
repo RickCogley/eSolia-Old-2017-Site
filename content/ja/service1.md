@@ -1,36 +1,31 @@
 ---
-author: Rick Cogley
+author: eSolia
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
-description: crap2.
+description: サービス 1.
 draft: false
-slug: crap2
-subtitle: asdf2
+slug: service1
+subtitle: サブタイトル for service 1
 weight: 9999
 tags:
-  - Bio
-  - About Page
-  - History
-  - eSolia
-title: Crap2
+  - asdf
+title: サービス 1
 topics:
   - Professional
   - Us
 images:
-  - /img/rick-cogley-avatar-240x240.png
+  - /img/service1.png
 menu:
   main:
-    Name: crap2
+    Name: サービス 1
     Weight: -30
-    Identifier: crap2
-    Url: /crap2
-    Parent: crap
+    Identifier: service1
+    Url: /service1
+    Parent: services
 ---
 
-# CRAP
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-株式会社イソリアは東京をベースに、「ITコンサルティング」、「ITプロジェクト・マネージメント」、「ITアウトソーシング」サービスを 外資系・日本企業のお客様に提供するITマネージメント企業です。
+# Service 1
+This is service 1. 株式会社イソリアは東京をベースに、「ITコンサルティング」、「ITプロジェクト・マネージメント」、「ITアウトソーシング」サービスを 外資系・日本企業のお客様に提供するITマネージメント企業です。
 
 我々、株式会社イソリアは、ミックスカルチャーに焦点をあてたグローバル企業であり過去に複雑なプロジェクトを数多く手がけ、クリエイティブな問題解決をお客様へ提供しております。
 
