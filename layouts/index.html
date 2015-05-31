@@ -6,15 +6,18 @@
         <img id="front-page-logo" class="esolia-logo responsive-img" src="img/eSolia-Logo-Flat-2015.svg">
       </a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#" class="deep-orange-text text-lighten-1">Some Link</a></li>
+        <li><a href="/about" class="blue-text text-darken-3">About</a></li>
         <li>
           <a href="tel:+81-3-6273-3510" class="green-text text-accent-4">
             <em>Tel:</em>&nbsp;+81-3-6273-3510</a>
         </li>
+        <li>
+          <a href="http://esolia.co.jp" class="green-text text-accent-4">日本語</a>
+        </li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">About etc</a></li>
+        <li><a href="/about" class="blue-text text-darken-3">About</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
     </div>
@@ -25,10 +28,10 @@
       <div class="container">
         <br>
         <br>
-        <h1 class="header center orange-text text-lighten-1">{{ if eq .Site.Params.locale "en-US" }}Your Japan IT Department{{ else }}株式会社イソリア{{ end }}</h1>
+        <h1 class="header center orange-text text-lighten-1">{{ if eq .Site.Params.locale "en-US" }}Rely on eSolia{{ else if eq .Site.Params.locale "ja-JP" }}イソリアに任せて{{ else }}Rely on eSolia{{ end }}</h1>
 
         <div class="row center">
-          <h5 class="header col s12 light">eSolia is your virtual IT department in Japan</h5>
+          <h5 class="header col s12 light">{{ if eq .Site.Params.locale "en-US" }}Your Japan IT Department{{ else if eq .Site.Params.locale "ja-JP" }}信頼できるアウトソースIT部{{ else }}Your Japan IT Department{{ end }}</h5>
         </div>
       </div>
     </div>
