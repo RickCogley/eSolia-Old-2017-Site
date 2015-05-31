@@ -76,13 +76,11 @@ h6  {
     height: 115px;
 }
 .waves-effect.waves-brown .waves-ripple {
-     /* The alpha value allows the text and background color
-     of the button to still show through. */
+     /* The alpha value allows the text and background color of the button to still show through. */
       background-color: rgba(121, 85, 72, 0.65);
     }
 .waves-effect.waves-light-blue .waves-ripple {
-     /* The alpha value allows the text and background color
-     of the button to still show through. */
+     /* The alpha value allows the text and background color of the button to still show through. */
       background-color: rgba(3, 169, 244, 0.65);
     }
 @media only screen and (max-width: 992px) {
