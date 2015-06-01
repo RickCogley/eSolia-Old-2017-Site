@@ -14,7 +14,7 @@ topics:
 images:
   - /img/NA.png
 menu:
-  main:
+  side:
     Name: Services
     Weight: -30
     Identifier: services

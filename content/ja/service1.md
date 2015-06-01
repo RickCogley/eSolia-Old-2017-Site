@@ -16,7 +16,7 @@ topics:
 images:
   - /img/service1.png
 menu:
-  main:
+  side:
     Name: サービス 1
     Weight: -30
     Identifier: service1
