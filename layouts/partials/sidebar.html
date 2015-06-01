@@ -9,7 +9,7 @@
     </li>
     <li class="no-padding">
       <ul class="collapsible collapsible-accordion" data-collapsible="expandable">
-        {{ $currentNode := . }}{{ range .Site.Menus.main }}{{ if .HasChildren }}
+        {{ $currentNode := . }}{{ range .Site.Menus.side }}{{ if .HasChildren }}
         <li class="bold"><a class="collapsible-header waves-effect waves-light-blue{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}">{{ .Pre }}<span>{{ .Name }}</span></a>
           <div class="collapsible-body">
             <ul>{{ range .Children }}

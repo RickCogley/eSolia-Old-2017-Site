@@ -16,7 +16,7 @@ topics:
 images:
   - /img/service2.png
 menu:
-  main:
+  side:
     Name: セキュリティ
     Weight: 31
     Identifier: hidetest1
