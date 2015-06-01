@@ -30,23 +30,42 @@ p {
 .header {
   color: #039be5;
 }
+
 h1  {
   color: #01579b;
+  font-size: 3.5rem;
+  line-height: 3.6rem;
+  margin: 2.1rem 0 1.68rem 0;
 }
 h2  {
   color: #0277bd;
+  font-size: 3.0rem;
+  line-height: 3.1rem;
+  margin: 1.78rem 0 1.424rem 0;
 }
 h3  {
   color: #0288d1;
+  font-size: 2.5rem;
+  line-height: 2.6rem;
+  margin: 1.46rem 0 1.168rem 0;
 }
 h4  {
   color: #039be5 ;
+  font-size: 1.84rem;
+  line-height: 1.95rem;
+  margin: 1.14rem 0 0.912rem 0;
 }
 h5  {
   color: #03a9f4 ;
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+  margin: 0.82rem 0 0.656rem 0;
 }
 h6  {
   color: #29b6f6 ;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+  margin: 0.5rem 0 0.4rem 0;
 }
 
 blockquote {
@@ -89,6 +108,16 @@ blockquote {
      /* The alpha value allows the text and background color of the button to still show through. */
       background-color: rgba(3, 169, 244, 0.65);
     }
+
+#index-banner h1 {
+    font-size: 3.5rem;
+}
+
+#index-banner h4 {
+    font-size: 1.8rem;
+}
+
+
 @media only screen and (max-width: 992px) {
     .parallax-container .section {
         position: absolute;
@@ -104,7 +133,7 @@ blockquote {
     }
     .esolia-logo {
         width: 155px;
-        padding-top: 0px;
+        padding-top: 2px;
     }
 }
 @media only screen and (min-width: 601px) {
