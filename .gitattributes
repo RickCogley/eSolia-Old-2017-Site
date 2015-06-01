@@ -69,3 +69,5 @@
 *.EOT binary
 *.otf binary
 *.OTF binary
+*.zip binary
+*.ZIP binary
