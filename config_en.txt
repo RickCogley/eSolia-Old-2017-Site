@@ -1,0 +1,42 @@
+archetypedir: "archetypes"
+author: map[name:Rick Cogley]
+baseurl: "http://esolia.com/"
+blackfriday: map[plainIdAnchors:true]
+builddrafts: false
+buildfuture: false
+cachedir: "/var/folders/3h/72r67hp52_jd9tprtm7jw5wc0000gq/T/hugo_cache/"
+canonifyurls: "false"
+contentdir: "content/en"
+copyright: "This work is copyright. All rights reserved by eSolia Inc."
+datadir: "data"
+defaultextension: "html"
+defaultlayout: "post"
+disablelivereload: false
+disablerss: false
+disablesitemap: false
+footnoteanchorprefix: ""
+footnotereturnlinkcontents: ""
+ignorecache: false
+languagecode: "en-US"
+layoutdir: "layouts"
+metadataformat: "yaml"
+newcontenteditor: ""
+paginate: 10
+paginatepath: "page"
+params: map[alternatelocales:[ja-JP] keywords:[Japan IT Management Support Outsourcing Helpdesk Website Development Operations] accountableperson:Rick Cogley googleAnalytics:UA-1040233-7 defaultKeywords:eSolia ISO8601:2006-01-02T15:04:05JST locale:en-US description:Website of eSolia Inc. - a Tokyo-based IT Management and support firm. author:Team eSolia entityname:eSolia Inc. defaultDescription:Content by eSolia Inc.]
+permalinks: map[post:/:section/:slug]
+pluralizelisttitles: true
+publishdir: "public/en"
+pygmentsstyle: "monokai"
+pygmentsuseclasses: false
+relativeurls: false
+rssuri: "index.xml"
+sectionpagesmenu: ""
+sitemap: {ChangeFreq: Priority:-1}
+staticdir: "static"
+taxonomies: map[tag:tags topic:topics series:series]
+title: "eSolia Inc."
+uglyurls: false
+verbose: false
+watch: false
+workingdir: "/Users/rcogley/Repositories/eSolia"
