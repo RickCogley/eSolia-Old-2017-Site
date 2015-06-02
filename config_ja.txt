@@ -1,0 +1,42 @@
+archetypedir: "archetypes"
+author: map[name:Rick Cogley]
+baseurl: "http://esolia.co.jp/"
+blackfriday: map[plainIdAnchors:true]
+builddrafts: false
+buildfuture: false
+cachedir: "/var/folders/3h/72r67hp52_jd9tprtm7jw5wc0000gq/T/hugo_cache/"
+canonifyurls: "false"
+contentdir: "content/ja"
+copyright: "This work is copyright. All rights reserved by eSolia Inc."
+datadir: "data"
+defaultextension: "html"
+defaultlayout: "post"
+disablelivereload: false
+disablerss: false
+disablesitemap: false
+footnoteanchorprefix: ""
+footnotereturnlinkcontents: ""
+ignorecache: false
+languagecode: "ja-JP"
+layoutdir: "layouts"
+metadataformat: "yaml"
+newcontenteditor: ""
+paginate: 10
+paginatepath: "page"
+params: map[author:チーム イソリア defaultDescription:このコンテンツはイソリアの提供でお送りいたします。 defaultKeywords:イソリア ISO8601:2006-01-02T15:04:05JST googleAnalytics:UA-1040233-8 description:東京をベースにしたITマネージメントやサポート会社、株式会社イソリアのウェブサイト keywords:[日本 IT マネージメント サポート アウトソーシング ヘルプデスク ウェブサイト 開発 統括] accountableperson:コブレー ジェームズ entityname:株式会社イソリア locale:ja-JP alternatelocales:[en-US]]
+permalinks: map[post:/:section/:slug]
+pluralizelisttitles: true
+publishdir: "public/ja"
+pygmentsstyle: "monokai"
+pygmentsuseclasses: false
+relativeurls: false
+rssuri: "index.xml"
+sectionpagesmenu: ""
+sitemap: {ChangeFreq: Priority:-1}
+staticdir: "static"
+taxonomies: map[tag:tags topic:topics series:series]
+title: "イソリア㊑"
+uglyurls: false
+verbose: false
+watch: false
+workingdir: "/Users/rcogley/Repositories/eSolia"
