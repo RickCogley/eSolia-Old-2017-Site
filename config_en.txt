@@ -23,7 +23,7 @@ metadataformat: "yaml"
 newcontenteditor: ""
 paginate: 10
 paginatepath: "page"
-params: map[alternatelocales:[ja-JP] keywords:[Japan IT Management Support Outsourcing Helpdesk Website Development Operations] accountableperson:Rick Cogley googleAnalytics:UA-1040233-7 defaultKeywords:eSolia ISO8601:2006-01-02T15:04:05JST locale:en-US description:Website of eSolia Inc. - a Tokyo-based IT Management and support firm. author:Team eSolia entityname:eSolia Inc. defaultDescription:Content by eSolia Inc.]
+params: map[alternatelocales:[ja-JP] description:Website of eSolia Inc. - a Tokyo-based IT Management and support firm. ISO8601:2006-01-02T15:04:05JST defaultKeywords:eSolia googleAnalytics:UA-1040233-7 locale:en-US keywords:[Japan IT Management Support Outsourcing Helpdesk Website Development Operations] author:Team eSolia accountableperson:Rick Cogley entityname:eSolia Inc. defaultDescription:Content by eSolia Inc.]
 permalinks: map[post:/:section/:slug]
 pluralizelisttitles: true
 publishdir: "public/en"
