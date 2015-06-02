@@ -21,6 +21,9 @@ languageCode = "en-US"
     topic = "topics"
     series = "series"
 
+[blackfriday]
+    plainIdAnchors = true
+
 [params]
     locale = "en-US"
     alternatelocales = ["ja-JP"]
