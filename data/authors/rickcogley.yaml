@@ -1,0 +1,32 @@
+en-US:
+  given_name: Rick
+  family_name: Cogley
+  display_name: Rick Cogley
+  thumbnail: /img/rick.png
+  images:
+    - /img/rick2.png
+    - /img/rick3.png
+  short_bio: ⚀ Helping people in Japan since 1987! 日本語もOK ⚁ CEO + Founder, @eSolia_Inc ⚂ I love to create, manage, negotiate, photograph, drum, run, cycle & curate the odd.
+  long_bio: asdfasfdasdfasdfasdfasdfasdfasdfasdfasdf
+  email: rick@cogley.info
+ja-JP:
+  given_name: リック
+  family_name: コグレー
+  display_name: コグレー リック
+  short_bio: asdfasdfasdfasdfasdf
+  long_bio: asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf
+social:
+  website: http://rick.cogley.info
+  blog_rss: http://rick.cogley.info/index.xml
+  about_page: http://rick.cogley.info/about
+  twitter: http://www.twitter.com/rickcogley
+  google_plus: https://plus.google.com/+RickCogley?rel=author
+  facebook: https://www.facebook.com/rickcogley
+  linkedin: http://www.linkedin.com/in/rickcogley
+  500px: http://500px.com/rickcogley
+  flickr: http://www.flickr.com/photos/rickcogley/
+  vimeo: https://vimeo.com/rickcogley
+  youtube: http://www.youtube.com/user/rickcogley?sub_confirmation=1
+  adn: https://alpha.app.net/rickcogley
+  github: https://github.com/RickCogley
+  pinboard: https://pinboard.in/u:rickcogley
