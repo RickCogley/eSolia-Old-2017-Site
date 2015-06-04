@@ -48,8 +48,9 @@
             <h3><i class="large mdi-action-done-all green-text text-accent-4"></i></h3>
             <h4>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topsectionbsf }}</h4>
             <div class="row">
+
               <div class="col s12 m9 center">
-                {{ if eq .Site.Params.locale "en-US" }}
+              {{ if eq .Site.Params.locale "en-US" }}
                 <p class="left-align light"><span class="green-text text-accent-4"><strong>eSolia is an Information Technology management firm based in Tokyo,</strong></span> that has been providing high-quality business-focused consulting, project and outsourcing services since 1999, to a variety of blue-chip foreign and Japanese organizations in Japan, the Asia Pacific region and any location abroad. We are a globally-minded organization that focuses on the challenges of multi-cultural, multi-language environments, and have a successful track record in handling complex high-pressure projects.</p>
 
                 <p class="left-align light">We have the confidence to find solutions for all your system and process challenges.</p>
@@ -61,9 +62,10 @@
                 <p class="left-align light">これまでの成功実績と経験を基に、貴社のITシステム全般に対するソリューションを見出し、チャレンジを推し進めることに多大な自信を持っています。 </p>
 
                 <p class="left-align light"><em>イソリアは、貴社との末長い関係を</em>築きながら強固なを基盤を構築いたします。</p>
-                {{ end }}
+              {{ end }}
               </div>
               <div class="col s12 m3 center">
+              {{ if eq .Site.Params.locale "en-US" }}
                 <p class="valign">
                   <ul class="collapsible" data-collapsible="accordion">
                     <li>
@@ -106,6 +108,50 @@
                     </li>
                   </ul>
                 </p>
+              {{ else if eq .Site.Params.locale "ja-JP" }}
+                <p class="valign">
+                  <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                      <div class="collapsible-header grey darken-4"><i class="mdi-social-people green-text text-accent-4"></i>最低2</div>
+                      <div class="collapsible-body">
+                        <p>人 ／ クライアント。</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header grey darken-4"><i class="mdi-action-thumb-up green-text text-accent-4"></i>10社</div>
+                      <div class="collapsible-body">
+                        <p>の良きパートナー。</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header grey darken-4"><i class="mdi-toggle-check-box green-text text-accent-4"></i>100年</div>
+                      <div class="collapsible-body">
+                        <p>分もの経験、コアーメンバーの間で。</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header grey darken-4"><i class="mdi-image-assistant-photo green-text text-accent-4"></i>年間3000</div>
+                      <div class="collapsible-body">
+                        <p>通以上のトラブルチケットを解決。</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header grey darken-4"><i class="mdi-image-timer green-text text-accent-4"></i>55000時間</div>
+                      <div class="collapsible-body">
+                        <p>以上を５年間でご請求。</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header grey darken-4"><i class="mdi-social-whatshot deep-orange-text text-accent-3"></i>1つ</div>
+                      <div class="collapsible-body">
+                        <p>だけ大事なこと：
+                          <span class="deep-orange-text text-accent-3">御社のご指名。</span>
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </p>
+              {{ end }}
               </div>
             </div>
           </div>
@@ -127,10 +173,9 @@
             <div class="card brown darken-4">
               <div class="card-content white-text">
                 <p class="brown-text text-lighten-4">
-                  <strong>OFFICE SETUP</strong>
+                  <strong>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdofficesetup }}</strong>
                 </p>
-                <p><small>Full support for new office setup management, upgrades or internal moves.</small></p>
-                <br>
+                <p><small>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdofficesetuptext }}</small></p>
               </div>
               <div class="card-action brown darken-3">
                 <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
@@ -141,9 +186,9 @@
             <div class="card deep-purple darken-4">
               <div class="card-content white-text">
                 <p class="deep-purple-text text-lighten-4">
-                  <strong>HELPDESK</strong>
+                  <strong>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdhelpdesk }}</strong>
                 </p>
-                <p><small>Your users' support questions, answered quickly & completely, stored in our internal ops database.</small></p>
+                <p><small>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdhelpdesktext }}</small></p>
               </div>
               <div class="card-action deep-purple darken-3">
                 <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
@@ -154,9 +199,9 @@
             <div class="card teal darken-4">
               <div class="card-content white-text">
                 <p class="teal-text text-lighten-4">
-                  <strong>PROCESS</strong>
+                  <strong>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdprocess }}</strong>
                 </p>
-                <p><small>Skillful management of Projects, Procurement, Asset Mgt, Compliance, Upgrade or any other IT or business processes.</small></p>
+                <p><small>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdprocesstext }}</small></p>
               </div>
               <div class="card-action teal darken-3">
                 <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
@@ -167,9 +212,9 @@
             <div class="card grey darken-4">
               <div class="card-content white-text">
                 <p class="indigo-text text-lighten-4">
-                  <strong>ON-SITE</strong>
+                  <strong>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdonsite }}</strong>
                 </p>
-                <p><small>Engineers visit your site for user support, regular systems admin tasks, or troubleshooting.</small></p>
+                <p><small>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdonsitetext }}</small></p>
               </div>
               <div class="card-action grey darken-3">
                 <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
@@ -183,10 +228,9 @@
             <div class="card blue-grey darken-4">
               <div class="card-content white-text">
                 <p class="blue-grey-text text-lighten-4">
-                  <strong>INFRASTRUCTURE</strong>
+                  <strong>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdinfrastructure }}</strong>
                 </p>
-                <p><small>Perfect implementation to spec and standards. Regular IT infrastructure or technology refreshes, performed with aplomb.</small></p>
-                <br>
+                <p><small>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdinfrastructuretext }}</small></p>
               </div>
               <div class="card-action blue-grey darken-3">
                 <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
@@ -197,9 +241,9 @@
             <div class="card pink darken-4">
               <div class="card-content white-text">
                 <p class="pink-text text-lighten-4">
-                  <strong>MANAGEMENT</strong>
+                  <strong>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdmanagement }}</strong>
                 </p>
-                <p><small>Interim or ongoing IT management services, on- or off-site. Successful coordination for all your local or global projects.</small></p>
+                <p><small>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdmanagementtext }}</small></p>
               </div>
               <div class="card-action pink darken-3">
                 <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
@@ -210,9 +254,9 @@
             <div class="card grey darken-4">
               <div class="card-content white-text">
                 <p class="grey-text text-lighten-4">
-                  <strong>CLOUD DB & DEV</strong>
+                  <strong>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdclouddb }}</strong>
                 </p>
-                <p><small>Rapid development of your ops database in eSolia "PROdb" cloud database. General software development projects.</small></p>
+                <p><small>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdclouddbtext }}</small></p>
               </div>
               <div class="card-action grey darken-3">
                 <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
@@ -223,9 +267,9 @@
             <div class="card blue darken-4">
               <div class="card-content white-text">
                 <p class="blue-text text-lighten-4">
-                  <strong>LOCALIZATION</strong>
+                  <strong>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdlocalization }}</strong>
                 </p>
-                <p><small>Don't do it by machine; hire eSolia to do it right. Our native speakers will localize your documents and apps to perfection.</small></p>
+                <p><small>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdlocalizationtext }}</small></p>
               </div>
               <div class="card-action blue darken-3">
                 <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
@@ -238,9 +282,9 @@
             <div class="card cyan darken-4">
               <div class="card-content white-text">
                 <p class="cyan-text text-lighten-4">
-                  <strong>SECURITY</strong>
+                  <strong>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdsecurity }}</strong>
                 </p>
-                <p><small>Security assessment, program & infrastructure implementation, compliance auditing, and remidiation for your peace of mind.</small></p>
+                <p><small>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdsecuritytext }}</small></p>
               </div>
               <div class="card-action cyan darken-3">
                 <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
@@ -251,9 +295,9 @@
             <div class="card brown darken-4">
               <div class="card-content white-text">
                 <p class="brown-text text-lighten-4">
-                  <strong>WEBSITE</strong>
+                  <strong>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdwebsite }}</strong>
                 </p>
-                <p><small>Modern, standards-based websites that benefit your business, whether starting from zero, or localization of an existing website.</small></p>
+                <p><small>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdwebsitetext }}</small></p>
               </div>
               <div class="card-action brown darken-3">
                 <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
@@ -264,9 +308,9 @@
             <div class="card indigo darken-4">
               <div class="card-content white-text">
                 <p class="indigo-text text-lighten-4">
-                  <strong>TRAINING</strong>
+                  <strong>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdtraining }}</strong>
                 </p>
-                <p><small>Effective new-hire orientation, software and technical training. Course development and delivery.</small></p>
+                <p><small>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdtrainingtext }}</small></p>
               </div>
               <div class="card-action indigo darken-3">
                 <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
@@ -277,9 +321,9 @@
             <div class="card deep-orange darken-4">
               <div class="card-content white-text">
                 <p class="deep-orange-text text-lighten-4">
-                  <strong>MANDATE</strong>
+                  <strong>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdmandate }}</strong>
                 </p>
-                <p><small>Flexible accommodation of your directives, your standards, your mandate.</small></p>
+                <p><small>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdmandatetext }}</small></p>
               </div>
               <div class="card-action deep-orange darken-3">
                 <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
@@ -311,12 +355,12 @@
 
         <!--   Why eSolia Section   -->
         <div class="row center">
+          {{ if eq .Site.Params.locale "en-US" }}
           <h3><i class="large mdi-action-help green-text"></i></h3>
           <h4>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topsectionwhy }}</h4>
           <!-- start value section -->
           <div class="col s12 m6">
             <h5 class="center">OUR VALUE</h5>
-
             <div class="row left-align">
               <div class="col s2">
                 <a class="btn-floating waves-effect waves-light deep-purple darken-4"><i class="mdi-toggle-radio-button-off"></i></a>
@@ -424,8 +468,124 @@
               </div>
             </div>
           </div>
+          <!-- end ENG pledge section -->
+          {{ else if eq .Site.Params.locale "ja-JP" }}
+          <h3><i class="large mdi-action-help green-text"></i></h3>
+          <h4>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topsectionwhy }}</h4>
+          <!-- start JP value section -->
+          <div class="col s12 m6">
+            <h5 class="center">当社の強み</h5>
+            <div class="row left-align">
+              <div class="col s2">
+                <a class="btn-floating waves-effect waves-light deep-purple darken-4"><i class="mdi-toggle-radio-button-off"></i></a>
+              </div>
+              <div class="col s10 left-align">
+                <strong>We work as a team</strong>, and provide all the skills a typical IT department has.
+                <br>
+                <br>
+              </div>
+              <div class="col s2">
+                <a class="btn-floating waves-effect waves-light deep-purple darken-4"><i class="mdi-toggle-radio-button-off"></i></a>
+              </div>
+              <div class="col s10 left-align">
+                <strong>We are an "ombudsman"</strong>, standing on the side of our client, and negotiating with vendors on their behalf.
+                <br>
+                <br>
+              </div>
+              <div class="col s2">
+                <a class="btn-floating waves-effect waves-light deep-purple darken-4"><i class="mdi-toggle-radio-button-off"></i></a>
+              </div>
+              <div class="col s10 left-align">
+                <strong>We strive to hire</strong> multilingual professionals, who have spent time in a culture not their own.
+                <br>
+                <br>
+              </div>
+              <div class="col s2">
+                <a class="btn-floating waves-effect waves-light deep-purple darken-4"><i class="mdi-toggle-radio-button-off"></i></a>
+              </div>
+              <div class="col s10 left-align">
+                <strong>Besides good communication</strong>, our team strives to get the relevant certifications from Microsoft, Cisco, CompTIA or ITIL to name a few.
+                <br>
+                <br>
+              </div>
+              <div class="col s2">
+                <a class="btn-floating waves-effect waves-light deep-purple darken-4"><i class="mdi-toggle-radio-button-off"></i></a>
+              </div>
+              <div class="col s10 left-align">
+                <strong>Our professionals understand process</strong>, and are accustomed to clearly documenting the work done for a client.
+                <br>
+                <br>
+              </div>
+              <div class="col s2">
+                <a class="btn-floating waves-effect waves-light deep-purple darken-4"><i class="mdi-toggle-radio-button-off"></i></a>
+              </div>
+              <div class="col s10 left-align">
+                <strong>Our support systems are well developed</strong>, which helps our team be efficient for you, to provide a standard set of reports.
+                <br>
+                <br>
+                <p><a class="waves-effect waves-light green btn" href="#" target="_blank"><i class="mdi-action-question-answer"></i> {{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a></p>
+              </div>
+            </div>
+          </div>
+          <!-- end value section -->
+          <!-- start pledge section -->
+          <div class="col s12 m6">
+            <h5 class="center">当社の誓い</h5>
 
+            <div class="row left-align">
+              <div class="col s2">
+                <a class="btn-floating waves-effect waves-light brown darken-2"><i class="mdi-toggle-radio-button-off"></i></a>
+              </div>
+              <div class="col s10 left-align">
+                <strong>We book only what was required</strong>, never "creating work" to inflate the bill.
+              </div>
+            </div>
+            <div class="row left-align">
+              <div class="col s2">
+                <a class="btn-floating waves-effect waves-light brown darken-2"><i class="mdi-toggle-radio-button-off"></i></a>
+              </div>
+              <div class="col s10 left-align">
+                <strong>We work as fast as is practicable</strong>, following your process or a "good practice" approach.
+              </div>
+            </div>
+            <div class="row left-align">
+              <div class="col s2">
+                <a class="btn-floating waves-effect waves-light brown darken-2"><i class="mdi-toggle-radio-button-off"></i></a>
+              </div>
+              <div class="col s10 left-align">
+                <strong>We report transparently</strong> on whatever we observe or do for you.
+              </div>
+            </div>
+            <div class="row left-align">
+              <div class="col s2">
+                <a class="btn-floating waves-effect waves-light brown darken-2"><i class="mdi-toggle-radio-button-off"></i></a>
+              </div>
+              <div class="col s10 left-align">
+                <strong>We trade commitment</strong> for more favorable professional rates, because we want to foster a long-term relationship with our clients.
+              </div>
+            </div>
+            <div class="row left-align">
+              <div class="col s2">
+                <a class="btn-floating waves-effect waves-light brown darken-2"><i class="mdi-toggle-radio-button-off"></i></a>
+              </div>
+              <div class="col s10 left-align">
+                <strong>We act with company health and stability in mind</strong>, never engaging in dodgy business practices or gamesmanship.
+              </div>
+            </div>
+            <div class="row left-align">
+              <div class="col s2">
+                <a class="btn-floating waves-effect waves-light brown darken-2"><i class="mdi-toggle-radio-button-off"></i></a>
+              </div>
+              <div class="col s10 left-align">
+                <strong>We take ownership of tasks</strong>, because we hate it when vendors drop the ball on us. We don't want to do that to our clients, ever.
+                <p><a class="waves-effect waves-light green btn" href="#" target="_blank"><i class="mdi-action-question-answer"></i> {{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a></p>
+              </div>
+            </div>
+          </div>
+          <!-- end pledge section -->
+          {{ end }}
         </div>
+
       </div>
     </div>
   </div>
