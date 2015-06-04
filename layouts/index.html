@@ -6,18 +6,18 @@
         <img id="front-page-logo" class="esolia-logo responsive-img" src="img/eSolia-Logo-Flat-2015.svg">
       </a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="/about" class="blue-text text-darken-3">About</a></li>
+        <li><a href="/about" class="blue-text text-darken-3">{{ ( index $.Site.Data.translations $.Site.Params.locale ).menuabout }}</a></li>
         <li>
           <a href="tel:+81-3-6273-3510" class="green-text text-accent-4">
             <em>Tel:</em>&nbsp;+81-3-6273-3510</a>
         </li>
         <li>
-          <a href="http://esolia.co.jp" class="green-text text-accent-4">日本語</a>
+          <a href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).menulanguageswitchurl }}" class="green-text text-accent-4">{{ ( index $.Site.Data.translations $.Site.Params.locale ).menulanguageswitch }}</a>
         </li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="/about" class="blue-text text-darken-3">About</a></li>
+        <li><a href="/about" class="blue-text text-darken-3">{{ ( index $.Site.Data.translations $.Site.Params.locale ).menuabout }}</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
     </div>
@@ -28,15 +28,15 @@
       <div class="container">
         <br>
         <br>
-        <h1 class="header center orange-text text-lighten-1">{{ if eq .Site.Params.locale "en-US" }}Rely on eSolia{{ else if eq .Site.Params.locale "ja-JP" }}株式会社イソリア{{ else }}Rely on eSolia{{ end }}</h1>
+        <h1 class="header center orange-text text-lighten-1">{{ ( index $.Site.Data.translations $.Site.Params.locale ).topslogan }}</h1>
 
         <div class="row center">
-          <h3 class="header col s12 light">{{ if eq .Site.Params.locale "en-US" }}Your Japan IT Department{{ else if eq .Site.Params.locale "ja-JP" }}信頼できるアウトソースIT部{{ else }}Your Japan IT Department{{ end }}</h3>
+          <h3 class="header col s12 light">{{ ( index $.Site.Data.translations $.Site.Params.locale ).topsubslogan }}</h3>
         </div>
       </div>
     </div>
     <div class="parallax">
-      <img src="img/eSolia-Cogley-Azabudai-to-Atago-Tokyo-20131031-5318b.jpg" alt="Unsplashed background img 2">
+      <img src="img/eSolia-Cogley-Azabudai-to-Atago-Tokyo-20131031-5318b.jpg" alt="{{ ( index $.Site.Data.translations $.Site.Params.locale ).altphototemplecolumn }}">
     </div>
   </div>
 
@@ -46,17 +46,22 @@
         <div class="row valign-wrapper">
           <div class="col s12 center">
             <h3><i class="large mdi-action-done-all green-text text-accent-4"></i></h3>
-            <h4>Building Strong Foundations</h4>
+            <h4>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topsectionbsf }}</h4>
             <div class="row">
               <div class="col s12 m9 center">
-                <p class="left-align light">
-                  <span class="green-text text-accent-4">
-                    <strong>eSolia is an Information Technology management firm based in Tokyo,</strong>
-                  </span> that has been providing high-quality business-focused consulting, project and outsourcing services since 1999, to a variety of blue-chip foreign and Japanese organizations in Japan, the Asia Pacific region and any location abroad. We are a globally-minded organization that focuses on the challenges of multi-cultural, multi-language environments, and have a successful track record in handling complex high-pressure projects.</p>
+                {{ if eq .Site.Params.locale "en-US" }}
+                <p class="left-align light"><span class="green-text text-accent-4"><strong>eSolia is an Information Technology management firm based in Tokyo,</strong></span> that has been providing high-quality business-focused consulting, project and outsourcing services since 1999, to a variety of blue-chip foreign and Japanese organizations in Japan, the Asia Pacific region and any location abroad. We are a globally-minded organization that focuses on the challenges of multi-cultural, multi-language environments, and have a successful track record in handling complex high-pressure projects.</p>
+
                 <p class="left-align light">We have the confidence to find solutions for all your system and process challenges.</p>
 
-                <p class="left-align light">
-                  <em>At eSolia, we build on strong foundations</em> – let us develop a long-term relationship together.</p>
+                <p class="left-align light"><em>At eSolia, we build on strong foundations</em> – let us develop a long-term relationship together.</p>
+                {{ else if eq .Site.Params.locale "ja-JP" }}
+                <p class="left-align light"><span class="green-text text-accent-4"><strong>株式会社イソリアは1999年設立以降東京を拠点に、</strong></span> 「ITコンサルティング」、「ITプロジェクト・マネージメント」、「ITアウトソーシング」サービスを、外資系・日本国内の企業のお客様に提供するITマネージメント企業です。当社はミックスカルチャーに焦点をあてたグローバル企業であり過去に複雑なプロジェクトを数多く手がけ、クリエイティブな問題解決をお客様へ提供しております。</p>
+
+                <p class="left-align light">これまでの成功実績と経験を基に、貴社のITシステム全般に対するソリューションを見出し、チャレンジを推し進めることに多大な自信を持っています。 </p>
+
+                <p class="left-align light"><em>イソリアは、貴社との末長い関係を</em>築きながら強固なを基盤を構築いたします。</p>
+                {{ end }}
               </div>
               <div class="col s12 m3 center">
                 <p class="valign">
@@ -116,8 +121,8 @@
         <!--   Card Section   -->
         <div class="row center">
           <h3><i class="large mdi-social-whatshot deep-orange-text text-accent-3"></i></h3>
-          <h4>What We Do</h4>
-          <p class="left-align">eSolia's professional staff handles a wide range of IT activities, from infrastructure, operations, development, to management and governance. You're sure to find that we can cover your needs, and we'll do so following your directives, standards and mandate.</p>
+          <h4>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topsectionwwd }}</h4>
+          <p class="left-align">{{ ( index $.Site.Data.translations $.Site.Params.locale ).topsectionwwdtext }}</p>
           <div class="col s12 m3 center">
             <div class="card brown darken-4">
               <div class="card-content white-text">
@@ -128,7 +133,7 @@
                 <br>
               </div>
               <div class="card-action brown darken-3">
-                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations  $.Site.Params.locale ).moreinfo }}</a>
+                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
               </div>
             </div>
           </div>
@@ -141,7 +146,7 @@
                 <p><small>Your users' support questions, answered quickly & completely, stored in our internal ops database.</small></p>
               </div>
               <div class="card-action deep-purple darken-3">
-                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations  $.Site.Params.locale ).moreinfo }}</a>
+                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
               </div>
             </div>
           </div>
@@ -154,7 +159,7 @@
                 <p><small>Skillful management of Projects, Procurement, Asset Mgt, Compliance, Upgrade or any other IT or business processes.</small></p>
               </div>
               <div class="card-action teal darken-3">
-                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations  $.Site.Params.locale ).moreinfo }}</a>
+                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
               </div>
             </div>
           </div>
@@ -167,7 +172,7 @@
                 <p><small>Engineers visit your site for user support, regular systems admin tasks, or troubleshooting.</small></p>
               </div>
               <div class="card-action grey darken-3">
-                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations  $.Site.Params.locale ).moreinfo }}</a>
+                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
               </div>
             </div>
           </div>
@@ -184,7 +189,7 @@
                 <br>
               </div>
               <div class="card-action blue-grey darken-3">
-                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations  $.Site.Params.locale ).moreinfo }}</a>
+                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
               </div>
             </div>
           </div>
@@ -197,7 +202,7 @@
                 <p><small>Interim or ongoing IT management services, on- or off-site. Successful coordination for all your local or global projects.</small></p>
               </div>
               <div class="card-action pink darken-3">
-                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations  $.Site.Params.locale ).moreinfo }}</a>
+                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
               </div>
             </div>
           </div>
@@ -210,7 +215,7 @@
                 <p><small>Rapid development of your ops database in eSolia "PROdb" cloud database. General software development projects.</small></p>
               </div>
               <div class="card-action grey darken-3">
-                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations  $.Site.Params.locale ).moreinfo }}</a>
+                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
               </div>
             </div>
           </div>
@@ -223,7 +228,7 @@
                 <p><small>Don't do it by machine; hire eSolia to do it right. Our native speakers will localize your documents and apps to perfection.</small></p>
               </div>
               <div class="card-action blue darken-3">
-                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations  $.Site.Params.locale ).moreinfo }}</a>
+                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
               </div>
             </div>
           </div>
@@ -238,7 +243,7 @@
                 <p><small>Security assessment, program & infrastructure implementation, compliance auditing, and remidiation for your peace of mind.</small></p>
               </div>
               <div class="card-action cyan darken-3">
-                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations  $.Site.Params.locale ).moreinfo }}</a>
+                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
               </div>
             </div>
           </div>
@@ -251,7 +256,7 @@
                 <p><small>Modern, standards-based websites that benefit your business, whether starting from zero, or localization of an existing website.</small></p>
               </div>
               <div class="card-action brown darken-3">
-                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations  $.Site.Params.locale ).moreinfo }}</a>
+                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
               </div>
             </div>
           </div>
@@ -264,7 +269,7 @@
                 <p><small>Effective new-hire orientation, software and technical training. Course development and delivery.</small></p>
               </div>
               <div class="card-action indigo darken-3">
-                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations  $.Site.Params.locale ).moreinfo }}</a>
+                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
               </div>
             </div>
           </div>
@@ -277,7 +282,7 @@
                 <p><small>Flexible accommodation of your directives, your standards, your mandate.</small></p>
               </div>
               <div class="card-action deep-orange darken-3">
-                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations  $.Site.Params.locale ).moreinfo }}</a>
+                <a href="#" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
               </div>
             </div>
           </div>
@@ -291,12 +296,12 @@
     <div class="section no-pad-bot">
       <div class="container valign">
         <div class="row center">
-          <h4 class="header col s12 light-green-text text-accent-3">"eSolia helped us to see the light at the end of the tunnel, when they successfully managed our complex, multi-year project."</h4>
+          <h4 class="header col s12 light-green-text text-accent-3">"{{ ( index $.Site.Data.translations $.Site.Params.locale ).toptestimoninal1 }}"</h4>
         </div>
       </div>
     </div>
     <div class="parallax">
-      <img src="img/eSolia-Cogley-Azabudai-to-Atago-Tokyo-20131031-5355b.jpg" alt="Unsplashed background img 2">
+      <img src="img/eSolia-Cogley-Azabudai-to-Atago-Tokyo-20131031-5355b.jpg" alt="{{ ( index $.Site.Data.translations $.Site.Params.locale ).altphotoatagotunnel }}">
     </div>
   </div>
 
@@ -307,7 +312,7 @@
         <!--   Why eSolia Section   -->
         <div class="row center">
           <h3><i class="large mdi-action-help green-text"></i></h3>
-          <h4>Why eSolia?</h4>
+          <h4>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topsectionwhy }}</h4>
           <!-- start value section -->
           <div class="col s12 m6">
             <h5 class="center">OUR VALUE</h5>
@@ -360,7 +365,7 @@
                 <strong>Our support systems are well developed</strong>, which helps our team be efficient for you, to provide a standard set of reports.
                 <br>
                 <br>
-                <p><a class="waves-effect waves-light green btn" href="#" target="_blank"><i class="mdi-action-question-answer"></i> {{ ( index $.Site.Data.translations  $.Site.Params.locale ).moreinfo }}</a></p>
+                <p><a class="waves-effect waves-light green btn" href="#" target="_blank"><i class="mdi-action-question-answer"></i> {{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a></p>
               </div>
             </div>
           </div>
@@ -415,7 +420,7 @@
               </div>
               <div class="col s10 left-align">
                 <strong>We take ownership of tasks</strong>, because we hate it when vendors drop the ball on us. We don't want to do that to our clients, ever.
-                <p><a class="waves-effect waves-light green btn" href="#" target="_blank"><i class="mdi-action-question-answer"></i> {{ ( index $.Site.Data.translations  $.Site.Params.locale ).moreinfo }}</a></p>
+                <p><a class="waves-effect waves-light green btn" href="#" target="_blank"><i class="mdi-action-question-answer"></i> {{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a></p>
               </div>
             </div>
           </div>
@@ -429,12 +434,12 @@
     <div class="section no-pad-bot">
       <div class="container valign">
         <div class="row center">
-          <h4 class="header col s12 light-green-text text-accent-3">"eSolia's technical knowledge was second-to-none, and they could explain difficult solutions in layman's terms so that everyone understood every detail."</h4>
+          <h4 class="header col s12 light-green-text text-accent-3">"{{ ( index $.Site.Data.translations $.Site.Params.locale ).toptestimoninal2 }}"</h4>
         </div>
       </div>
     </div>
     <div class="parallax">
-      <img src="img/eSolia-Cogley-Network-Switch-1.jpg" alt="Unsplashed background img 3">
+      <img src="img/eSolia-Cogley-Network-Switch-1.jpg" alt="{{ ( index $.Site.Data.translations $.Site.Params.locale ).altphotonetworkswitch }}">
     </div>
   </div>
 
@@ -447,7 +452,7 @@
           <div class="col s12 m4">
             <div class="icon-block">
               <h2 class="center amber-text text-darken-4"><i class="mdi-action-stars"></i></h2>
-              <h5 class="center">Feature</h5>
+              <h5 class="center">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genfeature }}</h5>
 
               <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
@@ -455,7 +460,7 @@
                 </div>
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">Telework <i class="mdi-navigation-more-vert right"></i></span>
-                  <p><a href="#">{{ ( index $.Site.Data.translations  $.Site.Params.locale ).moreinfo }}</a></p>
+                  <p><a href="#">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a></p>
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4">Telework <i class="mdi-navigation-close right"></i></span>
@@ -468,7 +473,7 @@
           <div class="col s12 m4">
             <div class="icon-block">
               <h2 class="center amber-text text-darken-4"><i class="mdi-action-stars"></i></h2>
-              <h5 class="center">Feature</h5>
+              <h5 class="center">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genfeature }}</h5>
 
               <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
@@ -476,7 +481,7 @@
                 </div>
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">Cloud DB <i class="mdi-navigation-more-vert right"></i></span>
-                  <p><a href="#">{{ ( index $.Site.Data.translations  $.Site.Params.locale ).moreinfo }}</a></p>
+                  <p><a href="#">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a></p>
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4">Cloud DB <i class="mdi-navigation-close right"></i></span>
@@ -489,7 +494,7 @@
           <div class="col s12 m4">
             <div class="icon-block">
               <h2 class="center amber-text text-darken-4"><i class="mdi-social-notifications-on"></i></h2>
-              <h5 class="center">Latest</h5>
+              <h5 class="center">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genlatestfeature }}</h5>
               <p class="light">
                 <div id="divRss1"></div>
               </p>
@@ -507,7 +512,7 @@
       <div class="row">
         <div class="col s12 m8 center">
           <h3><i class="mdi-content-send blue-text"></i></h3>
-          <h4>Contact Us</h4>
+          <h4>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topsectioncus }}</h4>
           <div class="row">
             <div class="col s12 m3 center-on-small-only">
               <div class="image-container">
@@ -522,14 +527,14 @@
               <em>Address:</em> Sawa Bldg. 6F, Nishi-Shimbashi 2-2-2, Minato-ku, Tokyo 105-0003 Japan
               <br>
               <em>Hours:</em> 9:00-18:00 JST weekdays
-              <p><a class="waves-effect waves-light blue btn" href="https://www.google.co.jp/maps/place/eSolia+Inc./@35.667716,139.751462,17z/data=!4m6!1m3!3m2!1s0x60188b933eb5098d:0xb799ee788fa28eb7!2seSolia+Inc.!3m1!1s0x60188b933eb5098d:0xb799ee788fa28eb7?hl=en" target="_blank"><i class="mdi-maps-place left"></i>View on Google Maps</a></p>
+              <p><a class="waves-effect waves-light blue btn" href="https://www.google.co.jp/maps/place/eSolia+Inc./@35.667716,139.751462,17z/data=!4m6!1m3!3m2!1s0x60188b933eb5098d:0xb799ee788fa28eb7!2seSolia+Inc.!3m1!1s0x60188b933eb5098d:0xb799ee788fa28eb7?hl=en" target="_blank"><i class="mdi-maps-place left"></i>{{ ( index $.Site.Data.translations $.Site.Params.locale ).genviewgooglemap }}</a></p>
             </div>
           </div>
 
         </div>
         <div class="col s12 m4 center">
           <h3><i class="mdi-communication-comment blue-text"></i></h3>
-          <h4 class="center">Latest Posts</h4>
+          <h4 class="center">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genlatestposts }}</h4>
           <p class="light">
             <div id="divRss2"></div>
           </p>
