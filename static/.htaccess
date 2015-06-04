@@ -991,9 +991,9 @@ FileETag None
 # ----------------------------------------------------------------------
 
 AuthUserFile /home/rcogley/webapps/es_hugo_esolia_com_01/.htpasswd
-# AuthName EnterPassword
-# AuthType Basic
-# require valid-user
+AuthName EnterPassword
+AuthType Basic
+require valid-user
 
 # Hide files starting with a dot (.htaccess and .htpasswd in particular)
 <Files .*>
