@@ -1,0 +1,5 @@
+#! /bin/bash
+
+cd /Users/rcogley/Repositories/eSolia
+/Users/rcogley/gocode/bin/hugo config --config="/Users/rcogley/Repositories/eSolia/config_en.toml" > /Users/rcogley/Repositories/eSolia/config_en.txt
+/Users/rcogley/gocode/bin/hugo config --config="/Users/rcogley/Repositories/eSolia/config_ja.toml" > /Users/rcogley/Repositories/eSolia/config_ja.txt

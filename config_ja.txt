@@ -23,7 +23,7 @@ metadataformat: "yaml"
 newcontenteditor: ""
 paginate: 10
 paginatepath: "page"
-params: map[locale:ja-JP keywords:[日本 IT マネージメント サポート アウトソーシング ヘルプデスク ウェブサイト 開発 統括] author:チーム イソリア entityname:株式会社イソリア defaultKeywords:イソリア ISO8601:2006-01-02T15:04:05JST googleAnalytics:UA-1040233-8 alternatelocales:[en-US] description:東京をベースにしたITマネージメントやサポート会社、株式会社イソリアのウェブサイト accountableperson:コブレー ジェームズ defaultDescription:このコンテンツはイソリアの提供でお送りいたします。]
+params: map[locale:ja-JP alternatelocales:[en-US] description:東京をベースにしたITマネージメントやサポート会社、株式会社イソリアのウェブサイト accountableperson:コブレー ジェームズ entityname:株式会社イソリア defaultKeywords:イソリア googleAnalytics:UA-1040233-8 keywords:[日本 IT マネージメント サポート アウトソーシング ヘルプデスク ウェブサイト 開発 統括] author:チーム イソリア defaultDescription:このコンテンツはイソリアの提供でお送りいたします。 ISO8601:2006-01-02T15:04:05JST]
 permalinks: map[post:/:section/:slug]
 pluralizelisttitles: true
 publishdir: "public/ja"
@@ -34,7 +34,7 @@ rssuri: "index.xml"
 sectionpagesmenu: ""
 sitemap: {ChangeFreq: Priority:-1}
 staticdir: "static"
-taxonomies: map[topic:topics series:series tag:tags]
+taxonomies: map[tag:tags topic:topics series:series]
 title: "イソリア㊑"
 uglyurls: false
 verbose: false
