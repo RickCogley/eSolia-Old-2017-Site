@@ -1,12 +1,12 @@
 altphotoatagotunnel: 愛宕トンネル、コグレー リック作
 altphotonetworkswitch: ネットワークスイッチ、コグレー リック作
 altphototemplecolumn: 飯倉のお寺、コグレー リック作
+genfeature: おすすめ
+genlatestfeature: 最新おすすめ
+genlatestposts: 最新プロ ブログ
 genmoreinfo: つづきを読む
 gensubmit: 送信
-genlatestposts: 最新プロ ブログ
-genlatestfeature: 最新おすすめ
 genviewgooglemap: グーグルマップで見る
-genfeature: おすすめ
 menuabout: 弊社について
 menulanguageswitch: English
 menulanguageswitchurl: http://esolia.com
@@ -19,3 +19,27 @@ topslogan: 株式会社イソリア
 topsubslogan: 信頼できるアウトソースIT部
 toptestimoninal1: イソリアが我々の複雑で、複数年に及ぶプロジェクトの管理を成功に導いた時、まるで長いトンネルの先に希望の光が差し込んだような状況でした。
 toptestimoninal2: イソリアの技術的な知識は誰にも劣らないうえに、誰でも詳細が理解できるように一般的な用語で複雑な解決方案を説明いただきました。
+topwwdclouddb: クラウド型データベース
+topwwdclouddbtext: Rapid development of your ops database in eSolia "PROdb" cloud database. General software development projects.
+topwwdhelpdesk: ヘルプデスク
+topwwdhelpdesktext: Your users' support questions, answered quickly & completely, stored in our internal ops database.
+topwwdinfrastructure: イフラ
+topwwdinfrastructuretext: Perfect implementation to spec and standards. Regular IT infrastructure or technology refreshes, performed with aplomb.
+topwwdlocalization: ローカライズ
+topwwdlocalizationtext: Don't do it by machine; hire eSolia to do it right. Our native speakers will localize your documents and apps to perfection.
+topwwdmanagement: マネージメント
+topwwdmanagementtext: Interim or ongoing IT management services, on- or off-site. Successful coordination for all your local or global projects.
+topwwdmandate: ご指名
+topwwdmandatetext: Flexible accommodation of your directives, your standards, your mandate.
+topwwdofficesetup: オフィス展開
+topwwdofficesetuptext: 新規オフィス展開やお引越しの管理、リフォームやアップグレード、社内お引越しの、フルサポート。
+topwwdonsite: オンサイト
+topwwdonsitetext: Engineers visit your site for user support, regular systems admin tasks, or troubleshooting.
+topwwdprocess: プロセス
+topwwdprocesstext: Skillful management of Projects, Procurement, Asset Mgt, Compliance, Upgrade or any other IT or business processes.
+topwwdsecurity: セキュリティ
+topwwdsecuritytext: Security assessment, program & infrastructure implementation, compliance auditing, and remidiation for your peace of mind.
+topwwdtraining: トレーニング
+topwwdtrainingtext: Effective new-hire orientation, software and technical training. Course development and delivery.
+topwwdwebsite: ウェブサイト
+topwwdwebsitetext: Modern, standards-based websites that benefit your business, whether starting from zero, or localization of an existing website.

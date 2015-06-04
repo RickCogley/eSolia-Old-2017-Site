@@ -1,12 +1,12 @@
 altphotoatagotunnel: Photo of Atago Tunnel, by Rick Cogley
 altphotonetworkswitch: Photo of Network Switch, by Rick Cogley
 altphototemplecolumn: Photo of Iikura Temple column, by Rick Cogley
+genfeature: Featured
+genlatestfeature: Latest Features
+genlatestposts: Latest Pro Blog
 genmoreinfo: More Info
 gensubmit: Submit
-genlatestposts: Latest Pro Blog
-genlatestfeature: Latest Features
 genviewgooglemap: View on Google Maps
-genfeature: Featured
 menuabout: About
 menulanguageswitch: 日本語
 menulanguageswitchurl: http://esolia.co.jp
@@ -19,3 +19,27 @@ topslogan: Rely on eSolia
 topsubslogan: Your Japan IT Department
 toptestimoninal1: eSolia helped us to see the light at the end of the tunnel, when they successfully managed our complex, multi-year project.
 toptestimoninal2: eSolia's technical knowledge was second-to-none, and they could explain difficult solutions in layman's terms so that everyone understood every detail.
+topwwdclouddb: CLOUD DB & DEV
+topwwdclouddbtext: Rapid development of your ops database in eSolia "PROdb" cloud database. General software development projects.
+topwwdhelpdesk: HELPDESK
+topwwdhelpdesktext: Your users' support questions, answered quickly & completely, stored in our internal ops database.
+topwwdinfrastructure: INFRASTRUCTURE
+topwwdinfrastructuretext: Perfect implementation to spec and standards. Regular IT infrastructure or technology refreshes, performed with aplomb.
+topwwdlocalization: LOCALIZATION
+topwwdlocalizationtext: Don't do it by machine; hire eSolia to do it right. Our native speakers will localize your documents and apps to perfection.
+topwwdmanagement: MANAGEMENT
+topwwdmanagementtext: Interim or ongoing IT management services, on- or off-site. Successful coordination for all your local or global projects.
+topwwdmandate: MANDATE
+topwwdmandatetext: Flexible accommodation of your directives, your standards, your mandate.
+topwwdofficesetup: OFFICE SETUP
+topwwdofficesetuptext: Full support for new office setup management, upgrades or internal moves.
+topwwdonsite: ON-SITE
+topwwdonsitetext: Engineers visit your site for user support, regular systems admin tasks, or troubleshooting.
+topwwdprocess: PROCESS
+topwwdprocesstext: Skillful management of Projects, Procurement, Asset Mgt, Compliance, Upgrade or any other IT or business processes.
+topwwdsecurity: SECURITY
+topwwdsecuritytext: Security assessment, program & infrastructure implementation, compliance auditing, and remidiation for your peace of mind.
+topwwdtraining: TRAINING
+topwwdtrainingtext: Effective new-hire orientation, software and technical training. Course development and delivery.
+topwwdwebsite: WEBSITE
+topwwdwebsitetext: Modern, standards-based websites that benefit your business, whether starting from zero, or localization of an existing website.
