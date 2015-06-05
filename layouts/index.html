@@ -655,7 +655,7 @@
               <h5 class="center">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genlatestfeature }}</h5>
                 <ul class="esList grey darken-2">
                   {{ $series := index .Site.Taxonomies.series "top1" }}
-                  {{ range $series.Pages }}
+                  {{ range first 5 $series.Pages }}
                     <li>
                     <div class="esListItemTitle blue-text text-darken-1"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
                     <div class="esListItemDate">{{ .Date.Format "02 Jan, 2006" }}</div>
