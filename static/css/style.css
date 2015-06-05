@@ -120,12 +120,11 @@ blockquote {
 .esList {
     width: auto;
     list-style: none outside none;
-    border: 1px solid #D3CAD7;
+    border: 1px solid #757575;
     padding: 4px 6px;
-    color: #3E3E3E;
 }
 .esList li {
-    border-bottom: 1px solid #D3CAD7;
+    border-bottom: 1px solid #757575;
     padding: 5px;
 }
 .esList li:last-child {

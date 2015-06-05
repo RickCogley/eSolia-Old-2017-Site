@@ -658,7 +658,7 @@
                   {{ range $series.Pages }}
                     <li>
                     <div class="esListItemTitle blue-text text-darken-1"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
-                    <div class="esListItemDate">{{ .PublishDate.Format "02 Jan, 2006" }}</div>
+                    <div class="esListItemDate">{{ .Date.Format "02 Jan, 2006" }}</div>
                     </li>
                   {{ end }}
                 </ul>

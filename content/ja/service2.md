@@ -9,6 +9,8 @@ subtitle: サブタイトル for service 2
 weight: 9999
 tags:
   - asdf
+series:
+  - top1
 title: タイトル for service 2
 topics:
   - Professional
