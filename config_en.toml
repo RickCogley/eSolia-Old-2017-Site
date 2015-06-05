@@ -46,7 +46,7 @@ languageCode = "en-US"
 [[menu.side]]
     name = "Zerobin"
     identifier = "zerobin"
-    url = "http://zerobin.esolia.com"
+    url = "https://zerobin.esolia.com"
     post = "_blank"
     parent = "utilities"
     weight = 222
