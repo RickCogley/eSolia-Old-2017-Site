@@ -521,8 +521,6 @@
               </div>
               <div class="col s10 left-align">
                 <strong>効率的にお客様をサポートできるように</strong>開発された当社のサポートシステムが標準化されたレポートを提供いたします。
-                <br>
-                <br>
                 <p><a class="waves-effect waves-light green btn" href="#" target="_blank"><i class="mdi-action-question-answer"></i> {{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a></p>
               </div>
             </div>
@@ -651,13 +649,19 @@
             </div>
           </div>
 
-          <div class="col s12 m4">
+          <div class="col s12 m4 center">
             <div class="icon-block">
               <h2 class="center amber-text text-darken-4"><i class="mdi-social-notifications-on"></i></h2>
               <h5 class="center">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genlatestfeature }}</h5>
-              <p class="light">
-                <div id="divRss1"></div>
-              </p>
+                <ul class="esList grey darken-2">
+                  {{ $series := index .Site.Taxonomies.series "top1" }}
+                  {{ range $series.Pages }}
+                    <li>
+                    <div class="esListItemTitle blue-text text-darken-1"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+                    <div class="esListItemDate">{{ .PublishDate.Format "02 Jan, 2006" }}</div>
+                    </li>
+                  {{ end }}
+                </ul>
             </div>
           </div>
         </div>

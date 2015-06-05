@@ -8,7 +8,9 @@ slug: service1
 subtitle: サブタイトル for service 1
 weight: 9999
 tags:
-  - asdf
+  - blah
+series:
+  - top1
 title: サービス 1
 topics:
   - Professional
