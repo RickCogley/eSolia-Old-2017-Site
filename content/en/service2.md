@@ -9,6 +9,8 @@ subtitle: subtitle for service 2
 weight: 9999
 tags:
   - asdf
+series:
+  - top1
 title: title for service 2
 topics:
   - Professional
