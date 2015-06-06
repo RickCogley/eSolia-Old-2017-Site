@@ -13,23 +13,23 @@
 				<title>XML Sitemap</title>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 				<style type="text/css">
-					body {
+          body {
 						font-family: Helvetica, Arial, sans-serif;
-						font-size: 13px;
-						color: #545353;
+						font-size: 15px;
+						color: #424242;
 					}
 					table {
 						border: none;
 						border-collapse: collapse;
 					}
 					#sitemap tr.odd {
-						background-color: #eee;
+						background-color: #e0e0e0;
 					}
 					#sitemap tbody tr:hover {
-						background-color: #ccc;
+						background-color: #bdbdbd;
 					}
 					#sitemap tbody tr:hover td, #sitemap tbody tr:hover td a {
-						color: #000;
+						color: #212121;
 					}
 					#content {
 						margin: 0 auto;
@@ -40,14 +40,14 @@
 						line-height: 0.7em;
 					}
 					.expl a {
-						color: #da3114;
+						color: #bf360c;
 						font-weight: bold;
 					}
 					.expl a:visited {
-						color: #da3114;
+						color: #bf360c;
 					}
 					a {
-						color: #000;
+						color: #212121;
 						text-decoration: none;
 					}
 					a:visited {
@@ -57,12 +57,12 @@
 						text-decoration: underline;
 					}
 					td {
-						font-size:11px;
+						font-size:14px;
 					}
 					th {
 						text-align:left;
 						padding-right:30px;
-						font-size:11px;
+						font-size:14px;
 					}
 					thead th {
 						border-bottom: 1px solid #000;
