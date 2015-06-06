@@ -1,18 +1,20 @@
 ---
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
-description: eSolia Services list
+description: eSolia Services - Our Solutions to Meet Your Multi-cultural, Project or System Challenges
 draft: false
 slug: services
-subtitle: all the services
+subtitle: Your Challenges, Our Solutions
 weight: 9999
 tags:
-  - NA
+  - service
+  - challenges
+  - topic
 title: Services
 topics:
-  - NA
+  - services
 images:
-  - /img/NA.png
+  - /img/eSolia-Post-Our-Solutions-Your-Challenges.png
 menu:
   side:
     Name: Services
@@ -21,14 +23,18 @@ menu:
     Url: /services
 ---
 
-General info about our services.  
+When you engage a professional services firm, getting your problem solved is the first thing on your mind, not the firm's history or philosophy, or the latest fad. Designing and implementing practical, realistic and future-proof solutions for your business and IT problems is the most important thing the professionals at eSolia do.
 
-* one [Service 1](/service1) asdf  
-* two [Service 2](/service2) asdf  
+<div class="image-container">
+<img class="materialboxed right responsive-img" data-caption="Security vs Convenience" width="400" src="/img/eSolia-Post-Our-Solutions-Your-Challenges.png">
+</div>
 
-asdfasdf  
+Think about eSolia services in these ways:
 
-1. asdf  
-2. asdf  
+_By Challenge_ - what challenges are you up against now? Are you involved in a merger and need help migrating or combining IT systems? Is your Japan IT department not performing well? Do you have a move coming up?
 
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+_By Service Area_ - what sorts of services eSolia is providing, from consulting to defining your requirements, to project management to keep a project on time & within the budget, or to post-implementation support.
+
+_By Topic_ - focused on a specific need or topic: "I need someone to manage my project" or "I need a company to build my email system" and the like.
+
+We are confident that our experience and areas of professional expertise speak for themselves, but allow us to introduce you to a few good solutions. What challenges are you facing today?
