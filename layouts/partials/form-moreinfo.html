@@ -1,0 +1,78 @@
+{{ "<!-- ENTERING partial form-moreinfo.html -->" | safeHTML }}
+
+{{ if isset .Params "formcheckboxes" }}
+<h4>{{ ( index $.Site.Data.translations $.Site.Params.locale ).formrequestmoreinfo }}</h4>
+<p>{{ ( index $.Site.Data.translations $.Site.Params.locale ).formrequestmoreinfotext }}</p>
+<br>
+<div class="row grey-text text-darken-2">
+<form action="https://pro.dbflex.net/secure/gateway.aspx?action=WebToRecord&app=15331&form=145344" method="post" id="contact_form" name="form1" class="col s12">
+<div class="row">
+  {{ if eq .Site.Params.locale "en-US" }}
+  <div class="input-field col s6">
+    <input type="hidden" value="{{ .Site.BaseURL }}/form-thanks" name="retURL"/>
+    <i class="mdi-action-account-circle prefix"></i>
+    <label for="fname">{{ ( index $.Site.Data.translations $.Site.Params.locale ).formfirstname }}:</label>
+    <input type="text" name="f_1655786" value="" id="fname" class="validate">
+  </div>
+  <div class="input-field col s6">
+    <i class="mdi-action-account-circle prefix"></i>
+    <label for="lname">{{ ( index $.Site.Data.translations $.Site.Params.locale ).formlastname }}:</label>
+    <input type="text" name="f_1655792" value="" id="lname" class="validate">
+  </div>
+  {{ else if eq .Site.Params.locale "ja-JP" }}
+  <div class="input-field col s6">
+    <input type="hidden" value="{{ .Site.BaseURL }}/form-thanks" name="retURL"/>
+    <i class="mdi-action-account-circle prefix"></i>
+    <label for="lname">{{ ( index $.Site.Data.translations $.Site.Params.locale ).formlastname }}:</label>
+    <input type="text" name="f_1655792" value="" id="lname" class="validate">
+  </div>
+  <div class="input-field col s6">
+    <i class="mdi-action-account-circle prefix"></i>
+    <label for="fname">{{ ( index $.Site.Data.translations $.Site.Params.locale ).formfirstname }}:</label>
+    <input type="text" name="f_1655786" value="" id="fname" class="validate">
+  </div>
+  {{ end }}
+</div>
+<div class="row">
+  <div class="input-field col s6">
+    <i class="mdi-content-mail prefix"></i>
+    <label for="email">{{ ( index $.Site.Data.translations $.Site.Params.locale ).formemail }}:</label>
+    <input type="email" name="f_1655893" value="" id="email" class="validate">
+  </div>
+  <div class="input-field col s6">
+    <i class="mdi-communication-phone prefix"></i>
+    <label for="contact">{{ ( index $.Site.Data.translations $.Site.Params.locale ).formtel }}:</label>
+    <input type="tel" name="f_1655796" value="" id="contact" class="validate">
+  </div>
+</div>
+<div class="row">
+  <div class="input-field col s12">
+    <i class="mdi-editor-mode-edit prefix"></i>
+    <textarea id="textarea1" name="f_1655892" class="materialize-textarea"></textarea>
+    <label for="textarea1">{{ ( index $.Site.Data.translations $.Site.Params.locale ).formmessage }}:</label>
+  </div>
+</div>
+<div class="row">
+  <div class="input-field col s12">
+    <i class="mdi-action-done prefix"></i>
+      {{ range $i, $e := .Params.formcheckboxes }}
+      <input type="checkbox" value="{{ $e }}" name="f_1655894" id="uid{{ $i }}"/>
+      <label class="checkbox_label" for="uid{{ $i }}">&nbsp;{{ $e }}</label>
+      <br>
+      {{ end }}
+  </div>
+</div>
+
+  <input type="hidden" maxlength="50" size="50" name="f_1655896" value="Web" class="form-input-field"/>
+  <input type="hidden" maxlength="255" size="50" name="f_1656951" value="{{ .Permalink }}" class="form-input-field"/>
+  <input type="hidden" value="yes" name="f_1655797"/>
+  <br>
+  <input type="reset" value="{{ ( index $.Site.Data.translations $.Site.Params.locale ).formreset }}" name="resetButton1" class="form-input-button"/>
+  <input type="submit" value="{{ ( index $.Site.Data.translations $.Site.Params.locale ).formsubmit }}" name="submitButton1" id="contact_form_submit" id="contact_form_submit" class="form-input-button"/>
+
+</form>
+</div>
+
+{{ end }}
+
+{{ "<!-- LEAVING partial form-moreinfo.html -->" | safeHTML }}

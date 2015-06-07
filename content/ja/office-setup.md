@@ -20,6 +20,13 @@ topics:
   - サービス
 images:
   - /img/eSolia-Chicklet-Color-1024px.png
+formcheckboxes:
+- 新規オフィス
+- 社内移転
+- 机移動
+- アップグレード
+- コンユーター移動
+- 配線追加
 menu:
   side:
     Name: オフィス構築
