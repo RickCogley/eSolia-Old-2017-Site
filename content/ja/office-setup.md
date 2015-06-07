@@ -19,7 +19,12 @@ series:
 topics:
   - サービス
 images:
-  - /img/eSolia-Chicklet-Color-1024px.png
+- /img/eSolia-Post-Slider-Office-Moves-01.jpg
+- /img/eSolia-Post-Slider-Office-Moves-02.jpg
+- /img/eSolia-Post-Slider-Office-Moves-03.jpg
+- /img/eSolia-Post-Slider-Office-Moves-04.jpg
+- /img/eSolia-Post-Slider-Office-Moves-05.jpg
+- /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
 - 新規オフィス
 - 社内移転
