@@ -28,10 +28,12 @@ nav ul a, nav .brand-logo {
 p ul ol {
     line-height: 1.8rem;
     color: rgba(0, 0, 0, 0.71);
+    font-weight: normal;
 }
 
 li {
     color: rgba(0, 0, 0, 0.71);
+    font-weight: normal;
 }
 
 .header {
