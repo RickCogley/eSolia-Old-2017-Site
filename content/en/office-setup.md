@@ -19,6 +19,11 @@ series:
 topics:
   - Services
 images:
+  - /img/eSolia-Post-Slider-Office-Moves-01.jpg
+  - /img/eSolia-Post-Slider-Office-Moves-02.jpg
+  - /img/eSolia-Post-Slider-Office-Moves-03.jpg
+  - /img/eSolia-Post-Slider-Office-Moves-04.jpg
+  - /img/eSolia-Post-Slider-Office-Moves-05.jpg
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
   - New Office
@@ -37,3 +42,20 @@ menu:
 ---
 
 eSolia has extensive experience in planning and executing office moves. We will act as your ombudsman during your next office move, communicate clearly with the stakeholders involved in the project such as your HQ IT and Facilities departments, and stick to your mandates with regards to the project.
+
+* Project and construction management
+* New office construction
+* Existing office refit
+* Furniture and equipment moves
+* Intra-office moves
+* Structured cabling
+* Systems racks
+* Network and Server engineering & setup
+* Packing and Unpacking
+
+<div class="row">
+  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Modern IP phone systems - by eSolia Inc." width="150" src="/img/eSolia-Post-Slider-Office-Moves-01.jpg"></div>
+  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Equipment engineering and setup - by eSolia Inc." width="150" src="/img/eSolia-Post-Slider-Office-Moves-02.jpg"></div>
+  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Structured cable - by eSolia Inc." width="150" src="/img/eSolia-Post-Slider-Office-Moves-03.jpg"></div>
+  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Furniture and moves - by eSolia Inc." width="150" src="/img/eSolia-Post-Slider-Office-Moves-05.jpg"></div>
+</div>
