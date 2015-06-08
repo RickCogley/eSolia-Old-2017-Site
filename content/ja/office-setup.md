@@ -43,7 +43,7 @@ menu:
 
 イソリアはオフィスの移転計画、実行に関して豊富な経験があります。御社の次回の移転までの間、オンブズマンとして働きます。本社IT部や各種関係部署との連絡を密にし、御社の希望に忠実にプロジェクトを進めていきます。
 
-* Project and construction management
+* プロジェクトと工事マネジメント
 * New office construction
 * Existing office refit
 * Furniture and equipment moves
