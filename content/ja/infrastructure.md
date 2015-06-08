@@ -3,8 +3,8 @@ author: イソリア
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
 draft: false
-title: オンサイト
-slug: on-site
+title: インフラストラクチャ
+slug: infrastructure
 subtitle: オフィスITシステムの基盤
 description: イソリアから - 機能と目的を実現させる為のインフラ実装。汎用的なものから新技術を備えた機器まで堅実に
 weight: 30
