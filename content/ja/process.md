@@ -1,0 +1,67 @@
+---
+author: イソリア
+date: 2015-05-09T00:05:19.000Z
+publishdate: 2012-01-10T00:05:19.000Z
+draft: false
+title: プロセス管理
+slug: process
+subtitle: 様々なプロセスを管理します
+description: イソリアから - 卓逸されたプロジェクト管理やアセット管理、コンプライアンスの徹底から購入のお手伝いまで、ＩＴやビジネスのレベルアップへ
+weight: 20
+tags:
+  - プロセス管理
+  - 購買管理
+  - アセット管理
+  - コンプライアンス管理
+series:
+  - top1
+topics:
+  - サービス
+images:
+  - /img/eSolia-Post-Slider-Process-01.png
+  - /img/eSolia-Post-Slider-Process-02.png
+  - /img/eSolia-Post-Slider-Process-03.png
+  - /img/eSolia-Chicklet-Color-1024px.png
+formcheckboxes:
+- プロジェクト管理
+- 購買管理
+- コンプライアンス管理
+- アップグレード管理
+- 保守契約管理
+- ライセンス管理
+- 予算管理
+- リサイクル管理
+menu:
+  side:
+    Name: プロセス
+    Weight: 20
+    Identifier: process
+    Url: /process
+    Parent: services
+---
+
+日本語 In the context of a master support agreement, eSolia will skillfully manage various processes on your behalf, including:
+
+1. Project management
+1. Hardware and software procurement
+1. Budget management
+1. System room and cabling management
+1. Compliance management
+1. Asset management
+1. License management
+1. Warranty management
+1. Recycling and disposal management
+
+Each process is different, but in all cases, eSolia performs in a consistent manner:
+
+* We act as an ombudsman on your behalf, keeping your mandate or the best practice in mind, as we negotiate with any involved parties.
+* Each process is performed with supporting documentation as the base, whether that documentation is your standards and mandates, or our best practices.
+* Decisions are yours, but our experts provide decision support.
+* All processes have preparation, adjustment, execution, documentation and support afterwards.
+* Results are stored in eSolia's extensive knowledge database, and reports are provided to you.
+
+<div class="row">
+  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Project schedule - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Process-01.png"></div>
+  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Budget - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Process-02.png"></div>
+  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Supporting agreement - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Process-03.png"></div>
+</div>
