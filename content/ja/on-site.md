@@ -16,11 +16,11 @@ series:
   - top1
 topics:
   - サービス
-images:
-  - /img/eSolia-Post-Slider-Onsite-01.png
-  - /img/eSolia-Post-Slider-Onsite-02.png
-  - /img/eSolia-Post-Slider-Onsite-03.png
-  - /img/eSolia-Chicklet-Color-1024px.png
+  images:
+    - /img/eSolia-Post-Slider-Onsite-01.jpg
+    - /img/eSolia-Post-Slider-Onsite-02.jpg
+    - /img/eSolia-Post-Slider-Onsite-03.jpg
+    - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
 - 定期訪問
 - 常駐
