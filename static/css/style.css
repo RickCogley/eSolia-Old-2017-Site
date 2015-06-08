@@ -36,6 +36,11 @@ li {
     font-weight: normal;
 }
 
+main ul {
+    margin-left: 0rem;
+    padding-left: 2.5rem;
+}
+
 .header {
   color: #039be5;
 }

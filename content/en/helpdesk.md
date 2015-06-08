@@ -51,7 +51,7 @@ eSolia professionals provide email or telephone support, and remote access, for 
 
 <div class="row">
   <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Custom-built PROdb ops database - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Helpdesk-01.png"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="eSolia Connect remote support system - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Helpdesk-02.png"></div>
   <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Bilingual helpdesk - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Helpdesk-03.jpg"></div>
   <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Years of experience - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Helpdesk-04.jpg"></div>
+  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="eSolia Connect remote support system - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Helpdesk-02.png"></div>
 </div>
