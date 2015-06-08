@@ -41,13 +41,13 @@ menu:
 
 日本語 eSolia professionals provide email or telephone support, and remote access, for support and troubleshooting assistance regarding your hardware, software and user support issues. All helpdesk-related data and knowledge is stored in our custom-built _PROdb_ IT operations database, for easy recall and reporting.
 
-* All requests and incidents tracked as tickets.  
-* Support is provided by bilingual professionals.
-* Processes and procedures follow ITIL and COBIT standards and best practices.
-* Warranty and licenses agreements are tracked and managed.
-* Remote support and monitoring available.
-* Inventory tracking available.
-* Update management provided, for OS upgrades, bug-fix, anti-virus and security patches.
+* すべてのリクエスト・インシデントをチケットシステムで一括管理
+* バイリンガルによるプロフェッショナルサポート
+* ITIL,COBITや様々な最優良事例を用いたプロセスと手順法
+* 保障管理とライセンス管理
+* 様々なモニタリングと遠隔サポートサービス
+* 在庫管理
+* アップデート管理　OSアップデート,バグ修正、アンチウイルスとセキュリティーパッチのアップデート管理
 
 <div class="row">
   <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Custom-built PROdb ops database - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Helpdesk-01.png"></div>
