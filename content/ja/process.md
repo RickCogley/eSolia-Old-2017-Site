@@ -40,25 +40,25 @@ menu:
     Parent: services
 ---
 
-日本語 In the context of a master support agreement, eSolia will skillfully manage various processes on your behalf, including:
+マスターサポート契約の文脈で、イソリアは御社様に代わって下記を含む様々なプロセスをうまく管理致します：
 
-1. Project management
-1. Hardware and software procurement
-1. Budget management
-1. System room and cabling management
-1. Compliance management
-1. Asset management
-1. License management
-1. Warranty management
-1. Recycling and disposal management
+1. プロジェクト管理
+1. ハードウェア及びソフトウェアの調達
+1. 予算管理
+1. システム室及び配線管理
+1. コンプライアンス管理
+1. 資産管理
+1. ライセンス管理
+1. 保証管理
+1. リサイクル及び廃棄物管理
 
-Each process is different, but in all cases, eSolia performs in a consistent manner:
+各プロセスは異なりますが、すべてのケースにおいて、イソリアは一貫性をもって実行致します：
 
-* We act as an ombudsman on your behalf, keeping your mandate or the best practice in mind, as we negotiate with any involved parties.
-* Each process is performed with supporting documentation as the base, whether that documentation is your standards and mandates, or our best practices.
-* Decisions are yours, but our experts provide decision support.
-* All processes have preparation, adjustment, execution, documentation and support afterwards.
-* Results are stored in eSolia's extensive knowledge database, and reports are provided to you.
+* 御社様のオンブズマンとして動き、御社様の委任またはベストプラクティスを銘記しながら、一連の関係者様と交渉を行います。 
+* 各プロセスはベースとしてのサポートドキュメント（御社様の規格及び委任、もしくは私達のベストプラクティスのいずれか）に沿って行われます。
+* 御社様に最終決断指示を頂きますが、私達の専門家はご決断される判断支援を提供致します。
+* すべてのプロセスにおいて、準備、調整、実行、ドキュメント化及び後のサポートを提供致します。
+* プロセスの結果はイソリアの知識豊富なデータベースに格納され、レポートとして御社様に提供致します。
 
 <div class="row">
   <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Project schedule - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Process-01.png"></div>
