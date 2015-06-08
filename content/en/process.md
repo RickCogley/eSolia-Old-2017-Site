@@ -4,7 +4,7 @@ date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: Process
-slug: Process
+slug: process
 subtitle: Management for all your processes
 description: Skillful management of Projects, Procurement, Asset Mgt, Compliance, Upgrade or any other IT or business processes. - from eSolia Inc.
 weight: 20
