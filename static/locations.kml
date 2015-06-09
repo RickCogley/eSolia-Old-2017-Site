@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://esolia.com/xsl/kml-file.xsl"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+	<Document>
+		<name>Locations for eSolia Inc.</name>
+		<open>1</open>
+		<Folder>
+			<Placemark>
+				<name><![CDATA[eSolia Inc.]]></name>
+				<address><![CDATA[Sawa Bldg. 6F, Nishi-Shimbashi 2-2-2, Minato-ku, Tokyo 105-0003, Japan]]></address>
+				<description><![CDATA[eSolia Inc. - pithy]]></description>
+				<atom:link href="http://esolia.com/"/>
+				<LookAt>
+					<latitude>35.667706</latitude>
+					<longitude>139.751461</longitude>
+					<altitude>5</altitude>
+					<range></range>
+					<tilt>0</tilt>
+					<heading></heading>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<Point>
+					<coordinates>139.751461,35.667706,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+</kml>

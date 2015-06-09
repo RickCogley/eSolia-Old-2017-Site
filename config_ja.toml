@@ -37,3 +37,16 @@ languageCode = "ja-JP"
     defaultKeywords = "イソリア"
     ISO8601 = "2006-01-02T15:04:05JST"
     googleAnalytics = "UA-1040233-8"
+
+[[menu.side]]
+    name = "便利ツール"
+    identifier = "utilities"
+    weight = 222
+
+[[menu.side]]
+    name = "ゼロビン"
+    identifier = "zerobin"
+    url = "https://zerobin.esolia.com/?language=jp"
+    post = "_blank"
+    parent = "utilities"
+    weight = 222

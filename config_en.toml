@@ -37,3 +37,16 @@ languageCode = "en-US"
     defaultKeywords = "eSolia"
     ISO8601 = "2006-01-02T15:04:05JST"
     googleAnalytics = "UA-1040233-7"
+
+[[menu.side]]
+    name = "Utilities"
+    identifier = "utilities"
+    weight = 222
+
+[[menu.side]]
+    name = "Zerobin"
+    identifier = "zerobin"
+    url = "https://zerobin.esolia.com"
+    post = "_blank"
+    parent = "utilities"
+    weight = 222

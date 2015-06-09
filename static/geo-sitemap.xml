@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://esolia.com/xsl/geo-sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:geo="http://www.google.com/geo/schemas/sitemap/1.0">
+				<url>
+					<loc>http://esolia.com/locations.kml</loc>
+					<lastmod>2015-06-06T00:52:37+00:00</lastmod>
+					<priority>1</priority>
+				</url>
+			</urlset>

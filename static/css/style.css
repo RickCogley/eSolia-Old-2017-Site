@@ -24,9 +24,23 @@ html {
 nav ul a, nav .brand-logo {
     color: #444;
 }
-p {
+
+p ul ol {
     line-height: 1.8rem;
+    color: rgba(0, 0, 0, 0.71);
+    font-weight: normal;
 }
+
+li {
+    color: rgba(0, 0, 0, 0.71);
+    font-weight: normal;
+}
+
+main ul {
+    margin-left: 0rem;
+    padding-left: 2.5rem;
+}
+
 .header {
   color: #039be5;
 }
@@ -74,6 +88,21 @@ blockquote {
     padding-left: 1.5rem;
     border-left: 5px solid #80cbc4; }
 
+.materialbox-caption {
+    position: fixed;
+    display: none;
+    color: #ff3d00;
+    font-size: 1.5rem;
+    line-height: 50px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0% 15%;
+    height: 50px;
+    z-index: 1000;
+    -webkit-font-smoothing: antialiased;
+ }
+
 .button-collapse {
     color: #26a69a;
 }
@@ -117,6 +146,8 @@ blockquote {
     font-size: 2.0rem;
 }
 
+/* Feature List */
+
 .esList {
     width: auto;
     list-style: none outside none;
@@ -139,6 +170,61 @@ blockquote {
 }
 .esListItemDate {
     font-size: 0.8rem;
+}
+
+
+/* Form colors */
+/* label color */
+.input-field label {
+    color: #bdbdbd;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+color: #03a9f4;
+}
+.input-field input[type=email]:focus + label {
+color: #03a9f4;
+}
+.input-field input[type=tel]:focus + label {
+color: #03a9f4;
+}
+.input-field input[type=checkbox]:focus + label {
+color: #03a9f4;
+}
+.input-field textarea.materialize-textarea:focus + label {
+color: #03a9f4;
+}
+
+.input-field input[type="checkbox"]:checked + label:before {
+color: #03a9f4;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+border-bottom: 1px solid #03a9f4;
+box-shadow: 0 1px 0 0 #03a9f4;
+}
+.input-field input[type=email]:focus {
+border-bottom: 1px solid #03a9f4;
+box-shadow: 0 1px 0 0 #03a9f4;
+}
+.input-field input[type=tel]:focus {
+border-bottom: 1px solid #03a9f4;
+box-shadow: 0 1px 0 0 #03a9f4;
+}
+.input-field input[type=checkbox]:focus {
+border-bottom: 1px solid #03a9f4;
+box-shadow: 0 1px 0 0 #03a9f4;
+}
+.input-field textarea.materialize-textarea:focus {
+border-bottom: 1px solid #03a9f4;
+box-shadow: 0 1px 0 0 #03a9f4;
+}
+
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+color: #03a9f4;
 }
 
 

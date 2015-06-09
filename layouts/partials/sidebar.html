@@ -10,14 +10,13 @@
     <li class="no-padding">
       <ul class="collapsible collapsible-accordion" data-collapsible="expandable">
         {{ $currentNode := . }}{{ range .Site.Menus.side }}{{ if .HasChildren }}
-        <li class="bold"><a class="collapsible-header waves-effect waves-light-blue{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}">{{ .Pre }}<span>{{ .Name }}</span></a>
+        <li class="bold"><a class="collapsible-header waves-effect waves-light-blue{{if or ($currentNode.IsMenuCurrent "side" .) ($currentNode.HasMenuCurrent "side" .) }} active{{end}}" target="{{ .Post }}">{{ .Pre }}<span>{{ .Name }}</span></a>
           <div class="collapsible-body">
             <ul>{{ range .Children }}
-              <li {{if $currentNode.IsMenuCurrent "main" . }} class="active light-blue" {{end}}><a href="{{.URL}}">{{ .Pre }}<span>{{ .Name }}</span></a></li>{{ end }}
+              <li {{if $currentNode.IsMenuCurrent "side" . }}class="active light-blue" {{end}}><a href="{{.URL}}" target="{{ .Post }}">{{ .Pre }}<span>{{ .Name }}</span></a></li>{{ end }}
             </ul>
           </div>
-          {{ else }}<li class="bold{{if $currentNode.IsMenuCurrent " main " . }} active{{end}}"><a href="{{.URL}}" class="collapsible-header waves-effect waves-light-blue">{{ .Pre }}<span>{{ .Name }}</span></a> {{ end }}</li>{{ end }}
-          <li class="bold"><a href="http://zerobin.esolia.com" class="collapsible-header waves-effect waves-light-blue" target="_blank">Zerobin</a></li>
+          {{ else }}<li class="bold{{if $currentNode.IsMenuCurrent " side " . }} active{{end}}"><a href="{{.URL}}" class="collapsible-header waves-effect waves-light-blue" target="{{ .Post }}">{{ .Pre }}<span>{{ .Name }}</span></a> {{ end }}</li>{{ end }}
       </ul>
     </li>
   </ul>
