@@ -110,7 +110,15 @@ $('.scrollspy').scrollSpy();
 $('.button-collapse').sideNav({'edge': 'left'});
 $('.datepicker').pickadate({selectYears: 20});
 $('select').not('.disabled').material_select();
-
+$('.dropdown-button').dropdown({
+      inDuration: 300,
+      outDuration: 225,
+      constrain_width: false, // Does not change width of dropdown to that of the activator
+      hover: true, // Activate on hover
+      gutter: 0, // Spacing from edge
+      belowOrigin: false // Displays dropdown below the button
+    }
+  );
 // TEST CNN Feed: http://rss.cnn.com/rss/edition.rss
 
 $('#divRss1').FeedEk({
