@@ -41,11 +41,11 @@ menu:
 
 日本語 eSolia professionals provide email or telephone support, and remote access, for support and troubleshooting assistance regarding your hardware, software and user support issues. All helpdesk-related data and knowledge is stored in our custom-built _PROdb_ IT operations database, for easy recall and reporting.
 
-* すべてのリクエスト・インシデントをチケットシステムで一括管理
+* 全てのリクエスト・インシデントをチケットシステムにて一括管理
 * バイリンガルによるプロフェッショナルサポート
-* ITIL,COBITや様々な最優良事例を用いたプロセスと手順法
-* 保障管理とライセンス管理
-* 様々なモニタリングと遠隔サポートサービス
+* ITIL・COBIT等、ベストプラクティスを用いたプロセスと手順法
+* 保証管理とライセンス管理
+* IT監視サービスと遠隔サポートサービス
 * 在庫管理
 * アップデート管理　OSアップデート,バグ修正、アンチウイルスとセキュリティーパッチのアップデート管理
 
