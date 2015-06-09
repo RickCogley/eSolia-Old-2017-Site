@@ -5,13 +5,13 @@ publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: プロセス管理
 slug: process
-subtitle: 様々なプロセスを管理します
-description: イソリアから - 卓逸されたプロジェクト管理やアセット管理、コンプライアンスの徹底から購入のお手伝いまで、ＩＴやビジネスのレベルアップへ
+subtitle: あらゆるプロセスを巧みに管理します
+description: イソリアから - 卓逸されたプロジェクト管理や資産管理、コンプライアンスの徹底から購買のお手伝いまで、ＩＴやビジネスのレベルアップへ
 weight: 20
 tags:
   - プロセス管理
   - 購買管理
-  - アセット管理
+  - 資産管理
   - コンプライアンス管理
 series:
   - top1
@@ -31,6 +31,7 @@ formcheckboxes:
 - ライセンス管理
 - 予算管理
 - リサイクル管理
+- その他
 menu:
   side:
     Name: プロセス
@@ -40,25 +41,25 @@ menu:
     Parent: services
 ---
 
-日本語 In the context of a master support agreement, eSolia will skillfully manage various processes on your behalf, including:
+マスターサポート契約に基づき、イソリアは御社様に代わりあらゆるプロセスを巧みに管理致します：
 
-1. Project management
-1. Hardware and software procurement
-1. Budget management
-1. System room and cabling management
-1. Compliance management
-1. Asset management
-1. License management
-1. Warranty management
-1. Recycling and disposal management
+1. プロジェクト管理
+1. ハードウェア及びソフトウェアの調達
+1. 予算管理
+1. データセンター及び配線管理
+1. コンプライアンス管理
+1. 資産管理
+1. ライセンス管理
+1. 保証管理
+1. リサイクル及び廃棄物管理
 
-Each process is different, but in all cases, eSolia performs in a consistent manner:
+各プロセスは様々ですが、すべてのケースにおいてイソリアは一貫性をもって実行致します：
 
-* We act as an ombudsman on your behalf, keeping your mandate or the best practice in mind, as we negotiate with any involved parties.
-* Each process is performed with supporting documentation as the base, whether that documentation is your standards and mandates, or our best practices.
-* Decisions are yours, but our experts provide decision support.
-* All processes have preparation, adjustment, execution, documentation and support afterwards.
-* Results are stored in eSolia's extensive knowledge database, and reports are provided to you.
+* ベストプラクティスを念頭に置き、御社の信任を得ながらオンブズマンとして関係各所との交渉も行います。 
+* 各プロセスは、御社のスタンダードや意向を基準として実行されます。また、御社にその様な基準等がない場合、私たちの経験から得たベストプラクティスに基づいて実行されます。
+* 基本的に決断権は御社にございます。私達はこの分野の専門家として、決断される為の判断支援をご提供致します。
+* 全てのプロセスにおいて、準備、調整、実行、ドキュメント化及び実行後のサポートを提供致します。
+* プロセスの結果は、イソリアの知識データベースシステムに格納されレポートとして御社様に提供致します。
 
 <div class="row">
   <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Project schedule - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Process-01.png"></div>
