@@ -8,6 +8,8 @@ slug: infrastructure
 subtitle: The 'nuts and bolts' of any office IT system
 description: Perfect implementation to spec and standards; regular IT infrastructure or technology refreshes, performed with aplomb. - from eSolia Inc.
 weight: 30
+alternatelocales:
+  - ja-JP
 tags:
   - infrastructure
   - specs and standards

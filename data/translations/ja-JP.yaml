@@ -16,6 +16,9 @@ genlatestfeature: 最新おすすめ
 genlatestposts: 最新プロ ブログ
 genmoreinfo: つづきを読む
 genviewgooglemap: グーグルマップで見る
+languagename: 日本語
+languageswitch: 言語切り替え
+languageurl: http://esolia.co.jp
 menuabout: イソリアについて
 menulanguageswitch: English
 menulanguageswitchurl: http://esolia.com
@@ -25,9 +28,9 @@ topsectioncus: お問い合わせ
 topsectionwhy: なぜイソリアか？
 topsectionwwd: 主なソリューション
 topsectionwwdtext: イソリアのプロフェショナルスタッフはインフラから、オペレーション、開発、マネージメントとガバナンスまで幅広い範囲にわたるIT活動に対応いたします。貴社の指令、規格と委任に基づいて、貴社が必要とされるニーズに必ずお応えいたします。
-topslogan:　イソリアにお任せください！
+topslogan: イソリアにお任せください！
 topsubslogan: 貴社の頼れるIT部門となります
-toptestimoninal1: イソリアは我々の複雑かつ複数年に及ぶプロジェクトを成功に導いてくれました。<br>まるで長いトンネルの先に希望の光が差し込んだような状況でした。
+toptestimoninal1: イソリアは我々の複雑かつ複数年に及ぶプロジェクトを成功に導いてくれました。まるで長いトンネルの先に希望の光が差し込んだような状況でした。
 toptestimoninal2: イソリアのエンジニア達は豊富な知識を持ち合わせていますが、複雑な専門用語を多用せず、誰でも理解できるように分りやすく解決方法を説明してくれました。
 topwwdclouddb: クラウド型データベース
 topwwdclouddbtext: 急速に変化し続ける社内データベースはイソリアのPRODBにて一括管理。その他ソフトウェア開発も
