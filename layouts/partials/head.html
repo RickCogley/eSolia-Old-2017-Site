@@ -29,7 +29,7 @@
   <link href="/css/ghpages-materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   {{ end }}
   <link href="/css/fontello.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="/css/style.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/style.min.css{{with getenv "STYLECSS_HASH"}}?v={{.}}{{end}}" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="/css/prism.min.css" type="text/css" rel="stylesheet"/>
   <link href="/css/FeedEk-2.0.min.css" type="text/css" rel="stylesheet"/>
 
