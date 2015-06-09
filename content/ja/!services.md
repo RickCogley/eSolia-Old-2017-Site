@@ -6,6 +6,8 @@ draft: false
 slug: services
 subtitle: 課題に対する弊社ソリューション
 weight: 9999
+alternatelocales:
+  - en-US
 tags:
   - サービス
   - チャレンジ

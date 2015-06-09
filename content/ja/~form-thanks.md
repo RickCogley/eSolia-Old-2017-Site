@@ -6,6 +6,8 @@ draft: false
 slug: form-thanks
 subtitle: ご連絡いたします
 weight: 9999
+alternatelocales:
+  - en-US
 tags:
   - 有難う
 title: 有難うございます

@@ -7,6 +7,8 @@ draft: false
 slug: about
 subtitle: イソリア概要
 weight: 9999
+alternatelocales:
+  - en-US
 tags:
   - Bio
   - About Page

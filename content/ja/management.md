@@ -8,6 +8,8 @@ slug: management
 subtitle: 成功する為のコーディネーション
 description: イソリアから - 多種多様なプロジェクトを多方面、多言語でのサポートを実現
 weight: 35
+alternatelocales:
+  - en-US
 tags:
   - マネージメント
   - 成功

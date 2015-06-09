@@ -8,6 +8,8 @@ slug: process
 subtitle: 様々なプロセスを管理します
 description: イソリアから - 卓逸されたプロジェクト管理やアセット管理、コンプライアンスの徹底から購入のお手伝いまで、ＩＴやビジネスのレベルアップへ
 weight: 20
+alternatelocales:
+  - en-US
 tags:
   - プロセス管理
   - 購買管理
