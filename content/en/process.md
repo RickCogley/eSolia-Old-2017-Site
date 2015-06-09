@@ -8,6 +8,8 @@ slug: process
 subtitle: Management for all your processes
 description: Skillful management of Projects, Procurement, Asset Mgt, Compliance, Upgrade or any other IT or business processes. - from eSolia Inc.
 weight: 20
+alternatelocales:
+  - ja-JP
 tags:
   - process
   - procurement

@@ -8,6 +8,8 @@ slug: office-setup
 subtitle: どんなオフィスでも移転いたします。
 description: イソリアから - 新規オフィスの立ち上げから、変更や改善に至るまでの全サポート
 weight: 10
+alternatelocales:
+  - en-US
 tags:
   - オフィス
   - 構築

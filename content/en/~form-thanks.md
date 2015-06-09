@@ -6,6 +6,8 @@ draft: false
 slug: form-thanks
 subtitle: We'll be in touch
 weight: 9999
+alternatelocales:
+  - ja-JP
 tags:
   - thanks
 title: Thanks for your Interest

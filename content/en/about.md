@@ -7,6 +7,8 @@ draft: false
 slug: about
 subtitle: Background for eSolia
 weight: 9999
+alternatelocales:
+  - ja-JP
 tags:
   - Bio
   - About Page
@@ -55,4 +57,3 @@ func getTrue() bool {
     return true
 }
 ```
-
