@@ -8,11 +8,15 @@ slug: helpdesk
 subtitle: 電話やリモートでのサポート
 description: イソリアから - 様々なトラブルや解決策を集結させた社内データベースを利用し、迅速で信頼性の高いサポートを提供
 weight: 15
+alternatelocales:
+  - en-US
 tags:
   - ヘルプデスク
   - サービスデスク
   - リモートサポート
   - リモートアクセス
+  - ベストプラクティス
+  - バイリンガル
 series:
   - top1
 topics:

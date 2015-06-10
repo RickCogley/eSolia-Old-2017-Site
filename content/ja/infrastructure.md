@@ -8,6 +8,8 @@ slug: infrastructure
 subtitle: オフィスITシステムの基盤
 description: イソリアから - 機能と目的を実現させる為のインフラ実装。汎用的なものから新技術を備えた機器まで堅実に
 weight: 30
+alternatelocales: 
+  - en-US
 tags:
   - インフラストラクチャ
   - 仕様と標準

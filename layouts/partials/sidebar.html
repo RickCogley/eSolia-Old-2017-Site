@@ -17,6 +17,23 @@
             </ul>
           </div>
           {{ else }}<li class="bold{{if $currentNode.IsMenuCurrent " side " . }} active{{end}}"><a href="{{.URL}}" class="collapsible-header waves-effect waves-light-blue" target="{{ .Post }}">{{ .Pre }}<span>{{ .Name }}</span></a> {{ end }}</li>{{ end }}
+          {{ if isset .Params "alternatelocales" }}
+          <!-- Dropdown Trigger -->
+          <a class="dropdown-button btn waves-effect waves-light-blue green white-text center" href="#" data-activates="dropdown1"><i class="mdi-action-language right white-text"></i>{{ ( index $.Site.Data.translations $.Site.Params.locale ).languageswitch }}</a>
+          <!-- Dropdown Structure -->
+          <ul id="dropdown1" class="dropdown-content">
+            {{ $perma := .Permalink }}
+            {{ with .Params.alternatelocales }}
+            {{ range . }}
+            {{ $thelocale := . }}
+            {{ $currenturl := ( index $.Site.Data.translations $.Site.Params.locale ).languageurl }}
+            {{ $targeturl := ( index $.Site.Data.translations $thelocale ).languageurl }}
+            {{ $langurl := replace $perma $currenturl $targeturl }}
+            <li><a href="{{ $langurl }}">{{ ( index $.Site.Data.translations $thelocale ).languagename }}</a></li>
+            {{ end }}
+            {{ end }}
+          </ul>
+          {{ end }}
       </ul>
     </li>
   </ul>

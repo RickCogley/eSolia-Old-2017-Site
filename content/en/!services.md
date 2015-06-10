@@ -6,6 +6,8 @@ draft: false
 slug: services
 subtitle: Your Challenges, Our Solutions
 weight: 9999
+alternatelocales:
+  - ja-JP
 tags:
   - service
   - challenges
