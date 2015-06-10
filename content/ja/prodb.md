@@ -48,7 +48,7 @@ menu:
 
 ## Still Running on Spreadsheets?
 
-If you're still running your business on spreadsheets, if you have not already noticed, things can get rather complex and error-prone, when there are consolidations or reconciliations to perform. It is costly and time-consuming to convert spreadsheets into a proper database system. If this has put you off in the past, please consider putting your disparate and un-secure lists into our flexible and professionally-run cloud-based database, PROdb.
+If you're still running your business on spreadsheets, perhaps you've noticed that consolidations or reconciliations can get rather complex and error-prone. If the cost and time of converting a spreadsheet to a proper database has put you off in the past, please consider having us convert your sheets into our flexible and professionally-run cloud-based database, PROdb.
 
 ## 考慮したことありますか？
 
