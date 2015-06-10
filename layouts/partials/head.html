@@ -22,16 +22,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
   <meta name="msapplication-tap-highlight" content="no">
   <!-- Load CSS (font faces first) -->
-  <link href="/css/typography.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/typography.min.css{{with getenv "TYPOCSS_HASH"}}?v={{.}}{{end}}" type="text/css" rel="stylesheet" media="screen,projection"/>
   {{ if .IsHome }}
-  <link href="/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/materialize.min.css{{with getenv "MATCSS_HASH"}}?v={{.}}{{end}}" type="text/css" rel="stylesheet" media="screen,projection"/>
   {{ else }}
-  <link href="/css/ghpages-materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/ghpages-materialize.min.css{{with getenv "GHPMATCSS_HASH"}}?v={{.}}{{end}}" type="text/css" rel="stylesheet" media="screen,projection"/>
   {{ end }}
-  <link href="/css/fontello.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/fontello.min.css{{with getenv "FONTELLOCSS_HASH"}}?v={{.}}{{end}}" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="/css/style.min.css{{with getenv "STYLECSS_HASH"}}?v={{.}}{{end}}" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="/css/prism.min.css" type="text/css" rel="stylesheet"/>
-  <link href="/css/FeedEk-2.0.min.css" type="text/css" rel="stylesheet"/>
+  <link href="/css/prism.min.css{{with getenv "PRISMCSS_HASH"}}?v={{.}}{{end}}" type="text/css" rel="stylesheet"/>
+  <link href="/css/FeedEk-2.0.min.css{{with getenv "FEEDEKCSS_HASH"}}?v={{.}}{{end}}" type="text/css" rel="stylesheet"/>
 
   <!-- MODERNIZR - should follow stylesheets and needs to be in <head> -->
   <script src="/js/modernizr-2.8.3.min.js"></script>
