@@ -4,7 +4,7 @@ date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: セキュリティ
-slug: セキュリティ
+slug: security
 subtitle: 安心して利用していただくために
 description: イソリアから - コンプライアンスやセキュリティの信頼性監査、強固なセキュリティをソフト＆ハードにて実装。システムも心もセキュアに
 weight: 50
