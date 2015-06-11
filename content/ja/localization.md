@@ -42,6 +42,7 @@ menu:
 ## 本当？機械翻訳？Really? A Machine Translation?
 
 もし御社が日本市場向けにアプリケーション、ウェブサイトや文書をローカライズされる場合、機械翻訳は滑稽な悪結果を生じる事を理解される必要がございます。また、日本語を少々話せる非ネイティブスピーカーによる日本語化の承認はあまり意味がなく、御社の評判にダメージを与えてしまいますす。見込顧客その試みを笑い、そして御社のことをそのまま見過ごしてしまいます。それは本当に御社が望まれる結果でしょうか？
+
 If you are localizing your application, website or documents for the Japan market, you must understand that machine translation still produces comically bad results. In addition, having a non-native speaker who speaks a little Japanese give their seal of approval is, well, not so meaningful and even damaging to your reputation. Your Japanese prospects will laugh at your attempt, and then move on. Do you really want that?
 
 ## 日本語化とは何か？ What is Japanese Localization?
@@ -59,9 +60,11 @@ If you are localizing your application, website or documents for the Japan marke
 </div>
 
 日本人顧客を魅力的に感じさせるには、_御社材料のすべての態様を日本に適合させる_という考え方に慣れなければなりません。
+
 To be attractive to Japanese clients, you should get used to the idea of _adapting all aspects of your materials to Japan_.
 
-日本人は高水準の品質を保持することが有名で、どんなローカライズの取組においても、小さくて重要な事項がいくつがございます。
+日本人は高水準の品質を保持することが有名で、どんなローカライズの取組においても、小さくて重要な事項が複数ございます。
+
 Japanese are known to hold high standards for quality, and there are a number of small but significant matters to address, in any localization effort.
 
 ### 例えば - 概要　For example - General
@@ -74,16 +77,16 @@ Japanese are known to hold high standards for quality, and there are a number of
 
 ### 例えば - ウェブサイト For example - Website
 
-* Site should not be a simple 1:1 direct translation of another site, but unique.
-* Does the site code properly incorporate Japanese text, in terms of physical size and height?
-* Is it using modern web fonts?
-* Are the graphics localized?
+* 単純な1対１の直訳ではなく、ユニークなサイトでなければなりません。Site should not be a simple 1:1 direct translation of another site, but unique.
+* 物理的寸法と高さに関して、サイドコードは日本語テキストを適切に組み込んでいますか？Does the site code properly incorporate Japanese text, in terms of physical size and height?
+* 現代ウェブフォントを使用していますか？Is it using modern web fonts?
+* グラフィックスはローカライズされていますか？Are the graphics localized?
 
 ### 例えば - アプリケーション For example - Application
 
-* Are the date, time and currency formats correct?
-* Is the order of the translated strings natural?
-* Are the help files translated, and do any in-software url links point at properly localized Japanese web pages?
+* 日付、時間及び通貨の形式は正しいですか？Are the date, time and currency formats correct?
+* 翻訳された文字列の順序は自然ですか？Is the order of the translated strings natural?
+* ヘルプファイルは翻訳されていますか？そして、どんなソフトウェアURLリンクは正確にローカライズされた日本語ウェブページを指していますか？？Are the help files translated, and do any in-software url links point at properly localized Japanese web pages?
 
 ### 例えば - ドキュメント　For example - Documents
 
