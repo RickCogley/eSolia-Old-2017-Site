@@ -56,20 +56,20 @@ menu:
 イソリアは多くの業種の会社様にてセキュリティルールを遵守してきました。
 これらの知識と経験をもとに、包括なセキュリティから日次単位まで、様々なセキュリティの査定をお手伝いさせていただきます。
 
-### イソリア　セキュリティ　フォーカス
+### イソリアのセキュリティへの取り組み
 
-The following are eSolia's focus areas for a comprehensive security program:
+下記にイソリアのセキュリティサポートプログラムについてご紹介いたします。
 
 <div class="esolia-card-panel blue-grey darken-4 z-depth-1">
-  <h4 class="center green-text text-accent-3">ASSESSING SECURITY</h4>
+  <h4 class="center green-text text-accent-3">セキュリティの査定</h4>
     <ol>
       <li class="white-text">First-pass Overview</li>
-      <li class="white-text">Review Current Situation</li>
+      <li class="white-text">既存環境のレヴュー</li>
       <li class="white-text">Identify Security Gaps</li>
       <li class="white-text">Vulnerability Test</li>
       <li class="white-text">Document Threats</li>
-      <li class="white-text">Review Findings & Recommendations</li>
-      <li class="white-text">Remediate Together to Mitigate Risk</li>
+      <li class="white-text">推奨Review Findings & Recommendations</li>
+      <li class="white-text">リスクの軽減</li>
     </ol>
 </div>
 
