@@ -39,25 +39,25 @@ menu:
     Parent: services
 ---
 
-日本語 eSolia professionals are dispatched to your office, to deliver on-site services such as:
+イソリアのプロフェッショナルによるオンサイトサービス:
 
-* User support on Windows or Mac.
-* Systems administration, maintenance and troubleshooting for all aspects of your IT infrastructure, including desktops, laptops, network, wireless, website, storage, telephone, printers, multi-function copiers and so on.
-* Training for applications or new user on-boarding.
-* IMAC ("install, add, move, change") execution.
-* New system builds and hard disk "imaging".
+* Windows、Mac等のユーザーサポート
+* デスクトップ、ラップトップ、ネットワーク、ワイアレス、Webサイト、ストレージ、電話、プリンター、複合機等、全てのITインフラストラクチャに関するシステム管理、メンテナンス、またトラブルシューティング
+* 新入社員用ITオリエンテーション、トレーニング
+* IMACサービス　("Install-インストール、Move-移動、Add-追加、Change-移動") 
+* コンピュータの設定、ハードディスクのイメージング
 
-With a master agreement, on-demand, part-time or full-time on-site coverage is available. We can dispatch engineers including the following:
+常駐、半日、週１、オンデマンド(必要に応じて)等、様々な契約形態によるオンサイトサービスの提供が可能です。必要に応じて、下記のエンジニアが派遣されます。
 
-* User Support Professionals
-* Desktop and Laptop Engineers
-* Server Engineers
-* Network Engineers
-* Database Administrators
-* Website Developers
-* Application Developers
+* ユーザーサポートプロフェッショナル
+* デスクトップ、ラップトップエンジニア
+* サーバーエンジニア
+* ネットワークエンジニア
+* データベースアドミニストレーター
+* Webサイト開発エンジニア
+* アプリケーション開発エンジニア
 
-In all cases, we strive to provide support which supports the continuity of your business, assigning at least 2 professionals to your account, and providing an "agnostic" service based on industry best practices, not locked to any one vendors's platform or service.
+全てのケースにおいて、ビジネス継続性を重視し最低2名のエンジニアが担当致します。また、型にand providing an "agnostic" service based on industry best practices, not locked to any one vendors's platform or service.
 
 <div class="row">
   <div class="col s12 m6 l3"><img class="materialboxed" data-caption="System maintenance - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Onsite-01.jpg"></div>
