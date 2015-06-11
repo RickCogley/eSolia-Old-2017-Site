@@ -73,20 +73,21 @@ menu:
     </ol>
 </div>
 
-* _セキュリティ管理_ - all the administrative aspects of security, including information security organization, policies, procedures, roles and responsibilities, awareness, change controls.
-* _物理的なセキュリティ_ - access control at your facilities, using imported systems such as Honeywell, or well-regarded domestic systems such as ALSOK or SECOM. Location analysis would be performed to give the best result.
-* _ネットワークセキュリティ_ - measures for all aspects of the network including device security and patching, vulnerability and penetration testing, firewall and proxy deployment, encryption, security for email, website and voice systems, change control.
-* _ハードウェアセキュリティ_ - measures for anti-tampering and anti-theft, maintenance, and change control.
-* _ソフトウェアセキュリティ_ - measures for software integrity, copyright and licensing, software maintenance and change control, anti-virus or other safeguards, database security, new system security.
-* _メディアセキュリティ_ - measures for physical storage media (CD, DVD, USB, SD Card etc) and paper documents.
-* _ワークステーションセキュリティ_ - measures for computer operating system access controls such as user authentication (local or corporate directory), logging, data access.
-* _災害復旧、BCP_ - measures related to ensuring fault-tolerance and redundancy in systems and data, disaster impact analysis, failover and recovery testing.
-* _セキュリティシステム_ - implement systems and measures needed to rectify any weak areas, such as password sharing systems, hard disk encryption, or secure file "vault" systems.
+* _セキュリティ管理_ - 会社のポリシー、手順、役割や責任、方針や変更履歴管理などの包括的なセキュリティ管理
+* _物理的なセキュリティ_ - オフィスや機密エリアへのアクセスをALSOKやSECOMと連携して管理。立地の査定。
+* _ネットワークセキュリティ_ - ネットワーク機器の品質、脆弱性の検査、ファイヤーウォールやプロキシーの導入、通信の暗号化や悪意のある攻撃からの防衛。
+* _ハードウェアセキュリティ_ - 機器の改ざん防止、盗難防止などの対策。資産移動履歴の管理。
+* _ソフトウェアセキュリティ_ - 導入ソフトの評価、ウィルス対策ソフト査定。有料のライセンスソフトウェアの管理。データベース最適化。
+* _メディアセキュリティ_ - CD, DVD, USB, SD Cardなどからの侵入防止、紙媒体でのドキュメント化など。
+* _ワークステーションセキュリティ_ - OSの暗号・イメージ化、データ復旧簡易化、OSパスワード管理強化など
+* _災害復旧、BCP_ - 災害時のシステムの冗長化、遠隔サイトからのデータ復旧化、日々のメンテナンスと訓練など。
+* _セキュリティシステム_ - 既存システムの脆弱性査定、パスワード共有リスク防止、ハードディスク暗号化、Vaultシステムなど。
 
 ## DR/BCP　-  日本の災害リスク
 
-近年の地震、火山の噴火など日本の災害リスクは以前よりかなり高まっており、これからのシステムは特に_災害復旧プログラム_を重視する必要があります。
-イソリアでは下記のような対策をご提案しております。。
+日本では近年、地震や火山の噴火などの災害リスクが以前より高まっております。
+今後は今まで以上よりもより強固な_災害復旧プログラム_を導入していく必要があります。
+イソリアでは下記のような対策をご提案しております。
 
 1. 災害時に継続必須となる、コアなビジネスを明確化します。
 1. コアビジネスを継続するために必要最低限のシステム(ネットワーク, サーバ, オフィススペース、機材やPCなど) を特定します。
