@@ -39,50 +39,53 @@ menu:
     Parent: services
 ---
 
-## Really? A Machine Translation?
+## 本当？機械翻訳？Really? A Machine Translation?
 
+もし御社が日本市場向けにアプリケーション、ウェブサイトや文書をローカライズされる場合、機械翻訳は滑稽な悪結果を生じる事を理解される必要がございます。また、日本語を少々話せる非ネイティブスピーカーによる日本語化の承認はあまり意味がなく、御社の評判にダメージを与えてしまいますす。見込顧客その試みを笑い、そして御社のことをそのまま見過ごしてしまいます。それは本当に御社が望まれる結果でしょうか？
 If you are localizing your application, website or documents for the Japan market, you must understand that machine translation still produces comically bad results. In addition, having a non-native speaker who speaks a little Japanese give their seal of approval is, well, not so meaningful and even damaging to your reputation. Your Japanese prospects will laugh at your attempt, and then move on. Do you really want that?
 
-## What is Japanese Localization?
+## 日本語化とは何か？ What is Japanese Localization?
 
 <div class="esolia-card-panel cyan darken-4 z-depth-1">
-  <h4 class="center green-text text-accent-3">KEY POINTS</h4>
+  <h4 class="center green-text text-accent-3">キーポイント</h4>
     <ul>
-      <li class="white-text">Native translations</li>
-      <li class="white-text">Cultural tone</li>
-      <li class="white-text">Type faces</li>
-      <li class="white-text">Colors</li>
-      <li class="white-text">Payment methods</li>
-      <li class="white-text">Attention to detail</li>
+      <li class="white-text">ネイティブ翻訳</li>
+      <li class="white-text">文化的な口調</li>
+      <li class="white-text">タイプフェースType faces</li>
+      <li class="white-text">色彩 Colors</li>
+      <li class="white-text">支払方法Payment methods</li>
+      <li class="white-text">細部へのこだわりAttention to detail</li>
     </ul>
 </div>
 
+日本人顧客を魅力的に感じさせるには、_御社材料のすべての態様を日本に適合させる_という考え方に慣れなければなりません。
 To be attractive to Japanese clients, you should get used to the idea of _adapting all aspects of your materials to Japan_.
 
+日本人は高水準の品質を保持することが有名で、どんなローカライズの取組においても、小さくて重要な事項がいくつがございます。
 Japanese are known to hold high standards for quality, and there are a number of small but significant matters to address, in any localization effort.
 
-### For example - General
+### 例えば - 概要　For example - General
 
-* Are the translators or editors native speakers of Japanese?  
-* Does the tone of language match target audience demographic's expectations?
-* Does it hit the right notes culturally?
-* Does the company support the usual payment methods in Japan?
-* Are the colors acceptable in Japan? (Did you know, McDonald's in Kyoto was asked to tone down its red, so they now use brown there.)
+* 翻訳者や編集者は日本語のネイティブスピーカーですか？Are the translators or editors native speakers of Japanese?  
+* 言語口調はターゲット読者層に一致していますか？Does the tone of language match target audience demographic's expectations?
+* 文化的に正常なメモ内容となっていますか？Does it hit the right notes culturally?
+* 日本における通常支払方法をサポートしていますか？Does the company support the usual payment methods in Japan?
+* 使用される色彩は日本で受け入れ可能なものですか？（京都のマクドナルドは赤色の使用を規制され、茶色を使用していることをご存じでしょうか？）Are the colors acceptable in Japan? (Did you know, McDonald's in Kyoto was asked to tone down its red, so they now use brown there.)
 
-### For example - Website
+### 例えば - ウェブサイト For example - Website
 
 * Site should not be a simple 1:1 direct translation of another site, but unique.
 * Does the site code properly incorporate Japanese text, in terms of physical size and height?
 * Is it using modern web fonts?
 * Are the graphics localized?
 
-### For example - Application
+### 例えば - アプリケーション For example - Application
 
 * Are the date, time and currency formats correct?
 * Is the order of the translated strings natural?
 * Are the help files translated, and do any in-software url links point at properly localized Japanese web pages?
 
-### For example - Documents
+### 例えば - ドキュメント　For example - Documents
 
 * If the document is to be printed, is it in the format that a Japanese print shop can use?
 * Are the Japanese fonts embedded, if the document is in PDF form?
