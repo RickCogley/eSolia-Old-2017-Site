@@ -39,9 +39,9 @@ menu:
     Parent: services
 ---
 
-## 本当？機械翻訳？Really? A Machine Translation?
+## 本当に？機械翻訳？Really? A Machine Translation?
 
-もし御社が日本市場向けにアプリケーション、ウェブサイトや文書をローカライズされる場合、機械翻訳は滑稽な悪結果を生じる事を理解される必要がございます。また、日本語を少々話せる非ネイティブスピーカーによる日本語化の承認はあまり意味がなく、御社の評判にダメージを与えてしまいますす。見込顧客その試みを笑い、そして御社のことをそのまま見過ごしてしまいます。それは本当に御社が望まれる結果でしょうか？
+もし御社が日本市場向けにアプリケーション、ウェブサイトや文書をローカライズされる場合、機械翻訳は滑稽な悪結果を生じる事を理解される必要がございます。また、日本語を少々話せる非ネイティブスピーカーによる日本語化の承認はあまり意味がなく、御社の評判にもダメージを与えてしまいます。見込顧客は御社の試みを笑いながら、そのまま見過ごしてしまいます。それは本当に御社がお望みになる結果でしょうか？
 
 If you are localizing your application, website or documents for the Japan market, you must understand that machine translation still produces comically bad results. In addition, having a non-native speaker who speaks a little Japanese give their seal of approval is, well, not so meaningful and even damaging to your reputation. Your Japanese prospects will laugh at your attempt, and then move on. Do you really want that?
 
