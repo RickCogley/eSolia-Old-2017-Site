@@ -46,9 +46,9 @@ menu:
     Parent: services
 ---
 
-## Still Running on Spreadsheets?
+## まだスプレッドシートを使用していますか？
 
-If you're still running your business on spreadsheets, perhaps you've noticed that consolidations or reconciliations can get rather complex and error-prone. If the cost and time of converting a spreadsheet to a proper database has put you off in the past, please consider having us convert your sheets into our flexible and professionally-run cloud-based database, PROdb.
+もし御社のビジネスがまだスプレッドシートで実行されていらっしゃるのであれば、恐らくスプレッドシートの内容統合や調整するのが複雑で、エラー発生しやすい事にお気づきでしょう。もし、適切なデータベースへの変換に費やすコストと時間がデータベースへの変換を先見送りにされた原因であれば、ぜひ弊社の柔軟且つ専門的に運用しているクラウド型データベースPROdbに変換することをご検討ください。
 
 ## 考慮したことありますか？
 
@@ -58,27 +58,25 @@ PROdbは実績のある強固なホスティング型データベースプラッ
 
 弊社ではお客様のビジネスプロセスを理解する過程でこれらをPROdbのデータベースに格納することができ、これによってお客様はトランザクションの記録やワークフローの管理、そして最終的には経営を管理できるようになります。
 
-### Practical Examples
+### 実践的な用例
 
-What kinds of databases can we deploy? PROdb is suitable for most sorts of normal business databases, such as these which we've implemented in the past:
+どのような種類のデータベースを展開可能でしょうか？PROdbはほとんどの通常ビジネスデーターベースに適しております。例えば、過去にの実行例として：
 
-* contact management
-* lead tracking
-* time and expense
-* asset and product inventory control
-* paid holiday tracking
-* sales activity reporting
-* product sample shipping
-* cafeteria lunch tracking
-* real estate tracking
-* website data collection
-* event sign-in
+* 連絡先管理
+* リードトラッキング
+* タイムと経費
+* 資産と製品の在庫管理
+* 有給休暇の追跡
+* 営業活動レポート
+* 製品サンプルの出荷
+* カフェテリアのランチ追跡
+* 不動産の追跡
+* ウェブサイトのデータ収集
+* イベントのサインイン
 
-... and many others.
+... などその他数多くの用例がございます。
 
-### What is Included?
-
-Here is a small sample of what our cloud database platform provides as part of the default package:
+### 何が含まれているのでしょうか？
 
 以下に、PROdbの機能の一部をご紹介します：
 
@@ -91,21 +89,21 @@ Here is a small sample of what our cloud database platform provides as part of t
 * 自動でバックアップを行います。
 
 <div class="esolia-card-panel deep-purple darken-4 z-depth-1">
-  <h4 class="center green-text text-accent-3">BENEFITS</h4>
+  <h4 class="center green-text text-accent-3">導入メリット</h4>
     <ul>
-      <li class="white-text">Pay-as-you-go Pricing</li>
-      <li class="white-text">Speedy Development</li>
-      <li class="white-text">Near-real-time Changes</li>
-      <li class="white-text">Quick Problem Resolution</li>
-      <li class="white-text">Worldwide Availability</li>
+      <li class="white-text">従量制料金</li>
+      <li class="white-text">迅速な開発</li>
+      <li class="white-text">ほぼリアルタイムの変更</li>
+      <li class="white-text">迅速な問題解決</li>
+      <li class="white-text">世界中で利用可能</li>
     </ul>
 </div>
 
 これ以外にも、さらに多くの機能を備えています。
 
-最大の利点は、（数カ月から数年ではなく、）数日から数週間で稼働できることです。インフラの管理からデータベースやアプリケーションの開発まで、弊社のチームがお客様に代わって複雑なIT関連作業を行います。
+最大の利点は、数カ月から数年ではなく、数日から数週間で稼働できることです。インフラの管理からデータベースやアプリケーションの開発まで、弊社のチームがお客様に代わって複雑なIT関連作業を行います。
 
-### When to Consider?
+### いつ検討すべきでしょうか？
 
 以下に当てはまる場合、PROdbをご検討ください：
 
