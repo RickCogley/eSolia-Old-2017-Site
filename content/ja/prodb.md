@@ -89,13 +89,13 @@ PROdbは実績のある強固なホスティング型データベースプラッ
 * 自動でバックアップを行います。
 
 <div class="esolia-card-panel deep-purple darken-4 z-depth-1">
-  <h4 class="center green-text text-accent-3">BENEFITS</h4>
+  <h4 class="center green-text text-accent-3">導入メリット</h4>
     <ul>
-      <li class="white-text">Pay-as-you-go Pricing</li>
-      <li class="white-text">Speedy Development</li>
-      <li class="white-text">Near-real-time Changes</li>
-      <li class="white-text">Quick Problem Resolution</li>
-      <li class="white-text">Worldwide Availability</li>
+      <li class="white-text">従量制料金</li>
+      <li class="white-text">迅速な開発</li>
+      <li class="white-text">ほぼリアルタイムの変更</li>
+      <li class="white-text">迅速な問題解決</li>
+      <li class="white-text">世界中で利用可能</li>
     </ul>
 </div>
 
