@@ -54,7 +54,7 @@ eSolia can assess and implement a comprehensive or partial security program acro
 
 The following are eSolia's focus areas for a comprehensive security program:
 
-<div class="esolia-card-panel cyan darken-4 z-depth-1">
+<div class="esolia-card-panel blue-grey darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">ASSESSING SECURITY</h4>
     <ol>
       <li class="white-text">First-pass Overview</li>
