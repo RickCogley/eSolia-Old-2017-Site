@@ -5,7 +5,7 @@ publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: セキュリティ
 slug: security
-subtitle: 不便だが必須
+subtitle: 安心して利用していただくために
 description: イソリアから - コンプライアンスやセキュリティの信頼性監査、強固なセキュリティをソフト＆ハードにて実装。システムも心もセキュアに
 weight: 50
 alternatelocales:
@@ -42,15 +42,21 @@ menu:
     Parent: services
 ---
 
-## Introduction
+## はじめに
 
-日本語　日本語 In the case of a large company, a security program is almost surely in place already, so eSolia can act as your "eyes and ears" on the ground in Japan, to audit, and carry out the wishes of HQ IT. A small firm or SME is more likely to need a security program implemented, and that is where we can really help.
+規模の大きい外資系企業様の場合、すでにグローバルセキュリティが存在しているかとおもいます。しかし多くの場合、正しく現地の皆様に伝わっていなかったり、現地の風土に合わないものがあるかと思います。
 
-## Security Assessment
+私たちイソリアは現地の皆様の目となり、耳となり、会社のグローバルセキュリティルールを正しく皆様にお伝えし、ご希望を正しく本社さまにお伝えいたします。
+監査などの詳しいセキュリティ知識が求めるシーンでは特にお役に立てます。
 
-eSolia can assess and implement a comprehensive or partial security program across a wide range of aspects of daily security.
+また、これからセキュリティールールを作成される会社様では新規の構築、査定をお手伝いさせていただきます。
 
-### eSolia Security Program Focus
+## セキュリティの査定
+
+イソリアは多くの業種の会社様にてセキュリティルールを遵守してきました。
+これらの知識と経験をもとに、包括なセキュリティから日次単位まで、様々なセキュリティの査定をお手伝いさせていただきます。
+
+### イソリア　セキュリティ　フォーカス
 
 The following are eSolia's focus areas for a comprehensive security program:
 
