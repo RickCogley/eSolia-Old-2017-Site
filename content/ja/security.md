@@ -4,7 +4,7 @@ date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: セキュリティ
-slug: security
+slug: セキュリティ
 subtitle: 安心して利用していただくために
 description: イソリアから - コンプライアンスやセキュリティの信頼性監査、強固なセキュリティをソフト＆ハードにて実装。システムも心もセキュアに
 weight: 50
@@ -26,13 +26,13 @@ images:
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
   - 調査
-  - Disaster Recovery
-  - Security Administration
-  - Physical Security
-  - Network Security
-  - Hardware Security
-  - Software Security
-  - Security Systems
+  - 災害復旧
+  - セキュリティ管理
+  - 物理的なセキュリティ
+  - ネットワークセキュリティ
+  - ハードウェアセキュリティ
+  - ソフトウェアセキュリティ
+  - セキュリティシステム
 menu:
   side:
     Name: セキュリティ
@@ -63,40 +63,42 @@ menu:
 <div class="esolia-card-panel blue-grey darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">セキュリティの査定</h4>
     <ol>
-      <li class="white-text">First-pass Overview</li>
-      <li class="white-text">既存環境のレヴュー</li>
-      <li class="white-text">Identify Security Gaps</li>
-      <li class="white-text">Vulnerability Test</li>
-      <li class="white-text">Document Threats</li>
-      <li class="white-text">推奨Review Findings & Recommendations</li>
-      <li class="white-text">リスクの軽減</li>
+      <li class="white-text">初期調査</li>
+      <li class="white-text">既存セキュリティの確認</li>
+      <li class="white-text">セキュリティとユーザのギャッ調査プ</li>
+      <li class="white-text">脆弱性分析</li>
+      <li class="white-text">脅威の明確化s</li>
+      <li class="white-text">セキュリティ査定・提案</li>
+      <li class="white-text">災害リスクの軽減</li>
     </ol>
 </div>
 
-* _Security Administration_ - all the administrative aspects of security, including information security organization, policies, procedures, roles and responsibilities, awareness, change controls.
-* _Physical Security_ - access control at your facilities, using imported systems such as Honeywell, or well-regarded domestic systems such as ALSOK or SECOM. Location analysis would be performed to give the best result.
-* _Network Security_ - measures for all aspects of the network including device security and patching, vulnerability and penetration testing, firewall and proxy deployment, encryption, security for email, website and voice systems, change control.
-* _Hardware Security_ - measures for anti-tampering and anti-theft, maintenance, and change control.
-* _Software Security_ - measures for software integrity, copyright and licensing, software maintenance and change control, anti-virus or other safeguards, database security, new system security.
-* _Media Security_ - measures for physical storage media (CD, DVD, USB, SD Card etc) and paper documents.
-* _Workstation Security_ - measures for computer operating system access controls such as user authentication (local or corporate directory), logging, data access.
-* _Disaster Recovery and Business Continuity_ - measures related to ensuring fault-tolerance and redundancy in systems and data, disaster impact analysis, failover and recovery testing.
-* _Security Systems_ - implement systems and measures needed to rectify any weak areas, such as password sharing systems, hard disk encryption, or secure file "vault" systems.
+* _セキュリティ管理_ - all the administrative aspects of security, including information security organization, policies, procedures, roles and responsibilities, awareness, change controls.
+* _物理的なセキュリティ_ - access control at your facilities, using imported systems such as Honeywell, or well-regarded domestic systems such as ALSOK or SECOM. Location analysis would be performed to give the best result.
+* _ネットワークセキュリティ_ - measures for all aspects of the network including device security and patching, vulnerability and penetration testing, firewall and proxy deployment, encryption, security for email, website and voice systems, change control.
+* _ハードウェアセキュリティ_ - measures for anti-tampering and anti-theft, maintenance, and change control.
+* _ソフトウェアセキュリティ_ - measures for software integrity, copyright and licensing, software maintenance and change control, anti-virus or other safeguards, database security, new system security.
+* _メディアセキュリティ_ - measures for physical storage media (CD, DVD, USB, SD Card etc) and paper documents.
+* _ワークステーションセキュリティ_ - measures for computer operating system access controls such as user authentication (local or corporate directory), logging, data access.
+* _災害復旧、BCP_ - measures related to ensuring fault-tolerance and redundancy in systems and data, disaster impact analysis, failover and recovery testing.
+* _セキュリティシステム_ - implement systems and measures needed to rectify any weak areas, such as password sharing systems, hard disk encryption, or secure file "vault" systems.
 
-## DRP in Disaster-Prone Japan
+## DR/BCP　-  日本の災害リスク
 
-It's especially important to implement a effective _disaster recovery program_ in disaster-prone Japan, where earthquakes are a common occurrence. Here's how we do it:
+近年の地震、火山の噴火など日本の災害リスクは以前よりかなり高まっており、これからのシステムは特に_災害復旧プログラム_を重視する必要があります。
+イソリアでは下記のような対策をご提案しております。。
 
-1. Identify and agree business risks and key business activities.
-1. Design minimum systems (network, servers, office space and equipment, desktops and laptops) to allow continuation of key business activities.
-1. Implement project to build out disaster recovery site or sites, acting on client's behalf to negotiate best pricing and SLAs.
-1. Perform training and test with business users, identifying problems and gaps.
-1. Remediate and re-test.
-1. Revisit periodically.
+1. 災害時に継続必須となる、コアなビジネスを明確化します。
+1. コアビジネスを継続するために必要最低限のシステム(ネットワーク, サーバ, オフィススペース、機材やPCなど) を特定します。
+1. 業務継続のための災害時用サイトやクラウドシステムなど、構築費用やサービス内容などをベンダーと協議します。
+1. 災害時のトレーニングをユーザの皆様に実施し、緊急時に対応可能な状態にします。
+1. 定期的に防災訓練を実施し、ユーザの皆様の災害時の対策意識をキープします。
+1. 災害サイトやシステムを定期的にチェックし、緊急時に対応可能かメインテナンスします。
 
-We can't avoid or prevent earthquakes, tidal waves, typhoons or volcanic eruptions, but we can at least reduce their negative impact for your company.
+私たちは残念ながら地震、津波、台風や火山などの脅威から完全に逃げるすべはございません。
+ただその対策をすることにより、各々の会社様の利益を損なわず、被害を最小限に抑えることは可能です。
 
-Contact eSolia today using the form below, and get started.
+今こそイソリアにご連絡を！下部フォームから入力し、セキュリティ対策を始めましょう！
 
 <div class="row">
   <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Washlet sit deeply - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-Security-01.jpg"></div>
