@@ -7,6 +7,8 @@ draft: false
 slug: hidetest1
 subtitle: サブタイトル for セキュリティと利便性
 weight: 9999
+alternatelocales: 
+  - en-US
 tags:
   - asdf
 title: セキュリティと利便性

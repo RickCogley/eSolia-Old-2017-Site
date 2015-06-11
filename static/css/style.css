@@ -91,9 +91,9 @@ blockquote {
 .materialbox-caption {
     position: fixed;
     display: none;
-    color: #ff3d00;
-    font-size: 1.5rem;
-    line-height: 50px;
+    color: #00e676;
+    font-size: 1.3rem;
+    line-height: 60px;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -125,6 +125,19 @@ blockquote {
     width: 210px;
     padding-top: 2px;
 }
+.float-right {
+    float: right;
+}
+
+.esolia-card-panel {
+  padding: 20px;
+  margin: 0.5rem 0 1rem 1rem;
+  border-radius: 2px;
+  background-color: #fff;
+  width: 300px;
+  float: right;
+ }
+
 .index-social-icons {
     padding: 0px 0px 150px 0px;
     height: 115px;

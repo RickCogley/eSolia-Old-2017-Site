@@ -4,3 +4,4 @@ public/
 *.markdown~
 *.md~
 .DS_Store
+.htpasswd

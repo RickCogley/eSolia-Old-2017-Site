@@ -8,6 +8,8 @@ slug: on-site
 subtitle: リモートじゃ足りない場合
 description: イソリアから - 面倒なシステム管理、度重なるユーザサポート、複雑なトラブルシュートは経験豊富なエンジニアがオンサイトにて
 weight: 25
+alternatelocales:
+  - en-US
 tags:
   - 定期訪問
   - オンサイト

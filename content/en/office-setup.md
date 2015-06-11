@@ -8,6 +8,8 @@ slug: office-setup
 subtitle: Any office move, executed.
 description: Full support for new office setup management, upgrades or internal moves - from eSolia Inc.
 weight: 10
+alternatelocales:
+  - ja-JP
 tags:
   - office
   - setup
