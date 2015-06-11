@@ -39,8 +39,9 @@ menu:
     Parent: services
 ---
 
-## "Management" by eSolia
-In the context of eSolia's work, management, and more specifically project management, is the art of closely coupling tasks with actions, managing budget and schedule quality to ensure there are no problems with overages or slippages, and, ensuring that clients are getting their expected return on investment regarding the project's deliverables. All this, while maintaining the required administrative project structures, plans, and operational momentum.
+## イソリアによる“マネージメント”
+イソリアのお仕事という面において、マネージメント、そしてより具体的にプロジェクトマネージメントとは、実行、予算と予定の品質管理などの作業を厳密に連結させる技術でございます。予算過剰または予定ずれに関して問題がないことを確実にし、そして、プロジェクトの成果物に関して御客様が期待された通りの投資利益を得られる事を保証致します。これらのマネージメントは、所要の管理プロジェクト構築、計画、及び運用モーメンタムを維持しながら実行されます。
+
 
 以前のページからの日本語：
 
@@ -50,28 +51,29 @@ In the context of eSolia's work, management, and more specifically project manag
 
 我 々の実践的知識と経験と業界標準のプロジェクト マネージメント手法を組み合わせたイソリア独自のアプローチにより、多重プロジェクトによる負の効果、 パーキンソン効果（パーキンソンの法則）、間違ったプロジェクト・バッファー（緩衝）・プロジェクト・スコープ（範囲）管理などといった、プロジェクト失 敗に共通した源を断ち切ることを可能とします。
 
-### eSolia's Approach
-Our practical project management approach is unique, and allows us to avoid typical project issues like the "parkinson's effect" where work mysteriously expands to fill available time, ill-managed schedules and scopes, too much analysis and other pitfalls.
+### イソリアのアプローチ
+私達の実践的なプロジェクトマネージメントアプローチは独特で、例えば「パーキンソン効果」といった利用可能な時間を埋めるために展開された不可解な仕事、予定と作業範囲の不適切な管理、多すぎる分析やその他落とし穴などの典型的なプロジェクト問題を回避することが可能でございます。
 
-What are some of the keys? We think it's this:
+鍵となるものとは何か？私達は次のように考えております：
 
-* Use of a flexible project tracking application, inside our "PROdb" ops database.
-* Special techniques for communication, especially within a multilingual, multicultural environment.
-* Focused training when it's needed.
-* Skillful coordination and control of project parties.
-* Multilingual and multicultural professionals working on the project.
+* 私達の"PROdb" ops データベース内部にある汎用的なプロジェクト追跡アプリケーションの使用。
+* 特に多言語や多文化環境でのコミュニケーションのための特別な技術。
+* 必要時に集中的なトレーニング。
+* プロジェクト関係各所を巧みに協調と管理。
+* マルチリンガル、且つ、多文化的な専門家がプロジェクトに参加。
 
-### A history of success
-eSolia has a long, successful history of providing management services for multinational firms, in areas such as these:
+### 成功経歴　
+下記の分野において、イソリアは長期間にわたって多国籍企業様向けにマネージメントサービスを提供している成功経歴を持っております：
 
-* IT Infrastructure Projects
-* Compliance Projects
-* Enterprise Software Projects
-* Interim Turnaround Management
-* Business Process Projects
-* Ongoing Support Management
+* IT インフラプロジェクト
+* コンプライアンスプロジェクト
+* エンタープライズソフトウェアプロジェクト
+* 暫定的な事業再生マネージメント
+* ビジネス·プロセス·プロジェクト
+* 継続的なサポート管理
 
-eSolia's real experience and successful track record running large, complex projects in ERP, BPR, technology refreshes and rollouts, moves, and development speaks for itself.
+イソリアの実際の経験と成功実績は、ERP、BPR、技術の更新、ロールアウト、移動及び開発において大規模で複雑なプロジェクトを実行してきた事で実証しております。
+
 
 <div class="row">
   <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Team meeting management - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Management-01.png"></div>
