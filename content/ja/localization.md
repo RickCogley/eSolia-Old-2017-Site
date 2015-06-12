@@ -39,9 +39,9 @@ menu:
     Parent: services
 ---
 
-## 本当に？機械翻訳？Really? A Machine Translation?
+## 本当に？翻訳サイトだけで？Really? A Machine Translation?
 
-もし御社が日本市場向けにアプリケーション、ウェブサイトや文書をローカライズされる場合、機械翻訳は滑稽な悪結果を生じる事を理解される必要がございます。また、日本語を少々話せる非ネイティブスピーカーによる日本語化の承認はほぼ意味がなく、御社の評判にもダメージを与えてしまいます。見込顧客は御社の試みを笑いながら、そのまま見過ごしてしまいます。それは本当に御社がお望みになる結果でしょうか？
+もし御社が日本市場向けにアプリケーション、ウェブサイトや文書をローカライズされる場合、翻訳サイトによる翻訳内容は滑稽な悪結果を生じる事を理解頂く必要がございます。また、日本語を少々話せる非ネイティブスピーカーによる日本語化の承認はほぼ意味がなく、御社の評判にもダメージを与えてしまいます。見込み顧客は翻訳サイトに翻訳内容を笑いながら、御社が表現したい事を理解できずにそのまま見過ごしてしまいます。そんな結果を本当に望まれていらっしゃるのでしょうか？
 
 If you are localizing your application, website or documents for the Japan market, you must understand that machine translation still produces comically bad results. In addition, having a non-native speaker who speaks a little Japanese give their seal of approval is, well, not so meaningful and even damaging to your reputation. Your Japanese prospects will laugh at your attempt, and then move on. Do you really want that?
 
@@ -102,7 +102,8 @@ This is not to say that "all Japanese software and websites are without fault" b
 
 イソリアはローカライズに期待される高品質を制作するために御社をお助けいたします。eSolia will work with you to produce the high quality expected in a localization.
 
-下記フォームよりご連絡ください。また、興味深い翻訳写真をお楽しみください。Use the form below to contact us today, and meanwhile enjoy these interesting translation photos.
+下記フォームからイソリアにご連絡ください。同時に、興味深い翻訳写真をお楽しみください。
+Use the form below to contact us today, and meanwhile enjoy these interesting translation photos.
 
 <div class="row">
   <div class="col s12 m6 l4"><img class="materialboxed" data-caption="Washlet sit deeply - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-Localization-01.jpg"></div>
