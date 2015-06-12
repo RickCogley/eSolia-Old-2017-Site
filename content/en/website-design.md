@@ -3,17 +3,18 @@ author: eSolia
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
 draft: false
-title: Websites
-slug: website
+title: Website Design
+slug: website-design
 subtitle: Modern and localized
 description: Modern, standards-based websites that benefit your business, whether starting from zero, or localization of an existing website. - from eSolia Inc.
 weight: 55
 alternatelocales:
   - ja-JP
 tags:
-  - Security
-  - Remediation
-  - Compliance
+  - Website
+  - Design
+  - Standards
+  - Front-end
 series:
   - top1
 topics:
@@ -25,22 +26,27 @@ images:
   - /img/eSolia-Post-Slider-Security-04.jpg  
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
-  - Assessment
-  - Disaster Recovery
-  - Security Administration
-  - Physical Security
-  - Network Security
-  - Hardware Security
-  - Software Security
-  - Security Systems
+  - Web standards
+  - From-scratch site
+  - Localization of existing site
+  - Modern
+  - Web fonts
 menu:
   side:
-    Name: Websites
+    Name: Website Design
     Weight: 55
-    Identifier: website
-    Url: /website
+    Identifier: website-design
+    Url: /website-design
     Parent: services
 ---
+
+We Don’t Just Create Websites, We Help Grow Businesses
+We are an established professional web design company, based in Stoke on Trent, Staffordshire that will give you and your business the attention it deserves. We have been designing websites for over 10 years and we specialise in front-end design and development.
+
+Simple but successful websites are achieved by working closely with clients to ensure the most appropriate solution. This often includes a comprehensive design package with a client side content management system, such as WordPress or Joomla. So, if you are looking for front-end web design services combined with strong ideas that result in engaging sites, we’re the web design agency for you. Our team of experienced and talented web designers love designing and building cool and creative websites, they can take any concept, however simple or complex, and turn it into a website that you will love.
+
+
+
 
 ## Introduction
 
