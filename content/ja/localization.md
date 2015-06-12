@@ -41,7 +41,7 @@ menu:
 
 ## 本当に？機械翻訳？Really? A Machine Translation?
 
-もし御社が日本市場向けにアプリケーション、ウェブサイトや文書をローカライズされる場合、機械翻訳は滑稽な悪結果を生じる事を理解される必要がございます。また、日本語を少々話せる非ネイティブスピーカーによる日本語化の承認はあまり意味がなく、御社の評判にもダメージを与えてしまいます。見込顧客は御社の試みを笑いながら、そのまま見過ごしてしまいます。それは本当に御社がお望みになる結果でしょうか？
+もし御社が日本市場向けにアプリケーション、ウェブサイトや文書をローカライズされる場合、機械翻訳は滑稽な悪結果を生じる事を理解される必要がございます。また、日本語を少々話せる非ネイティブスピーカーによる日本語化の承認はほぼ意味がなく、御社の評判にもダメージを与えてしまいます。見込顧客は御社の試みを笑いながら、そのまま見過ごしてしまいます。それは本当に御社がお望みになる結果でしょうか？
 
 If you are localizing your application, website or documents for the Japan market, you must understand that machine translation still produces comically bad results. In addition, having a non-native speaker who speaks a little Japanese give their seal of approval is, well, not so meaningful and even damaging to your reputation. Your Japanese prospects will laugh at your attempt, and then move on. Do you really want that?
 
@@ -59,11 +59,11 @@ If you are localizing your application, website or documents for the Japan marke
     </ul>
 </div>
 
-日本人顧客を魅力的に感じさせるには、_御社材料のすべての態様を日本に適合させる_という考え方に慣れなければなりません。
+日本人顧客を魅力的に感じさせるには、_御社すべての資料様態を日本に適合させる_という考え方に慣れなければなりません。
 
 To be attractive to Japanese clients, you should get used to the idea of _adapting all aspects of your materials to Japan_.
 
-日本人は高水準の品質を保持することが有名で、どんなローカライズの取組においても、小さくて重要な事項が複数ございます。
+日本人は高水準の品質を保持することが有名で、どんなローカライズの取組においても、細かい重要な事項はいくつかございます。
 
 Japanese are known to hold high standards for quality, and there are a number of small but significant matters to address, in any localization effort.
 
@@ -73,35 +73,36 @@ Japanese are known to hold high standards for quality, and there are a number of
 * 言語口調はターゲット読者層に一致していますか？Does the tone of language match target audience demographic's expectations?
 * 文化的に正常なメモ内容となっていますか？Does it hit the right notes culturally?
 * 日本における通常支払方法をサポートしていますか？Does the company support the usual payment methods in Japan?
-* 使用される色彩は日本で受け入れ可能なものですか？（京都のマクドナルドは赤色の使用を規制され、茶色を使用していることをご存じでしょうか？）Are the colors acceptable in Japan? (Did you know, McDonald's in Kyoto was asked to tone down its red, so they now use brown there.)
+* 使用される色彩は日本での受入可能なものですか？（京都のマクドナルドは赤色の使用を規制され、代わりに茶色を使用していることをご存じでしょうか？）Are the colors acceptable in Japan? (Did you know, McDonald's in Kyoto was asked to tone down its red, so they now use brown there.)
 
 ### 例えば - ウェブサイト For example - Website
 
 * 単純な1対１の直訳ではなく、ユニークなサイトでなければなりません。Site should not be a simple 1:1 direct translation of another site, but unique.
-* 物理的寸法と高さに関して、サイドコードは日本語テキストを適切に組み込んでいますか？Does the site code properly incorporate Japanese text, in terms of physical size and height?
-* 現代ウェブフォントを使用していますか？Is it using modern web fonts?
+* サイドコードは物理的寸法と高さに関して日本語テキストを適切に組み込んでいますか？Does the site code properly incorporate Japanese text, in terms of physical size and height?
+* 現代用ウェブフォントを使用していますか？Is it using modern web fonts?
 * グラフィックスはローカライズされていますか？Are the graphics localized?
 
 ### 例えば - アプリケーション For example - Application
 
 * 日付、時間及び通貨の形式は正しいですか？Are the date, time and currency formats correct?
 * 翻訳された文字列の順序は自然ですか？Is the order of the translated strings natural?
-* ヘルプファイルは翻訳されていますか？そして、どんなソフトウェアURLリンクは正確にローカライズされた日本語ウェブページを指していますか？？Are the help files translated, and do any in-software url links point at properly localized Japanese web pages?
+* ヘルプファイルは翻訳されていますか？そして、ソフトウェアURLリンクは正確にローカライズされた日本語ウェブページを指していますか？？Are the help files translated, and do any in-software url links point at properly localized Japanese web pages?
 
 ### 例えば - ドキュメント　For example - Documents
 
-* If the document is to be printed, is it in the format that a Japanese print shop can use?
-* Are the Japanese fonts embedded, if the document is in PDF form?
+* 印刷される文書は日本の印刷店で使用可能な形式になっていますか？If the document is to be printed, is it in the format that a Japanese print shop can use?
+* PDF形式の場合は日本語フォントが組み込まれていますか？Are the Japanese fonts embedded, if the document is in PDF form?
 
 ## Just Bite the Bullet
 
 If you avoid the cost of performing these activities up front, and your Japanese readers, visitors or viewers get the impression that your site, docs or app are "buggy", your final cost will be much higher, in terms of lost good will.
 
+「すべての日本のソフトウェアとウェブサイトが障害なし」というわけではありませんが、御社のローカライズ化とする文書、ウェブサイト、またはソフトウェアは通常よりも慎重に吟味されます。
 This is not to say that "all Japanese software and websites are without fault" by any means, but, your localized documents, website or software will be scrutinized more carefully than usual.
 
-eSolia will work with you to produce the high quality expected in a localization.
+イソリアはローカライズに期待される高品質を制作するために御社をお助けいたします。eSolia will work with you to produce the high quality expected in a localization.
 
-Use the form below to contact us today, and meanwhile enjoy these interesting translation photos.
+下記フォームよりご連絡ください。また、興味深い翻訳写真をお楽しみください。Use the form below to contact us today, and meanwhile enjoy these interesting translation photos.
 
 <div class="row">
   <div class="col s12 m6 l4"><img class="materialboxed" data-caption="Washlet sit deeply - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-Localization-01.jpg"></div>
