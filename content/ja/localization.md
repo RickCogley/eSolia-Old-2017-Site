@@ -39,13 +39,11 @@ menu:
     Parent: services
 ---
 
-## 本当に？翻訳サイトだけで？Really? A Machine Translation?
+## 本当に？翻訳サイトだけで？
 
-御社が日本市場向けにアプリケーション、ウェブサイトや文書をローカライズされる場合、翻訳サイトによる翻訳内容は滑稽な悪結果を生じる旨をご理解頂く必要がございます。また、日本語を少々話せる非ネイティブスピーカーによる日本語化の承認はほぼ意味がなく、御社の評判にもダメージを与えてしまう事もあります。翻訳サイトから翻訳された内容では、見込顧客は御社の表現内容を理解できずにそのまま見過ごしてしまいます。そんな結果を本当に望まれていらっしゃるのでしょうか？
+御社が日本市場向けにアプリケーション、ウェブサイトや文書をローカライズされる場合、翻訳サイトによる翻訳内容は滑稽な悪結果を生じる旨をご理解頂く必要がございます。また、日本語を少々話せる非ネイティブスピーカーによる日本語化の承認はほぼ意味がなく、御社の評判にもダメージを与えてしまう事もあります。翻訳サイトから翻訳された内容では、見込顧客は御社の表現されたい内容を理解できずにそのまま見過ごしてしまいます。そんな結果を本当に望まれていらっしゃるのでしょうか？
 
-If you are localizing your application, website or documents for the Japan market, you must understand that machine translation still produces comically bad results. In addition, having a non-native speaker who speaks a little Japanese give their seal of approval is, well, not so meaningful and even damaging to your reputation. Your Japanese prospects will laugh at your attempt, and then move on. Do you really want that?
-
-## 日本語化とは何か？ What is Japanese Localization?
+## 日本語化とは何か？ 
 
 <div class="esolia-card-panel cyan darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">キーポイント</h4>
@@ -63,7 +61,7 @@ If you are localizing your application, website or documents for the Japan marke
 
 日本人は高水準の品質を保持することが有名で、どんなローカライズの取組においても、細かい重要な事項はいくつかございます。
 
-### 例えば - 概要　For example - General
+### 例えば - 概要　
 
 * 翻訳者や編集者は日本語のネイティブスピーカーですか？
 * 言葉の言い回しはターゲット読者層の期待と一致していますか？
@@ -89,13 +87,13 @@ If you are localizing your application, website or documents for the Japan marke
 * 印刷される文書は日本の印刷店で使用可能な形式になっていますか？
 * PDF形式の場合は日本語フォントが組み込まれていますか？
 
-## Just Bite the Bullet
+## ともかく困難に立ち向かいましょう
 
 ローカライゼーションの初めからコスト制御で前述の注意点などを怠ってしまいますと、日本人の読者、訪問者や視聴者に御社のサイト、文書またはアプリケーションが「バギー」であるというネガティブな印象を与えてしまいます。顧客吸引力を失う事以外に大きな損失はないでしょう。
 
 「すべての日本のソフトウェアとウェブサイトが障害なし」というわけではありませんが、ローカライズされる文書、ウェブサイトやソフトウェアは通常の日本語内容よりも慎重に吟味されます。
 
-イソリアはご期待される高品質なローカライゼーション制作をお助けいたします。
+はご期待の高品質なローカライゼーション制作をイソリアがお助けいたします。
 
 下記フォームからイソリアにご連絡ください。同時に、興味深い翻訳写真をお楽しみください。
 
