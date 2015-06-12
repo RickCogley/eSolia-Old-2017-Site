@@ -59,7 +59,7 @@ menu:
 
 ### イソリアのセキュリティへの取り組み
 
-下記にイソリアのセキュリティサポートプログラムについてご紹介いたします。
+イソリアのセキュリティサポートプログラムについてご紹介いたします。
 
 <div class="esolia-card-panel blue-grey darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">セキュリティの査定</h4>
