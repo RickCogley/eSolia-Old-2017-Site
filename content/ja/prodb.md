@@ -37,6 +37,7 @@ formcheckboxes:
   - Rapid development in weeks not months
   - Data entry validation
   - Advanced features included
+gallery_id: 6159796184943702945
 menu:
   side:
     Name: クラウド データベース
@@ -118,15 +119,3 @@ PROdbはどんなケースでも柔軟に対応できます。例えば、過去
 1. 月額費用を抑えながらも、すべての保守作業を毎月行いたい
 1. 迅速な変更と問題解決を重視している
 1. 「どこでもアクセス」できるようにしたいが、セキュリティも確保したい
-
-<div class="row">
-  <div class="col s12 m6 l4"><img class="materialboxed" data-caption="PROdb custom welcome screen - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-PROdb-01.png"></div>
-  <div class="col s12 m6 l4"><img class="materialboxed" data-caption="PROdb new record - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-PROdb-02.png"></div>
-  <div class="col s12 m6 l4"><img class="materialboxed" data-caption="PROdb existing record - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-PROdb-03.png"></div>
-  <div class="col s12 m6 l4"><img class="materialboxed" data-caption="PROdb various list views - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-PROdb-04.png"></div>  
-  <div class="col s12 m6 l4"><img class="materialboxed" data-caption="PROdb charts and graphs - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-PROdb-05.png"></div>
-  <div class="col s12 m6 l4"><img class="materialboxed" data-caption="PROdb search records - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-PROdb-06.png"></div>
-  <div class="col s12 m6 l4"><img class="materialboxed" data-caption="PROdb get data via email or RSS - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-PROdb-07.png"></div>
-  <div class="col s12 m6 l4"><img class="materialboxed" data-caption="PROdb regular view subscription by email - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-PROdb-08.png"></div>
-  <div class="col s12 m6 l4"><img class="materialboxed" data-caption="PROdb some back end setup - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-PROdb-09.png"></div>
-</div>
