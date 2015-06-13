@@ -1,7 +1,6 @@
 {{ "<!-- ENTERING partial form-moreinfo.html -->" | safeHTML }}
-
 {{ if isset .Params "formcheckboxes" }}
-<h4>{{ ( index $.Site.Data.translations $.Site.Params.locale ).formrequestmoreinfo }}</h4>
+<h2>{{ ( index $.Site.Data.translations $.Site.Params.locale ).formrequestmoreinfo }}</h2>
 <p>{{ ( index $.Site.Data.translations $.Site.Params.locale ).formrequestmoreinfotext }}</p>
 <br>
 <div class="row grey-text text-darken-2">
