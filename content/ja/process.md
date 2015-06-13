@@ -34,6 +34,7 @@ formcheckboxes:
 - 予算管理
 - リサイクル管理
 - その他
+gallery_id: 6159794668058542529
 menu:
   side:
     Name: プロセス
@@ -57,14 +58,8 @@ menu:
 
 各プロセスは様々ですが、すべてのケースにおいてイソリアは一貫性をもって実行致します：
 
-* ベストプラクティスを念頭に置き、御社の信任を得ながらオンブズマンとして関係各所との交渉も行います。 
+* ベストプラクティスを念頭に置き、御社の信任を得ながらオンブズマンとして関係各所との交渉も行います。
 * 各プロセスは、御社のスタンダードや意向を基準として実行されます。また、御社にその様な基準等がない場合、私たちの経験から得たベストプラクティスに基づいて実行されます。
 * 基本的に決断権は御社にございます。私達はこの分野の専門家として、決断される為の判断支援をご提供致します。
 * 全てのプロセスにおいて、準備、調整、実行、ドキュメント化及び実行後のサポートを提供致します。
 * プロセスの結果は、イソリアの知識データベースシステムに格納されレポートとして御社様に提供致します。
-
-<div class="row">
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Project schedule - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Process-01.png"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Budget - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Process-02.png"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Supporting agreement - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Process-03.png"></div>
-</div>

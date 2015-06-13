@@ -32,6 +32,7 @@ formcheckboxes:
   - Troubleshooting
   - System Maintenance
   - Resource Dispatch
+gallery_id: 6159793756174882513
 menu:
   side:
     Name: On-site
@@ -60,9 +61,3 @@ With a master agreement, on-demand, part-time or full-time on-site coverage is a
 * Application Developers
 
 In all cases, we strive to provide support which supports the continuity of your business, assigning at least 2 professionals to your account, and providing an "agnostic" service based on industry best practices, not locked to any one vendors's platform or service.
-
-<div class="row">
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="System maintenance - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Onsite-01.jpg"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Servers and network - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Onsite-02.jpg"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Skilled engineers - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Onsite-03.jpg"></div>
-</div>

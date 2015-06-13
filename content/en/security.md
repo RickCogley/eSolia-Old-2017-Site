@@ -33,6 +33,7 @@ formcheckboxes:
   - Hardware Security
   - Software Security
   - Security Systems
+gallery_id: 6159797483836960817
 menu:
   side:
     Name: Security
@@ -91,10 +92,3 @@ It's especially important to implement a effective _disaster recovery program_ i
 We can't avoid or prevent earthquakes, tidal waves, typhoons or volcanic eruptions, but we can at least reduce their negative impact for your company.
 
 Contact eSolia today using the form below, and get started.
-
-<div class="row">
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Washlet sit deeply - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-Security-01.jpg"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Shank's pony - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-Security-02.jpg"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Whoopie pie - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-Security-03.jpg"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Whoopie pie - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-Security-04.jpg"></div>  
-</div>

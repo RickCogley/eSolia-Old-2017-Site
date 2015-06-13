@@ -33,6 +33,7 @@ formcheckboxes:
   - ハードウェアセキュリティ
   - ソフトウェアセキュリティ
   - セキュリティシステム
+gallery_id: 6159797483836960817
 menu:
   side:
     Name: セキュリティ
@@ -100,10 +101,3 @@ menu:
 ただその対策をすることにより、各々の企業様の利益を損なわず、被害を最小限に抑えることは可能です。
 
 今こそイソリアにご連絡を！下部フォームから入力し、セキュリティ対策を始めましょう！
-
-<div class="row">
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Washlet sit deeply - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-Security-01.jpg"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Shank's pony - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-Security-02.jpg"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Whoopie pie - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-Security-03.jpg"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Whoopie pie - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-Security-04.jpg"></div>  
-</div>
