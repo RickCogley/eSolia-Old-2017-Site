@@ -34,6 +34,7 @@ formcheckboxes:
   - レスポンシブ
   - スタチック
   - CMS
+gallery_id: 6159750630075916305
 menu:
   side:
     Name: ウェブサイト デザイン
@@ -102,10 +103,3 @@ Your new Japan site will have these characteristics:
 * Easy access to any collected data.
 
 We deliver on time, and within the budget for an agreed scope. We're confident that you're sure to join our other clients in loving our work, so please use the form below to contact us today.
-
-<div class="row">
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Washlet sit deeply - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-Security-01.jpg"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Shank's pony - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-Security-02.jpg"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Whoopie pie - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-Security-03.jpg"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Whoopie pie - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-Security-04.jpg"></div>  
-</div>
