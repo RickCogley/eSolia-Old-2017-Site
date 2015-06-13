@@ -1,7 +1,15 @@
 {{ "<!-- ENTERING partial bodyend.html -->" | safeHTML }}
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/js/jquery-2.1.1.min.js"><\/script>')</script>
+<!-- CONDITIONAL LOAD OF JQUERY -->
+{{ if .IsNode }}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/js/jquery-2.1.1.min.js"><\/script>')</script>
+{{ end }}
+{{ if .IsPage }}
+{{if not isset .Params "gallery_id" }}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/js/jquery-2.1.1.min.js"><\/script>')</script>
+{{ end }}
+{{ end }}
 <!-- MATERIALIZE MAIN and INIT -->
 <script src="/js/materialize.js"></script>
 <script src="/js/materialize-init.js"></script>
