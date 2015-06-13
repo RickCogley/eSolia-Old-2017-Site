@@ -40,7 +40,21 @@ menu:
     Parent: services
 ---
 
-asdf
+## Your Website is Integral to Your Business
+
+Or, at least it should be. When you launch a website, it should actively market to help your business grow, and not just act as a static brochure. The benefits of a well-designed website are enormous, but the primary goal of a site launch is to make the right first impression immediately to visitors. Your corporate vision should be built in to how the site is designed and assembled, and be apparent to a visitor right away, either directly or subconsciously.
+
+### What eSolia Can Do?
+
+eSolia's web design team can create a Japan site from scratch, or [localize](/localization) an existing site, for success in Japan. We adjust to your needs, paying close attention to your vision, identity and requirements, and delivering a wide range of complementary (注意：無料という意味じゃない) services:
+
+* Project Management
+* Pre-development Design Discussion and Decision-making with Client
+* Setup of Infrastructure and Services for Web Hosting, DNS, CDN, Database, CMS, e-Commerce, Backup
+* Software Development, in HTML, CSS, Javascript and server-side technologies, all source-code controlled
+* Photography and Videography
+* Graphic, Chart and Logo Design
+*
 
 <div class="esolia-card-panel blue-grey darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">セキュリティ査定</h4>
