@@ -77,7 +77,7 @@ menu:
 * レポートや勤怠等を月末に溜めてしまう人も少なくないでしょう。グループウェアや管理ソフト等の利用方法を目的としたトレーニング
 * 専門分野は専門分野の方へ。ITのテクニカルな分野にフォーカスしたIT管理者用のトレーニング
 * 検索しても見つからないものが多々あります。貴社の環境に特化したアプリケーションやコースウェアの対応
-* _Ad hoc_ training during projects, for a specific purpose
+* 突発的にトレーニングが必要なケースも柔軟に対応
 
 それらは、どの様な形で行うのでしょうか 
 
@@ -85,37 +85,36 @@ menu:
 * 一対一でのコンサルティング的な形式にて
 * 一般的なコースをオフサイトで
 
-#### Housekeeping: Preparation & Cancellation
+#### 準備とキャンセルの注意点
 
-Training requires preparation, which can be performed under your existing master contract, or as a separate project. For fully custom training, preparation can be quite extensive (indeed, it is a project in itself), but for pre-existing training, preparation is relatively quick.
+より良いトレーニングにはより良い準備が必要となります。既存のプロジェクトであれば用意も比較的スムーズに行う事が可能ですが、カスタマイズされたトレーニングになれば、カバーすべき範囲は広大になり準備の期間も増えてしまうケースがあります。ただ、これらは現状のマスターコントラクトからもご利用可能であり、別途プロジェクトとしてもご依頼可能です。キャンセルの注意点としてはトレーニング開始日から近い程、費用がかさんでしまいますが詳細に関しましてはご依頼時にご案内させていただきます。
 
-eSolia has a specific cancellation policy for scheduled classes, the gist of which is, the closer to the time of the class, the more is owed in the case of a cancellation.
+### 実例
 
-In both cases, the details will be made clear when discussing the project.
+16年以上に渡って手掛けてきた多種多様なトレーニングの実例（一部）です:
 
-### Success Stories
-
-eSolia has been successfully delivering training to our clients since 1999. Here's a sampling of the courses we've delivered, since starting:
-
-* New hire training for almost all clients with ongoing contracts
-* MS Office Upgrade
-* Lotus Notes to MS Outlook Migration
-* Custom ERP Order Entry System
-* Custom CRM System
-* Salesforce.com Basics
+* 新入社員様へのキックオフトレーニング
+* Microsoft社 Office製品のアップグレード
+* Lotus NotesからOutlookへの移行
+* カスタマイズされたERPの発注システム
+* カスタマイズされたCRMシステム
+* Salesforceの基本操作
 * Custom Marketing Segmentation System
-* Practical Security
-* Sharepoint Intranet
-* Lync Telephone System
-* BroadSoft Telephone System
-* Basic Japan Business Etiquette
-* Japanese Text Entry Basics
+* セキュリティの実装
+* シェアポイントでのイントラネット利用
+* Lync電話システム
+* Broadsoft電話システム
+* ビジネスエチケット
+* 入力基本方法
 
-### What are the Benefits?
 
-The advantages to an ongoing training program are clear:
+### 効果
 
-* _Businesses get_ - improved performance, profit and staff morale. Skills needed for the business can be targeted, and there is a clear demonstration that the business values its workers.
-* _Staff get_ - new skills, ability to do new or different activities, a better ability to contribute to the business, a stronger feeling that the business values them, and better future opportunities.
+トレーニングプログラムの効果は業務から本人達へ:
 
-Join others in leveraging eSolia's knowledge and expertise. Use the form below to contact us about our training offerings today.
+* 業務上への効果 - パフォーマンスの上達から利益の促進、そこから社員のモチベーション向上。ビジネスに直結するスキルに重点を置き付加価値を増強
+* 社員への効果　- 新規の技術や能力の向上。未開拓の分野への挑戦や確固たる自信を助長。何よりも自分自身のレベルアップへ。
+
+当社のトレーニングで新たな自分、新たな進歩を実感してください。
+是非ご連絡をお待ちしております。
+
