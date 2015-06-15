@@ -4,7 +4,7 @@ date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: 電話システム
-slug: training
+slug: telephone
 subtitle: フル機能を揃えたIPビジネスフォン
 description: イソリアから - 私たちは、フル機能を備えた近代的で優れたUC電話システムの導入を成功させることでお客様のコストを削減し、効率を高めます。
 weight: 65
@@ -69,10 +69,10 @@ Consider a modern IP phone system if:
     <img class="activator" src="/img/eSolia-Post-Slider-Office-Moves-01.jpg">
   </div>
   <div class="card-content">
-    <span class="card-title activator grey-text text-darken-4">PBXL <i class="mdi-navigation-more-vert right"></i></span>
+    <span class="card-title activator grey-text text-darken-4">PBXL <i class="mdi-navigation-more-vert right green-text text-accent-3"></i></span>
   </div>
   <div class="card-reveal">
-    <span class="card-title grey-text text-darken-4">About PBXL <i class="mdi-navigation-close right"></i></span>
+    <span class="card-title grey-text text-darken-4">About PBXL <i class="mdi-navigation-close right red-text text-accent-3"></i></span>
     <p>Established 2006, and licensed by the Ministry of Internal Affairs and Communications, PBXL is a pioneer in creating innovative cloud-based communication solutions in Japan.</p><p>PBXL is focused on delivering the best possible customer experience, with friendly, expert staff who are here for you every step of the way, from installation through to day-to-day operations. We’ll help you build a happier, more productive workforce and leverage the power of open collaboration and mobile staff.</p>
   </div>
 </div>
