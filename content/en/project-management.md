@@ -19,9 +19,10 @@ series:
 topics:
   - サービス
 images:
-  - /img/eSolia-Post-Slider-Management-01.png
-  - /img/eSolia-Post-Slider-Management-02.png
-  - /img/eSolia-Post-Slider-Management-03.png
+  - /img/eSolia-Post-Slider-Project-Management-01.png
+  - /img/eSolia-Post-Slider-Project-Management-02.png
+  - /img/eSolia-Post-Slider-Project-Management-03.png
+  - /img/eSolia-Post-Slider-Project-Management-04.png
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
   - Project tracking
@@ -36,7 +37,7 @@ aliases:
   - /pm
   - /?id=27
   - /services/svc-sa/svc-sa-proj/
-gallery_id: 6159792188653157249
+gallery_id: 6160563368100442433
 menu:
   side:
     Name: Project Management
