@@ -30,6 +30,7 @@ formcheckboxes:
   - Typefaces and fonts
   - Cultural check
   - Japanese language tone
+gallery_id: 6159789128838188721
 menu:
   side:
     Name: ローカライゼーション
@@ -43,7 +44,7 @@ menu:
 
 御社が日本市場向けにアプリケーション、ウェブサイトや文書をローカライズされる場合、翻訳サイトによる翻訳内容は滑稽な悪結果を生じる旨をご理解頂く必要がございます。また、日本語を少々話せる非ネイティブスピーカーによる日本語化の承認はほぼ意味がなく、御社の評判にダメージを与えてしまう事もあります。翻訳サイトから翻訳された内容では、見込顧客は御社の表現されたい内容を理解できずにそのまま見過ごしてしまいます。そのような成果は御社がご期待されたものでしょうか？
 
-## 日本語化とは何か？ 
+## 日本語化とは何か？
 
 <div class="esolia-card-panel cyan darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">キーポイント</h4>
@@ -69,14 +70,14 @@ menu:
 * 日本における一般的な支払方法をサポートしていますか？
 * 使用される色彩は日本で受入可能なものですか？（京都のマクドナルドは赤色の使用を規制され、代わりに茶色を使用していることをご存じでしょうか？）
 
-### 例えば - ウェブサイト 
+### 例えば - ウェブサイト
 
 * ウェブサイトの内容は単純な1対１の直訳ではなく、ユニークな内容も含まれなければなりません。
 * 物理的なサイズと高さの観点において、サイドコードは日本語テキストを適切に組み込んでいますか？
 * 現代式のウェブフォントを使用していますか？
 * グラフィックスはローカライズされていますか？
 
-### 例えば - アプリケーション 
+### 例えば - アプリケーション
 
 * 日付、時間及び通貨の形式は正しい表示となっていますか？
 * 翻訳された文字列の順序は自然ですか？
@@ -96,10 +97,3 @@ menu:
 ご期待の高品質なローカライゼーション制作をイソリアがお助けいたします。
 
 下記フォームから今すぐイソリアにご連絡ください。また、興味深い翻訳写真をお楽しみください。
-
-
-<div class="row">
-  <div class="col s12 m6 l4"><img class="materialboxed" data-caption="Washlet sit deeply - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-Localization-01.jpg"></div>
-  <div class="col s12 m6 l4"><img class="materialboxed" data-caption="Shank's pony - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-Localization-02.jpg"></div>
-  <div class="col s12 m6 l4"><img class="materialboxed" data-caption="Whoopie pie - by eSolia Inc." width="250" src="/img/eSolia-Post-Slider-Localization-03.jpg"></div>
-</div>
