@@ -99,7 +99,7 @@ menu:
 * カスタマイズされたERPの発注システム
 * カスタマイズされたCRMシステム
 * Salesforceの基本操作
-* Custom Marketing Segmentation System
+* マーケンティング支援システム
 * セキュリティの実装
 * シェアポイントでのイントラネット利用
 * Lync電話システム
