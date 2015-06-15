@@ -51,7 +51,7 @@ menu:
       <li class="white-text">Training Followup</li>
     </ol>
 </div>
-
+多忙な社内でのITトレーニング。時として疎かになりがちではないでしょうか？
 eSolia provides training to help our clients maximize their technology investment, increase productivity, reduce support costs and motivate employees. Although most courses comprise common elements, not all training is the same. eSolia's training is designed to meet the specific needs of each customer, and is delivered in a flexible manner by experienced trainers and technical professionals.
 
 ### Types of Training from eSolia
