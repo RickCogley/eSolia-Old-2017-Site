@@ -3,9 +3,9 @@ author: イソリア
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
 draft: false
-title: 効果的なトレニング
+title: 改善を意識したトレーニング
 slug: training
-subtitle: 経験豊富なトレーナーの手による
+subtitle: なぜITの社内教育なんかが大事なの？
 description: イソリアから - 迷える新入社員に実用的なＩＴオリエンテーションを作成。初歩的ものから専門的なトレーニングまで
 weight: 60
 alternatelocales:
@@ -47,38 +47,43 @@ menu:
     Parent: services
 ---
 
-## トレーニングって、とても良い投資
+## トレーニングに投資してみるのも一手なんです。
 
 <div class="esolia-card-panel teal darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">段取り</h4>
     <ol>
-      <li class="white-text">Agree requirements, any customization</li>
-      <li class="white-text">New contract, or, agree scope under existing contract</li>
-      <li class="white-text">Preparation</li>
-      <li class="white-text">Training Delivery</li>
-      <li class="white-text">Training Followup</li>
+      <li class="white-text">必須項目の確認、カスタマイズの有無</li>
+      <li class="white-text">新規の契約、又は既存のサポート</li>
+      <li class="white-text">準備</li>
+      <li class="white-text">トレーニングの実施</li>
+      <li class="white-text">フォローアップ</li>
     </ol>
 </div>
 
-日本語 eSolia delivers training to help our clients maximize their technology investment, increase productivity, reduce support costs and motivate employees.
+多忙な社内でのITトレーニング。時として疎かになりがちではないでしょうか？
+直接的に利益を生み出すものではないと為、多くの場合は簡単に済ませてしまうものです。
 
-Although most training courses comprise similar basic elements, not all training is the same. eSolia's training is designed to meet the specific needs of each customer, and is delivered in a flexible manner by experienced trainers and technical professionals.
 
-### eSolia Training Types
+本来備わっている技術を最大限に利用させる事による生産性の向上、サポートコストの削減、結果的に社員のモチベーションを上げる。
+実はITトレーニングとこれら要因は密な関わりを持っている事をご存じでしょうか。
+イソリアが提供するトレーニングはそれぞれの分野やユーザに対して、決まった事のみを教えるのではなく、経験豊富なトレーナーが柔軟性を持ってデザインしています。
 
-eSolia provides the following types of training:
 
-* _New hire orientation_ training for company employees
-* _Productivity software_ training for office workers
-* _Technical topic_ training for developers and system administrators
-* _Localized_ training for your corporate application
+### トレーニングタイプ
+
+では、どの様なトレーニングが提供されているのでしょうか
+
+* 初日にPCを渡されて何をするべきなのか。要点を纏めた新入社員用のオリエンテーション
+* レポートや勤怠等を月末に溜めてしまう人も少なくないでしょう。グループウェアや管理ソフト等の利用方法を目的としたトレーニング
+* 専門分野は専門分野の方へ。ITのテクニカルな分野にフォーカスしたIT管理者用のトレーニング
+* 検索しても見つからないものが多々あります。貴社の環境に特化したアプリケーションやコースウェアの対応
 * _Ad hoc_ training during projects, for a specific purpose
 
-... in the following sort of training scenarios:  
+それらは、どの様な形で行うのでしょうか 
 
-* Conference room training at your site using your computing environment
-* One-to-one consultative training, in person or via remote access
-* Training at off-site locations
+* 実践が伝わりやすいオンサイト環境で
+* 一対一でのコンサルティング的な形式にて
+* 一般的なコースをオフサイトで
 
 #### Housekeeping: Preparation & Cancellation
 
