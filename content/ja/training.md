@@ -3,9 +3,9 @@ author: イソリア
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
 draft: false
-title: 効果的なトレニング
+title: 改善を意識したトレーニング
 slug: training
-subtitle: 経験豊富なトレーナーの手による
+subtitle: なぜITの社内教育なんかが大事なの？
 description: イソリアから - 迷える新入社員に実用的なＩＴオリエンテーションを作成。初歩的ものから専門的なトレーニングまで
 weight: 60
 alternatelocales:
@@ -47,70 +47,74 @@ menu:
     Parent: services
 ---
 
-## トレーニングって、とても良い投資
+## トレーニングに投資してみるのも一手なんです。
 
 <div class="esolia-card-panel teal darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">段取り</h4>
     <ol>
-      <li class="white-text">Agree requirements, any customization</li>
-      <li class="white-text">New contract, or, agree scope under existing contract</li>
-      <li class="white-text">Preparation</li>
-      <li class="white-text">Training Delivery</li>
-      <li class="white-text">Training Followup</li>
+      <li class="white-text">必須項目の確認、カスタマイズの有無</li>
+      <li class="white-text">新規の契約、又は既存のサポート</li>
+      <li class="white-text">準備</li>
+      <li class="white-text">トレーニングの実施</li>
+      <li class="white-text">フォローアップ</li>
     </ol>
 </div>
 
-日本語 eSolia delivers training to help our clients maximize their technology investment, increase productivity, reduce support costs and motivate employees.
+多忙な社内でのITトレーニング。時として疎かになりがちではないでしょうか？
+直接的に利益を生み出すものではないと為、多くの場合は簡単に済ませてしまうものです。
 
-Although most training courses comprise similar basic elements, not all training is the same. eSolia's training is designed to meet the specific needs of each customer, and is delivered in a flexible manner by experienced trainers and technical professionals.
 
-### eSolia Training Types
+本来備わっている技術を最大限に利用させる事による生産性の向上、サポートコストの削減、結果的に社員のモチベーションを上げる。
+実はITトレーニングとこれら要因は密な関わりを持っている事をご存じでしょうか。
+イソリアが提供するトレーニングはそれぞれの分野やユーザに対して、決まった事のみを教えるのではなく、経験豊富なトレーナーが柔軟性を持ってデザインしています。
 
-eSolia provides the following types of training:
 
-* _New hire orientation_ training for company employees
-* _Productivity software_ training for office workers
-* _Technical topic_ training for developers and system administrators
-* _Localized_ training for your corporate application
-* _Ad hoc_ training during projects, for a specific purpose
+### トレーニングタイプ
 
-... in the following sort of training scenarios:  
+では、どの様なトレーニングが提供されているのでしょうか
 
-* Conference room training at your site using your computing environment
-* One-to-one consultative training, in person or via remote access
-* Training at off-site locations
+* 初日にPCを渡されて何をするべきなのか。要点を纏めた新入社員用のオリエンテーション
+* レポートや勤怠等を月末に溜めてしまう人も少なくないでしょう。グループウェアや管理ソフト等の利用方法を目的としたトレーニング
+* 専門分野は専門分野の方へ。ITのテクニカルな分野にフォーカスしたIT管理者用のトレーニング
+* 検索しても見つからないものが多々あります。貴社の環境に特化したアプリケーションやコースウェアの対応
+* 突発的にトレーニングが必要なケースも柔軟に対応
 
-#### Housekeeping: Preparation & Cancellation
+それらは、どの様な形で行うのでしょうか 
 
-Training requires preparation, which can be performed under your existing master contract, or as a separate project. For fully custom training, preparation can be quite extensive (indeed, it is a project in itself), but for pre-existing training, preparation is relatively quick.
+* 実践が伝わりやすいオンサイト環境で
+* 一対一でのコンサルティング的な形式にて
+* 一般的なコースをオフサイトで
 
-eSolia has a specific cancellation policy for scheduled classes, the gist of which is, the closer to the time of the class, the more is owed in the case of a cancellation.
+#### 準備とキャンセルの注意点
 
-In both cases, the details will be made clear when discussing the project.
+より良いトレーニングにはより良い準備が必要となります。既存のプロジェクトであれば用意も比較的スムーズに行う事が可能ですが、カスタマイズされたトレーニングになれば、カバーすべき範囲は広大になり準備の期間も増えてしまうケースがあります。ただ、これらは現状のマスターコントラクトからもご利用可能であり、別途プロジェクトとしてもご依頼可能です。キャンセルの注意点としてはトレーニング開始日から近い程、費用がかさんでしまいますが詳細に関しましてはご依頼時にご案内させていただきます。
 
-### Success Stories
+### 実例
 
-eSolia has been successfully delivering training to our clients since 1999. Here's a sampling of the courses we've delivered, since starting:
+16年以上に渡って手掛けてきた多種多様なトレーニングの実例（一部）です:
 
-* New hire training for almost all clients with ongoing contracts
-* MS Office Upgrade
-* Lotus Notes to MS Outlook Migration
-* Custom ERP Order Entry System
-* Custom CRM System
-* Salesforce.com Basics
-* Custom Marketing Segmentation System
-* Practical Security
-* Sharepoint Intranet
-* Lync Telephone System
-* BroadSoft Telephone System
-* Basic Japan Business Etiquette
-* Japanese Text Entry Basics
+* 新入社員様へのキックオフトレーニング
+* Microsoft社 Office製品のアップグレード
+* Lotus NotesからOutlookへの移行
+* カスタマイズされたERPの発注システム
+* カスタマイズされたCRMシステム
+* Salesforceの基本操作
+* マーケンティング支援システム
+* セキュリティの実装
+* シェアポイントでのイントラネット利用
+* Lync電話システム
+* Broadsoft電話システム
+* ビジネスエチケット
+* 入力基本方法
 
-### What are the Benefits?
 
-The advantages to an ongoing training program are clear:
+### 効果
 
-* _Businesses get_ - improved performance, profit and staff morale. Skills needed for the business can be targeted, and there is a clear demonstration that the business values its workers.
-* _Staff get_ - new skills, ability to do new or different activities, a better ability to contribute to the business, a stronger feeling that the business values them, and better future opportunities.
+トレーニングプログラムの効果は業務から本人達へ:
 
-Join others in leveraging eSolia's knowledge and expertise. Use the form below to contact us about our training offerings today.
+* 業務上への効果 - パフォーマンスの上達から利益の促進、そこから社員のモチベーション向上。ビジネスに直結するスキルに重点を置き付加価値を増強
+* 社員への効果　- 新規の技術や能力の向上。未開拓の分野への挑戦や確固たる自信を助長。何よりも自分自身のレベルアップへ。
+
+当社のトレーニングで新たな自分、新たな進歩を実感してください。
+是非ご連絡をお待ちしております。
+
