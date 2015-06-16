@@ -23,12 +23,14 @@ images:
   - /img/eSolia-Post-Slider-Telephone-01.jpg
   - /img/eSolia-Post-Slider-Telephone-02.jpg
   - /img/eSolia-Post-Slider-Telephone-03.jpg
+  - /img/eSolia-Post-Slider-Telephone-04.jpg
+  - /img/eSolia-Post-Slider-Telephone-05.jpg
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
   - asdf
 aliases:
   - /voip
-gallery_id: 6160196852058139841
+gallery_id: 6160784839246541201
 menu:
   side:
     Name: IP電話
@@ -78,6 +80,10 @@ Consider a modern IP phone system if:
 </div>
 
 eSolia partners with PBXL, a leading provider of cloud IP phone systems, to provide our clients with the best subscription IP phone service available.
+
+<figure class="image-container">
+<img class="materialboxed right responsive-img" width="200" data-caption="eSolia Partner PBXL's Logo" alt="Graphic of PBXL Logo" src="/img/pbxl-logo.png" >
+</figure>
 
 What you get:
 
