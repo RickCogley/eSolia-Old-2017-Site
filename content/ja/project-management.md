@@ -57,7 +57,7 @@ menu:
 
 プロジェクトマネージャーはこれらの技法を用いて、体系的にプロジェクト管理を行います。
 
-<div class="esolプロジェクトマネージャーはこれらの技法を用いて、体系的にプロジェクト管理を行います。ia-card-panel purple darken-4 z-depth-1">
+<div class="esolia-card-panel purple darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">何故PMか?</h4>
     <ol>
       <li class="white-text">企業の戦略目標を着実に実現化</li>
