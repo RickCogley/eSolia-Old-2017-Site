@@ -129,6 +129,14 @@ blockquote {
     float: right;
 }
 
+figure {
+    margin: 0em 0.1em; 
+}
+
+figcaption {
+    display:block;
+}
+
 .esolia-card-panel {
   padding: 20px;
   margin: 0.5rem 0 1rem 1rem;
