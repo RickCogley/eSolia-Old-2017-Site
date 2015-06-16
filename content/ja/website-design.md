@@ -44,62 +44,63 @@ menu:
     Parent: services
 ---
 
-## Your Website is Integral to Your Business
+## ウェブサイトはビジネスに不可欠です
 
-**_Or, at least it should be._** When you launch a website, it should actively market to help your business grow, and not just act as a static brochure. The benefits of a well-designed website are enormous, but the primary goal of a site launch is to make a fantastic first impression immediately to visitors, with the perfect tone. Your corporate vision should be built directly in to how the site is designed and assembled, and be apparent to a visitor right away, either directly or subconsciously.
+**_少なくともそうであるべきで…_** あなたがウェブサイトを立ち上げる際には、単なる静的な電子パンフレットとしてでなく、市場で積極的にあなたのビジネスの成長を支援するよう機能するべきです。うまく設計されたウェブサイトの利益は莫大ですが、サイトの立ち上げの第一の目標は適切な語調で訪問者にすぐに素晴らしい第一印象を作ることです。あなたの企業ビジョンはサイトデザイン・構築方法に直接明白に反映されるべきで、サイト訪問者はそれを直接意識させられる事が必要となります。
 
-### What Web Design Services does eSolia Provide?
+### イソリアはどんなデザインサービスを提供していますか？
 
 <div class="esolia-card-panel pink darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">WEB DESIGN PROCESS</h4>
     <ol>
-      <li class="white-text"><em>Planning</em> - Contract, Requirements, Structure, Roles, Infra</li>
-      <li class="white-text"><em>Design</em> - Framework, Mockup, Review</li>
-      <li class="white-text"><em>Development</em> - Environment, Page Types, Customization, Content, Test</li>
-      <li class="white-text"><em>Launch</em> - Final Test, Unhide, Polish, Handoff</li>
-      <li class="white-text"><em>Maintain</em> - Edits, Patching, Backup, Upgrade</li>
+      <li class="white-text"><em>プラン</em> - 契約書、必要条件、構成、役割、インフラ<</li>
+      <li class="white-text"><em>デザイン</em> - フレームワーク、モックアップ、レビュー</li>
+      <li class="white-text"><em>開発</em> - 開発環境、ページ種別、カスタマイズ、コンテンツ、テスト</li>
+      <li class="white-text"><em>着手</em> - 最終テスト、再表示、手直し、引き渡し</li>
+      <li class="white-text"><em>メンテナンス</em> - 編集、パッチ適用、バックアップ、アップグレード</li>
     </ol>
 </div>
 
-eSolia's web design team can create a Japan site from scratch, or [localize](/localization) an existing site, for success in Japan. We adjust to your needs, paying close attention to your vision, identity and requirements, and delivering a wide range of complementary (注意：無料という意味じゃない) services:
+eSoliaのWebデザインチームは、ゼロから日本のサイトを作成する事も、既存のサイトを日本でのビジネス向けにローカライズする事も可能です。私たちは、あなたのビジョン・アイデンティティおよび要件に細心の注意を払って、あなたのニーズに合わた広い範囲で補完的サービスを提供することが可能です。
 
-* Project Management
-* Pre-development Design Discussion and Decision-making with Client
-* Engineering for Infrastructure and Services for Web Hosting, DNS, CDN, Database, CMS, e-Commerce, Backup
-* Software Development, in standard HTML, CSS, Javascript, as well as server-side technologies, all source-code controlled
-* "Responsive" Design for Mobile Device Visitors
-* Content and Copywriting, to persuade and call to action
-* Photography and Videography
-* Graphic, Chart and Logo Design
-* Content Accessibility Optimization
-* Content Search Engine Optimization "SEO"
-* Webmastering and Maintenance
+* プロジェクトマネジメント
+* 開発前デザイン・クライアントとの意思決定
+* インフラストラクチャとWebホスティングのためのサービス、DNS、CDN、データベース、CMS、eコマース、バックアップ
+* ソフトウェア開発：標準的なHTML、CSS、Javascript、サーバー側テクノロジ、ソースコード制御
+* モバイルデバイスサイト向けレスポンシブWebデザイン
+* CTA行動喚起を促すコンテンツとコピーライティング
+* 写真とビデオ撮影
+* グラフィック、チャート、ロゴデザイン
+* コンテンツのアクセシビリティの最適化
+* コンテンツ検索エンジン最適化「SEO」
+* ウェブマスタリングとメンテナンス
 
-#### On Static versus CMS
+#### 静的・動的CMS
 
-eSolia can deploy a static site, like the one you are looking at now, or a CMS-based site such as Wordpress or Typo3. Some of the considerations regarding static websites vs CMS-hosted ones are shown in the following table:
+eSoliaは今貴方が見ている静的なサイトのみならず、Wordpress・TYPO3のようなCMSベースのサイトの展開も可能です 動的CMSでホストされているものと静的Webサイトに関する考慮事項を次の表に示します。
 
-_Aspect_  |Static    | CMS
+_項目_  |静的    | 動的CMS
 ----------|----------|------
-_Performance_    |Best       |Lower
-_Security_       |Highest    |Lower
-_Infrastructure_       |Simpler    |More Complex
-_Backup_     |Easy     |More Difficult
-_Data Driven_  |No     |Yes
-_Content Update_  |Via Files    |Access Dashboard
-_Visual Style_   |Any    |Themes
-_Upgrades_    |As You Like   |Continual & Fragile
+_パフォーマンス_    |最高       |低
+_セキュリティ_       |最高    |低
+_インフラストラクチャ_       |シンプル    |複雑
+_バックアップ_     |容易     |困難
+_データ駆動化_  |いいえ     |はい
+_コンテンツ更新_  |ファイル単位    |ダッシュボード
+_視覚スタイル_   |汎用    |テーマ
+_アップグレード_    |任意   |継続的・脆弱
 
-We discuss this topic at the beginning of any from-scratch project.
+ゼロからプロジェクトを開始する場合でも詳細ご相談下さい。
 
-### What Will You Get?
+### 何を得られますか？
 
-Your new Japan site will have these characteristics:
+新しい日本のサイトは次の特徴があります
 
-* Professional web design quality that follows global web standards.
-* Fluid usability and navigation for visitors, "responsive" to desktop or mobile viewers.
-* Pages that are optimized for Search Engines, having the best "SEO" possible.
-* Highest quality localization, including for Japan e-commerce, with unparalleled attention to detail.  
-* Easy access to any collected data.
+* グローバルなWebスタンダードに基づいたプロフェッショナルWebデザイン品質
+* 訪問者のための流動的ユーザビリティとナビゲーション、デスクトップまたはモバイル向けレスポンシブWebデザイン
+* ベストを尽くした「SEO」を有する、検索エンジン向けに最適化されたページ
+* 細部まで配慮された類を見ない最高品質のローカライズ、日本向けeコマース
+* 収集データに基づいたアクセス解析
 
-We deliver on time, and within the budget for an agreed scope. We're confident that you're sure to join our other clients in loving our work, so please use the form below to contact us today.
+我々は時間・予算・ターゲットスコープを厳守し、他のお客様同様弊社のサービスをお気に入り頂ける事を確信しております。
+下記のフォームよりお気軽にご相談下さい！
