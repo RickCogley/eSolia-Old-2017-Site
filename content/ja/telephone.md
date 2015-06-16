@@ -49,9 +49,15 @@ menu:
 ## Business Phone Systems
 
 <div class="esolia-card-panel blue darken-4 z-depth-1">
-  <h4 class="center green-text text-accent-3">SOMETHING</h4>
+  <h4 class="center green-text text-accent-3">PROCESS</h4>
     <ol>
-      <li class="white-text">asdf</li>
+      <li class="white-text">Document current vs future</li>
+      <li class="white-text">Agree configuration and project scope</li>
+      <li class="white-text">Quotes and Contracting</li>
+      <li class="white-text">Orders and Configuration</li>
+      <li class="white-text">Site Installation</li>
+      <li class="white-text">Training</li>
+      <li class="white-text">Maintenance</li>
     </ol>
 </div>
 
