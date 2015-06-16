@@ -6,7 +6,7 @@ draft: false
 title: Telephone Systems
 slug: telephone
 subtitle: IP Phone Systems with modern features and functions, from eSolia
-description: Implement a superior, modern and full-featured unified communications IP telephone system, to reduce your costs and increase your efficiency. - from eSolia Inc.
+description: Implement a superior, modern and full-featured unified communications IP telephone system, to reduce your costs and increase your efficiency. Cloud phone subscription service available. - from eSolia Inc.
 weight: 65
 alternatelocales:
   - ja-JP
@@ -15,6 +15,7 @@ tags:
   - Phone
   - VoIP
   - Telephony
+  - PBXL
 series:
   - top1
 topics:
@@ -27,9 +28,14 @@ images:
   - /img/eSolia-Post-Slider-Telephone-05.jpg
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
-  - asdf
+  - PBXL cloud phone service
+  - Phone system upgrade
+  - IP phone system
+  - Voice over IP
 aliases:
   - /voip
+  - /pbxl
+  - /telephony
 gallery_id: 6160784839246541201
 menu:
   side:
@@ -85,11 +91,19 @@ eSolia partners with PBXL, a leading provider of cloud IP phone systems, to prov
 <img class="materialboxed right responsive-img" width="200" data-caption="eSolia Partner PBXL's Logo" alt="Graphic of PBXL Logo" src="/img/pbxl-logo.png" >
 </figure>
 
-What you get:
+The PBXL "Cloud Phone" service empowers companies with a fully featured, modern phone system that you can access from anywhere, anytime, whether from desk phones in your office, or from an iPhone or Android smart phone.
 
-* this
-* that
+Some of the highlights of what you get with the PBXL service:
 
-A TOTAL, TURNKEY SOLUTION INCLUDING BYOD, COMMUNICATIONS COST REDUCTION, PBX REPLACEMENT, SUPPORT, SETUP AND CONFIGURATION. PBXL HAS SOLUTIONS FOR EVERY SIZE AND BUDGET.
+* Turnkey full-featured phone solution, with no premise PBX device needed
+* Smartphone integration and "BYOD" or 'bring your own device' capability
+* Communications cost reduction, including an "all you can call" option plan, for 22 countries
+* Support for your "BCP", or 'business continuity plan'
+* Call forwarding, to help you stay reachable even when you're away
+* Call parking, to let you place a call on hold, then retrieve it anywhere
+* 3-way conference calling, to let you easily connect people in a group call
+* Call pickup, letting you take control of calls on other lines
+* Fax2Email, to receive inbound faxes on your mobile or pickup
+* "DND" or 'do not disturb' feature, to let you schedule your downtime
 
 Request more info using the form below, and join a list of satisfied customers.
