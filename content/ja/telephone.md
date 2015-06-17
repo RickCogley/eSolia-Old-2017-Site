@@ -107,8 +107,8 @@ PBXLサービスで実現できること:
 * スマートフォンの統合　BYOD：私用端末の業務利用
 * 通信コスト削減及び22ヵ国でCommunications cost reduction, including an "all you can call" option plan, for 22 countries
 * Support for your "BCP", or 'business continuity plan'
-* Call forwarding, to help you stay reachable even when you're away
-* Call parking, to let you place a call on hold, then retrieve it anywhere
+* 転送機能：不在の場合は自動的にスマホや他のスタッフに転送する
+* コールパーク機能：通話を保留にし別の電話機からそのコールに応答する
 * 3-way conference calling, to let you easily connect people in a group call
 * Call pickup, letting you take control of calls on other lines
 * Fax2Email, to receive inbound faxes on your mobile or pickup
