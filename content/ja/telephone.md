@@ -93,7 +93,7 @@ menu:
   </div>
 </div>
 
-eSolia partners with PBXL, a leading provider of cloud IP phone systems, to provide our clients with the best subscription IP phone service available.
+イソリアはPBXLとパートナーシップを持ち、クラウド型IPフォンシステムをクライアントに高い技術を提供しております
 
 <figure class="image-container">
 <img class="materialboxed right responsive-img" width="200" data-caption="eSolia Partner PBXL's Logo" alt="Graphic of PBXL Logo" src="/img/pbxl-logo.png" >
@@ -103,9 +103,9 @@ The PBXL "Cloud Phone" service empowers companies with a fully featured, modern 
 
 Some of the highlights of what you get with the PBXL service:
 
-* Turnkey full-featured phone solution, with no premise PBX device needed
-* Smartphone integration and "BYOD" or 'bring your own device' capability
-* Communications cost reduction, including an "all you can call" option plan, for 22 countries
+* PBXデバイス不要なターンキー式Turnkey full-featured phone solution, with no premise PBX device needed
+* スマートフォンの統合　BYOD：私用端末の業務利用
+* 通信コスト削減及び22ヵ国でCommunications cost reduction, including an "all you can call" option plan, for 22 countries
 * Support for your "BCP", or 'business continuity plan'
 * Call forwarding, to help you stay reachable even when you're away
 * Call parking, to let you place a call on hold, then retrieve it anywhere
