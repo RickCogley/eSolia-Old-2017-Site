@@ -31,13 +31,13 @@ images:
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
   - プロジェクト トラッキング
-  - 日本語Project rescue
-  - 日本語Project portfolio
-  - 日本語Budget control
-  - 日本語Schedule control
-  - 日本語Resource control
-  - 日本語Multilingual
-  - 日本語Multicultural
+  - プロジェクトの立て直し
+  - プロジェクトポートフォリオ
+  - 予算管理
+  - スケジュール管理
+  - リソースコントロール
+  - 多言語環境
+  - 多文化環境
 aliases:
   - /pm
   - /?id=27
@@ -89,7 +89,7 @@ menu:
 
 ・・・等、上記以外にも様々なプロジェクトを手懸けております。
 
-### PMアプローチ
+#### PMアプローチ
 
 イソリアの実践的なプロジェクトマネージメントは独自のアプローチで行われます。また、パーキンソンの法則に代表されるようなスケジュール管理の落とし穴による典型的なトラブルを回避します。
 
