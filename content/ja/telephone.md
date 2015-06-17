@@ -89,11 +89,11 @@ menu:
   </div>
   <div class="card-reveal">
     <span class="card-title grey-text text-darken-4">About PBXL <i class="mdi-navigation-close right red-text text-accent-3"></i></span>
-    <p>2006年に設立したPBXLは、第2種通信事業者免許取得し、日本でいちはやくクラウド型コミュニケーションサービスを提供するなど、通信ソリューションのパイオニアです。</p><p>PBXL is focused on delivering the best possible customer experience, with friendly, expert staff who are here for you every step of the way, from installation through to day-to-day operations. We’ll help you build a happier, more productive workforce and leverage the power of open collaboration and mobile staff.</p>
+    <p>2006年に設立したPBXLは、第2種通信事業者免許取得し、日本でいちはやくクラウド型コミュニケーションサービスを提供するなど、通信ソリューションのパイオニアです。</p><p>PBXLは、多彩な経験をエクスパート達がクライアントのインストールから日々のオペレーションを実施及びご提案いたします。 We’ll help you build a happier, more productive workforce and leverage the power of open collaboration and mobile staff.</p>
   </div>
 </div>
 
-イソリアはPBXLとパートナーシップを持ち、クラウド型IPフォンシステムをクライアントに高い技術を提供しております
+イソリアはPBXLとパートナーシップを持ち、クラウド型IPフォンシステムをクライアントに高い技術を提供しております。
 
 <figure class="image-container">
 <img class="materialboxed right responsive-img" width="200" data-caption="eSolia Partner PBXL's Logo" alt="Graphic of PBXL Logo" src="/img/pbxl-logo.png" >
