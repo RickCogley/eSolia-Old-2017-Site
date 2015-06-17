@@ -16,8 +16,7 @@ tags:
   - eSolia
 title: About Us
 topics:
-  - Professional
-  - Us
+  - eSolia
 type: aboutpage
 images:
   - /img/rick-cogley-avatar-240x240.png

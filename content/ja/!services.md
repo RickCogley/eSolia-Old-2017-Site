@@ -5,7 +5,7 @@ description: 株式会社イソリアのサービス ： Our Solutions to Meet Y
 draft: false
 slug: services
 subtitle: 課題に対する弊社ソリューション
-weight: -30
+weight: 20
 alternatelocales:
   - en-US
 tags:
@@ -36,7 +36,7 @@ formcheckboxes:
 menu:
   side:
     Name: サービス
-    Weight: -30
+    Weight: 20
     Identifier: services
     Url: /services
 ---
