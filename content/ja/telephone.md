@@ -46,18 +46,18 @@ menu:
     Parent: services
 ---
 
-## Business Phone Systems
+## ビジネスフォン　システム
 
 <div class="esolia-card-panel blue darken-4 z-depth-1">
-  <h4 class="center green-text text-accent-3">PROCESS</h4>
+  <h4 class="center green-text text-accent-3">プロセス</h4>
     <ol>
-      <li class="white-text">Document current vs future</li>
-      <li class="white-text">Agree configuration and project scope</li>
-      <li class="white-text">Quotes and Contracting</li>
-      <li class="white-text">Orders and Configuration</li>
-      <li class="white-text">Site Installation</li>
-      <li class="white-text">Training</li>
-      <li class="white-text">Maintenance</li>
+      <li class="white-text">現状把握と要望のドキュメント化</li>
+      <li class="white-text">設定及びプロジェクトの承諾</li>
+      <li class="white-text">見積書及び契約</li>
+      <li class="white-text">注文及び設定</li>
+      <li class="white-text">システム導入</li>
+      <li class="white-text">トレニーング</li>
+      <li class="white-text">運用及びシステム維持管理</li>
     </ol>
 </div>
 
