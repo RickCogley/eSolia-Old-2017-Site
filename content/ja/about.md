@@ -19,7 +19,7 @@ topics:
   - イソリア
 type: aboutpage
 images:
-  - /img/rick-cogley-avatar-240x240.png
+- /img/eSolia-Chicklet-Color-1024px.png
 menu:
   side:
     Name: 会社概要
