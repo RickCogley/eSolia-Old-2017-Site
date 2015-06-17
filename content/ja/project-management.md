@@ -3,21 +3,22 @@ author: イソリア
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
 draft: false
-title: プロジェクト マネージメント
+title: プロジェクト管理
 slug: project-management
-subtitle: 成功する為のコーディネーション
+subtitle: 成功する為のPM
 description: イソリアから - 東京およびアジア太平洋地域の実施しているプロジェクトで成功を収めています。私たちのPMアプローチは実践的で独自性があります。
 weight: 37
 alternatelocales:
   - en-US
 tags:
   - プロジェクト管理
+  - プロジェクトマネージメント
   - コーディネーション
   - 人 金 物
   - オフィス移転
   - UPS
   - テクノロジーリフレッシュ
-  -
+  - PM
 series:
   - top1
 topics:
@@ -51,11 +52,11 @@ menu:
     Parent: services
 ---
 
-## プロジェクトマネージメントとは？
+#### プロジェクト管理とは？
 
-プロジェクトマネージメントとは、タスクとアクションを密接に連結させる事でプロジェクトを円滑に進め、予算の超過やスケジュールの遅延を未然に防ぎ、さらには品質を保ち、投資対効果(ROI)の点でも高い顧客満足を実現する技法の事です。
+プロジェクト管理とは、タスクとアクションを密接に連結させる事でプロジェクトを円滑に進め、予算の超過、スケジュールの遅延を未然に防ぎ、さらには良品質で投資対効果(ROI)の点でも高い顧客満足を実現する技法の事です。
 
-プロジェクトマネージャーはこれらの技法を用いて、体系的にプロジェクト管理を行います。
+イソリアのプロジェクトマネージャーはこれらの技法を用いて、体系的にプロジェクト管理を行います。
 
 <div class="esolia-card-panel purple darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">何故PMか?</h4>
@@ -63,14 +64,12 @@ menu:
       <li class="white-text">企業の戦略目標を着実に実現化</li>
       <li class="white-text">正確な提出物の管理</li>
       <li class="white-text">バイアスに囚われない公平性</li>
-      <li class="white-text">Emphasis on transparency</li>
+      <li class="white-text">透明性重視</li>
       <li class="white-text">資産保護</li>
     </ol>
 </div>
 
-All this happens, while the PM maintains the required administrative project structures, plans, and operational momentum.
-
-### イソリアによるプロジェクト成功への導き
+#### イソリアによるプロジェクト成功への導き
 
 イソリアは 1999年の設立以来、フォーチュン誌に掲載されたフォーチュン500社を含む外資系・日系企業等、様々なお客様の重要プロジェクトを遂行してまいりました。
 
@@ -98,11 +97,11 @@ All this happens, while the PM maintains the required administrative project str
 
 イソリアのプロジェクトマネージメントは、フレキシブルなアプローチ且つ、独自の複合的なプロジェクトマネジメントの手法を採っています。
 
-私たちの高度なプロジェクトアクティビティ:
+プロジェクトアクティビティ大枠:
 
 1. 開始
-1. コントロールされた実行
-1. 終結
+1. 実行
+1. 完了
 1. 運用、保守
 
 

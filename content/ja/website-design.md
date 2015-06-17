@@ -26,14 +26,15 @@ images:
   - /img/eSolia-Post-Slider-Security-04.jpg  
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
-  - ウェブ標準
-  - ゼロからのサイト
+  - ウェブ標準化
+  - ゼロからのサイト構築
+  - モバイルサイトの作成
   - 現サイトのローカライズ
-  - モダン化
-  - ウェブフォント
-  - レスポンシブ
-  - スタチック
-  - CMS
+  - 現サイトのモダン化
+  - Webフォント作成
+  - レスポンシブWebデザイン
+  - 静的・動的Webサイト作成
+  - CMS構築
 gallery_id: 6159750630075916305
 menu:
   side:
