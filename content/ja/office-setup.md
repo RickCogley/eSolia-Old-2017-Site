@@ -6,9 +6,12 @@ draft: false
 title: オフィス構築
 slug: office-setup
 subtitle: どんなオフィスでも移転いたします。
-description: イソリアから - 新規オフィスの立ち上げから、変更や改善に至るまでの全サポート
+description: イソリアから - 新規オフィスの立ち上げから、変更や改善、移転後のサポートに至るまでの全サポート
 weight: 10
+alternatelocales:
+  - en-US
 tags:
+  - 事務所
   - オフィス
   - 構築
   - 移転
@@ -32,6 +35,7 @@ formcheckboxes:
 - アップグレード
 - コンユーター移動
 - 配線追加
+gallery_id: 6159792914055009873
 menu:
   side:
     Name: オフィス構築
@@ -41,21 +45,14 @@ menu:
     Parent: services
 ---
 
-イソリアはオフィスの移転計画、実行に関して豊富な経験があります。御社の次回の移転までの間、オンブズマンとして働きます。本社IT部や各種関係部署との連絡を密にし、御社の希望に忠実にプロジェクトを進めていきます。
+イソリアはオフィス移転に関して豊富な知識・経験・実績があります。移転計画の立案から実行までの間、御社のオンブズマンとして本社IT部問や各種関係部署と密に連携し、御社の希望に忠実にプロジェクトを進めていきます。
 
-* プロジェクトと工事マネジメント
-* New office construction
-* Existing office refit
-* Furniture and equipment moves
-* Intra-office moves
-* Structured cabling
-* Systems racks
-* Network and Server engineering & setup
-* Packing and Unpacking
-
-<div class="row">
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Modern IP phone systems - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Office-Moves-01.jpg"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Equipment engineering and setup - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Office-Moves-02.jpg"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Structured cable - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Office-Moves-03.jpg"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Furniture and moves - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Office-Moves-05.jpg"></div>
-</div>
+* プロジェクトと構築工事のマネジメント
+* 新オフィス構築
+* オフィス改装
+* 什器及び機器の移動
+* オフィス内部での移転
+* ケーブル配線
+* システムラック
+* ネットワーク及びサーバーエンジニアリング＆セットアップ
+* 梱包及び開梱

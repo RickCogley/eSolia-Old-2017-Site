@@ -5,7 +5,9 @@ description: 株式会社イソリアのサービス ： Our Solutions to Meet Y
 draft: false
 slug: services
 subtitle: 課題に対する弊社ソリューション
-weight: 9999
+weight: 20
+alternatelocales:
+  - en-US
 tags:
   - サービス
   - チャレンジ
@@ -16,10 +18,25 @@ topics:
   - サービス
 images:
   - /img/eSolia-Post-Our-Solutions-Your-Challenges.jp.png
+  - /img/eSolia-Chicklet-Color-1024px.png
+formcheckboxes:
+  - オフィス構築
+  - ヘルプデスク
+  - インフラストラクチャー
+  - ローカライゼーション
+  - マネージメント
+  - オンサイト サポート
+  - クラウド型データベース PROdb
+  - 電話システム
+  - プロジェクト管理
+  - セキュリティ
+  - トレーニング
+  - ウェブサイト デザイン
+  - プロセス
 menu:
   side:
     Name: サービス
-    Weight: -30
+    Weight: 20
     Identifier: services
     Url: /services
 ---

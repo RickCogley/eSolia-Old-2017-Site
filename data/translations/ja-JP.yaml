@@ -3,32 +3,40 @@ altphotoesoliaofficefront1: イソリア事務所ビル外、コグレー リッ
 altphotonetworkswitch: ネットワークスイッチ、コグレー リック作
 altphototemplecolumn: 飯倉のお寺、コグレー リック作
 formemail: メール
-formfirstname: 名前
-formlastname: 名字
+formfirstname: 名
+formlastname: 氏
 formmessage: メッセージ
 formrequestmoreinfo: お問い合わせ
-formrequestmoreinfotext: 詳しくお問い合わせるには、ご記入の上、ご送信ください。
+formrequestmoreinfotext: 詳細は、下記フォームにご記入いただき、「送信」ボタンをクリックください。
 formreset: リセット
 formsubmit: 送信
 formtel: 電話番号
 genfeature: おすすめ
+gengalleryname: ギャラリー
 genlatestfeature: 最新おすすめ
 genlatestposts: 最新プロ ブログ
 genmoreinfo: つづきを読む
 genviewgooglemap: グーグルマップで見る
+languagename: 日本語
+languageswitch: 言語切り替え
+languageurl: http://esolia.co.jp
 menuabout: イソリアについて
 menulanguageswitch: English
 menulanguageswitchurl: http://esolia.com
+month:
+  1: 睦月
+  2: 如月
+  3: 弥生
 photocaptionesoliaofficefront1: イソリア虎ノ門事務所ビル外見
 topsectionbsf: 強固な基盤を構築いたします
 topsectioncus: お問い合わせ
 topsectionwhy: なぜイソリアか？
 topsectionwwd: 主なソリューション
 topsectionwwdtext: イソリアのプロフェショナルスタッフはインフラから、オペレーション、開発、マネージメントとガバナンスまで幅広い範囲にわたるIT活動に対応いたします。貴社の指令、規格と委任に基づいて、貴社が必要とされるニーズに必ずお応えいたします。
-topslogan: イソリアにお任せ下さい
-topsubslogan: 貴社の頼れるIT部となります
-toptestimoninal1: イソリアが我々の複雑で、複数年に及ぶプロジェクトの管理を成功に導いた時、まるで長いトンネルの先に希望の光が差し込んだような状況でした。
-toptestimoninal2: イソリアの技術的な知識は誰にも劣らないうえに、誰でも詳細が理解できるように一般的な用語で複雑な解決方案を説明いただきました。
+topslogan: イソリアにお任せください！
+topsubslogan: 貴社の頼れるIT部門となります
+toptestimoninal1: イソリアは我々の複雑かつ複数年に及ぶプロジェクトを成功に導いてくれました。まるで長いトンネルの先に希望の光が差し込んだような状況でした。
+toptestimoninal2: イソリアのエンジニア達は豊富な知識を持ち合わせていますが、複雑な専門用語を多用せず、誰でも理解できるように分りやすく解決方法を説明してくれました。
 topwwdclouddb: クラウド型データベース
 topwwdclouddbtext: 急速に変化し続ける社内データベースはイソリアのPRODBにて一括管理。その他ソフトウェア開発も
 topwwdhelpdesk: ヘルプデスク
@@ -45,10 +53,14 @@ topwwdofficesetup: オフィス構築
 topwwdofficesetuptext: 新規オフィスの立ち上げから、変更や改善に至るまでの全サポート
 topwwdonsite: オンサイト
 topwwdonsitetext: 面倒なシステム管理、度重なるユーザサポート、複雑なトラブルシュートは経験豊富なエンジニアがオンサイトにて
+topwwdpm: プロジェクト管理
+topwwdpmtext: 東京およびアジア太平洋地域の実施しているプロジェクトで成功を収めています。私たちのPMアプローチは実践的で独自性があります。
 topwwdprocess: プロセス
 topwwdprocesstext: 卓逸されたプロジェクト管理やアセット管理、コンプライアンスの徹底から購入のお手伝いまで、ＩＴやビジネスのレベルアップへ
 topwwdsecurity: セキュリティ
 topwwdsecuritytext: コンプライアンスやセキュリティの信頼性監査、強固なセキュリティをソフト＆ハードにて実装。システムも心もセキュアに
+topwwdtelephone: 電話システム
+topwwdtelephonetext: フル機能備えで近代的IP電話システムの導入を成功させることでお客様のコストを削減し、効率を高めます。クラウド型もあります。
 topwwdtraining: トレーニング
 topwwdtrainingtext: 迷える新入社員に実用的なＩＴオリエンテーションを作成。初歩的ものから専門的なトレーニングまで
 topwwdwebsite: ウェブサイト

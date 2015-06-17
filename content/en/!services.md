@@ -5,7 +5,9 @@ description: eSolia Services - Our Solutions to Meet Your Multi-cultural, Projec
 draft: false
 slug: services
 subtitle: Your Challenges, Our Solutions
-weight: 9999
+weight: 20
+alternatelocales:
+  - ja-JP
 tags:
   - service
   - challenges
@@ -15,10 +17,25 @@ topics:
   - services
 images:
   - /img/eSolia-Post-Our-Solutions-Your-Challenges.png
+  - /img/eSolia-Chicklet-Color-1024px.png
+formcheckboxes:
+  - Office move
+  - Helpdesk
+  - Infrastructure
+  - Localization
+  - Management
+  - On-site support
+  - Cloud database PROdb
+  - Telephone
+  - Project Management
+  - Security
+  - Training
+  - Website Design
+  - Process
 menu:
   side:
     Name: Services
-    Weight: -30
+    Weight: 20
     Identifier: services
     Url: /services
 ---

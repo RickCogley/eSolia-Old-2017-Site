@@ -5,13 +5,15 @@ publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: プロセス管理
 slug: process
-subtitle: 様々なプロセスを管理します
-description: イソリアから - 卓逸されたプロジェクト管理やアセット管理、コンプライアンスの徹底から購入のお手伝いまで、ＩＴやビジネスのレベルアップへ
+subtitle: あらゆるプロセスを巧みに管理します
+description: イソリアから - 卓逸されたプロジェクト管理や資産管理、コンプライアンスの徹底から購買のお手伝いまで、ＩＴやビジネスのレベルアップへ
 weight: 20
+alternatelocales:
+  - en-US
 tags:
   - プロセス管理
   - 購買管理
-  - アセット管理
+  - 資産管理
   - コンプライアンス管理
 series:
   - top1
@@ -31,6 +33,8 @@ formcheckboxes:
 - ライセンス管理
 - 予算管理
 - リサイクル管理
+- その他
+gallery_id: 6159794668058542529
 menu:
   side:
     Name: プロセス
@@ -40,28 +44,34 @@ menu:
     Parent: services
 ---
 
-日本語 In the context of a master support agreement, eSolia will skillfully manage various processes on your behalf, including:
+## Main title
 
-1. Project management
-1. Hardware and software procurement
-1. Budget management
-1. System room and cabling management
-1. Compliance management
-1. Asset management
-1. License management
-1. Warranty management
-1. Recycling and disposal management
+ＩＴを効率よく利用すれば、本来持っているポテンシャルを自在に扱う事が可能になり、それにより生み出されるメリットは計り知れないものになります。
+ただしキチンと管理しない事で仕事量が増え、生産性も下がり、社員達の諸刃になってしまうツールにもなり得ます。
+上手く駆使するには、なにもインターナルでそれら全ての作業を担う必要はないのです。
 
-Each process is different, but in all cases, eSolia performs in a consistent manner:
+### Section Title
 
-* We act as an ombudsman on your behalf, keeping your mandate or the best practice in mind, as we negotiate with any involved parties.
-* Each process is performed with supporting documentation as the base, whether that documentation is your standards and mandates, or our best practices.
-* Decisions are yours, but our experts provide decision support.
-* All processes have preparation, adjustment, execution, documentation and support afterwards.
-* Results are stored in eSolia's extensive knowledge database, and reports are provided to you.
+下記の様な日々複雑化するプロセスを当社の洗練されたプロシージャ且つ、貴社の希望に極力沿ったメソッドで対応いたします。
 
-<div class="row">
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Project schedule - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Process-01.png"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Budget - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Process-02.png"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Supporting agreement - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Process-03.png"></div>
-</div>
+1. 度重なる急な変更、迫るデッドライン、手強いプロジェクト管理の対応
+2. 進化し続けるハードウェア、ビジネスに貢献するソフトウェアの調達
+3. 効率性を考えた予算管理
+4. 孤独で寒いデータセンターでの管理、スパゲッティの様に絡み合う配線の管理など
+5. 現代の大きな問題、コンプライアンス管理
+6. 目まぐるしく変わっていく資産の管理
+7. 誰がどのバージョンを利用しているのか等、ライセンスの管理
+8. サポート期間や延長など保証の管理
+9. 増えるジャンク、データ消去、リサイクルや廃棄の管理
+
+### Another Section title
+
+各プロセスは様々ですが、すべてのケースにおいてイソリアは一貫性をもって実行致します：
+
+* ベストプラクティスを念頭に置き、御社の信任を得ながらオンブズマンとして関係各所との交渉も行います。
+* 各プロセスは、御社のスタンダードや意向を基準として実行されます。また、御社にその様な基準等がない場合、私たちの経験から得たベストプラクティスに基づいて実行されます。
+* 基本的に決断権は御社にございます。私達はこの分野の専門家として、決断される為の判断支援をご提供致します。
+* 全てのプロセスにおいて、準備、調整、実行、ドキュメント化及び実行後のサポートを提供致します。
+* プロセスの結果は、イソリアの知識データベースシステムに格納されレポートとして御社様に提供致します。
+
+"Call to action" to viewer, to use the form below to ask for more info. 
