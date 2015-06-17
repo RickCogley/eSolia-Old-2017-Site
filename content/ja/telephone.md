@@ -71,7 +71,7 @@ menu:
 
 ### IP フォンシステムの利益
 
-近代的なIPフォンシステムを考えているのなら:
+近代的なIPフォンシステムの実現:
 
 * 通信コストを削減したい、投資対効果を考えている
 * 日本のテレコミュニケーション導入・設置の経験豊かなチームが必要
@@ -99,9 +99,9 @@ menu:
 <img class="materialboxed right responsive-img" width="200" data-caption="eSolia Partner PBXL's Logo" alt="Graphic of PBXL Logo" src="/img/pbxl-logo.png" >
 </figure>
 
-The PBXL "Cloud Phone" service empowers companies with a fully featured, modern phone system that you can access from anywhere, anytime, whether from desk phones in your office, or from an iPhone or Android smart phone.
+PBXLのクラウドフォンサービスは、固定電話・iPhone・Androidでいつでも、どこでもアクセス可能な近未来的なフォンシステムを提供しております。
 
-Some of the highlights of what you get with the PBXL service:
+PBXLサービスで実現できること:
 
 * PBXデバイス不要なターンキー式Turnkey full-featured phone solution, with no premise PBX device needed
 * スマートフォンの統合　BYOD：私用端末の業務利用
