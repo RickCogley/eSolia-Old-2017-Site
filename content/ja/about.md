@@ -16,34 +16,34 @@ tags:
   - eSolia
 title: 弊社について
 topics:
-  - Professional
-  - Us
+  - eSolia
 type: aboutpage
 images:
   - /img/rick-cogley-avatar-240x240.png
 menu:
   side:
-    Name: 弊社について
-    Weight: -30
+    Name: 弊社について テスト
+    Weight: 10
     Identifier: about
     Url: /about
+    Parent: about-us
 ---
 
-# テスト
+# テスト日本語 株式会社イソリア
 株式会社イソリアは東京をベースに、「ITコンサルティング」、「ITプロジェクト・マネージメント」、「ITアウトソーシング」サービスを 外資系・日本企業のお客様に提供するITマネージメント企業です。
 
 我々、株式会社イソリアは、ミックスカルチャーに焦点をあてたグローバル企業であり過去に複雑なプロジェクトを数多く手がけ、クリエイティブな問題解決をお客様へ提供しております。
 
 これまでの成功実績と経験を基に、貴社のITシステム全般に対するソリューションを見出し、チャレンジを推し進めることに多大な自信を持っています。 確かな信念・基盤を持った我々、イソリアに是非ともご相談下さい。貴社との末永い関係を社員一同心待ちにしております
 
-## More
+## テスト日本語 株式会社イソリア
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-### More
+### テスト日本語 株式会社イソリア
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-#### More
+#### テスト日本語 株式会社イソリア
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-##### More
+##### テスト日本語 株式会社イソリア
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

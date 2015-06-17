@@ -14,6 +14,10 @@ tags:
   - プロジェクト管理
   - コーディネーション
   - 人 金 物
+  - オフィス移転
+  - UPS
+  - テクノロジーリフレッシュ
+  -
 series:
   - top1
 topics:
@@ -47,14 +51,11 @@ menu:
     Parent: services
 ---
 
-## What is Project Management?
+## プロジェクトマネージメントとは？
 
-Project management is the art of closely coupling tasks with actions, managing budget and schedule quality to ensure there are no problems with overages or slippages, and, ensuring that clients are getting their expected return on investment regarding the project’s agreed deliverables.
+プロジェクトマネージメントとは、タスクとアクションを密接に連結させる事でプロジェクトを円滑に進め、予算の超過やスケジュールの遅延を未然に防ぎ、さらには品質を保ち、投資対効果(ROI)の点でも高い顧客満足を実現する技法の事です。
 
-(**TRANSLATORS: please see also the Japanese translation of the Management page, which has some aspects of this language.**)
-
-プロジェクト マネージメントとは、現行案件を連結された行動・タスクに集約させ、予算・スケジュール超過・品質管理、もしくは産物に対する投資効果を達成 できないといったリスクを企業がコントロールすることができるよう、プロジェクト組織編成、計画、運営に対する統合プロセスとフレームワークです。
-
+プロジェクトマネージャーはこれらの技法を用いて、体系的にプロジェクト管理を行います。
 
 <div class="esolia-card-panel purple darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">何故PMか?</h4>
@@ -69,49 +70,40 @@ Project management is the art of closely coupling tasks with actions, managing b
 
 All this happens, while the PM maintains the required administrative project structures, plans, and operational momentum.
 
-### Project Success from eSolia
+### イソリアによるプロジェクト成功への導き
 
-eSolia has been executing successful projects for Fortune 500 firms in Tokyo since 1999.
+イソリアは 1999年の設立以来、フォーチュン誌に掲載されたフォーチュン500社を含む外資系・日系企業等、様々なお客様の重要プロジェクトを遂行してまいりました。
 
-イソリアは 1999年の設立以来、フォーチュン誌に掲載されるフォーチュン500社を含む外資系・日系企業のお客様に様々な複雑且つ緊急度の高いプロジェクトを実行して来ております。
+例えば、ERP、BPR大規模システムの統合、ロールアウト、テクノロジーリフレッシュ、オフィス移転、VoIPテレフォニーとPBX、ソフトウエア開発、また日々のIT業務から派生する簡易プロジェクト等、あらゆるプロジェクトに関する経験があります。
 
-We have real experience and success running large, complex projects in ERP, BPR, technology refreshes and rollouts, office moves, VoIP telephony and PBX, and software development, as well as smaller projects in the context of daily IT operations. Examples follow.
+#### 達成プロジェクト詳細
 
-イソリアは、合併・買収関連の IT 統合、プロセス・リエンジニアリング、大規模システム統合・ロールアウトといった数多くの緊迫したチャレンジを要するプロジェクトを成功裏に達成してきました。, as well as smaller projects in the context of daily IT operations. Examples follow.
+* オフィス移転プロジェクト多数
+* Cisco Unified Communicationの導入
+* CRMシステムの導入
+* Infor ERP LN(Baan) ERPシステムのロールアウト
+* Oracle ERP システムのロールアウト
+* SAP ERPシステムのロールアウト
+* マーケティングセグメンテーションデータベースのロールアウト
+* UPSのアップグレード、耐震補強を含む大幅なデーターセンターのアップグレード
+* Sharepoint・イントラネットのロールアウト
 
-#### Some Success Stories
+・・・等、上記以外にも様々なプロジェクトを手懸けております。
 
-* Numerous office move projects completed
-* Cisco Call Manager implementation
-* Enterprise Customer Relationship Management database implementation
-* Baan ERP enterprise software rollout
-* Oracle ERP enterprise software rollout
-* SAP ERP enterprise software rollout
-* Marketing segmentation database rollout
-* Major data center upgrade including enterprise UPS upgrade and earthquake-proofing
-* Sharepoint Intranet rollout
+### PMアプローチ
 
-... and many others.
+イソリアの実践的なプロジェクトマネージメントは独自のアプローチで行われます。また、パーキンソンの法則に代表されるようなスケジュール管理の落とし穴による典型的なトラブルを回避します。
 
-### Our PM Approach
+また、イソリアのプロフェッショナルチームが、御社を含む各方面のエキスパートとともに、バイリンガルにてプロジェクトの成功のために協調して作業に取り組みます。また、聖域となっている部分や予算、納期等の業務上の制約に関しても御社のご意向を踏襲しつつプロジェクト達成の為に柔軟に対応いたします。
 
-Our practical project management approach is unique, and it allows us to avoid typical project issues like the "parkinson's effect" where work mysteriously expands to fill available time, ill-managed schedules and scopes, over analysis and other pitfalls.
+イソリアのプロジェクトマネージメントは、フレキシブルなアプローチ且つ、独自の複合的なプロジェクトマネジメントの手法を採っています。
 
-我 々の実践的知識と経験と業界標準のプロジェクト マネージメント手法を組み合わせたイソリア独自のアプローチにより、多重プロジェクトによる負の効果、 パーキンソン効果（パーキンソンの法則）、間違ったプロジェクト・バッファー（緩衝）・プロジェクト・スコープ（範囲）管理などといった、プロジェクト失 敗に共通した源を断ち切ることを可能とします。
-
-Our professionals work with your functional and technical experts, in English or Japanese, and if you will advise us your constraints including deadlines, any "sacred cows", budget and mandates, we will work flexibly toward your goal keeping those in mind.
-
-弊社のプロフェッショナルが、御社の有能で技術の高いエキスパートとともに、日英両言語を駆使してテクノロジー、コンプライアンス、または作業プロジェクトの成功のために協力して作業に取り組みます。
-
-We have our own hybrid project management methodology, but are flexible in our approach. Our high level project activities are as follows:
+私たちの高度なプロジェクトアクティビティ:
 
 1. 開始
-1. コントロールされた導入
+1. コントロールされた実行
 1. 終結
-1. 運営、保守
+1. 運用、保守
 
-私どもには、独自の複合的なプロ ジェクト・マネジメントの手法と、順応性のあるアプローチがあります。
 
-Our goal is to get your project done; not necessarily to have a certificate that says we might.
-
-また、最終目標は御社のプロジェクトを完了することであり、「出来るだろう」と書い てある証明書を保有することではありません。
+最終目標は御社のプロジェクトを達成することであり、「出来るだろう」というあいまいな意思表示を行う事ではありません。
