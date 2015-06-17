@@ -89,7 +89,7 @@ menu:
   </div>
   <div class="card-reveal">
     <span class="card-title grey-text text-darken-4">About PBXL <i class="mdi-navigation-close right red-text text-accent-3"></i></span>
-    <p>Established 2006, and licensed by the Ministry of Internal Affairs and Communications, PBXL is a pioneer in creating innovative cloud-based communication solutions in Japan.</p><p>PBXL is focused on delivering the best possible customer experience, with friendly, expert staff who are here for you every step of the way, from installation through to day-to-day operations. We’ll help you build a happier, more productive workforce and leverage the power of open collaboration and mobile staff.</p>
+    <p>2006年に設立したPBXLは、第2種通信事業者免許取得し、日本でいちはやくクラウド型コミュニケーションサービスを提供するなど、通信ソリューションのパイオニア。</p><p>PBXL is focused on delivering the best possible customer experience, with friendly, expert staff who are here for you every step of the way, from installation through to day-to-day operations. We’ll help you build a happier, more productive workforce and leverage the power of open collaboration and mobile staff.</p>
   </div>
 </div>
 
