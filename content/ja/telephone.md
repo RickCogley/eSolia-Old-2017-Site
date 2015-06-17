@@ -46,37 +46,39 @@ menu:
     Parent: services
 ---
 
-## Business Phone Systems
+## ビジネスフォンシステム
 
 <div class="esolia-card-panel blue darken-4 z-depth-1">
-  <h4 class="center green-text text-accent-3">PROCESS</h4>
+  <h4 class="center green-text text-accent-3">プロセス</h4>
     <ol>
-      <li class="white-text">Document current vs future</li>
-      <li class="white-text">Agree configuration and project scope</li>
-      <li class="white-text">Quotes and Contracting</li>
-      <li class="white-text">Orders and Configuration</li>
-      <li class="white-text">Site Installation</li>
-      <li class="white-text">Training</li>
-      <li class="white-text">Maintenance</li>
+      <li class="white-text">現状把握と要望のドキュメント化</li>
+      <li class="white-text">設定及びプロジェクトの承諾</li>
+      <li class="white-text">見積書及び契約</li>
+      <li class="white-text">注文及び設定</li>
+      <li class="white-text">システム導入</li>
+      <li class="white-text">トレニーング</li>
+      <li class="white-text">運用及びシステム維持管理</li>
     </ol>
 </div>
 
-**Isn't it Time?** ...that you seriously considered replacing your aging and old-fashioned PBX? If you are in the market for a new Telephone or IP PBX System or have interest in "Voice Over IP" thinking about the benefits of something like Skype or Google Voice, eSolia will implement your modern, full-featured, IP PBX or Unified Communications system.
+**時がきた？** 
+最新のテレフォン、IPビジネスシステム、または"Voice Over IP"例えば、Skype・Google Voiceに興味があれば、
+弊社イソリアがコミュニケーションシステム統一のフルサポートを提供いたします。
 
-Of course, since we opened in 1999, we have run projects to implement the Cisco, Avaya or Nortel systems that our multinational clients require, but there are alternatives out there that will get you up and running on a modern system, with all the desirable features, at a great cost-performance price point.
+1999年設立より、Cisco・Avaya・Nortelシステム導入及び設置を数多くのクライアントに実施して参りました。 but there are alternatives out there that will get you up and running on a modern system, with all the desirable features, at a great cost-performance price point.
 
-We will design, source, implement, customize, troubleshoot, and train your firm on the system, as well as maintain it going forward.
+私たちは、システム導入・運用・システムカスタマイズ・トラブルシューティングを提供することが可能です。
 
-### IP Phone System Benefits
+### IP フォンシステムの利益
 
-Consider a modern IP phone system if:
+近代的なIPフォンシステムの実現:
 
-* you want a system with good cost-performance and ROI.
-* you need an implementation team that knows Japan telecomms.
-* you desire ease-of-use combined with enterprise level scalability or interoperability.
-* you require all the modern features such as voicemail, auto-attendant, follow-me, speed dial, call forwarding, conference bridge, music on hold, call park, as well as advanced features such as unified communications, ACD or IVR.
+* 通信コストを削減したい、投資対効果を考えている
+* 日本のテレコミュニケーション導入・設置の経験豊かなチームが必要
+* 大規模な企業での、使いやすさを兼ね備えた異種機器システム併用の運用をしたい
+* 近代的なシステム、ボイスメール、自動会議、フォロー、スピードダイアル、電話転送、会議システム、コールパーク、保留機能、また、ACD or IVR。
 
-### Turnkey Cloud Phone Service
+### ターンキー式クラウドフォンサービス
 
 <div class="card">
   <div class="card-image waves-effect waves-block waves-light">
@@ -86,27 +88,27 @@ Consider a modern IP phone system if:
     <span class="card-title activator grey-text text-darken-4">PBXL <i class="mdi-navigation-more-vert right green-text text-accent-3"></i></span>
   </div>
   <div class="card-reveal">
-    <span class="card-title grey-text text-darken-4">About PBXL <i class="mdi-navigation-close right red-text text-accent-3"></i></span>
-    <p>Established 2006, and licensed by the Ministry of Internal Affairs and Communications, PBXL is a pioneer in creating innovative cloud-based communication solutions in Japan.</p><p>PBXL is focused on delivering the best possible customer experience, with friendly, expert staff who are here for you every step of the way, from installation through to day-to-day operations. We’ll help you build a happier, more productive workforce and leverage the power of open collaboration and mobile staff.</p>
+    <span class="card-title grey-text text-darken-4">PBXLについて <i class="mdi-navigation-close right red-text text-accent-3"></i></span>
+    <p>2006年に設立したPBXLは、第2種通信事業者免許取得し、日本でいちはやくクラウド型コミュニケーションサービスを提供するなど、通信ソリューションのパイオニアです。</p><p>PBXLは、多彩な経験をエクスパート達がクライアントのインストールから日々のオペレーションを実施及びご提案いたします。 We’ll help you build a happier, more productive workforce and leverage the power of open collaboration and mobile staff.</p>
   </div>
 </div>
 
-eSolia partners with PBXL, a leading provider of cloud IP phone systems, to provide our clients with the best subscription IP phone service available.
+イソリアはPBXLとパートナーシップを持ち、クラウド型IPフォンシステムを高い技術と共にクライアントに提供しております。
 
 <figure class="image-container">
 <img class="materialboxed right responsive-img" width="200" data-caption="eSolia Partner PBXL's Logo" alt="Graphic of PBXL Logo" src="/img/pbxl-logo.png" >
 </figure>
 
-The PBXL "Cloud Phone" service empowers companies with a fully featured, modern phone system that you can access from anywhere, anytime, whether from desk phones in your office, or from an iPhone or Android smart phone.
+PBXLのクラウドフォンサービスは、固定電話・iPhone・Androidより、いつでも、どこでもアクセス可能な近未来的なフォンシステムの導入を実現しております。
 
-Some of the highlights of what you get with the PBXL service:
+PBXLサービスで実現できること:
 
-* Turnkey full-featured phone solution, with no premise PBX device needed
-* Smartphone integration and "BYOD" or 'bring your own device' capability
-* Communications cost reduction, including an "all you can call" option plan, for 22 countries
+* PBXデバイス不要なターンキー式Turnkey full-featured phone solution, with no premise PBX device needed
+* スマートフォンの統合　BYOD：私用端末の業務利用
+* 通信コスト削減及び22ヵ国でCommunications cost reduction, including an "all you can call" option plan, for 22 countries
 * Support for your "BCP", or 'business continuity plan'
-* Call forwarding, to help you stay reachable even when you're away
-* Call parking, to let you place a call on hold, then retrieve it anywhere
+* 転送機能：不在の場合は自動的にスマホや他のスタッフに転送する
+* コールパーク機能：通話を保留にし別の電話機からそのコールに応答する
 * 3-way conference calling, to let you easily connect people in a group call
 * Call pickup, letting you take control of calls on other lines
 * Fax2Email, to receive inbound faxes on your mobile or pickup
