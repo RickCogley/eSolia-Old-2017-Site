@@ -46,7 +46,7 @@ menu:
     Parent: services
 ---
 
-## ビジネスフォン　システム
+## ビジネスフォンシステム
 
 <div class="esolia-card-panel blue darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">プロセス</h4>
@@ -78,7 +78,7 @@ menu:
 * 大規模な企業での、使いやすさを兼ね備えた異種機器システム併用の運用をしたい
 * 近代的なシステム、ボイスメール、自動会議、フォロー、スピードダイアル、電話転送、会議システム、コールパーク、保留機能、また、ACD or IVR.
 
-### Turnkey Cloud Phone Service
+### ターンキー式クラウドフォンサービス
 
 <div class="card">
   <div class="card-image waves-effect waves-block waves-light">
