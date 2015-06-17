@@ -61,20 +61,22 @@ menu:
     </ol>
 </div>
 
-**Isn't it Time?** ...that you seriously considered replacing your aging and old-fashioned PBX? If you are in the market for a new Telephone or IP PBX System or have interest in "Voice Over IP" thinking about the benefits of something like Skype or Google Voice, eSolia will implement your modern, full-featured, IP PBX or Unified Communications system.
+**伝統的な（古臭い）ビジネスフォンとは卒業したい？** 
+最新のテレフォン、IPビジネスシステム、または"Voice Over IP"例えば、Skype・Google Voiceに興味があれば、
+弊社イソリアがコミュニケーションシステム統一のフルサポートを提供いたします。
 
-Of course, since we opened in 1999, we have run projects to implement the Cisco, Avaya or Nortel systems that our multinational clients require, but there are alternatives out there that will get you up and running on a modern system, with all the desirable features, at a great cost-performance price point.
+1999年設立より、Cisco・Avaya・Nortelシステム導入及び設置を数多くのクライアントに実施して参りました。 but there are alternatives out there that will get you up and running on a modern system, with all the desirable features, at a great cost-performance price point.
 
-We will design, source, implement, customize, troubleshoot, and train your firm on the system, as well as maintain it going forward.
+私たちは、システム導入・運用・システムカスタマイズ・トラブルシューティングを提供することが可能です。
 
-### IP Phone System Benefits
+### IP フォンシステムの利益
 
-Consider a modern IP phone system if:
+近代的なIPフォンシステムを考えているのなら:
 
-* you want a system with good cost-performance and ROI.
-* you need an implementation team that knows Japan telecomms.
-* you desire ease-of-use combined with enterprise level scalability or interoperability.
-* you require all the modern features such as voicemail, auto-attendant, follow-me, speed dial, call forwarding, conference bridge, music on hold, call park, as well as advanced features such as unified communications, ACD or IVR.
+* 通信コストを削減したい、投資対効果を考えている
+* 日本のテレコミュニケーション導入・設置の経験豊かなチームが必要
+* 大規模な企業での、使いやすさを兼ね備えた異種機器システム併用の運用をしたい
+* 近代的なシステム、ボイスメール、自動会議voicemail, auto-attendant, follow-me, speed dial, call forwarding, conference bridge, music on hold, call park, as well as advanced features such as unified communications, ACD or IVR.
 
 ### Turnkey Cloud Phone Service
 
