@@ -35,6 +35,7 @@ formcheckboxes:
   - Project management
   - Construction management
   - Office builds and moves
+gallery_id: 6159788300196964081
 menu:
   side:
     Name: Infrastructure
@@ -78,10 +79,3 @@ There are several important aspects of managing infrastructure projects:
 * Engineering skill in cabling, construction, network, OS, desktop, telecom, market data
 
 Our bilingual team handles all such aspects of infrastructure projects with the skill that only experience can bring.
-
-<div class="row">
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Server rack infra - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Infra-01.jpg"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Telco infra - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Infra-02.jpg"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Data center infra - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Infra-05.jpg"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Structured cable infra - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Infra-04.jpg"></div>
-</div>

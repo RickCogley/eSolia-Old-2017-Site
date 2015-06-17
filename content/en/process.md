@@ -33,6 +33,7 @@ formcheckboxes:
   - License Management
   - Budget Management
   - Recycling Management
+gallery_id: 6159794668058542529
 menu:
   side:
     Name: Process
@@ -61,9 +62,3 @@ Each process is different, but in all cases, eSolia performs in a consistent man
 * Decisions are yours, but our experts provide decision support.
 * All processes have preparation, adjustment, execution, documentation and support afterwards.
 * Results are stored in eSolia's extensive knowledge database, and reports are provided to you.
-
-<div class="row">
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Project schedule - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Process-01.png"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Budget - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Process-02.png"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Supporting agreement - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Process-03.png"></div>
-</div>

@@ -32,6 +32,7 @@ formcheckboxes:
   - Business process management
   - IT project management
   - Ongoing IT support management
+gallery_id: 6159792188653157249
 menu:
   side:
     Name: Management
@@ -66,9 +67,3 @@ eSolia has a long, successful history of providing management services for multi
 * Ongoing Support Management
 
 eSolia's real experience and successful track record running large, complex projects in ERP, BPR, technology refreshes and rollouts, moves, and development speaks for itself.
-
-<div class="row">
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Team meeting management - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Management-01.png"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Diagram management - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Management-02.png"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Takumi Fukuoka management - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Management-03.png"></div>
-</div>

@@ -32,6 +32,7 @@ formcheckboxes:
   - Business process management
   - IT project management
   - Ongoing IT support management
+gallery_id: 6159792188653157249
 menu:
   side:
     Name: マネージメント
@@ -51,7 +52,7 @@ menu:
 
 イソリアは、M&A関連企業様の IT統合、プロセス・エンジニアリング、大規模システム統合・ロールアウトといった数多くの緊迫した、挑戦を要するプロジェクトを成功に導いてきました。
 
-イソリアの実践的知識と経験と業界標準のプロジェクト 
+イソリアの実践的知識と経験と業界標準のプロジェクト
 
 マネージメント手法を組み合わせたイソリア独自のアプローチにより、多重プロジェクトによるマイナス効果、 パーキンソン効果（パーキンソンの法則）、間違ったプロジェクト・バッファー、プロジェクト・スコープ管理などといった、プロジェクト失敗に共通した原因を断ち切ることを可能とします。
 
@@ -78,9 +79,3 @@ menu:
 
 イソリアでは様々な環境でのERP、BPR、技術の更新、ロールアウト、オフィスリロケーションや開発において、
 大規模で複雑なプロジェクトを実行・管理し、成功に導いてきました。
-
-<div class="row">
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Team meeting management - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Management-01.png"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Diagram management - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Management-02.png"></div>
-  <div class="col s12 m6 l3"><img class="materialboxed" data-caption="Takumi Fukuoka management - by eSolia Inc." width="200" src="/img/eSolia-Post-Slider-Management-03.png"></div>
-</div>

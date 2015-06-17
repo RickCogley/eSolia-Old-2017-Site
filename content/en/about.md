@@ -16,17 +16,17 @@ tags:
   - eSolia
 title: About Us
 topics:
-  - Professional
-  - Us
+  - eSolia
 type: aboutpage
 images:
   - /img/rick-cogley-avatar-240x240.png
 menu:
   side:
-    Name: About eSolia
-    Weight: -30
+    Name: About Test
+    Weight: 10
     Identifier: about
     Url: /about
+    Parent: about-us
 ---
 
 # Testing
