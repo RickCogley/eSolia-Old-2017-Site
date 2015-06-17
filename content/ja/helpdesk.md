@@ -44,7 +44,8 @@ menu:
     Parent: services
 ---
 
-日本語 eSolia professionals provide email or telephone support, and remote access, for support and troubleshooting assistance regarding your hardware, software and user support issues. All helpdesk-related data and knowledge is stored in our custom-built _PROdb_ IT operations database, for easy recall and reporting.
+eSoliaではソフトウエア、ハードウェアに関する質問・問題・故障切り分け対応などをメールによる問い合わせ、コールセンター対応そして遠隔サポートの組み合わせにより、幅広くサポートしています。
+また過去にサポートして来た経験と対応を全て自社データーベースに情報を一体化し、それによって全エンジニアのノウハウをデータ管理しています。 この仕組みによって円滑な情報アクセス、分析、判断と対応を実現しています.
 
 * 全てのリクエスト・インシデントをチケットシステムにて一括管理
 * バイリンガルによるプロフェッショナルサポート
