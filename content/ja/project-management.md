@@ -18,7 +18,7 @@ tags:
   - オフィス移転
   - UPS
   - テクノロジーリフレッシュ
-  -　PM
+  - PM
 series:
   - top1
 topics:
