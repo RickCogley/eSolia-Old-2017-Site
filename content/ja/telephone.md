@@ -46,7 +46,7 @@ menu:
     Parent: services
 ---
 
-## ビジネスフォンシステム
+## ビジネス電話システム
 
 <div class="esolia-card-panel blue darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">プロセス</h4>
@@ -70,7 +70,7 @@ menu:
 
 私達は、このシステム上でお客様の設計、調達、実装、システムカスタマイズ、トラブルシューティング、トレーニングを行うとともに、今後に向けた保守管理も実施します。
 
-### IP フォンシステムの利益
+### IP電話システムの利点
 
 以下に当てはまる場合、お客様のVoIPテレフォニーとしてイソリアをご検討ください：:
 
@@ -94,7 +94,7 @@ menu:
   </div>
 </div>
 
-イソリアはPBXLとパートナーシップを持ち、クラウド型IPフォンシステムを高い技術と共にクライアントに提供しております。
+イソリアはPBXLとパートナーシップを持ち、クラウド型IP電話システムを高い技術と共にクライアントに提供しております。
 
 <figure class="image-container">
 <img class="materialboxed right responsive-img" width="200" data-caption="eSolia Partner PBXL's Logo" alt="Graphic of PBXL Logo" src="/img/pbxl-logo.png" >
