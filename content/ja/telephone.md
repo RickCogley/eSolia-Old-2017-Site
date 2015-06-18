@@ -115,4 +115,4 @@ PBXLサービスで実現できること:
 * メールでFAX受信：モバイル端末でFAXをメールで添付ファイルとして受信可能
 * 着信拒否（DND)：忙しくて電話に出られない時
 
-Request more info using the form below, and join a list of satisfied customers.
+詳細は、下記フォームにご記入いただき、「送信」ボタンをクリックください。
