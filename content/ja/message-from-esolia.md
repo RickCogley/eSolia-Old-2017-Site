@@ -2,7 +2,7 @@
 author: イソリア
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
-description: イソリアからのメッセージ - 弊社からあなたへのメッセージ
+description: イソリアからメッセージ - 弊社からあなたへのメッセージ
 draft: false
 slug: message-from-esolia
 weight: 25
@@ -13,16 +13,16 @@ tags:
   - ビデオ
   - レッター
   - ご挨拶
-title: イソリアからご挨拶
-subtitle: お客様とweb visitor様へ
+title: ご挨拶
+subtitle: お客様と当ウェブサイトへお越しの方へ
 topics:
-  - イソリア
+  - イソリアからご挨拶
 type: aboutpage
 images:
   - /img/eSolia-Chicklet-Color-1024px.png
 menu:
   side:
-    Name: ご挨拶メッセージ
+    Name: ご挨拶
     Weight: 25
     Identifier: message-from-esolia
     Url: /message-from-esolia
