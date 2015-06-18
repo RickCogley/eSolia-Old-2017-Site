@@ -41,7 +41,7 @@ menu:
     Url: /services
 ---
 
-貴社のビジネスとITの課題に対して、実践的且つ現実的で、将来に向け持続性のあるソリューションを提案・導入することが、私達の使命です。
+貴社のビジネスとITの課題に対して、実践的且つ現実的で、将来に向けた持続性のあるソリューションを提案・導入することが、私達の使命です。
 
 <div class="image-container">
 <img class="materialboxed right responsive-img" data-caption="Security vs Convenience" width="400" src="/img/eSolia-Post-Our-Solutions-Your-Challenges.jp.png">
