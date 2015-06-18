@@ -2,7 +2,7 @@
 author: eSolia
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
-description: マネージメントからのメッセージ - biographical information on CEO Rick Cogley and COO Takumi Fukuoka.
+description: マネージメント チーム - ジェームズ R. コグレー、福岡 琢巳 の 経歴/略歴などなど 日本語日本語
 draft: false
 slug: management-team
 subtitle: ジェームズ R. コグレー、福岡 琢巳
@@ -10,9 +10,9 @@ weight: 20
 alternatelocales:
   - en-US
 tags:
-  - Principals
-  - Management Team
-title: CEOメッセージ
+  - 主役
+  - マネージメント チーム
+title: イソリア マネージメント チーム
 topics:
   - eSolia
 type: aboutpage
@@ -58,7 +58,7 @@ Allegheny Collegeのアドバイザーが東京大学の薬学教授をコグレ
 ### 代表取締役副社長 福岡　琢巳
 
 <figure class="image-container">
-<img class="materialboxed right responsive-img z-depth-1" width="200" data-caption="取締役副社長 福岡 琢巳、COO (Rick Cogley Photo)" alt="取締役副社長 福岡 琢巳、COO の写真 (写真：コグレー ジェームズ)" src="/img/eSolia-COO-Takumi-Fukuoka.jpg" >
+<img class="materialboxed right responsive-img z-depth-1" width="200" data-caption="取締役副社長 福岡 琢巳、COO (写真：リック コグレー)" alt="取締役副社長 福岡 琢巳、COO の写真 (写真：リック コグレー)" src="/img/eSolia-COO-Takumi-Fukuoka.jpg" >
 </figure>
 
 1994年ソフトウェア開発会社に入社し、主に物流・経理システムの開発に従事。その後、株式会社PTS（1999年Datacraft Asia（現Dimension Data）に買収）に入社後、システム導入・サポート、プロジェクトマネージメント業務に従事。
