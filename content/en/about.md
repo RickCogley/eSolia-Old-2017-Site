@@ -54,18 +54,6 @@ As a leader in our market for outsourced IT services, eSolia's vision is to cons
   <div class="col s12 m8">7 July 1999
     <hr>
   </div>
-  <div class="col s12 m4"><strong>ENTITY TYPE</strong></div>
-  <div class="col s12 m8">Kabishiki Kaisha
-    <hr>
-  </div>  
-  <div class="col s12 m4"><strong>PAID-IN CAPITAL</strong></div>
-  <div class="col s12 m8">30 MM JPY
-    <hr>
-  </div>
-  <div class="col s12 m4"><strong>MAIN BANK</strong></div>
-  <div class="col s12 m8">Bank of Tokyo Mitsubishi
-    <hr>
-  </div>
   <div class="col s12 m4"><strong>WEB PROPERTIES</strong></div>
   <div class="col s12 m8"><em>English</em>: <a href="http://esolia.com">esolia.com</a><br>
     <em>Japanese</em>: <a href="http://esolia.co.jp">esolia.co.jp</a><br>
