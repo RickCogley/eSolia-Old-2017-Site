@@ -19,6 +19,8 @@ topics:
 type: aboutpage
 images:
   - /img/eSolia-Chicklet-Color-1024px.png
+aliases:
+  - /concept/cpt-rcmsg/
 menu:
   side:
     Name: Message from eSolia
