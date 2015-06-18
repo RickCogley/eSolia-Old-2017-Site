@@ -61,11 +61,12 @@ menu:
     </ol>
 </div>
 
-**時がきた？** 
-最新のテレフォン、IPビジネスシステム、または"Voice Over IP"例えば、Skype・Google Voiceに興味があれば、
-弊社イソリアがコミュニケーションシステム統一のフルサポートを提供いたします。
+**劣化したPBXの交換を真剣に検 討すべき時ではありませんか？** 
+新たな電話システムやIP PBXシステムの市場で事業展開している場合、あるいは（SkypeやGoogle Voiceといったサービスの利点を考えて）単に概念として「VoIP」に関心をお持ちであれば、お客様が継続企業であっても新興企業であっても、イソリアはお客様向けにフル機能を備えた最新のIP PBXまたはユニファイドコミュニケーション（UC）システムを実装します。
 
-1999年設立より、Cisco・Avaya・Nortelシステム導入及び設置を数多くのクライアントに実施して参りました。 but there are alternatives out there that will get you up and running on a modern system, with all the desirable features, at a great cost-performance price point.
+
+弊社イソリアでは1999年の事業開始以来、多国籍にわたる顧客企業が求めるCiscoSystems、Avaya、またはNortelのシステムを導入するプロジェクトを実施して参りました。また、その他の選択肢として、コストパフォーマンスに優れた価格帯であらゆる魅力的な機能を提供する最新のシステムで稼働させることも可能です。
+
 
 私たちは、システム導入・運用・システムカスタマイズ・トラブルシューティングを提供することが可能です。
 
