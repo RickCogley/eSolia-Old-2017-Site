@@ -99,7 +99,7 @@ menu:
 弊社イソリアはPBXLとパートナーシップを持ち、クラウド型IP電話システムを高い技術と共にお客様に提供してます。
 
 <figure class="image-container">
-<img class="materialboxed right responsive-img" width="200" data-caption="eSolia Partner PBXL's Logo" alt="Graphic of PBXL Logo" src="/img/pbxl-logo.png" >
+<img class="materialboxed right responsive-img" width="200" data-caption="イソリアのパートナーのPBXLロゴ" alt="PBXLのロゴ画像" src="/img/pbxl-logo.png" >
 </figure>
 
 PBXLの“クラウド電話”サービスは、固定電話・iPhone・Androidより、「いつでも・どこでも」アクセス可能な最先端な電話システムの導入を実現してます。
