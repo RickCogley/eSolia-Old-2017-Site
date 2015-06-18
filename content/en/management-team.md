@@ -21,7 +21,7 @@ images:
   - /img/eSolia-COO-Takumi-Fukuoka.jpg
 menu:
   side:
-    Name: Management
+    Name: Management Team
     Weight: 20
     Identifier: management-team
     Url: /management-team
