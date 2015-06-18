@@ -29,7 +29,6 @@ menu:
     Parent: about-us
 ---
 
-## 会社案内
 ### ビジョン
 イソリアが掲げるITサービスのビジョンは、ITアウトソーシング・ビジネスのマーケットリーダーとして、ビジネス・文化・即時性に対する強い認識を持ち、「分かりやすく」且つ「他の手本となる」ITサービスをお客様に提供することです。
 
@@ -43,7 +42,7 @@ menu:
   <div class="col s12 m8">〒１０５ー０００３<br>
     東京都港区西新橋２−２−２ 澤ビル６階<br>
     <em>TEL（代表）</em>: <a href="tel:+81-3-6273-3510">+81-3-6273-3510</a><br>
-    <em>FAX/em>: +81-3-3593-3511<br>
+    <em>FAX</em>: +81-3-3593-3511<br>
     <hr>
   </div>
   <div class="col s12 m4"><strong>お問い合わせ</strong></div>
@@ -51,8 +50,8 @@ menu:
     <hr>
   </div>
   <div class="col s12 m4"><strong>役員</strong></div>
-  <div class="col s12 m8">代表取締役　社長 　ジェームズ R. コグレー<br>
-    代表取締役　副社長 　福岡 琢巳<br>
+  <div class="col s12 m8">代表取締役社長 　ジェームズ R. コグレー<br>
+    代表取締役副社長 　福岡 琢巳<br>
     <hr>
   </div>
   <div class="col s12 m4"><strong>設立</strong></div>
