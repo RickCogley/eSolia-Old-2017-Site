@@ -100,19 +100,19 @@ menu:
 <img class="materialboxed right responsive-img" width="200" data-caption="eSolia Partner PBXL's Logo" alt="Graphic of PBXL Logo" src="/img/pbxl-logo.png" >
 </figure>
 
-PBXLの“クラウド電話”サービスは、固定電話・iPhone・Androidより、「いつでも、どこでも」アクセス可能な最先端な電話システムの導入を実現してます。
+PBXLの“クラウド電話”サービスは、固定電話・iPhone・Androidより、「いつでも・どこでも」アクセス可能な最先端な電話システムの導入を実現してます。
 
 PBXLサービスで実現可能なこと:
 
 * PBX不要なフル機能を備えたターンキー方式電話システム
-* スマートフォンインテグレーションまたは、BYOD (Bring Your Own Device)：私用端末の業務利用
+* スマートフォンインテグレーションまたは、BYOD(Bring Your Own Device)：私用端末の業務利用
 * 通信コスト削減：日本を含む 22 カ国への通話がかけ放題
-* 事業継続計画（Business Continuity Plan）サポート
+* 事業継続計画(Business Continuity Plan)サポート
 * 転送機能：不在の場合は自動的にスマホや他のスタッフに転送
 * コールパーク機能：通話を保留にし別の電話機からそのコールに応答
 * 簡単に会議が開ける電話会議/３者通話
-* コールピックアップ（代理応答)：他の人の電話に代理で応答できる機能
+* コールピックアップ(代理応答)：他の人の電話に代理で応答できる機能
 * メールでFAX受信：モバイル端末でFAXをメールで添付ファイルとして受信可能
-* 着信拒否（DND)：忙しくて電話に出られない時
+* 着信拒否(DND)：忙しくて電話に出られない時
 
 詳細は、下記フォームにご記入いただき、「送信」ボタンをクリックください。
