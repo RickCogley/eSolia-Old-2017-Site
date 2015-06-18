@@ -100,7 +100,7 @@ menu:
 <img class="materialboxed right responsive-img" width="200" data-caption="eSolia Partner PBXL's Logo" alt="Graphic of PBXL Logo" src="/img/pbxl-logo.png" >
 </figure>
 
-PBXLのクラウドフォンサービスは、固定電話・iPhone・Androidより、いつでも、どこでもアクセス可能な近未来的なフォンシステムの導入を実現しております。
+PBXLの“クラウド電話”サービスは、固定電話・iPhone・Androidより、「いつでも、どこでも」アクセス可能な最先端な電話システムの導入を実現しております。
 
 PBXLサービスで実現できること:
 
