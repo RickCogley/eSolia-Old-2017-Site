@@ -2,7 +2,7 @@
 author: eSolia
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
-description: イソリア経営について - biographical information on CEO Rick Cogley and COO Takumi Fukuoka.
+description: マネージメントからのメッセージ - biographical information on CEO Rick Cogley and COO Takumi Fukuoka.
 draft: false
 slug: management-team
 subtitle: ジェームズ R. コグレー、福岡 琢巳
@@ -12,7 +12,7 @@ alternatelocales:
 tags:
   - Principals
   - Management Team
-title: イソリア経営について
+title: CEOメッセージ
 topics:
   - eSolia
 type: aboutpage
@@ -21,14 +21,12 @@ images:
   - /img/eSolia-COO-Takumi-Fukuoka.jpg
 menu:
   side:
-    Name: 経営グループ
+    Name: マネージメントチーム
     Weight: 20
     Identifier: management-team
     Url: /management-team
     Parent: about-us
 ---
-
-## マネージメント チーム
 
 ### 代表取締役社長 コグレー
 
@@ -57,7 +55,7 @@ Allegheny Collegeのアドバイザーが東京大学の薬学教授をコグレ
 
 コグレーはeSoliaを、やりがいのあるプロジェクトにおいて、ビジネスに焦点をあてたバイリンガルなコンサルティングをお客様に提供することに着目した、国際的なコンサルタント会社に発展させる事を目標としております。
 
-### 取締役副社長 福岡
+### 代表取締役副社長 福岡　琢巳
 
 <figure class="image-container">
 <img class="materialboxed right responsive-img z-depth-1" width="200" data-caption="取締役副社長 福岡 琢巳、COO (Rick Cogley Photo)" alt="取締役副社長 福岡 琢巳、COO の写真 (写真：コグレー ジェームズ)" src="/img/eSolia-COO-Takumi-Fukuoka.jpg" >
