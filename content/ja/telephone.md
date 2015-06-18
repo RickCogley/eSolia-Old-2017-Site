@@ -113,6 +113,6 @@ PBXLサービスで実現できること:
 * 簡単に会議が開ける電話会議／３者通話
 * コールピックアップ（代理応答）：他の人の電話に代理で応答できる機能
 * メールでFAX受信：モバイル端末でFAXをメールで添付ファイルとして受信可能
-* 着信拒否（DND）：忙しくて電話に出られない時
+* 着信拒否（DND)：忙しくて電話に出られない時
 
 Request more info using the form below, and join a list of satisfied customers.
