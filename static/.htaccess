@@ -990,7 +990,7 @@ FileETag None
 # | Password protect
 # ----------------------------------------------------------------------
 
-AuthUserFile /home/rcogley/webapps/es_hugo_esolia_com_01/.htpasswd
+AuthUserFile /home/rcogley/opt/htpasswd/esolia_sites.htpasswd
 AuthName EnterPassword
 AuthType Basic
 require valid-user

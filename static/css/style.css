@@ -129,6 +129,10 @@ blockquote {
     float: right;
 }
 
+figcaption {
+    display:block;
+}
+
 .esolia-card-panel {
   padding: 20px;
   margin: 0.5rem 0 1rem 1rem;
@@ -136,7 +140,12 @@ blockquote {
   background-color: #fff;
   width: 300px;
   float: right;
- }
+}
+
+.esolia-figure {
+    padding: 20px;
+    margin: 0.5rem 0 1rem 1rem;
+}
 
 .index-social-icons {
     padding: 0px 0px 150px 0px;

@@ -13,6 +13,9 @@
           <div id="materialdesign" class="section scrollspy">
 
             {{ .Content }}
+            {{if isset .Params "gallery_id" }}
+              {{ partial "gallery.html" . }}
+            {{ end }}
             {{ partial "form-moreinfo.html" . }}
           </div>
 
