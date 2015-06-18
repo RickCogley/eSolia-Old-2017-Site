@@ -46,14 +46,14 @@ menu:
     Parent: services
 ---
 
-## ビジネスフォンシステム
+## ビジネス電話システム
 
 <div class="esolia-card-panel blue darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">プロセス</h4>
     <ol>
       <li class="white-text">現状把握と要望のドキュメント化</li>
-      <li class="white-text">設定及びプロジェクトの承諾</li>
-      <li class="white-text">見積書及び契約</li>
+      <li class="white-text">設定確認及びプロジェクトの承諾</li>
+      <li class="white-text">見積及び契約</li>
       <li class="white-text">注文及び設定</li>
       <li class="white-text">システム導入</li>
       <li class="white-text">トレニーング</li>
@@ -61,24 +61,25 @@ menu:
     </ol>
 </div>
 
-**時がきた？** 
-最新のテレフォン、IPビジネスシステム、または"Voice Over IP"例えば、Skype・Google Voiceに興味があれば、
-弊社イソリアがコミュニケーションシステム統一のフルサポートを提供いたします。
+**オールドスタイルのPBXの交換を真剣に検討すべき時ではありませんか？** 
+新たな電話システムやIP PBXシステムの市場で事業展開している場合、あるいは（SkypeやGoogle Voiceといったサービスの利点を考えて）単に概念として「VoIP」に関心をお持ちであれば、お客様が継続企業であっても新興企業であっても、イソリアはお客様向けにフル機能を備えた最新のIP PBXまたはユニファイドコミュニケーション（UC）システムを実装します。
 
-1999年設立より、Cisco・Avaya・Nortelシステム導入及び設置を数多くのクライアントに実施して参りました。 but there are alternatives out there that will get you up and running on a modern system, with all the desirable features, at a great cost-performance price point.
 
-私たちは、システム導入・運用・システムカスタマイズ・トラブルシューティングを提供することが可能です。
+弊社イソリアでは1999年の事業開始以来、多国籍にわたる顧客企業が求めるCiscoSystems、Avaya、またはNortelのシステムを導入するプロジェクトを実施して参りました。また、その他の選択肢として、コストパフォーマンスに優れた価格帯で魅力的な機能を備えた最新のシステムで稼働させることも可能です。
 
-### IP フォンシステムの利益
 
-近代的なIPフォンシステムの実現:
+私達は、このシステム上でお客様の設計、調達、実装、システムカスタマイズ、トラブルシューティング、トレーニングを行うとともに、今後に向けた保守管理も実施します。
 
-* 通信コストを削減したい、投資対効果を考えている
-* 日本のテレコミュニケーション導入・設置の経験豊かなチームが必要
-* 大規模な企業での、使いやすさを兼ね備えた異種機器システム併用の運用をしたい
-* 近代的なシステム、ボイスメール、自動会議、フォロー、スピードダイアル、電話転送、会議システム、コールパーク、保留機能、また、ACD or IVR。
+### IP電話システムの利点
 
-### ターンキー式クラウドフォンサービス
+以下に当てはまる場合、イソリアをご検討ください：
+
+* コストパフォーマンスと投資対効果に優れたシステムを求めている
+* 日本の電気通信事業に通じた導入チームを必要としている
+* 企業レベルの拡張性または相互運用性を組み合わせた使いやすさを求めている
+* ボイスメール、自動案内、フォローミー、スピードダイヤル、通話転送、会議ブリッジ、保留音楽、一時保留（コールパーク）などのあらゆる最新機能に加えて、UC、ACD、またはIVRなどの高度な機能も必要としている
+
+### ターンキー方式クラウド電話サービス
 
 <div class="card">
   <div class="card-image waves-effect waves-block waves-light">
@@ -89,29 +90,29 @@ menu:
   </div>
   <div class="card-reveal">
     <span class="card-title grey-text text-darken-4">PBXLについて <i class="mdi-navigation-close right red-text text-accent-3"></i></span>
-    <p>2006年に設立したPBXLは、第2種通信事業者免許取得し、日本でいちはやくクラウド型コミュニケーションサービスを提供するなど、通信ソリューションのパイオニアです。</p><p>PBXLは、多彩な経験をエクスパート達がクライアントのインストールから日々のオペレーションを実施及びご提案いたします。 We’ll help you build a happier, more productive workforce and leverage the power of open collaboration and mobile staff.</p>
+    <p>2006年に設立したPBXLは、第2種通信事業者免許取得し、日本でいちはやくクラウド型コミュニケーションサービスを提供するなど、通信ソリューションのパイオニアとして活躍してます。</p><p>PBXLは、高い技術を持つスタッフが丁寧且つ、きめ細やかな対応で導入から日々のオペレーションサポートを提供してます。生産性の高いパフォーマンス構築を実現すると伴に、オープンなコラボレーションとモバイルスタッフの力を活用してます。</p>
   </div>
 </div>
 
-イソリアはPBXLとパートナーシップを持ち、クラウド型IPフォンシステムを高い技術と共にクライアントに提供しております。
+弊社イソリアはPBXLとパートナーシップを持ち、クラウド型IP電話システムを高い技術と共にお客様に提供してます。
 
 <figure class="image-container">
 <img class="materialboxed right responsive-img" width="200" data-caption="eSolia Partner PBXL's Logo" alt="Graphic of PBXL Logo" src="/img/pbxl-logo.png" >
 </figure>
 
-PBXLのクラウドフォンサービスは、固定電話・iPhone・Androidより、いつでも、どこでもアクセス可能な近未来的なフォンシステムの導入を実現しております。
+PBXLの“クラウド電話”サービスは、固定電話・iPhone・Androidより、「いつでも・どこでも」アクセス可能な最先端な電話システムの導入を実現してます。
 
-PBXLサービスで実現できること:
+PBXLサービスで実現可能なこと:
 
-* PBXデバイス不要なターンキー式Turnkey full-featured phone solution, with no premise PBX device needed
-* スマートフォンの統合　BYOD：私用端末の業務利用
-* 通信コスト削減及び22ヵ国でCommunications cost reduction, including an "all you can call" option plan, for 22 countries
-* Support for your "BCP", or 'business continuity plan'
-* 転送機能：不在の場合は自動的にスマホや他のスタッフに転送する
-* コールパーク機能：通話を保留にし別の電話機からそのコールに応答する
-* 3-way conference calling, to let you easily connect people in a group call
-* Call pickup, letting you take control of calls on other lines
-* Fax2Email, to receive inbound faxes on your mobile or pickup
-* "DND" or 'do not disturb' feature, to let you schedule your downtime
+* PBX不要なフル機能を備えたターンキー方式電話システム
+* スマートフォンインテグレーションまたは、BYOD(Bring Your Own Device)：私用端末の業務利用
+* 通信コスト削減：日本を含む 22 カ国への通話がかけ放題
+* 事業継続計画(Business Continuity Plan)サポート
+* 転送機能：不在の場合は自動的にスマホや他のスタッフに転送
+* コールパーク機能：通話を保留にし別の電話機からそのコールに応答
+* 簡単に会議が開ける電話会議/３者通話
+* コールピックアップ(代理応答)：他の人の電話に代理で応答できる機能
+* メールでFAX受信：モバイル端末でFAXをメールで添付ファイルとして受信可能
+* 着信拒否(DND)：忙しくて電話に出られない時
 
-Request more info using the form below, and join a list of satisfied customers.
+詳細は、下記フォームにご記入いただき、「送信」ボタンをクリックください。
