@@ -12,6 +12,14 @@ formreset: リセット
 formsubmit: 送信
 formtel: 電話番号
 genfeature: おすすめ
+genfeature1: 電話サービス
+genfeature1img: /img/sample-1.jpg
+genfeature1text: Get a full-featured "Cloud Phone" service, a modern phone system accessible from desk phones & smart phones.
+genfeature1url: /telephone
+genfeature2: 電話録音機器
+genfeature2img: /img/sample-1.jpg
+genfeature2text: Get the "SIP Print" appliance, to record telephone calls for quality assurance & compliance.
+genfeature2url: /sip-print
 gengalleryname: ギャラリー
 genlatestfeature: 最新おすすめ
 genlatestposts: 最新プロ ブログ
