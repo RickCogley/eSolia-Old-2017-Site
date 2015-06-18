@@ -6,7 +6,7 @@ draft: false
 title: 電話システム
 slug: telephone
 subtitle: フル機能を揃えたIPビジネスフォン
-description: イソリアから - 私たちは、フル機能を備えた近代的で優れたUC電話システムの導入を成功させることでお客様のコストを削減し、効率を高めます。クラウド型電話のサービスCloud phone subscription service available.
+description: イソリアから - 私たちは、フル機能を備えた近代的で優れたUC電話システムの導入を成功させることでお客様のコストを削減し、効率を高めます。クラウド型電話サービスが利用可能に。
 weight: 65
 alternatelocales:
   - en-US
