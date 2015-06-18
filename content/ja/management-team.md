@@ -5,14 +5,14 @@ publishdate: 2012-01-10T00:05:19.000Z
 description: マネージメント チーム - ジェームズ R. コグレー、福岡 琢巳 の 経歴/略歴などなど 日本語日本語
 draft: false
 slug: management-team
-subtitle: ジェームズ R. コグレー、福岡 琢巳
+subtitle: 略歴
 weight: 20
 alternatelocales:
   - en-US
 tags:
   - 主役
   - マネージメント チーム
-title: イソリア マネージメント チーム
+title: イソリアのマネージメントチーム
 topics:
   - eSolia
 type: aboutpage
@@ -28,7 +28,7 @@ menu:
     Parent: about-us
 ---
 
-### 代表取締役社長 コグレー
+### 代表取締役社長 ジェームズ R. コグレー
 
 <figure class="image-container">
 <img class="materialboxed right responsive-img z-depth-1" width="200" data-caption="代表取締役社長 リック コグレー、CEO (写真：福岡 琢巳)" alt="代表取締役社長 リック コグレー、CEO (写真：福岡 琢巳)" src="/img/eSolia-CEO-Rick-Cogley.jpg" >
