@@ -68,7 +68,7 @@ menu:
 
 <i class="small mdi-editor-mode-edit grey-text text-darken-2 left"></i> イソリアのプロフェッショナルはプロセスに則って確実に業務を完遂し、情報のドキュメント化をします。特にドキュメント化はリスクを最小限に収めるための必須事項で、徹底しております。
 
-<i class="small mdi-toggle-check-box grey-text text-darken-2 left"></i> イソリアが使用するシステムはすべて洗練され、チームが効率よくお客様のお役に立つことができます。
+<i class="small mdi-toggle-check-box grey-text text-darken-2 left"></i> イソリアが使用するツールはすべて洗練され、チームが効率よくお客様のお役に立つことができます。
 プロフェッショナルの業務レポートは月次請求書と共に送付し、チケットシステムからは必要に応じてEメールでご希望の方々に送付いたします。
 
 ## 私たちのプロセス
