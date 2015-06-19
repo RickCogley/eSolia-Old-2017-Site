@@ -6,7 +6,7 @@ draft: false
 title: ローカライゼーション
 slug: localization
 subtitle: 直訳で意味が通じますか？
-description: イソリアから - ローカライゼイションは直訳にあらず。ネイティブによって整合性のとれた本当の意味でのローカライゼーションを様々な分野で
+description: ローカライゼイションは直訳にあらず。ネイティブによって整合性のとれた本当の意味でのローカライゼーションを様々な分野で
 weight: 45
 alternatelocales:
   - en-US
