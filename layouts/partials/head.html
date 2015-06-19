@@ -23,7 +23,7 @@
   <meta name="msapplication-tap-highlight" content="no">
   <!-- Load CSS (font faces first) -->
   <link href="/css/typography.min.css{{with getenv "TYPOCSS_HASH"}}?v={{.}}{{end}}" type="text/css" rel="stylesheet" media="screen,projection"/>
-  {{ if eq (add .Site.BaseUrl "/") (add .Permalink "/") }}
+  {{ if eq (add .Site.BaseURL "/") (add .Permalink "/") }}
   <link href="/css/materialize.min.css{{with getenv "MATCSS_HASH"}}?v={{.}}{{end}}" type="text/css" rel="stylesheet" media="screen,projection"/>
   {{ else }}
   <link href="/css/ghpages-materialize.min.css{{with getenv "GHPMATCSS_HASH"}}?v={{.}}{{end}}" type="text/css" rel="stylesheet" media="screen,projection"/>
