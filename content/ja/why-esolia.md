@@ -6,7 +6,7 @@ description: 日本語Why eSolia - information about our mandate, value, process
 draft: false
 slug: why-esolia
 title: 何故イソリアか?
-subtitle: 日本語 Our Mandate, Value, Process, Practices & Tools
+subtitle: イソリアが有益である根本的な理由
 weight: 30
 alternatelocales:
   - en-US
@@ -55,11 +55,12 @@ menu:
 ## 私たちの価値
 
 イソリアの価値は何をどれだけしたという事よりも、どれだけお客様の役に立ち、有益だと感じて頂く事にあります。
+我々は依頼をただこなす一般的なアウトソースのベンダーとは異なります。
 これを可能にするために我々は：
 
-<i class="small mdi-social-people grey-text text-darken-2 left"></i> イソリアはエンジニアを単体で派遣することはありません。 私たちは常に _チームで動きます。_これにより、幅広い知識やスキルをもってして対応することができ、ヘルプデスクからネットワーク、セキュリティのデザインやプロジェクトマネージメントまで、一般のIT部で必要になるすべてのスキルをカバーすることができます。
+<i class="small mdi-social-people grey-text text-darken-2 left"></i> イソリアはエンジニアを単体で派遣することはありません。 私たちは常に _チームで動きます。_これにより、幅広い知識やスキルをもって包括的に対応することができ、ヘルプデスクからネットワーク、セキュリティのデザインやプロジェクトマネージメントまで、一般のIT部で必要になるすべてのスキルをカバーすることができます。
 
-<i class="small mdi-hardware-security grey-text text-darken-2 left"></i> イソリアは _お客様の問題_ を解決します。単にITベンダーとしての業務だけではなく、私たちは常にお客様のスタッフとして動き、企業ITポリシーに従って、私たちの経験とスキルを用い、お客様の環境と調和しつつ最善な結果を出します。
+<i class="small mdi-hardware-security grey-text text-darken-2 left"></i> イソリアは _お客様の問題_ を解決します。単にITベンダーとしてだけではなく、私たちは常にお客様のスタッフとして動き、企業ITポリシーに従って、私たちの経験とスキルを用い、お客様の環境と調和しつつ最善な結果を出します。
 
 <i class="small mdi-communication-forum grey-text text-darken-2 left"></i> イソリアは多言語を習得し、生まれとは違う国の文化を経験したプロフェッショナルを採用しています。これにより強いコミュニケーションスキルを習得し、問題を解決できる能力が備わっております。
 
