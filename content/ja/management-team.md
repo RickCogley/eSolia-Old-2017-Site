@@ -12,7 +12,7 @@ alternatelocales:
 tags:
   - 主役
   - マネージメント チーム
-title: イソリアのマネージメントチーム
+title: イソリアの<wbr><nobr>マネージメントチーム</nobr>
 topics:
   - eSolia
 type: aboutpage

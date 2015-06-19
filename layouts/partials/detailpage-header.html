@@ -4,8 +4,8 @@
     <div class="container">
       <div class="row">
         <div class="col s12 m9">
-          <h1 class="header center-on-small-only">{{ .Title }}</h1>
-          <h4 class="light light-blue-text center-on-small-only">{{ .Params.subtitle }}</h4>
+          <h1 class="header center-on-small-only">{{ .Title | markdownify }}</h1>
+          <h4 class="light light-blue-text center-on-small-only">{{ .Params.subtitle | markdownify }}</h4>
         </div>
       </div>
     </div>
