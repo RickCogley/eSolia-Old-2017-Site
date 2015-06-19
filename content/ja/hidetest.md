@@ -7,7 +7,7 @@ draft: false
 slug: hidetest1
 subtitle: サブタイトル for セキュリティと利便性
 weight: 9999
-alternatelocales: 
+alternatelocales:
   - en-US
 tags:
   - asdf
@@ -17,12 +17,6 @@ topics:
   - Us
 images:
   - /img/service2.png
-menu:
-  side:
-    Name: セキュリティ
-    Weight: 31
-    Identifier: hidetest1
-    Url: /hidetest1
 ---
 
 ## はじめに

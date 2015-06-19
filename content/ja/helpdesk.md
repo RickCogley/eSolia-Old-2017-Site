@@ -5,8 +5,8 @@ publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: ヘルプデスク
 slug: helpdesk
-subtitle: 電話やリモートでのサポート
-description: イソリアから - 様々なトラブルや解決策を集結させた社内データベースを利用し、迅速で信頼性の高いサポートを提供
+subtitle: 電話やリモートでのバイリンガルでのサポート
+description: イソリア - 様々なトラブルや解決策を集結させた社内データベースを利用し、迅速で信頼性の高いサポートを提供
 weight: 15
 alternatelocales:
   - en-US
@@ -44,12 +44,13 @@ menu:
     Parent: services
 ---
 
-日本語 eSolia professionals provide email or telephone support, and remote access, for support and troubleshooting assistance regarding your hardware, software and user support issues. All helpdesk-related data and knowledge is stored in our custom-built _PROdb_ IT operations database, for easy recall and reporting.
+イソリアではソフトウエア、ハードウェアに関する質問・問題・故障切り分け対応などをメールによる問い合わせ、コールセンター対応そして遠隔サポートの組み合わせにより、幅広くサポートしています。
+また過去にサポートして来た経験と対応を全て自社データーベースに情報を一体化し、それによって全エンジニアのノウハウをデータ管理しています。 この仕組みによって円滑な情報アクセス、分析、判断と対応を実現しています.
 
 * 全てのリクエスト・インシデントをチケットシステムにて一括管理
 * バイリンガルによるプロフェッショナルサポート
 * ITIL・COBIT等、ベストプラクティスを用いたプロセスと手順法
-* 保証管理とライセンス管理
+* 保守やライセンス等の管理
 * IT監視サービスと遠隔サポートサービス
-* 在庫管理
-* アップデート管理　OSアップデート,バグ修正、アンチウイルスとセキュリティーパッチのアップデート管理
+* IT資産管理
+* アップデート管理（OSアップデート、バグ修正、アンチウイルスやセキュリティーパッチのアップデート）

@@ -12,6 +12,14 @@ formreset: Reset
 formsubmit: Submit
 formtel: Tel
 genfeature: Featured
+genfeature1: Tel Service
+genfeature1img: /img/sample-1.jpg
+genfeature1text: Get a full-featured "Cloud Phone" service, a modern phone system accessible from desk phones & smart phones.
+genfeature1url: /telephone
+genfeature2: Tel Record
+genfeature2img: /img/sample-1.jpg
+genfeature2text: Get the "SIP Print" appliance, to record telephone calls for quality assurance & compliance.
+genfeature2url: /sip-print
 gengalleryname: Gallery
 genlatestfeature: Latest Features
 genlatestposts: Latest Pro Blog
@@ -49,10 +57,14 @@ topwwdofficesetup: OFFICE SETUP
 topwwdofficesetuptext: Full support for new office setup management, upgrades or internal moves.
 topwwdonsite: ON-SITE
 topwwdonsitetext: Engineers visit your site for user support, regular systems admin tasks, or troubleshooting.
+topwwdpm: PROJECT MGT
+topwwdpmtext: Our real experience means success for all your projects. Try eSolia's unique and practical approach to project management.
 topwwdprocess: PROCESS
 topwwdprocesstext: Skillful management of Projects, Procurement, Asset Mgt, Compliance, Upgrade or any other IT or business processes.
 topwwdsecurity: SECURITY
 topwwdsecuritytext: Security assessment, program & infrastructure implementation, compliance auditing, and remediation for your peace of mind.
+topwwdtelephone: TELEPHONE
+topwwdtelephonetext: Superior, modern and full-featured IP phone systems reduce your costs and increase your efficiency. Cloud phone subscription service available.
 topwwdtraining: TRAINING
 topwwdtrainingtext: Effective new-hire orientation, software and technical training. Course development and delivery.
 topwwdwebsite: WEBSITE
