@@ -51,9 +51,9 @@ menu:
 <div class="esolia-card-panel blue darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">導入までのプロセス</h4>
     <ol>
-      <li class="white-text">現状把握と要望確認</li>
-      <li class="white-text">導入提案と承認</li>
-      <li class="white-text">見積及び契約終結</li>
+      <li class="white-text">現状と要望の調査</li>
+      <li class="white-text">導入提案と確認</li>
+      <li class="white-text">見積及び契約</li>
       <li class="white-text">オーダーとセットアップ</li>
       <li class="white-text">システム導入</li>
       <li class="white-text">トレニーング</li>
