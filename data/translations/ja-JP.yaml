@@ -12,6 +12,14 @@ formreset: リセット
 formsubmit: 送信
 formtel: 電話番号
 genfeature: おすすめ
+genfeature1: 電話サービス
+genfeature1img: /img/sample-1.jpg
+genfeature1text: Get a full-featured "Cloud Phone" service, a modern phone system accessible from desk phones & smart phones.
+genfeature1url: /telephone
+genfeature2: 電話録音機器
+genfeature2img: /img/sample-1.jpg
+genfeature2text: Get the "SIP Print" appliance, to record telephone calls for quality assurance & compliance.
+genfeature2url: /sip-print
 gengalleryname: ギャラリー
 genlatestfeature: 最新おすすめ
 genlatestposts: 最新プロ ブログ
@@ -23,6 +31,10 @@ languageurl: http://esolia.co.jp
 menuabout: イソリアについて
 menulanguageswitch: English
 menulanguageswitchurl: http://esolia.com
+month:
+  1: 睦月
+  2: 如月
+  3: 弥生
 photocaptionesoliaofficefront1: イソリア虎ノ門事務所ビル外見
 topsectionbsf: 強固な基盤を構築いたします
 topsectioncus: お問い合わせ
@@ -49,15 +61,15 @@ topwwdofficesetup: オフィス構築
 topwwdofficesetuptext: 新規オフィスの立ち上げから、変更や改善に至るまでの全サポート
 topwwdonsite: オンサイト
 topwwdonsitetext: 面倒なシステム管理、度重なるユーザサポート、複雑なトラブルシュートは経験豊富なエンジニアがオンサイトにて
+topwwdpm: プロジェクト管理
+topwwdpmtext: 東京およびアジア太平洋地域の実施しているプロジェクトで成功を収めています。私たちのPMアプローチは実践的で独自性があります。
 topwwdprocess: プロセス
 topwwdprocesstext: 卓逸されたプロジェクト管理やアセット管理、コンプライアンスの徹底から購入のお手伝いまで、ＩＴやビジネスのレベルアップへ
 topwwdsecurity: セキュリティ
 topwwdsecuritytext: コンプライアンスやセキュリティの信頼性監査、強固なセキュリティをソフト＆ハードにて実装。システムも心もセキュアに
+topwwdtelephone: 電話システム
+topwwdtelephonetext: フル機能備えで近代的IP電話システムの導入を成功させることでお客様のコストを削減し、効率を高めます。クラウド型もあります。
 topwwdtraining: トレーニング
 topwwdtrainingtext: 迷える新入社員に実用的なＩＴオリエンテーションを作成。初歩的ものから専門的なトレーニングまで
 topwwdwebsite: ウェブサイト
 topwwdwebsitetext: 新時代と目的に合ったウェブサイトの構築を。新規、既存、多言語でも
-month:
-  1: 睦月
-  2: 如月
-  3: 弥生

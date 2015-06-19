@@ -164,7 +164,8 @@
     <div class="container">
       <div class="section">
 
-        <!--   Card Section   -->
+        <!--   CARD SECTION   -->
+        <!--   ROW 1   -->
         <div class="row center">
           <h3><i class="large mdi-social-whatshot deep-orange-text text-accent-3"></i></h3>
           <h4>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topsectionwwd }}</h4>
@@ -222,7 +223,7 @@
             </div>
           </div>
         </div>
-
+        <!--   ROW 2   -->
         <div class="row center">
           <div class="col s12 m3">
             <div class="card blue-grey darken-4">
@@ -277,6 +278,7 @@
             </div>
           </div>
         </div>
+        <!--   ROW 3   -->
         <div class="row center">
           <div class="col s12 m3">
             <div class="card cyan darken-4">
@@ -314,6 +316,35 @@
               </div>
               <div class="card-action indigo darken-3">
                 <a href="/training" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="card blue-grey darken-4">
+              <div class="card-content white-text">
+                <p class="blue-grey-text text-lighten-4">
+                  <strong>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdtelephone }}</strong>
+                </p>
+                <p><small>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdtelephonetext }}</small></p>
+              </div>
+              <div class="card-action blue-grey darken-3">
+                <a href="/telephone" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--   ROW 4   -->
+        <div class="row center">
+          <div class="col s12 m3">
+            <div class="card light-blue darken-4">
+              <div class="card-content white-text">
+                <p class="light-blue-text text-lighten-4">
+                  <strong>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdpm }}</strong>
+                </p>
+                <p><small>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topwwdpmtext }}</small></p>
+              </div>
+              <div class="card-action light-blue darken-3">
+                <a href="/project-management" class="light-blue-text text-accent-2">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a>
               </div>
             </div>
           </div>
@@ -409,7 +440,7 @@
                 <strong>Our support systems are well developed</strong>, which helps our team be efficient for you, to provide a standard set of reports.
                 <br>
                 <br>
-                <p><a class="waves-effect waves-light green btn" href="#" target="_blank"><i class="mdi-action-question-answer"></i> {{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a></p>
+                <p><a class="waves-effect waves-light green btn" href="/why-esolia" target="_blank"><i class="mdi-action-question-answer"></i> {{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a></p>
               </div>
             </div>
           </div>
@@ -464,7 +495,7 @@
               </div>
               <div class="col s10 left-align">
                 <strong>We take ownership of tasks</strong>, because we hate it when vendors drop the ball on us. We don't want to do that to our clients, ever.
-                <p><a class="waves-effect waves-light green btn" href="#" target="_blank"><i class="mdi-action-question-answer"></i> {{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a></p>
+                <p><a class="waves-effect waves-light green btn" href="/esolia-code-of-conduct" target="_blank"><i class="mdi-action-question-answer"></i> {{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a></p>
               </div>
             </div>
           </div>
@@ -521,7 +552,7 @@
               </div>
               <div class="col s10 left-align">
                 <strong>効率的にお客様をサポートできるように</strong>開発された当社のサポートシステムが標準化されたレポートを提供いたします。
-                <p><a class="waves-effect waves-light green btn" href="#" target="_blank"><i class="mdi-action-question-answer"></i> {{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a></p>
+                <p><a class="waves-effect waves-light green btn" href="/why-esolia" target="_blank"><i class="mdi-action-question-answer"></i> {{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a></p>
               </div>
             </div>
           </div>
@@ -576,7 +607,7 @@
               </div>
               <div class="col s10 left-align">
                 <strong>お受けした作業やトラブルは、</strong>最後まで徹底して対応いたします。
-                <p><a class="waves-effect waves-light green btn" href="#" target="_blank"><i class="mdi-action-question-answer"></i> {{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a></p>
+                <p><a class="waves-effect waves-light green btn" href="/esolia-code-of-conduct" target="_blank"><i class="mdi-action-question-answer"></i> {{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a></p>
               </div>
             </div>
           </div>
@@ -614,15 +645,15 @@
 
               <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="/img/sample-1.jpg">
+                  <img class="activator" src="{{ ( index $.Site.Data.translations $.Site.Params.locale ).genfeature1img }}">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Telework <i class="mdi-navigation-more-vert right"></i></span>
-                  <p><a href="#">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a></p>
+                  <span class="card-title activator grey-text text-darken-4">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genfeature1 }}<i class="mdi-navigation-more-vert right"></i></span>
+                  <p><a href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).genfeature1url }}">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a></p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Telework <i class="mdi-navigation-close right"></i></span>
-                  <p class="grey-text text-darken-4">Here is some more information about this product that is only revealed once clicked on.</p>
+                  <span class="card-title grey-text text-darken-4">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genfeature1 }} <i class="mdi-navigation-close right"></i></span>
+                  <p class="grey-text text-darken-4">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genfeature1text }}</p>
                 </div>
               </div>
             </div>
@@ -635,15 +666,15 @@
 
               <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="/img/sample-1.jpg">
+                  <img class="activator" src="{{ ( index $.Site.Data.translations $.Site.Params.locale ).genfeature2img }}">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Cloud DB <i class="mdi-navigation-more-vert right"></i></span>
-                  <p><a href="#">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a></p>
+                  <span class="card-title activator grey-text text-darken-4">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genfeature2 }} <i class="mdi-navigation-more-vert right"></i></span>
+                  <p><a href="{{ ( index $.Site.Data.translations $.Site.Params.locale ).genfeature2url }}">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genmoreinfo }}</a></p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Cloud DB <i class="mdi-navigation-close right"></i></span>
-                  <p class="grey-text text-darken-4">Here is some more information about this product that is only revealed once clicked on.</p>
+                  <span class="card-title grey-text text-darken-4">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genfeature2 }} <i class="mdi-navigation-close right"></i></span>
+                  <p class="grey-text text-darken-4">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genfeature2text }}</p>
                 </div>
               </div>
             </div>
@@ -658,7 +689,7 @@
                   {{ range first 5 $series.Pages }}
                     <li>
                     <div class="esListItemTitle blue-text text-darken-1"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
-                    <div class="esListItemDate">{{ .Date.Format "02 Jan, 2006" }}</div>
+                    <div class="esListItemDate grey-text text-lighten-2">{{ .Date.Format "02 Jan, 2006" }}</div>
                     </li>
                   {{ end }}
                 </ul>

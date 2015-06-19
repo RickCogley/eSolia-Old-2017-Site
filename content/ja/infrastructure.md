@@ -43,37 +43,36 @@ menu:
     Parent: services
 ---
 
-## What's "Infrastructure"
-日本語 日本語 Companies define "infrastructure" differently, but mostly it includes all the basics from the facility to the network and servers, that make an IT system work. Starting with the office space itself, eSolia considers the electrical and HVAC capacity, access to data and telephone lines, your building's physical structure in whether it has a raised floor and so on.
+## 「インフラストラクチャー」とは
 
-Next is the design of the on- or off-site data center, or sometimes both, where the equipment is to be housed. We must consider its access to independent electrical lines and cooling, security, access routes from there to the rest of the site.
+企業によって“インフラ”の定義が異なる事が多いですが、基本的にネットワーク、サーバー、施設などITシステムが動作するための基盤と言います。eSoliaでは電源供給力HV AC、データアクセス、電話回線と施設の物理構造（オフィスフロア）などインフラの基盤である施設から考察します。
 
-Inside the data center or sometimes the "server room", there will be systems racks, whether for network and telephone, or standard structured cabling. The rack size and capacity has to be done right, and there are plenty of considerations such as equipment weight, and earthquakes, to consider.
+デザイン、ここでは多くの観点から構成を考えなければいけません。データ、アクセス、ネットワーク、電話の運用と共にこれらを内部・外部運用するか。また機器の種類、目的と規模によって設置するラック、耐久性、耐震、配置位置と拡張性などからデザインを更に具体的に構築して行きます。
 
-Building from there, you have structured cable, network, telephone, servers and other equipment, the specs, details and designs for which all must be examined and defined. A myriad of details, but all familiar to a firm with our experience.
+### どの様な場面で発揮されるの？
 
-### Where is it important?
-Infrastructure comes into play, in many types of project we've performed:
+弊社はプロジェクトを通じて多くのインフラを手がけて来ました
 
-* New office deployments
-* Company office relocations
-* Intra-office "restacks", moving people and equipment in the office
-* Technology refreshes and upgrades
-* "IMAC" (install, move, add, change) jobs
-* Software implementation projects
-* Hardware procurement
-* Virtualization efforts, to reduce the amount of infrastructure required
-* Decommissioned equipment disposal and recycling
+* オフィス新規立ち上げ
+* オフィス移転・拡大・縮小作業
+* 改装、配置、内装工事
+* 最新技術、トレンドを検討、導入とアップグレード
+* "IMAC" (導入、設定、移動、変更と運用) 作業
+* ソフトウエア導入
+* 機器の調達と導入
+* 仮想化 - 運用コスト削減とインフラ集約
+* 廃棄とOA機器リサイクル
 
-### How does eSolia manage it?
-There are several important aspects of managing infrastructure projects:
+### eSoliaはどの様にマネージメント<wbr><nobr>をするのか</nobr>
 
-* Specifications and standards
-* System design
-* Project management and control, including schedule, budget, deliverables, risk mitigation, change control, decisions
-* Vendor management and control
-* Construction management
-* Inventory and asset management
-* Engineering skill in cabling, construction, network, OS, desktop, telecom, market data
+インフラ関連プロジェクトで重要な諸相
 
-Our bilingual team handles all such aspects of infrastructure projects with the skill that only experience can bring.
+* 基準、規格と仕様
+* システムデザイン
+* 人材・資金・設備・物資・リスク・スケジュールなどのプロジェクト管理
+* ベンダーマネージメント
+* コンストラクション・マネージメント
+* 商品、在庫と資産管理
+* 市場データ、テレコム、パソコン、OS、ネットワークと工事と配線技術
+
+豊富な経験と知識をもったバイリンガルスタッフがプロジェクトをお手伝い致します。
