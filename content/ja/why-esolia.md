@@ -47,10 +47,13 @@ menu:
     Parent: about-us
 ---
 
-## Our Mandate
+## 私たちの使命
+
+私たちはお客様のご要望を最重要課題とし、下記のような信念、プロセス、技術的な経験、システムやツールと共に柔軟に対応しております。
+
 新しい日本語 We consider our clients' requirements to be of the greatest importance, and use the following tools and techniques to accommodate your directives, standards and mandate, in the most flexible manner possible.
 
-## Our Value
+## 私たちの価値
 
 新サイトのトップページより、プラスα Our value to our clients derives from several systemic aspects about how eSolia is and acts:
 
@@ -66,41 +69,40 @@ menu:
 
 <i class="small mdi-toggle-check-box grey-text text-darken-2 left"></i> Our support systems are well developed, which helps our team be efficient for you, to provide a standard set of reports. We keep records of what we did every day, which feeds into the monthly work report we send with our invoice. Further, incoming request tickets go into a regular "ticket report" email, which we sent out to relevant people.
 
-## Our Process
+## 私たちのプロセス
 
-ここからとって、プラスα： http://www.esolia.co.jp/concept/cpt-proc/
+イソリアのＩＴプロフェッショナルの使命は、お客様のビジネスとIT問題に対して、実践的且つ現実的で、耐久性あるソリューションをデザイン・導入することです。
 
-When you engage a professional services firm, getting your problem solved is the first thing on your mind, not the firm's history or philosophy, or the latest fad.
+現在どのようなチャレンジに直面していますか？　プロフェッショナル・サービス企業の登用を検討される際には、その企業の歴史や哲学といったことではなく、貴社の問題を解決できる企業かどうかを何より重視されることでしょう。
+
+我々イソリアのターゲット市場とソリューションの範囲の幾つかをご紹介させて戴きます。
+イソリアは経験とプロフェッショナルな技術に対して多大な自信があります。
 
 Designing and implementing practical, realistic and future-proof solutions for your business and IT problems is the most important thing the professionals at eSolia do. But the "devil's in the details" as they say, and it all comes down to execution. Our processes, based on best practices, support our efforts there.
 
-## Our Practices
+## 私たちの活動
 
-ここからとって、プラスα： http://www.esolia.co.jp/concept/cpt-core/
+イソリアは、よりクリエイティブな問題解決をお客様へ提供する為、実務におけるコア・プラクティス（核となる概念）を掲げています。一例として、イソリアの社員は次のようなコア・セットアイテムを常に心がけています。
 
-eSolia fosters creativity in our problem-solving process with a core set of practices we bring into play in our engagements. eSolia strengthens its team by fostering in its members a strong belief in:
+* 守秘義務の遵守
+* セキュリティの警戒
+* チーム内の知識の共有
+* 聞き手としての誠実さ
+* 自己表現の完全性
+* 積極的な学習とブレインストーミング
+* 完全なサービスへの継続的な改良
 
-* Honoring confidentiality
-* Awareness of security
-* Sharing knowledge
-* Listening well and generously
-* Encouraging full self-expression
-* Active learning and brainstorming
-* Iterative improvement over perfectionism
+## 私たちのツール
 
-...to name a few.
+前途の通り、私たちは経験によって洗練された、最善のシステムやツールを使用しております。
 
-## Our Tools
+* サポートチケットシステム
+* エンジニア業務レポートシステム
+* 手順書、ポリシー管理システム
+* 顧客情報管理システム
+* テキスト暗号化システム、安全なパスワード管理
+* 文章管理
+* 開発ソースコード管理
+* 物理的なエンジニアツール
 
-新しい日本語 As mentioned elsewhere, we have sets of tools developed over years of experience:
-
-* support ticket system
-* engineering report system
-* procedure and policy system
-* client information storage system
-* secure text paste system, for sending passwords securely
-* document management
-* source code management
-* physical tools for engineering jobs
-
-Interested in getting our help? Please contact us today using the form below.
+私たちのサービスにご興味を頂けたら下のフォームから是非ご連絡ください！
