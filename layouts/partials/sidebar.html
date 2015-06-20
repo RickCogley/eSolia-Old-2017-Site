@@ -9,6 +9,8 @@
     </li>
     <li class="no-padding">
       <ul class="collapsible collapsible-accordion" data-collapsible="expandable">
+        <!-- MENU FOR PAGES -->
+        {{ if .IsPage }}
         <!-- START LANGUAGE SWITCHER -->
         {{ if isset .Params "alternatelocales" }}
         <!-- Dropdown Trigger -->
@@ -36,6 +38,37 @@
             </ul>
           </div>
           {{ else }}<li class="bold{{if $currentNode.IsMenuCurrent " side " . }} active{{end}}"><a href="{{.URL}}" class="collapsible-header waves-effect waves-light-blue" target="{{ .Post }}">{{ .Pre }}<span>{{ .Name }}</span></a> {{ end }}</li>{{ end }}
+        {{ end }}
+        <!-- MENU FOR NODES -->
+        {{ if .IsNode }}
+
+        <!-- START LANGUAGE SWITCHER -->
+        <!-- Dropdown Trigger -->
+        <a class="dropdown-button btn waves-effect waves-light-blue green white-text center" href="#" data-activates="dropdown1"><i class="mdi-action-language right white-text"></i>{{ ( index $.Site.Data.translations $.Site.Params.locale ).languageswitch }}</a>
+        <!-- Dropdown Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+          {{ $perma := .Permalink }}
+          {{ $taxoname := .Data.Plural }}
+          {{ with $.Site.Params.alternatelocales }}
+          {{ range . }}
+          {{ $thelocale := . }}
+          {{ $currenturl := ( index $.Site.Data.translations $.Site.Params.locale ).languageurl }}
+          {{ $targeturl := ( index $.Site.Data.translations $thelocale ).languageurl }}
+          {{ $langurl := replace $perma $currenturl $targeturl }}
+          <li><a href="{{ $targeturl }}/{{ $taxoname }}">{{ ( index $.Site.Data.translations $thelocale ).languagename }}</a></li>
+          {{ end }}
+          {{ end }}
+        </ul>
+        <!-- END LANGUAGE SWITCHER -->
+        {{ $currentNode := . }}{{ range .Site.Menus.side }}{{ if .HasChildren }}
+        <li class="bold"><a class="collapsible-header waves-effect waves-light-blue{{if or ($currentNode.IsMenuCurrent "side" .) ($currentNode.HasMenuCurrent "side" .) }} active{{end}}" target="{{ .Post }}">{{ .Pre }}<span>{{ .Name }}</span></a>
+          <div class="collapsible-body">
+            <ul>{{ range .Children }}
+              <li {{if $currentNode.IsMenuCurrent "side" . }}class="active light-blue" {{end}}><a href="{{.URL}}" target="{{ .Post }}">{{ .Pre }}<span>{{ .Name }}</span></a></li>{{ end }}
+            </ul>
+          </div>
+          {{ else }}<li class="bold{{if $currentNode.IsMenuCurrent " side " . }} active{{end}}"><a href="{{.URL}}" class="collapsible-header waves-effect waves-light-blue" target="{{ .Post }}">{{ .Pre }}<span>{{ .Name }}</span></a> {{ end }}</li>{{ end }}
+        {{ end }}
       </ul>
     </li>
   </ul>
