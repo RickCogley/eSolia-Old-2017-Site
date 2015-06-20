@@ -10,7 +10,7 @@
   <meta name="keywords" content="{{if .IsPage}}{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}{{else}}{{.Site.Params.keywords}}{{end}}">
   {{ if .Params.author }}<meta name="author" content="{{ .Params.author }}">{{ end }}
   <link href="http://gmpg.org/xfn/11" rel="profile">
-  {{ .Hugo.Generator }}
+  <meta name="generator" content="Hugo {{ .Hugo.Version}} {{ .Hugo.CommitHash }} {{ replace .Hugo.BuildDate "+0900" "JST" }}" />
   <link rel="canonical" href="{{ .Permalink }}">
   {{ if .RSSlink }}
   <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
@@ -22,16 +22,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
   <meta name="msapplication-tap-highlight" content="no">
   <!-- Load CSS (font faces first) -->
-  <link href="/css/typography.min.css{{with getenv "TYPOCSS_HASH"}}?v={{.}}{{end}}" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/typography.min.css{{with getenv "TYPOCSS_HASH"}}?v={{.}}{{end}}" rel="stylesheet" media="screen,projection"/>
   {{ if eq (add .Site.BaseURL "/") (add .Permalink "/") }}
-  <link href="/css/materialize.min.css{{with getenv "MATCSS_HASH"}}?v={{.}}{{end}}" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/materialize.min.css{{with getenv "MATCSS_HASH"}}?v={{.}}{{end}}" rel="stylesheet" media="screen,projection"/>
   {{ else }}
-  <link href="/css/ghpages-materialize.min.css{{with getenv "GHPMATCSS_HASH"}}?v={{.}}{{end}}" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/ghpages-materialize.min.css{{with getenv "GHPMATCSS_HASH"}}?v={{.}}{{end}}" rel="stylesheet" media="screen,projection"/>
   {{ end }}
-  <link href="/css/fontello.min.css{{with getenv "FONTELLOCSS_HASH"}}?v={{.}}{{end}}" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="/css/style.min.css{{with getenv "STYLECSS_HASH"}}?v={{.}}{{end}}" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="/css/prism.min.css{{with getenv "PRISMCSS_HASH"}}?v={{.}}{{end}}" type="text/css" rel="stylesheet"/>
-  <link href="/css/FeedEk-2.0.min.css{{with getenv "FEEDEKCSS_HASH"}}?v={{.}}{{end}}" type="text/css" rel="stylesheet"/>
+  <link href="/css/fontello.min.css{{with getenv "FONTELLOCSS_HASH"}}?v={{.}}{{end}}" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/style.min.css{{with getenv "STYLECSS_HASH"}}?v={{.}}{{end}}" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/prism.min.css{{with getenv "PRISMCSS_HASH"}}?v={{.}}{{end}}" rel="stylesheet"/>
+  <link href="/css/FeedEk-2.0.min.css{{with getenv "FEEDEKCSS_HASH"}}?v={{.}}{{end}}" rel="stylesheet"/>
 
   <!-- MODERNIZR - should follow stylesheets and needs to be in <head> -->
   <script src="/js/modernizr-2.8.3.min.js"></script>
