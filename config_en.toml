@@ -39,8 +39,8 @@ languageCode = "en-US"
     googleAnalytics = "UA-1040233-7"
 
 [[menu.side]]
-    name = "Utilities"
-    identifier = "utilities"
+    name = "Tools"
+    identifier = "tools"
     weight = 222
 
 [[menu.side]]
@@ -48,5 +48,20 @@ languageCode = "en-US"
     identifier = "zerobin"
     url = "https://zerobin.esolia.com"
     post = "_blank"
-    parent = "utilities"
-    weight = 222
+    parent = "tools"
+    weight = 22
+
+[[menu.side]]
+    name = "eSolia Connect"
+    identifier = "connect"
+    url = "http://connect.esolia.com"
+    post = "_blank"
+    parent = "tools"
+    weight = 33
+
+[[menu.side]]
+    name = "All Tags"
+    identifier = "tags"
+    url = "http://esolia.com/tags"
+    parent = "tools"
+    weight = 44
