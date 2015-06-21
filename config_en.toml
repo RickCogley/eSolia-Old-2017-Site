@@ -65,3 +65,10 @@ languageCode = "en-US"
     url = "http://esolia.com/tags"
     parent = "tools"
     weight = 44
+
+[[menu.side]]
+    name = "All Topics"
+    identifier = "topics"
+    url = "http://esolia.com/topics"
+    parent = "tools"
+    weight = 55

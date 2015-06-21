@@ -65,3 +65,10 @@ languageCode = "ja-JP"
     url = "http://esolia.co.jp/tags"
     parent = "tools"
     weight = 44
+
+[[menu.side]]
+    name = "全てのトピック一覧"
+    identifier = "topics"
+    url = "http://esolia.co.jp/topics"
+    parent = "tools"
+    weight = 55
