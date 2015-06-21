@@ -12,6 +12,8 @@ formrequestmoreinfotext: 詳細は、下記フォームにご記入いただき�
 formreset: リセット
 formsubmit: 送信
 formtel: 電話番号
+gen404message: ご記入のページは、当サイトに見つかりません。アドレスが間違ってるか、変更されている場合もあります。下記の一覧からお探しください。ご検討のほど、どうぞよろしくお願いします。
+gen404subtitle: ページが見つかりません
 genfeature: おすすめ
 genfeature1: 電話サービス
 genfeature1img: /img/sample-1.jpg

@@ -1,0 +1,18 @@
+{{ "<!-- ENTERING layouts/partials/detailpage-header.html -->" | safeHTML }}
+<header>
+  <div class="section amber" id="index-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m9">
+          <h1 class="header center-on-small-only">
+            404
+          </h1>
+          <h4 class="light light-blue-text center-on-small-only">
+            {{ ( index $.Site.Data.translations $.Site.Params.locale ).gen404subtitle }}
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+{{ "<!-- LEAVING layouts/partials/detailpage-header.html -->" | safeHTML }}
