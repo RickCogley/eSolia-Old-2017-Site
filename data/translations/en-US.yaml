@@ -33,12 +33,22 @@ menuabout: About
 menulanguageswitch: 日本語
 menulanguageswitchurl: http://esolia.co.jp
 photocaptionesoliaofficefront1: Photo of eSolia Toranomon office exterior
-taxotagbrowsetagged: Browse Tagged Content
+taxobrowse: Browse Labeled Content
+taxodraft: DRAFT
+taxositename: Site
+taxotagbrowse: Browse Tagged Content
 taxotagorbrowse: ...or browse
 taxotagalltags: all tags.
-taxotagsitename: Site
-taxotagname: Tags
-taxodraft: DRAFT
+taxotopicbrowse: Browse Topical Content
+taxotopicorbrowse: ...or browse
+taxotopicalltopics: all topics.
+taxoseriesbrowse: Browse Series Content
+taxoseriesorbrowse: ...or browse
+taxoseriesallseries: all series.
+topics: Topics
+tags: Tags
+series: Series
+labels: Labels
 topsectionbsf: Building Strong Foundations
 topsectioncus: Contact Us
 topsectionwhy: Why eSolia?

@@ -1,5 +1,5 @@
-{{ "<!-- ENTERING layouts/taxonomy/tag.html -->" | safeHTML }}
-<!-- This partial shows list of content under a tag -->
+{{ "<!-- ENTERING layouts/taxonomy/topic.html -->" | safeHTML }}
+<!-- This partial shows list of content under a topic -->
 {{ partial "head.html" . }}
 <body>
 {{ partial "detailnode-header.html" . }}
@@ -17,7 +17,7 @@
               {{ .Render "li" }}
             {{ end }}
             <br>
-            {{ ( index $.Site.Data.translations $.Site.Params.locale ).taxotagorbrowse }} <a href="/tags">{{ ( index $.Site.Data.translations $.Site.Params.locale ).taxotagalltags }}</a>
+            {{ ( index $.Site.Data.translations $.Site.Params.locale ).taxotopicorbrowse }} <a href="/topics">{{ ( index $.Site.Data.translations $.Site.Params.locale ).taxotopicalltopics }}</a>
           </div>
         </div>
       </div>
@@ -28,4 +28,4 @@
   {{ partial "bodyend.html" . }}
 </body>
 </html>
-{{ "<!-- LEAVING layouts/taxonomy/tag -->" | safeHTML }}
+{{ "<!-- LEAVING layouts/taxonomy/topic -->" | safeHTML }}
