@@ -46,7 +46,7 @@ menu:
     <hr>
   </div>
   <div class="col s12 m4"><strong>お問い合わせ</strong></div>
-  <div class="col s12 m8"><a href="mailto:info@esolia.co.jp">info@esolia.co.jp</a>
+  <div class="col s12 m8"><a href="/info-request">お問合せフォーム</a>又は<a href="mailto:info@esolia.co.jp">info@esolia.co.jp</a>までどうぞ。
     <hr>
   </div>
   <div class="col s12 m4"><strong>役員</strong></div>

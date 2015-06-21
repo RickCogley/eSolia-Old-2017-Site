@@ -12,6 +12,8 @@ formrequestmoreinfotext: "Fill in and submit the following form, for more inform
 formreset: Reset
 formsubmit: Submit
 formtel: Tel
+formwarningsales: Sales?
+formwarningsalestext: If you are selling something, please do not use this form to tell us about it. 
 gen404message: Thanks for visiting. You've reached our 404 page, meaning the content you tried to access cannot be found. Use the site search feature, or scan the below list of site taxonomies and click through to something of interest.
 gen404subtitle: Page Not Found
 genfeature: Featured
