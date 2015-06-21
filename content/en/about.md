@@ -41,8 +41,8 @@ As a leader in our market for outsourced IT services, eSolia's vision is to cons
     <em>TEL</em>: <a href="tel:+81-3-6273-3510">+81-3-6273-3510</a> | <em>FAX</em>: +81-3-3593-3511<br>
     <hr>
   </div>
-  <div class="col s12 m4"><strong>GENERAL EMAIL</strong></div>
-  <div class="col s12 m8"><a href="mailto:info@esolia.co.jp">info@esolia.co.jp</a>
+  <div class="col s12 m4"><strong>CONTACT</strong></div>
+  <div class="col s12 m8"><a href="/info-request">Request Information</a> or email to <a href="mailto:info@esolia.co.jp">info@esolia.co.jp</a>.
     <hr>
   </div>
   <div class="col s12 m4"><strong>DIRECTORS</strong></div>

@@ -17,6 +17,9 @@
               {{ partial "gallery.html" . }}
             {{ end }}
             {{ partial "form-moreinfo.html" . }}
+            {{if isset .Params "warning" }}
+              {{ partial "warning.html" . }}
+            {{ end }}
           </div>
         </div>
         <!-- Put Table of Contents Partial Here -->

@@ -1,0 +1,8 @@
+{{ "<!-- ENTERING partial warning.html -->" | safeHTML }}
+{{ if eq .Params.warning "sales" }}
+<div class="card-panel red darken-4">
+<h5 class="white-text"><em>{{ ( index $.Site.Data.translations $.Site.Params.locale ).formwarningsales }}</em></h5>
+<span class="white-text">{{ ( index $.Site.Data.translations $.Site.Params.locale ).formwarningsalestext }}</span>
+</div>
+{{ end }}
+{{ "<!-- LEAVING partial warning.html -->" | safeHTML }}
