@@ -4,8 +4,30 @@
     <div class="container">
       <div class="row">
         <div class="col s12 m9">
-          <h1 class="header center-on-small-only">{{ if eq .Title "Tags" }}{{ ( index $.Site.Data.translations $.Site.Params.locale ).taxotagname }}{{ else }}{{ .Title }}{{ end }}</h1>
-          <h4 class="light light-blue-text center-on-small-only">{{ ( index $.Site.Data.translations $.Site.Params.locale ).taxotagbrowsetagged }}</h4>
+          {{ $nodetitle := .Title }}
+          {{ $taxoname := .Data.Plural }}
+          <h1 class="header center-on-small-only">
+            {{ if in "Tags タグ" $nodetitle }}
+            {{ ( index $.Site.Data.translations $.Site.Params.locale ).tags }}
+            {{ else if in "Topics トピック" $nodetitle }}
+            {{ ( index $.Site.Data.translations $.Site.Params.locale ).topics }}
+            {{ else if in "Series シリーズ" $nodetitle }}
+            {{ ( index $.Site.Data.translations $.Site.Params.locale ).series }}
+            {{ else }}
+            {{ .Title }}
+            {{ end }}
+          </h1>
+          <h4 class="light light-blue-text center-on-small-only">
+            {{ if in "tags タグ" $taxoname }}
+            {{ ( index $.Site.Data.translations $.Site.Params.locale ).taxotagbrowse }}
+            {{ else if in "topics トピック" $taxoname }}
+            {{ ( index $.Site.Data.translations $.Site.Params.locale ).taxotopicbrowse }}
+            {{ else if in "series シリーズ" $taxoname }}
+            {{ ( index $.Site.Data.translations $.Site.Params.locale ).taxoseriesbrowse }}
+            {{ else }}
+            {{ ( index $.Site.Data.translations $.Site.Params.locale ).taxobrowse }}
+            {{ end }}
+          </h4>
         </div>
       </div>
     </div>
