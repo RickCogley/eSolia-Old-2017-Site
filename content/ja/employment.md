@@ -22,7 +22,7 @@ tags:
 topics:
   - イソリア
 images:
-  - /img/eSolia-Post-Employment-01.jpg
+  - /img/eSolia-Post-Slider-Management-02.png
   - /img/eSolia-Chicklet-Color-1024px.png
 aliases:
   - /work-at-esolia
@@ -38,7 +38,7 @@ menu:
 ## 求めている人材の特長とは?
 
 <figure class="image-container">
-<img class="materialboxed right responsive-img z-depth-1" width="300" data-caption="Team eSolia" alt="Alt caption" src="/img/eSolia-Post-Employment-01.jpg" >
+<img class="materialboxed right responsive-img z-depth-1" width="300" data-caption="eSolia Consults" alt="eSolia Consults" src="/img/eSolia-Post-Slider-Management-02.png" >
 </figure>
 
 イソリアの社員は才能豊かなＩＴのプロフェッショナルです。優れたバイリンガルの社員がＩＴ関連の課題に対してクリエイティブなソリューションを見つけるよう努力し、問題を解決します。
