@@ -36,13 +36,12 @@ menu:
 
 日々の行動規範を遂行し、以下当社の誓いを実践してまいります。
 
-<i class="small mdi-toggle-check-box grey-text text-darken-2 left"></i>  貴社のプロセスや、業界でよく取り組まれているアプローチに基づいて、素早く実行できるように行動いたします。
-<i class="small mdi-toggle-check-box grey-text text-darken-2 left"></i>  当社の主契約はタイムアンドマテリアルでのご提供となりますが、必要とされたものだけを請求し、水増し請求のような「仕事を作る」事はいたしません。
-<i class="small mdi-toggle-check-box grey-text text-darken-2 left"></i>  観察できたいかなる状況や行った作業に対しては全て率直に報告を行います。
-<i class="small mdi-toggle-check-box grey-text text-darken-2 left"></i>  お客様と長期的な関係を促進するために、ご契約期間やボリュームによってより魅力的なプロフェショナルレートを提供いたします。
-<i class="small mdi-toggle-check-box grey-text text-darken-2 left"></i>  私達は企業の健全性と安定性をもって行動しており、悪い商習慣や駆け引きに決して従事しておりません。
-<i class="small mdi-toggle-check-box grey-text text-darken-2 left"></i> お受けした作業やトラブルへの対応は、当社が責任を持って最後まで徹底して対応いたします。
-
+<i class="small mdi-toggle-check-box grey-text text-darken-2 left"></i>  貴社のプロセスや、業界でよく取り組まれているアプローチに基づいて、素早く実行できるように行動いたします。<br><br>
+<i class="small mdi-toggle-check-box grey-text text-darken-2 left"></i>  当社の主契約はタイムアンドマテリアルでのご提供となりますが、必要とされたものだけを請求し、水増し請求のような「仕事を作る」事はいたしません。<br><br>
+<i class="small mdi-toggle-check-box grey-text text-darken-2 left"></i> 観察できたいかなる状況や行った作業に対しては全て率直に報告を行います。 <br><br>
+<i class="small mdi-toggle-check-box grey-text text-darken-2 left"></i> お客様と長期的な関係を促進するために、ご契約期間やボリュームによってより魅力的なプロフェショナルレートを提供いたします。<br><br>
+<i class="small mdi-toggle-check-box grey-text text-darken-2 left"></i>  私達は企業の健全性と安定性をもって行動しており、悪い商習慣や駆け引きに決して従事しておりません。<br><br>
+<i class="small mdi-toggle-check-box grey-text text-darken-2 left"></i> お受けした作業やトラブルへの対応は、当社が責任を持って最後まで徹底して対応いたします。<br><br>
 
 ## 行動規範
 

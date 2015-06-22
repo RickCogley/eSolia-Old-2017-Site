@@ -1,0 +1,45 @@
+{{ "<!-- ENTERING layouts/_default/terms.html -->" | safeHTML }}
+{{ partial "head.html" . }}
+<body>
+{{ partial "detailnode-header.html" . }}
+{{ partial "sidebar.html" . }}
+<main>
+    <div class="container">
+      <!--  Outer row  -->
+      <div class="row">
+
+        <div class="col s12 m9 l10">
+          <!--  Material Design -->
+          <div id="materialdesign" class="section scrollspy">
+            <div class="posts">
+               <h2 id="title">
+                 {{ $taxoname := .Data.Plural }}
+                 {{ ( index $.Site.Data.translations $.Site.Params.locale ).taxositename }}
+                 {{ if in "tags タグ" $taxoname }}
+                 {{ ( index $.Site.Data.translations $.Site.Params.locale ).tags }}
+                 {{ else if in "topics トピック" $taxoname }}
+                 {{ ( index $.Site.Data.translations $.Site.Params.locale ).topics }}
+                 {{ else if in "series シリーズ" $taxoname }}
+                 {{ ( index $.Site.Data.translations $.Site.Params.locale ).series }}
+                 {{ else }}
+                 {{ ( index $.Site.Data.translations $.Site.Params.locale ).labels }}
+                 {{ end }}
+               </h2>
+                 {{ $data := .Data }}
+                 {{ range $key,$value := .Data.Terms.ByCount }}
+                   <article><i class="tiny mdi-action-label-outline blue-text text-accent-3"></i><a href="/{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> &nbsp; {{ $value.Count }}</article>
+                 {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Container -->
+  </main>
+
+  {{ partial "footer-detail.html" . }}
+  {{ partial "bodyend.html" . }}
+</body>
+
+</html>
+{{ "<!-- LEAVING layouts/_default/terms.html -->" | safeHTML }}

@@ -1,0 +1,5 @@
+{{ "<!-- ENTERING layouts/_default/li.html -->" | safeHTML }}
+<article class="post">
+<i class="tiny mdi-action-label-outline blue-text text-accent-3"></i> <a href="{{ .Permalink }}">{{ .Title }} {{ if .GetParam "draft"}}{{ ( index $.Site.Data.translations $.Site.Params.locale ).taxodraft }}{{end}}</a> <span class="grey-text text-lighten-1">{{ .Date.Format "2 Jan, 2006" }}</span>
+</article>
+{{ "<!-- ENTERING layouts/_default/li.html -->" | safeHTML }}

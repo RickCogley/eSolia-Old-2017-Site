@@ -1,0 +1,30 @@
+{{ "<!-- ENTERING layouts/partials/footer.html -->" | safeHTML }}
+<footer class="page-footer blue-grey lighten-2">
+  <div class="container">
+    <div class="row">
+      <div class="col l4 s12">
+        <h5 class="white-text">Links 1</h5>
+        <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+
+      </div>
+      <div class="col l4 s12">
+        <h5 class="white-text">Links 2</h5>
+        <p class="grey-text text-lighten-4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col l4 s12" style="overflow: hidden;">
+        <h5 class="white-text">Connect & Latest</h5>
+
+        asdf
+
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      &copy;1999-{{ .Now.Year }} {{ ( index $.Site.Data.translations $.Site.Params.locale ).footerallrightsreserved }}
+      <a class="grey-text text-lighten-4 right" href="#">asdf</a>
+    </div>
+  </div>
+</footer>
+{{ "<!-- LEAVING layouts/partials/footer.html -->" | safeHTML }}

@@ -2,6 +2,7 @@ altphotoatagotunnel: Photo of Atago Tunnel, by Rick Cogley
 altphotoesoliaofficefront1: Photo of eSolia office exterior, by Rick Cogley
 altphotonetworkswitch: Photo of Network Switch, by Rick Cogley
 altphototemplecolumn: Photo of Iikura Temple column, by Rick Cogley
+footerallrightsreserved: eSolia Inc., All Rights Reserved.
 formemail: Email
 formfirstname: First Name
 formlastname: Last Name
@@ -11,6 +12,10 @@ formrequestmoreinfotext: "Fill in and submit the following form, for more inform
 formreset: Reset
 formsubmit: Submit
 formtel: Tel
+formwarningsales: Sales?
+formwarningsalestext: If you are selling something, please do not use this form to tell us about it. 
+gen404message: Thanks for visiting. You've reached our 404 page, meaning the content you tried to access cannot be found. Use the site search feature, or scan the below list of site taxonomies and click through to something of interest.
+gen404subtitle: Page Not Found
 genfeature: Featured
 genfeature1: Tel Service
 genfeature1img: /img/sample-1.jpg
@@ -32,6 +37,22 @@ menuabout: About
 menulanguageswitch: 日本語
 menulanguageswitchurl: http://esolia.co.jp
 photocaptionesoliaofficefront1: Photo of eSolia Toranomon office exterior
+taxobrowse: Browse Labeled Content
+taxodraft: DRAFT
+taxositename: Site
+taxotagbrowse: Browse Tagged Content
+taxotagorbrowse: ...or browse
+taxotagalltags: all tags.
+taxotopicbrowse: Browse Topical Content
+taxotopicorbrowse: ...or browse
+taxotopicalltopics: all topics.
+taxoseriesbrowse: Browse Series Content
+taxoseriesorbrowse: ...or browse
+taxoseriesallseries: all series.
+topics: Topics
+tags: Tags
+series: Series
+labels: Labels
 topsectionbsf: Building Strong Foundations
 topsectioncus: Contact Us
 topsectionwhy: Why eSolia?

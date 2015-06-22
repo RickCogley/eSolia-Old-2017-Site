@@ -2,6 +2,7 @@ altphotoatagotunnel: 愛宕トンネル、コグレー リック作
 altphotoesoliaofficefront1: イソリア事務所ビル外、コグレー リック作
 altphotonetworkswitch: ネットワークスイッチ、コグレー リック作
 altphototemplecolumn: 飯倉のお寺、コグレー リック作
+footerallrightsreserved: 株式会社イソリア、全著作権所有します。
 formemail: メール
 formfirstname: 名
 formlastname: 氏
@@ -11,6 +12,10 @@ formrequestmoreinfotext: 詳細は、下記フォームにご記入いただき�
 formreset: リセット
 formsubmit: 送信
 formtel: 電話番号
+formwarningsales: 営業でしょうか?
+formwarningsalestext: 営業は、こちらのお問い合わせフォームをご使用しないでください。 
+gen404message: ご記入のページは、当サイトに見つかりません。アドレスが間違ってるか、変更されている場合もあります。下記の一覧からお探しください。ご検討のほど、どうぞよろしくお願いします。
+gen404subtitle: ページが見つかりません
 genfeature: おすすめ
 genfeature1: 電話サービス
 genfeature1img: /img/sample-1.jpg
@@ -36,6 +41,22 @@ month:
   2: 如月
   3: 弥生
 photocaptionesoliaofficefront1: イソリア虎ノ門事務所ビル外見
+taxobrowse: ラベル付きコンテンツの一覧
+taxodraft: ドラフト
+taxositename: 当サイトの
+taxotagbrowse: タグ付きコンテンツの一覧
+taxotagorbrowse: ...又は全タグを
+taxotagalltags: 閲覧する。
+taxotopicbrowse: トピック付きコンテンツの一覧
+taxotopicorbrowse: ...又は全トピックを
+taxotopicalltopics: 閲覧する。
+taxoseriesbrowse: シリーズ付きコンテンツの一覧
+taxoseriesorbrowse: ...又は全シーリズを
+taxoseriesallseries: 閲覧する。
+topics: トピック
+tags: タグ
+series: シリーズ
+labels: ラベル
 topsectionbsf: 強固な基盤を構築いたします
 topsectioncus: お問い合わせ
 topsectionwhy: なぜイソリアか？
