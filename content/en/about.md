@@ -25,6 +25,11 @@ menu:
     Identifier: about
     Url: /about
     Parent: about-us
+  footer1:
+    Name: About
+    Weight: 10
+    Identifier: about
+    Url: /about
 ---
 
 ## Company Information

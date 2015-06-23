@@ -19,6 +19,7 @@ tags:
   - バイリンガル
 series:
   - top1
+  - ninki1
 topics:
   - サービス
 images:
