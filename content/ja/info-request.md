@@ -50,4 +50,8 @@ menu:
 
 ## ありがとうございます
 
-日本語 Thank you sincerely for your interest. If you have a general enquiry about eSolia services, please use the below form to ask your questions or request more information, or use the form provided on each service page. It is our pleasure to be of service, and we will respond as quickly as practical. Feel free to contact us via <info@esolia.co.jp> if you prefer email.
+イソリアに興味をお持ちになってくださって誠にありがとうございます。
+他に何か質問や資料請求等が御座いましたら、下記のお問い合わせフォームをご記入ください。各ページのフォームも合わせてご利用ください。
+お問い合わせに関しては速やかに返信に致します。
+また、メールの問い合わせはこちらへ<info@esolia.co.jp>。
+※メールは、@esoila.co.jpからお送りしますので、ドメイン指定の解除をお願いします。
