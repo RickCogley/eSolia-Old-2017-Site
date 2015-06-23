@@ -18,6 +18,7 @@ tags:
   - re-stack
 series:
   - top1
+  - ninki1
 topics:
   - Services
 images:
