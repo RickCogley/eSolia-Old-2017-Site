@@ -42,9 +42,14 @@ menu:
     Identifier: info-request
     Url: /info-request
     Parent: tools
-  footer1:
+  detailfooter1:
     Name: Info Request
     Weight: 10
+    Identifier: info-request
+    Url: /info-request
+  homefooter1:
+    Name: Info Request
+    Weight: 30
     Identifier: info-request
     Url: /info-request
 ---

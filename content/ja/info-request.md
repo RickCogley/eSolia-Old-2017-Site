@@ -41,9 +41,14 @@ menu:
     Identifier: info-request
     Url: /info-request
     Parent: tools
-  footer1:
+  detailfooter1:
     Name: お問い合わせ
     Weight: 10
+    Identifier: info-request
+    Url: /info-request
+  homefooter1:
+    Name: お問い合わせ
+    Weight: 30
     Identifier: info-request
     Url: /info-request
 ---
