@@ -194,6 +194,16 @@ figcaption {
     font-size: 0.8rem;
 }
 
+/* Footer List */
+
+.esListFooter {
+    width: auto;
+    list-style: none;
+    padding: 4px 6px;
+}
+.esListFooter li {
+    list-style-type: none;
+}
 
 /* Form colors */
 /* label color */

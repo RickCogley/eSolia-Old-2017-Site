@@ -143,6 +143,17 @@ $('#divRss2').FeedEk({
     DateFormatLang:'en'
 });
 
+$('#divRss3').FeedEkMinimal({
+    FeedUrl:'http://rick.cogley.info/index.xml',
+    MaxCount : 2,
+    ShowDesc : false,
+    ShowPubDate: false,
+    DescCharacterLimit:50,
+    TitleLinkTarget:'_blank',
+    DateFormat: 'DD-MMM-YYYY, ddd, HH:MM',
+    DateFormatLang:'en'
+});
+
 // Lazy-loading Google Map
 
 // $( '.google-map' ).lazyLoadGoogleMaps(
