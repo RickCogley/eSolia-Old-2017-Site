@@ -14,9 +14,9 @@ tags:
   - レッター
   - ご挨拶
 title: ご挨拶
-subtitle: お客様と当ウェブサイトへお越しの方へ
+subtitle: 当ウェブサイトへお越しいただいた皆様へ
 topics:
-  - イソリアからご挨拶
+  - ご挨拶
 type: aboutpage
 images:
   - /img/eSolia-Chicklet-Color-1024px.png
