@@ -59,7 +59,7 @@ menu:
 
 イソリアのプロジェクトマネージャーはこれらの技法を用いて、体系的にプロジェクト管理を行います。
 
-### イソリアによる<wbr><nobr>プロジェクト成功</nobr><nobr>への導き</nobr>
+## プロジェクトの成功は貴社の成功へ
 
 <div class="esolia-card-panel purple darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">何故PMか?</h4>
