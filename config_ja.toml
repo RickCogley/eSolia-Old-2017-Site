@@ -72,3 +72,9 @@ languageCode = "ja-JP"
     url = "http://esolia.co.jp/topics"
     parent = "tools"
     weight = 55
+
+[[menu.footer1]]
+    name = "全てのトピック一覧"
+    identifier = "topics"
+    url = "http://esolia.co.jp/topics"
+    weight = 55

@@ -3,6 +3,12 @@ altphotoesoliaofficefront1: Photo of eSolia office exterior, by Rick Cogley
 altphotonetworkswitch: Photo of Network Switch, by Rick Cogley
 altphototemplecolumn: Photo of Iikura Temple column, by Rick Cogley
 footerallrightsreserved: eSolia Inc., All Rights Reserved.
+footerlinks1title: General
+footerlinks1text: eSolia is a "virtual IT department", building strong foundations for your business since 1999.
+footerlinks2title: Popular
+footerlinks2text: Our most popular services.
+footerlinks3title: Latest
+footerlinks3text: Connect with us on social media, or see our latest posts.
 formemail: Email
 formfirstname: First Name
 formlastname: Last Name
@@ -13,7 +19,7 @@ formreset: Reset
 formsubmit: Submit
 formtel: Tel
 formwarningsales: Sales?
-formwarningsalestext: If you are selling something, please do not use this form to tell us about it. 
+formwarningsalestext: If you are selling something, please do not use this form to tell us about it.
 gen404message: Thanks for visiting. You've reached our 404 page, meaning the content you tried to access cannot be found. Use the site search feature, or scan the below list of site taxonomies and click through to something of interest.
 gen404subtitle: Page Not Found
 genfeature: Featured
@@ -26,6 +32,7 @@ genfeature2img: /img/sample-1.jpg
 genfeature2text: Get the "SIP Print" appliance, to record telephone calls for quality assurance & compliance.
 genfeature2url: /sip-print
 gengalleryname: Gallery
+genhomename: Home
 genlatestfeature: Latest Features
 genlatestposts: Latest Pro Blog
 genmoreinfo: More Info
