@@ -688,7 +688,7 @@
                   {{ $series := index .Site.Taxonomies.series "top1" }}
                   {{ range first 5 $series.Pages }}
                     <li>
-                    <div class="esListItemTitle blue-text text-darken-1"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+                    <div class="esListItemTitle blue-text text-darken-1"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></div>
                     <div class="esListItemDate grey-text text-lighten-2">{{ .Date.Format "02 Jan, 2006" }}</div>
                     </li>
                   {{ end }}
