@@ -5,7 +5,7 @@
       <div class="col l4 s12">
         <h5 class="white-text">{{ ( index $.Site.Data.translations $.Site.Params.locale ).footerlinks1title }}</h5>
         <p class="grey-text text-lighten-4">{{ ( index $.Site.Data.translations $.Site.Params.locale ).footerlinks1text }}</p>
-          <ul>
+          <ul class="esListFooter">
             <li><a class="green-text text-accent-3" href="{{ .Site.BaseURL }}">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genhomename }}</a></li>
             {{ range .Site.Menus.footer1 }}
             <li><a class="green-text text-accent-3" href="{{ .URL }}">{{ .Name }}</a></li>
@@ -15,13 +15,12 @@
       <div class="col l4 s12">
         <h5 class="white-text">{{ ( index $.Site.Data.translations $.Site.Params.locale ).footerlinks2title }}</h5>
         <p class="grey-text text-lighten-4">{{ ( index $.Site.Data.translations $.Site.Params.locale ).footerlinks2text }}</p>
-          <ul>
+          <ul class="esListFooter">
             {{ $series := index .Site.Taxonomies.series "ninki1" }}
             {{ range first 5 $series.Pages }}
             <li><a class="green-text text-accent-3" href="{{ .Permalink }}">{{ .Title }}</a></li>
             {{ end }}
           </ul>
-
       </div>
       <div class="col l4 s12" style="overflow: hidden;">
         <h5 class="white-text">{{ ( index $.Site.Data.translations $.Site.Params.locale ).footerlinks3title }}</h5>
@@ -31,13 +30,14 @@
         <a href="http://www.linkedin.com/company/esolia-inc" target="_blank"><i class="tiny icon-linkedin white-text"></i></a>
         <a href="http://www.facebook.com/eSolia" target="_blank"><i class="tiny icon-facebook indigo-text text-darken-2"></i></a>
         <a href="https://vimeo.com/channels/esolia" target="_blank"><i class="tiny icon-vimeo lime-text text-accent-3"></i></a>
+          <div id="divRss3" class="esListFooter"></div>
       </div>
     </div>
   </div>
   <div class="footer-copyright">
     <div class="container">
       &copy;1999-{{ .Now.Year }} {{ ( index $.Site.Data.translations $.Site.Params.locale ).footerallrightsreserved }}
-      <a class="grey-text text-lighten-4 right" href="#">asdf</a>
+      <a class="grey-text text-lighten-4 right" href="/colophon">{{ ( index $.Site.Data.translations $.Site.Params.locale ).gencolophonname }}</a>
     </div>
   </div>
 </footer>

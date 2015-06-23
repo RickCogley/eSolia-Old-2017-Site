@@ -5,7 +5,7 @@ publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: インフラ<wbr><nobr>ストラクチャ</nobr>
 slug: infrastructure
-subtitle: オフィスITシステムの基盤
+subtitle: 縁の下のITシステム
 description: イソリアから - 機能と目的を実現させる為のインフラ実装。汎用的なものから新技術を備えた機器まで堅実に
 weight: 30
 alternatelocales:
