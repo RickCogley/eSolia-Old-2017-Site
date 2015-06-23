@@ -42,6 +42,11 @@ menu:
     Identifier: info-request
     Url: /info-request
     Parent: tools
+  footer1:
+    Name: Info Request
+    Weight: 10
+    Identifier: info-request
+    Url: /info-request
 ---
 
 ## Thank You

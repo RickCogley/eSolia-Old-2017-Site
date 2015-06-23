@@ -72,3 +72,9 @@ languageCode = "en-US"
     url = "http://esolia.com/topics"
     parent = "tools"
     weight = 55
+
+[[menu.footer1]]
+    name = "All Topics"
+    identifier = "topics"
+    url = "http://esolia.com/topics"
+    weight = 55

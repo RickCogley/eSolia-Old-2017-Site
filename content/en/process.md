@@ -43,22 +43,32 @@ menu:
     Parent: services
 ---
 
-In the context of a master support agreement, eSolia will skillfully manage various processes on your behalf, including:
+## Double-edged IT
 
-1. Project management
-1. Hardware and software procurement
-1. Budget management
-1. System room and cabling management
-1. Compliance management
-1. Asset management
-1. License management
-1. Warranty management
-1. Recycling and disposal management
+If one uses IT efficiently, one can utilize the basic nature of IT freely, and leverage that to receive immeasurable benefits. However, if misunderstood, IT can be a double-edged sword, increasing work and even decreasing efficiency.
+
+To use it effectively, there's no need to try to handle everything internally. In fact, say goodbye to fear of processes!
+
+### An enemy named "process"
+
+Processes tend to become more complicated over time, especially when it involves something you're not quite expert in. In the context of a master support agreement, eSolia will skillfully manage them on your behalf, using our refined procedures, or your desired methods.
+
+1. Strong project management for changing requirements, and imminent deadlines.
+1. Procurement for your ever-changing hardware and business support software.
+1. Budget management that considers both efficiency and your wallet.
+1. In cold, isolated data centers, cabling management to tame that spaghetti.
+1. Manage compliance to manage risks and threats.
+1. Got a bewildering number of assets? Consider them managed.  
+1. License management, so you know who has what version and how many copies are installed.
+1. Warranty management for clear understanding of warranty periods, terms and extensions.
+1. Recycling and disposal management for the pileup of "junk", and secure deletion of data.
+
+### The eSolia Philosophy for Process Management
 
 Each process is different, but in all cases, eSolia performs in a consistent manner:
 
 * We act as an ombudsman on your behalf, keeping your mandate or the best practice in mind, as we negotiate with any involved parties.
 * Each process is performed with supporting documentation as the base, whether that documentation is your standards and mandates, or our best practices.
-* Decisions are yours, but our experts provide decision support.
-* All processes have preparation, adjustment, execution, documentation and support afterwards.
+* You give the "go sign", but our experts provide the decision support.
+* We'll take end to end responsibility. All processes will have preparation, adjustment, execution, documentation and support afterwards.
 * Results are stored in eSolia's extensive knowledge database, and reports are provided to you.
