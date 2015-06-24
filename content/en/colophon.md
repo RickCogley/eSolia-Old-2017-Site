@@ -39,25 +39,27 @@ images:
   - /img/eSolia-Chicklet-Color-1024px.png
 ---
 
+# THIS IS WORK IN PROGRESS - Rick
+
 ## History
 
-As they say, we "[stand on the shoulders of giants](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants "Wikipedia article about etymology of standing on the shoulders of giants")", and this site is certainly no exception. We have built previous sites in Rapidweaver, two generations back, and Typo3 for the previous generation.
+As they say, we "[stand on the shoulders of giants](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants "Wikipedia article about etymology of standing on the shoulders of giants")", and this site is certainly no exception. We have built previous eSolia sites in Rapidweaver, two generations back, and Typo3 for the last generation.
 
 ## Go Hugo
 
-Other systems have their pluses of course, but for various reasons, each previous system we have used has had some fragility related to matters like upgrades or dependencies. When we were deciding upon a system to run _this_ site in, we considered "static site generators", which weave a static website together from content, script program, and image files. However these static systems too have pre-requisites, in that a full development environment is required on the computer used to manage the site. This is as problematic as the requirements of a server-side CMS.
+Other systems have their pluses of course, but for various reasons, each previous system we have used has had some fragility related to matters like upgrades or dependencies. When we were deciding upon a system to run _this_ site in, we considered "static site generators", which weave a static website together from content files, script programs, and image files. However these static systems too have pre-requisites, in that a full development environment is required on the computer used to manage the site. This is as problematic as the requirements of a server-side CMS.
 
-Enter [Hugo](http://gohugo.io), a better static site generator, where we learn:
+Enter [Hugo](http://gohugo.io), a better static site generator, about which we learn:
 
 > Hugo is written for speed and performance. Great care has been taken to ensure that Hugo build time is as short as possible. We're talking milliseconds to build your entire site for most setups.
 
-The reason Hugo's so fast is it's a single, binary program written in the "Go" language, that's been compiled for Windows, Mac and Linux. Users just install a single file appropriate to their system, then run it to merge their folders of content written in [Markdown](http://daringfireball.net/projects/markdown/) text format, HTML templates, CSS and Javascript. Let us say that it takes far longer to upload the site to your web host, than it does for Hugo to generate it.
+The reason Hugo's so fast is it's a single, binary program written in the "Go" language, that's been compiled for Windows, Mac and Linux. Users just install a single file appropriate to their system, then run it to merge their folders of content written in [Markdown](http://daringfireball.net/projects/markdown/) text format, HTML templates, CSS and Javascript. Let us say that it takes far longer to upload the site to our web host, than it does for Hugo to generate it.
 
 <figure class="image-container">
 <img class="materialboxed right responsive-img" width="300" data-caption="Hugo Logo" alt="Hugo Logo" src="/img/hugo-logo.png" >
 </figure>
 
-So, a big "domo arigato" to [Steve Francia](http://spf13.com) ([@spf13](https://github.com/spf13)) and [contributors](https://github.com/spf13/hugo/graphs/contributors) for the giant amount of work in creating Hugo, and to the Go language [team](http://golang.org/CONTRIBUTORS), in which Hugo is written.
+So, a hearty "domo arigato" to [Steve Francia](http://spf13.com) ([@spf13](https://github.com/spf13)) and [contributors](https://github.com/spf13/hugo/graphs/contributors) for the giant amount of work in creating Hugo, and to the Go language [team](http://golang.org/CONTRIBUTORS), in which Hugo is written.
 
 ## Site Look
 
