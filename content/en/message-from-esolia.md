@@ -28,6 +28,11 @@ menu:
     Identifier: message-from-esolia
     Url: /message-from-esolia
     Parent: about-us
+  homefooter1:
+    Name: Message
+    Weight: 20
+    Identifier: message-from-esolia
+    Url: /message-from-esolia
 ---
 
 Thank you for visiting, and for your support and business. When we founded eSolia in 1999, our goal was simply to develop a stable, well-rounded group of engineers to provide high-quality IT services to foreign multinationals in Japan. We've accomplished that, and stayed true to our initial mission, but are now serving Japanese organizations as well.

@@ -33,6 +33,11 @@ menu:
     Identifier: employment
     Url: /employment
     Parent: about-us
+  homefooter1:
+    Name: 採用情報
+    Weight: 40
+    Identifier: employment
+    Url: /employment
 ---
 
 ## 求めている人材の特長とは?

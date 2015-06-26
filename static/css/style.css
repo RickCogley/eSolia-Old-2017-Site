@@ -41,6 +41,10 @@ main ul {
     padding-left: 2.5rem;
 }
 
+main ul li {
+    list-style-type: disc;
+}
+
 .header {
   color: #039be5;
 }

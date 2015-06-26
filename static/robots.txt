@@ -1,7 +1,7 @@
----
-layout: nil
----
 User-agent: *
 Disallow: /site-dev-notes/
 
-Sitemap: {{ site.url }}/sitemap.xml 
+Sitemap: http://esolia.com/sitemap.xml
+Sitemap: http://esolia.com/geo-sitemap.xml
+Sitemap: http://esolia.co.jp/sitemap.xml
+Sitemap: http://esolia.co.jp/geo-sitemap.xml

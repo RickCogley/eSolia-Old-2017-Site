@@ -1,0 +1,46 @@
+{{ "<!-- ENTERING layouts/partials/footer-HOME.html -->" | safeHTML }}
+<footer class="page-footer grey darken-3">
+  <div class="container">
+    <div class="row center">
+      <div class="col l3 s12">
+        <h5 class="white-text">{{ ( index $.Site.Data.translations $.Site.Params.locale ).footerlinks1title }}</h5>
+          <ul class="esListFooter">
+            {{ range .Site.Menus.homefooter1 }}
+            <li><a class="white-text" href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">{{ ( index $.Site.Data.translations $.Site.Params.locale ).footerlinks4title }}</h5>
+          <ul class="esListFooter">
+            {{ range .Site.Menus.homefooter2 }}
+            <li><a class="white-text" href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">{{ ( index $.Site.Data.translations $.Site.Params.locale ).footerlinks2title }}</h5>
+          <ul class="esListFooter">
+            {{ $series := index .Site.Taxonomies.series "ninki1" }}
+            {{ range first 5 $series.Pages }}
+            <li><a class="white-text" href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Focus</h5>
+        <ul>
+          <li><a class="white-text" href="#!">SIP Print</a></li>
+          <li><a class="white-text" href="#!">Product-like stuff</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright grey darken-2">
+    <div class="container">
+      &copy;1999-{{ .Now.Year }} {{ ( index $.Site.Data.translations $.Site.Params.locale ).footerallrightsreserved }}
+      <a class="grey-text text-lighten-4 right" href="/colophon">{{ ( index $.Site.Data.translations $.Site.Params.locale ).gencolophonname }}</a>
+    </div>
+  </div>
+</footer>
+{{ "<!-- LEAVING layouts/partials/footer-HOME.html -->" | safeHTML }}

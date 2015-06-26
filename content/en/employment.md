@@ -32,6 +32,11 @@ menu:
     Identifier: employment
     Url: /employment
     Parent: about-us
+  homefooter1:
+    Name: Employment
+    Weight: 40
+    Identifier: employment
+    Url: /employment
 ---
 
 ## What Kind of People?

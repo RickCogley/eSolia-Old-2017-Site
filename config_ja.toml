@@ -73,8 +73,34 @@ languageCode = "ja-JP"
     parent = "tools"
     weight = 55
 
-[[menu.footer1]]
+[[menu.detailfooter1]]
     name = "全てのトピック一覧"
     identifier = "topics"
     url = "http://esolia.co.jp/topics"
+    weight = 55
+
+[[menu.homefooter2]]
+    name = "ゼロビン"
+    identifier = "zerobin"
+    url = "https://zerobin.esolia.com/?language=jp"
+    post = "_blank"
+    weight = 22
+
+[[menu.homefooter2]]
+    name = "イソリア コネクト"
+    identifier = "connect"
+    url = "http://connect.esolia.com"
+    post = "_blank"
+    weight = 33
+
+[[menu.homefooter2]]
+    name = "全てのトピック一覧"
+    identifier = "topics"
+    url = "http://esolia.co.jp/topics"
+    weight = 44
+
+[[menu.homefooter2]]
+    name = "全てのタグ一覧"
+    identifier = "tags"
+    url = "http://esolia.co.jp/tags"
     weight = 55

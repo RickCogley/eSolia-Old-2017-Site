@@ -29,6 +29,11 @@ menu:
     Identifier: message-from-esolia
     Url: /message-from-esolia
     Parent: about-us
+  homefooter1:
+    Name: ご挨拶
+    Weight: 20
+    Identifier: message-from-esolia
+    Url: /message-from-esolia
 ---
 
 我々が1999年にイソリアを立ち上げた当初の目的は、在日外資系企業へ高品質なITサービスを提供できる、安定した均整の取れたエンジニア集団を作っていこうといった単純なものでした。 我々はその初期目標を達成し、その状態を維持することに努め、現在では日本企業に対してもサービスを提供しております。

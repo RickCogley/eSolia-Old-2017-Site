@@ -73,8 +73,34 @@ languageCode = "en-US"
     parent = "tools"
     weight = 55
 
-[[menu.footer1]]
+[[menu.detailfooter1]]
     name = "All Topics"
     identifier = "topics"
     url = "http://esolia.com/topics"
+    weight = 55
+
+[[menu.homefooter2]]
+    name = "Zerobin"
+    identifier = "zerobin"
+    url = "https://zerobin.esolia.com"
+    post = "_blank"
+    weight = 22
+
+[[menu.homefooter2]]
+    name = "eSolia Connect"
+    identifier = "connect"
+    url = "http://connect.esolia.com"
+    post = "_blank"
+    weight = 33
+
+[[menu.homefooter2]]
+    name = "All Topics"
+    identifier = "topics"
+    url = "http://esolia.com/topics"
+    weight = 44
+
+[[menu.homefooter2]]
+    name = "All Tags"
+    identifier = "tags"
+    url = "http://esolia.com/tags"
     weight = 55

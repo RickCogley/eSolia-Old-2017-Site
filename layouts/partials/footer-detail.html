@@ -1,5 +1,5 @@
-{{ "<!-- ENTERING layouts/partials/footer.html -->" | safeHTML }}
-<footer class="page-footer blue-grey lighten-2">
+{{ "<!-- ENTERING layouts/partials/footer-DETAIL.html -->" | safeHTML }}
+<footer class="page-footer grey darken-1">
   <div class="container">
     <div class="row">
       <div class="col l4 s12">
@@ -7,7 +7,7 @@
         <p class="grey-text text-lighten-4">{{ ( index $.Site.Data.translations $.Site.Params.locale ).footerlinks1text }}</p>
           <ul class="esListFooter">
             <li><a class="green-text text-accent-3" href="{{ .Site.BaseURL }}">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genhomename }}</a></li>
-            {{ range .Site.Menus.footer1 }}
+            {{ range .Site.Menus.detailfooter1 }}
             <li><a class="green-text text-accent-3" href="{{ .URL }}">{{ .Name }}</a></li>
             {{ end }}
           </ul>
@@ -41,4 +41,4 @@
     </div>
   </div>
 </footer>
-{{ "<!-- LEAVING layouts/partials/footer.html -->" | safeHTML }}
+{{ "<!-- LEAVING layouts/partials/footer-DETAIL.html -->" | safeHTML }}

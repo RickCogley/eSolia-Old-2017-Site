@@ -1,5 +1,5 @@
 /*!
- * Materialize v0.97.0 (http://materializecss.com)
+ * Materialize v0.96.1 (http://materializecss.com)
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
@@ -278,16 +278,11 @@ Materialize.elementOrParentIsFixed = function(element) {
         }
     });
     return isFixed;
-};
+}
 
 // Velocity has conflicts when loaded with jQuery, this will check for it
 var Vel;
-if ($) {
-  Vel = $.Velocity;
-}
-else {
-  Vel = Velocity;
-}
+if ($) { Vel = $.Velocity } else { Vel = Velocity};
 ;(function ($) {
   $.fn.collapsible = function(options) {
     var defaults = {
@@ -324,10 +319,10 @@ else {
             object.parent().removeClass('active');
         }
         if (object.parent().hasClass('active')){
-          object.siblings('.collapsible-body').stop(true,false).slideDown({ duration: 350, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height', '');}});
+          object.siblings('.collapsible-body').stop(true,false).slideDown({ duration: 350, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height', '')}});
         }
         else{
-          object.siblings('.collapsible-body').stop(true,false).slideUp({ duration: 350, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height', '');}});
+          object.siblings('.collapsible-body').stop(true,false).slideUp({ duration: 350, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height', '')}});
         }
 
         $panel_headers.not(object).removeClass('active').parent().removeClass('active');
@@ -338,7 +333,7 @@ else {
             queue: false,
             complete:
               function() {
-                $(this).css('height', '');
+                $(this).css('height', '')
               }
           });
       }
@@ -352,10 +347,10 @@ else {
             object.parent().removeClass('active');
         }
         if (object.parent().hasClass('active')){
-          object.siblings('.collapsible-body').stop(true,false).slideDown({ duration: 350, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height', '');}});
+          object.siblings('.collapsible-body').stop(true,false).slideDown({ duration: 350, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height', '')}});
         }
         else{
-          object.siblings('.collapsible-body').stop(true,false).slideUp({ duration: 350, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height', '');}});
+          object.siblings('.collapsible-body').stop(true,false).slideUp({ duration: 350, easing: "easeOutQuart", queue: false, complete: function() {$(this).css('height', '')}});
         }
       }
 
@@ -385,7 +380,7 @@ else {
 
 
 
-      if (options.accordion || collapsible_type === "accordion" || collapsible_type === undefined) { // Handle Accordion
+      if (options.accordion || collapsible_type == "accordion" || collapsible_type == undefined) { // Handle Accordion
         // Add click handler to only direct collapsible header children
         $panel_headers = $this.find('> li > .collapsible-header');
         $panel_headers.on('click.collapse', function (e) {
@@ -443,7 +438,7 @@ else {
       hover: false,
       gutter: 0, // Spacing from edge
       belowOrigin: false
-    };
+    }
 
     this.each(function(){
     var origin = $(this);
@@ -453,17 +448,17 @@ else {
     var activates = $("#"+ origin.attr('data-activates'));
 
     function updateOptions() {
-      if (origin.data('induration') !== undefined)
+      if (origin.data('induration') != undefined)
         options.inDuration = origin.data('inDuration');
-      if (origin.data('outduration') !== undefined)
+      if (origin.data('outduration') != undefined)
         options.outDuration = origin.data('outDuration');
-      if (origin.data('constrainwidth') !== undefined)
+      if (origin.data('constrainwidth') != undefined)
         options.constrain_width = origin.data('constrainwidth');
-      if (origin.data('hover') !== undefined)
+      if (origin.data('hover') != undefined)
         options.hover = origin.data('hover');
-      if (origin.data('gutter') !== undefined)
+      if (origin.data('gutter') != undefined)
         options.gutter = origin.data('gutter');
-      if (origin.data('beloworigin') !== undefined)
+      if (origin.data('beloworigin') != undefined)
         options.belowOrigin = origin.data('beloworigin');
     }
 
@@ -484,11 +479,11 @@ else {
       activates.addClass('active');
 
       // Constrain width
-      if (options.constrain_width === true) {
+      if (options.constrain_width == true) {
         activates.css('width', origin.outerWidth());
       }
       var offset = 0;
-      if (options.belowOrigin === true) {
+      if (options.belowOrigin == true) {
         offset = origin.height();
       }
 
@@ -538,13 +533,12 @@ else {
       origin.on('mouseenter', function(e){ // Mouse over
         if (open === false) {
           placeDropdown();
-          open = true;
+          open = true
         }
       });
       origin.on('mouseleave', function(e){
         // If hover on origin then to something other than dropdown content, then close
-        var toEl = e.toElement || e.relatedTarget; // added browser compatibility for target element
-        if(!$(toEl).closest('.dropdown-content').is(activates)) {
+        if(!$(e.toElement).closest('.dropdown-content').is(activates)) {
           activates.stop(true, true);
           hideDropdown();
           open = false;
@@ -552,8 +546,7 @@ else {
       });
 
       activates.on('mouseleave', function(e){ // Mouse out
-        var toEl = e.toElement || e.relatedTarget;
-        if(!$(toEl).closest('.dropdown-button').is(origin)) {
+        if(!$(e.toElement).closest('.dropdown-button').is(origin)) {
           activates.stop(true, true);
           hideDropdown();
           open = false;
@@ -605,17 +598,11 @@ else {
   });
 }( jQuery ));
 ;(function($) {
-    var _stack = 0,
-    _lastID = 0,
-    _generateID = function() {
-      _lastID++;
-      return 'materialize-lean-overlay-' + _lastID;
-    };
-
   $.fn.extend({
     openModal: function(options) {
-
-      $('body').css('overflow', 'hidden');
+      var modal = this;
+      var overlay = $('<div id="lean-overlay"></div>');
+      $("body").append(overlay);
 
       var defaults = {
         opacity: 0.5,
@@ -623,52 +610,41 @@ else {
         out_duration: 250,
         ready: undefined,
         complete: undefined,
-        dismissible: true,
-        starting_top: '4%'
-      },
-      overlayID = _generateID(),
-      $modal = $(this),
-      $overlay = $('<div class="lean-overlay"></div>'),
-      lStack = (++_stack);
-
-      // Store a reference of the overlay
-      $overlay.attr('id', overlayID).css('z-index', 1000 + lStack * 2);
-      $modal.data('overlay-id', overlayID).css('z-index', 1000 + lStack * 2 + 1);
-
-      $("body").append($overlay);
+        dismissible: true
+      }
 
       // Override defaults
       options = $.extend(defaults, options);
 
       if (options.dismissible) {
-        $overlay.click(function() {
-          $modal.closeModal(options);
+        $("#lean-overlay").click(function() {
+          $(modal).closeModal(options);
         });
         // Return on ESC
-        $(document).on('keyup.leanModal' + overlayID, function(e) {
+        $(document).on('keyup.leanModal', function(e) {
           if (e.keyCode === 27) {   // ESC key
-            $modal.closeModal(options);
+            $(modal).closeModal(options);
           }
         });
       }
 
-      $modal.find(".modal-close").on('click.close', function(e) {
-        $modal.closeModal(options);
+      $(modal).find(".modal-close").click(function(e) {
+        $(modal).closeModal(options);
       });
 
-      $overlay.css({ display : "block", opacity : 0 });
+      $("#lean-overlay").css({ display : "block", opacity : 0 });
 
-      $modal.css({
+      $(modal).css({
         display : "block",
         opacity: 0
       });
 
-      $overlay.velocity({opacity: options.opacity}, {duration: options.in_duration, queue: false, ease: "easeOutCubic"});
-      $modal.data('associated-overlay', $overlay[0]);
+      $("#lean-overlay").velocity({opacity: options.opacity}, {duration: options.in_duration, queue: false, ease: "easeOutCubic"});
+
 
       // Define Bottom Sheet animation
-      if ($modal.hasClass('bottom-sheet')) {
-        $modal.velocity({bottom: "0", opacity: 1}, {
+      if ($(modal).hasClass('bottom-sheet')) {
+        $(modal).velocity({bottom: "0", opacity: 1}, {
           duration: options.in_duration,
           queue: false,
           ease: "easeOutCubic",
@@ -681,9 +657,8 @@ else {
         });
       }
       else {
-        $.Velocity.hook($modal, "scaleX", 0.7);
-        $modal.css({ top: options.starting_top });
-        $modal.velocity({top: "10%", opacity: 1, scaleX: '1'}, {
+        $(modal).css({ top: "4%" });
+        $(modal).velocity({top: "10%", opacity: 1}, {
           duration: options.in_duration,
           queue: false,
           ease: "easeOutCubic",
@@ -705,75 +680,54 @@ else {
       var defaults = {
         out_duration: 250,
         complete: undefined
-      },
-      $modal = $(this),
-      overlayID = $modal.data('overlay-id'),
-      $overlay = $('#' + overlayID);
+      }
+      var options = $.extend(defaults, options);
 
-      options = $.extend(defaults, options);
+      $('.modal-close').off();
+      $(document).off('keyup.leanModal');
 
-      // Disable scrolling
-      $('body').css('overflow', '');
-
-      $modal.find('.modal-close').off('click.close');
-      $(document).off('keyup.leanModal' + overlayID);
-
-      $overlay.velocity( { opacity: 0}, {duration: options.out_duration, queue: false, ease: "easeOutQuart"});
+      $("#lean-overlay").velocity( { opacity: 0}, {duration: options.out_duration, queue: false, ease: "easeOutQuart"});
 
 
       // Define Bottom Sheet animation
-      if ($modal.hasClass('bottom-sheet')) {
-        $modal.velocity({bottom: "-100%", opacity: 0}, {
+      if ($(this).hasClass('bottom-sheet')) {
+        $(this).velocity({bottom: "-100%", opacity: 0}, {
           duration: options.out_duration,
           queue: false,
           ease: "easeOutCubic",
           // Handle modal ready callback
           complete: function() {
-            $overlay.css({display:"none"});
+            $("#lean-overlay").css({display:"none"});
 
             // Call complete callback
             if (typeof(options.complete) === "function") {
               options.complete();
             }
-            $overlay.remove();
-            _stack--;
+            $('#lean-overlay').remove();
           }
         });
       }
       else {
-        $modal.velocity(
-          { top: options.starting_top, opacity: 0, scaleX: 0.7}, {
-          duration: options.out_duration,
-          complete:
-            function() {
+        $(this).fadeOut(options.out_duration, function() {
+          $(this).css({ top: 0});
+          $("#lean-overlay").css({display:"none"});
 
-              $(this).css('display', 'none');
-              // Call complete callback
-              if (typeof(options.complete) === "function") {
-                options.complete();
-              }
-              $overlay.remove();
-              _stack--;
-            }
+          // Call complete callback
+          if (typeof(options.complete) === "function") {
+            options.complete();
           }
-        );
+          $('#lean-overlay').remove();
+        });
       }
+
     }
-  });
+  })
 
   $.fn.extend({
-    leanModal: function(option) {
+    leanModal: function(options) {
       return this.each(function() {
-
-        var defaults = {
-          starting_top: '4%'
-        },
-        // Override defaults
-        options = $.extend(defaults, option);
-
         // Close Handlers
         $(this).click(function(e) {
-          options.starting_top = ($(this).offset().top - $(window).scrollTop()) /1.15;
           var modal_id = $(this).attr("href") || '#' + $(this).data('target');
           $(modal_id).openModal(options);
           e.preventDefault();
@@ -788,11 +742,11 @@ else {
 
     return this.each(function() {
 
-      if ($(this).hasClass('initialized')) {
+      if ($(this).hasClass('intialized')) {
         return;
       }
 
-      $(this).addClass('initialized');
+      $(this).addClass('intialized');
 
       var overlayActive = false;
       var doneAnimating = true;
@@ -803,15 +757,15 @@ else {
       var originalWidth = 0;
       var originalHeight = 0;
       origin.wrap(placeholder);
-
-
+      
+      
       origin.on('click', function(){
         var placeholder = origin.parent('.material-placeholder');
         var windowWidth = window.innerWidth;
         var windowHeight = window.innerHeight;
         var originalWidth = origin.width();
         var originalHeight = origin.height();
-
+        
 
         // If already modal, return to original
         if (doneAnimating === false) {
@@ -822,7 +776,7 @@ else {
           returnToOriginal();
           return false;
         }
-
+        
 
         // Set states
         doneAnimating = false;
@@ -838,8 +792,8 @@ else {
           top: 0,
           left: 0
         });
-
-
+        
+        
 
         // Set css on origin
         origin.css({position: 'absolute', 'z-index': 1000})
@@ -867,7 +821,7 @@ else {
           $photo_caption.text(origin.data('caption'));
           $('body').append($photo_caption);
           $photo_caption.css({ "display": "inline" });
-          $photo_caption.velocity({opacity: 1}, {duration: inDuration, queue: false, easing: 'easeOutQuad'});
+          $photo_caption.velocity({opacity: 1}, {duration: inDuration, queue: false, easing: 'easeOutQuad'})
         }
 
 
@@ -962,7 +916,7 @@ else {
           var windowHeight = window.innerHeight;
           var originalWidth = origin.data('width');
           var originalHeight = origin.data('height');
-
+       
           origin.velocity("stop", true);
           $('#materialbox-overlay').velocity("stop", true);
           $('.materialbox-caption').velocity("stop", true);
@@ -1156,11 +1110,6 @@ $(document).ready(function(){
 
       // Bind the click event handler
       $this.on('click', 'a', function(e){
-        if ($(this).parent().hasClass('disabled')) {
-          e.preventDefault();
-          return;
-        }
-
         $tabs_width = $this.width();
         $tab_width = $this.find('li').first().outerWidth();
 
@@ -1225,10 +1174,10 @@ $(document).ready(function(){
 ;(function ($) {
     $.fn.tooltip = function (options) {
         var timeout = null,
-        counter = null,
-        started = false,
-        counterInterval = null,
-        margin = 5;
+    		counter = null,
+    		started = false,
+    		counterInterval = null,
+    		margin = 5;
 
       // Defaults
       var defaults = {
@@ -1261,12 +1210,12 @@ $(document).ready(function(){
     $(this).on({
       mouseenter: function(e) {
         var tooltip_delay = origin.data("delay");
-        tooltip_delay = (tooltip_delay === undefined || tooltip_delay === '') ? options.delay : tooltip_delay;
+        tooltip_delay = (tooltip_delay == undefined || tooltip_delay == "") ? options.delay : tooltip_delay;
         counter = 0;
         counterInterval = setInterval(function(){
           counter += 10;
-          if (counter >= tooltip_delay && started === false) {
-            started = true;
+          if (counter >= tooltip_delay && started == false) {
+            started = true
             newTooltip.css({ display: 'block', left: '0px', top: '0px' });
 
             // Set Tooltip text
@@ -1734,18 +1683,14 @@ $(document).ready(function(){
     // Create toast container if it does not exist
     if (container === null) {
         // create notification container
-        container = document.createElement('div');
+        var container = document.createElement('div');
         container.id = 'toast-container';
         document.body.appendChild(container);
     }
 
     // Select and append toast
     var newToast = createToast(message);
-
-    // only append toast if message is not undefined
-    if(message){
-        container.appendChild(newToast);
-    }
+    container.appendChild(newToast);
 
     newToast.style.top = '35px';
     newToast.style.opacity = 0;
@@ -1850,8 +1795,49 @@ $(document).ready(function(){
 
         return toast;
     }
-};
+}
 ;(function ($) {
+    // left: 37, up: 38, right: 39, down: 40,
+    // spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
+    // var keys = [32, 33, 34, 35, 36, 37, 38, 39, 40];
+
+    // function preventDefault(e) {
+    //   e = e || window.event;
+    //   if (e.preventDefault)
+    //     e.preventDefault();
+    //   e.returnValue = false;
+    // }
+
+    // function keydown(e) {
+    //   for (var i = keys.length; i--;) {
+    //     if (e.keyCode === keys[i]) {
+    //       preventDefault(e);
+    //       return;
+    //     }
+    //   }
+    // }
+
+    // function wheel(e) {
+    //   preventDefault(e);
+    // }
+
+    // function disable_scroll() {
+    //   if (window.addEventListener) {
+    //     window.addEventListener('DOMMouseScroll', wheel, false);
+    //   }
+    //   window.onmousewheel = document.onmousewheel = wheel;
+    //   document.onkeydown = keydown;
+    //   $('body').css({'overflow-y' : 'hidden'});
+    // }
+
+    // function enable_scroll() {
+    //   if (window.removeEventListener) {
+    //     window.removeEventListener('DOMMouseScroll', wheel, false);
+    //   }
+    //   window.onmousewheel = document.onmousewheel = document.onkeydown = null;
+    //   $('body').css({'overflow-y' : ''});
+
+    // }
 
   var methods = {
     init : function(options) {
@@ -1859,7 +1845,7 @@ $(document).ready(function(){
         menuWidth: 240,
         edge: 'left',
         closeOnClick: false
-      };
+      }
       options = $.extend(defaults, options);
 
       $(this).each(function(){
@@ -1887,7 +1873,7 @@ $(document).ready(function(){
 
         // If fixed sidenav, bring menu out
         if (menu_id.hasClass('fixed')) {
-            if (window.innerWidth > 992) {
+            if ($(window).width() > 992) {
               menu_id.css('left', 0);
             }
           }
@@ -1897,7 +1883,7 @@ $(document).ready(function(){
           $(window).resize( function() {
             if (window.innerWidth > 992) {
               // Close menu if window is resized bigger than 992 and user has fixed sidenav
-              if ($('#sidenav-overlay').css('opacity') !== 0 && menuOut) {
+              if ($('#sidenav-overlay').css('opacity') != 0 && menuOut) {
                 removeMenu(true);
               }
               else {
@@ -1916,7 +1902,7 @@ $(document).ready(function(){
         }
 
         // if closeOnClick, then add close event for all a tags in side sideNav
-        if (options.closeOnClick === true) {
+        if (options.closeOnClick == true) {
           menu_id.on("click.itemclick", "a:not(.collapsible-header)", function(){
             removeMenu();
           });
@@ -1925,10 +1911,6 @@ $(document).ready(function(){
         function removeMenu(restoreNav) {
           panning = false;
           menuOut = false;
-
-          // Reenable scrolling
-          $('body').css('overflow', '');
-
           $('#sidenav-overlay').velocity({opacity: 0}, {duration: 200, queue: false, easing: 'easeOutQuad',
             complete: function() {
               $(this).remove();
@@ -1942,7 +1924,7 @@ $(document).ready(function(){
                 queue: false,
                 easing: 'easeOutCubic',
                 complete: function() {
-                  if (restoreNav === true) {
+                  if (restoreNav == true) {
                     // Restore Fixed sidenav
                     menu_id.removeAttr('style');
                     menu_id.css('width', options.menuWidth);
@@ -1960,7 +1942,7 @@ $(document).ready(function(){
                 queue: false,
                 easing: 'easeOutCubic',
                 complete: function() {
-                  if (restoreNav === true) {
+                  if (restoreNav == true) {
                     // Restore Fixed sidenav
                     menu_id.removeAttr('style');
                     menu_id.css('width', options.menuWidth);
@@ -1978,7 +1960,7 @@ $(document).ready(function(){
 
         $('.drag-target').on('click', function(){
           removeMenu();
-        });
+        })
 
         $('.drag-target').hammer({
           prevent_default: false
@@ -1990,9 +1972,6 @@ $(document).ready(function(){
             var x = e.gesture.center.x;
             var y = e.gesture.center.y;
             var velocityX = e.gesture.velocityX;
-
-            // Disable Scrolling
-            $('body').css('overflow', 'hidden');
 
             // If overlay does not exist, create one and if it is clicked, close menu
             if ($('#sidenav-overlay').length === 0) {
@@ -2019,11 +1998,11 @@ $(document).ready(function(){
             }
             else {
               // Left Direction
-              if (x < (window.innerWidth - options.menuWidth / 2)) {
+              if (x < ($(window).width() - options.menuWidth / 2)) {
                 menuOut = true;
               }
               // Right Direction
-              else if (x >= (window.innerWidth - options.menuWidth / 2)) {
+              else if (x >= ($(window).width() - options.menuWidth / 2)) {
                menuOut = false;
              }
               var rightPos = -1 *(x - options.menuWidth / 2);
@@ -2038,19 +2017,17 @@ $(document).ready(function(){
 
 
             // Percentage overlay
-            var overlayPerc;
             if (options.edge === 'left') {
-              overlayPerc = x / options.menuWidth;
+              var overlayPerc = x / options.menuWidth;
               $('#sidenav-overlay').velocity({opacity: overlayPerc }, {duration: 50, queue: false, easing: 'easeOutQuad'});
             }
             else {
-              overlayPerc = Math.abs((x - window.innerWidth) / options.menuWidth);
+              var overlayPerc = Math.abs((x - $(window).width()) / options.menuWidth);
               $('#sidenav-overlay').velocity({opacity: overlayPerc }, {duration: 50, queue: false, easing: 'easeOutQuad'});
             }
           }
 
         }).bind('panend', function(e) {
-
           if (e.gesture.pointerType == "touch") {
             var velocityX = e.gesture.velocityX;
             panning = false;
@@ -2062,9 +2039,6 @@ $(document).ready(function(){
                 $('.drag-target').css({width: '50%', right: 0, left: ''});
               }
               else if (!menuOut || velocityX > 0.3) {
-                // Enable Scrolling
-                $('body').css('overflow', '');
-                // Slide menu closed
                 menu_id.velocity({left: -1 * (options.menuWidth + 10)}, {duration: 200, queue: false, easing: 'easeOutQuad'});
                 $('#sidenav-overlay').velocity({opacity: 0 }, {duration: 200, queue: false, easing: 'easeOutQuad',
                   complete: function () {
@@ -2080,9 +2054,6 @@ $(document).ready(function(){
                 $('.drag-target').css({width: '50%', right: '', left: 0});
               }
               else if (!menuOut || velocityX < -0.3) {
-                // Enable Scrolling
-                $('body').css('overflow', '');
-                // Slide menu closed
                 menu_id.velocity({right: -1 * (options.menuWidth + 10)}, {duration: 200, queue: false, easing: 'easeOutQuad'});
                 $('#sidenav-overlay').velocity({opacity: 0 }, {duration: 200, queue: false, easing: 'easeOutQuad',
                   complete: function () {
@@ -2096,15 +2067,12 @@ $(document).ready(function(){
         });
 
           $this.click(function() {
-            if (menuOut === true) {
+            if (menuOut == true) {
               menuOut = false;
               panning = false;
               removeMenu();
             }
             else {
-
-              // Disable Scrolling
-              $('body').css('overflow', 'hidden');
 
               if (options.edge === 'left') {
                 $('.drag-target').css({width: '50%', right: 0, left: ''});
@@ -2159,9 +2127,9 @@ $(document).ready(function(){
         // Default to "init"
         return methods.init.apply( this, arguments );
       } else {
-        $.error( 'Method ' +  methodOrOptions + ' does not exist on jQuery.sideNav' );
+        $.error( 'Method ' +  methodOrOptions + ' does not exist on jQuery.tooltip' );
       }
-    }; // Plugin end
+    }; // PLugin end
 }( jQuery ));
 ;/**
  * Extend jquery with a scrollspy plugin.
@@ -2346,9 +2314,9 @@ $(document).ready(function(){
 		    var offset = $(this.hash).offset().top + 1;
 
 //          offset - 200 allows elements near bottom of page to scroll
-
+			
 	    	$('html, body').animate({ scrollTop: offset - 200 }, {duration: 400, queue: false, easing: 'easeOutCubic'});
-
+			
 		  });
 		});
 		options = options || {
@@ -2453,14 +2421,14 @@ $(document).ready(function(){
     Materialize.updateTextFields = function() {
       var input_selector = 'input[type=text], input[type=password], input[type=email], input[type=url], input[type=tel], input[type=number], input[type=search], textarea';
       $(input_selector).each(function(index, element) {
-        if ($(element).val().length > 0 || $(this).attr('placeholder') !== undefined || $(element)[0].validity.badInput === true) {
+        if ($(element).val().length > 0 || $(this).attr('placeholder') !== undefined) {
           $(this).siblings('label, i').addClass('active');
         }
         else {
           $(this).siblings('label, i').removeClass('active');
         }
       });
-    };
+    }
 
     // Text based inputs
     var input_selector = 'input[type=text], input[type=password], input[type=email], input[type=url], input[type=tel], input[type=number], input[type=search], textarea';
@@ -2483,19 +2451,14 @@ $(document).ready(function(){
 
     // HTML DOM FORM RESET handling
     $(document).on('reset', function(e) {
-      var formReset = $(e.target);
-      if (formReset.is('form')) {
-        formReset.find(input_selector).removeClass('valid').removeClass('invalid');
-        formReset.find(input_selector).each(function () {
-          if ($(this).attr('value') === '') {
-            $(this).siblings('label, i').removeClass('active');
-          }
-        });
+      if ($(e.target).is('form')) {
+        $(this).find(input_selector).removeClass('valid').removeClass('invalid');
+        $(this).find(input_selector).siblings('label, i').removeClass('active');
 
         // Reset select
-        formReset.find('select.initialized').each(function () {
-          var reset_text = formReset.find('option[selected]').text();
-          formReset.siblings('input.select-dropdown').val(reset_text);
+        $(this).find('select.initialized').each(function () {
+          var reset_text = $(this).find('option[selected]').text();
+          $(this).siblings('input.select-dropdown').val(reset_text);
         });
       }
     });
@@ -2506,19 +2469,14 @@ $(document).ready(function(){
     });
 
     $(document).on('blur', input_selector, function () {
-      var $inputElement = $(this);
-      if ($inputElement.val().length === 0 && $inputElement[0].validity.badInput !== true && $inputElement.attr('placeholder') === undefined) {
-        $inputElement.siblings('label, i').removeClass('active');
+      if ($(this).val().length === 0 && $(this).attr('placeholder') === undefined) {
+        $(this).siblings('label, i').removeClass('active');
       }
-      validate_field($inputElement);
+      validate_field($(this));
     });
 
     validate_field = function(object) {
-      var hasLength = object.attr('length') !== undefined;
-      var lenAttr = parseInt(object.attr('length'));
-      var len = object.val().length;
-
-      if (object.val().length === 0 && object[0].validity.badInput === false) {
+      if (object.val().length === 0) {
         if (object.hasClass('validate')) {
           object.removeClass('valid');
           object.removeClass('invalid');
@@ -2526,8 +2484,7 @@ $(document).ready(function(){
       }
       else {
         if (object.hasClass('validate')) {
-          // Check for character counter attributes
-          if ((object.is(':valid') && hasLength && (len < lenAttr)) || (object.is(':valid') && !hasLength)) {
+          if (object.is(':valid')) {
             object.removeClass('invalid');
             object.addClass('valid');
           }
@@ -2537,7 +2494,7 @@ $(document).ready(function(){
           }
         }
       }
-    };
+    }
 
 
     // Textarea Auto Resize
@@ -2549,26 +2506,9 @@ $(document).ready(function(){
     var text_area_selector = '.materialize-textarea';
 
     function textareaAutoResize($textarea) {
-      // Set font properties of hiddenDiv
-
-      var fontFamily = $textarea.css('font-family');
-      var fontSize = $textarea.css('font-size');
-
-      if (fontSize) { hiddenDiv.css('font-size', fontSize); }
-      if (fontFamily) { hiddenDiv.css('font-family', fontFamily); }
-
-      if ($textarea.attr('wrap') === "off") {
-        hiddenDiv.css('overflow-wrap', "normal")
-                 .css('white-space', "pre");
-      }
-
-
-
-
       hiddenDiv.text($textarea.val() + '\n');
       var content = hiddenDiv.html().replace(/\n/g, '<br>');
       hiddenDiv.html(content);
-
 
       // When textarea is hidden, width goes crazy.
       // Approximate with half of window size
@@ -2605,14 +2545,9 @@ $(document).ready(function(){
     });
 
 
-
-    /****************
-    *  Range Input  *
-    ****************/
-
+    // Range Input
     var range_type = 'input[type=range]';
     var range_mousedown = false;
-    var left;
 
     $(range_type).each(function () {
       var thumb = $('<span class="thumb"><span class="value"></span></span>');
@@ -2620,22 +2555,13 @@ $(document).ready(function(){
     });
 
     var range_wrapper = '.range-field';
-    $(document).on('change', range_type, function(e) {
-      var thumb = $(this).siblings('.thumb');
-      thumb.find('.value').html($(this).val());
-    });
 
-    $(document).on('mousedown touchstart', range_type, function(e) {
-      var thumb = $(this).siblings('.thumb');
-
-      // If thumb indicator does not exist yet, create it
-      if (thumb.length <= 0) {
-        thumb = $('<span class="thumb"><span class="value"></span></span>');
-        $(this).append(thumb);
-      }
-
-      // Set indicator value
-      thumb.find('.value').html($(this).val());
+      $(document).on("mousedown", range_wrapper, function(e) {
+        var thumb = $(this).children('.thumb');
+        if (thumb.length <= 0) {
+          thumb = $('<span class="thumb"><span class="value"></span></span>');
+          $(this).append(thumb);
+        }
 
       range_mousedown = true;
       $(this).addClass('active');
@@ -2643,13 +2569,7 @@ $(document).ready(function(){
       if (!thumb.hasClass('active')) {
         thumb.velocity({ height: "30px", width: "30px", top: "-20px", marginLeft: "-15px"}, { duration: 300, easing: 'easeOutExpo' });
       }
-
-      if(e.pageX === undefined || e.pageX === null){//mobile
-         left = e.originalEvent.touches[0].pageX - $(this).offset().left;
-      }
-      else{ // desktop
-         left = e.pageX - $(this).offset().left;
-      }
+      var left = e.pageX - $(this).offset().left;
       var width = $(this).outerWidth();
 
       if (left < 0) {
@@ -2659,29 +2579,22 @@ $(document).ready(function(){
         left = width;
       }
       thumb.addClass('active').css('left', left);
-      thumb.find('.value').html($(this).val());
-
+      thumb.find('.value').html($(this).children('input[type=range]').val());
 
     });
-
-    $(document).on('mouseup touchend', range_wrapper, function() {
+    $(document).on("mouseup", range_wrapper, function() {
       range_mousedown = false;
       $(this).removeClass('active');
     });
 
-    $(document).on('mousemove touchmove', range_wrapper, function(e) {
+    $(document).on("mousemove", range_wrapper, function(e) {
+
       var thumb = $(this).children('.thumb');
-      var left;
       if (range_mousedown) {
         if (!thumb.hasClass('active')) {
-          thumb.velocity({ height: '30px', width: '30px', top: '-20px', marginLeft: '-15px'}, { duration: 300, easing: 'easeOutExpo' });
+          thumb.velocity({ height: "30px", width: "30px", top: "-20px", marginLeft: "-15px"}, { duration: 300, easing: 'easeOutExpo' });
         }
-        if (e.pageX === undefined || e.pageX === null) { //mobile
-          left = e.originalEvent.touches[0].pageX - $(this).offset().left;
-        }
-        else{ // desktop
-          left = e.pageX - $(this).offset().left;
-        }
+        var left = e.pageX - $(this).offset().left;
         var width = $(this).outerWidth();
 
         if (left < 0) {
@@ -2691,18 +2604,17 @@ $(document).ready(function(){
           left = width;
         }
         thumb.addClass('active').css('left', left);
-
+        thumb.find('.value').html($(this).children('input[type=range]').val());
       }
 
     });
-
-    $(document).on('mouseout touchleave', range_wrapper, function() {
+    $(document).on("mouseout", range_wrapper, function() {
       if (!range_mousedown) {
 
         var thumb = $(this).children('.thumb');
 
         if (thumb.hasClass('active')) {
-          thumb.velocity({ height: '0', width: '0', top: '10px', marginLeft: '-6px'}, { duration: 100 });
+          thumb.velocity({ height: "0", width: "0", top: "10px", marginLeft: "-6px"}, { duration: 100 });
         }
         thumb.removeClass('active');
       }
@@ -2744,13 +2656,11 @@ $(document).ready(function(){
       wrapper.addClass($select.attr('class'));
       var options = $('<ul id="select-options-' + uniqueID+'" class="dropdown-content select-dropdown"></ul>');
       var selectOptions = $select.children('option');
-
-      var label;
       if ($select.find('option:selected') !== undefined) {
-        label = $select.find('option:selected');
+        var label = $select.find('option:selected');
       }
       else {
-        label = options.first();
+        var label = options.first();
       }
 
 
@@ -2779,11 +2689,12 @@ $(document).ready(function(){
       // Wrap Elements
       $select.wrap(wrapper);
       // Add Select Display Element
-      var dropdownIcon = $('<span class="caret">&#9660;</span>');
+      var dropdownIcon = $('<i class="mdi-navigation-arrow-drop-down"></i>');
       if ( $select.is(':disabled') )
         dropdownIcon.addClass('disabled');
 
-      var $newSelect = $('<input type="text" class="select-dropdown" readonly="true" ' + (($select.is(':disabled')) ? 'disabled' : '') + ' data-activates="select-options-' + uniqueID +'" value="'+ label.html() +'"/>');
+      var $newSelect = $('<input type="text" class="select-dropdown" readonly="true" ' + (($select.is(':disabled')) ? 'disabled' : '')
+                       + ' data-activates="select-options-' + uniqueID +'" value="'+ label.html() +'"/>');
       $select.before($newSelect);
       $newSelect.before(dropdownIcon);
 
@@ -2818,36 +2729,36 @@ $(document).ready(function(){
         collection.find('li.active').removeClass('active');
         $(newOption).addClass('active');
         collection.scrollTo(newOption);
-      };
+      }
 
       // Allow user to search by typing
       // this array is cleared after 1 second
-      filterQuery = [];
+      filterQuery = []
 
       onKeyDown = function(event){
         // TAB - switch to another input
         if(event.which == 9){
           $newSelect.trigger('close');
-          return;
+          return
         }
 
         // ARROW DOWN WHEN SELECT IS CLOSED - open select options
         if(event.which == 40 && !options.is(":visible")){
           $newSelect.trigger('open');
-          return;
+          return
         }
 
         // ENTER WHEN SELECT IS CLOSED - submit form
         if(event.which == 13 && !options.is(":visible")){
-          return;
+          return
         }
 
         event.preventDefault();
 
         // CASE WHEN USER TYPE LETTERS
         letter = String.fromCharCode(event.which).toLowerCase();
-        var nonLetters = [9,13,27,38,40];
-        if (letter && (nonLetters.indexOf(event.which) === -1)){
+
+        if (letter){
           filterQuery.push(letter);
 
           string = filterQuery.join("");
@@ -2892,258 +2803,125 @@ $(document).ready(function(){
         }
 
         // Automaticaly clean filter query so user can search again by starting letters
-        setTimeout(function(){ filterQuery = []; }, 1000);
-      };
+        setTimeout(function(){filterQuery = []}, 1000)
+      }
 
       $newSelect.on('keydown', onKeyDown);
     });
-  };
+  }
 
 }( jQuery ));
 ;(function ($) {
 
-  var methods = {
+  $.fn.slider = function (options) {
+    var defaults = {
+      indicators: true,
+      height: 400,
+      transition: 500,
+      interval: 6000
+    }
+    options = $.extend(defaults, options);
 
-    init : function(options) {
-      var defaults = {
-        indicators: true,
-        height: 400,
-        transition: 500,
-        interval: 6000
-      };
-      options = $.extend(defaults, options);
+    return this.each(function() {
 
-      return this.each(function() {
+      // For each slider, we want to keep track of
+      // which slide is active and its associated content
+      var $this = $(this);
+      var $slider = $this.find('ul.slides').first();
+      var $slides = $slider.find('li');
+      var $active_index = $slider.find('.active').index();
+      var $active;
+      if ($active_index != -1) { $active = $slides.eq($active_index); }
 
-        // For each slider, we want to keep track of
-        // which slide is active and its associated content
-        var $this = $(this);
-        var $slider = $this.find('ul.slides').first();
-        var $slides = $slider.find('li');
-        var $active_index = $slider.find('.active').index();
-        var $active;
-        if ($active_index != -1) { $active = $slides.eq($active_index); }
-
-        // Transitions the caption depending on alignment
-        function captionTransition(caption, duration) {
-          if (caption.hasClass("center-align")) {
-            caption.velocity({opacity: 0, translateY: -100}, {duration: duration, queue: false});
-          }
-          else if (caption.hasClass("right-align")) {
-            caption.velocity({opacity: 0, translateX: 100}, {duration: duration, queue: false});
-          }
-          else if (caption.hasClass("left-align")) {
-            caption.velocity({opacity: 0, translateX: -100}, {duration: duration, queue: false});
-          }
+      // Transitions the caption depending on alignment
+      function captionTransition(caption, duration) {
+        if (caption.hasClass("center-align")) {
+          caption.velocity({opacity: 0, translateY: -100}, {duration: duration, queue: false});
         }
-
-        // This function will transition the slide to any index of the next slide
-        function moveToSlide(index) {
-          if (index >= $slides.length) index = 0;
-          else if (index < 0) index = $slides.length -1;
-
-          $active_index = $slider.find('.active').index();
-
-          // Only do if index changes
-          if ($active_index != index) {
-            $active = $slides.eq($active_index);
-            $caption = $active.find('.caption');
-
-            $active.removeClass('active');
-            $active.velocity({opacity: 0}, {duration: options.transition, queue: false, easing: 'easeOutQuad',
-                              complete: function() {
-                                $slides.not('.active').velocity({opacity: 0, translateX: 0, translateY: 0}, {duration: 0, queue: false});
-                              } });
-            captionTransition($caption, options.transition);
-
-
-            // Update indicators
-            if (options.indicators) {
-              $indicators.eq($active_index).removeClass('active');
-            }
-
-            $slides.eq(index).velocity({opacity: 1}, {duration: options.transition, queue: false, easing: 'easeOutQuad'});
-            $slides.eq(index).find('.caption').velocity({opacity: 1, translateX: 0, translateY: 0}, {duration: options.transition, delay: options.transition, queue: false, easing: 'easeOutQuad'});
-            $slides.eq(index).addClass('active');
-
-
-            // Update indicators
-            if (options.indicators) {
-              $indicators.eq(index).addClass('active');
-            }
-          }
+        else if (caption.hasClass("right-align")) {
+          caption.velocity({opacity: 0, translateX: 100}, {duration: duration, queue: false});
         }
-
-        // Set height of slider
-        // If fullscreen, do nothing
-        if (!$this.hasClass('fullscreen')) {
-          if (options.indicators) {
-            // Add height if indicators are present
-            $this.height(options.height + 40);
-          }
-          else {
-            $this.height(options.height);
-          }
-          $slider.height(options.height);
+        else if (caption.hasClass("left-align")) {
+          caption.velocity({opacity: 0, translateX: -100}, {duration: duration, queue: false});
         }
+      }
 
+      // This function will transition the slide to any index of the next slide
+      function moveToSlide(index) {
+        if (index >= $slides.length) index = 0;
+        else if (index < 0) index = $slides.length -1;
 
-        // Set initial positions of captions
-        $slides.find('.caption').each(function () {
-          captionTransition($(this), 0);
-        });
+        $active_index = $slider.find('.active').index();
 
-        // Move img src into background-image
-        $slides.find('img').each(function () {
-          $(this).css('background-image', 'url(' + $(this).attr('src') + ')' );
-          $(this).attr('src', 'data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==');
-        });
-
-        // dynamically add indicators
-        if (options.indicators) {
-          var $indicators = $('<ul class="indicators"></ul>');
-          $slides.each(function( index ) {
-            var $indicator = $('<li class="indicator-item"></li>');
-
-            // Handle clicks on indicators
-            $indicator.click(function () {
-              var $parent = $slider.parent();
-              var curr_index = $parent.find($(this)).index();
-              moveToSlide(curr_index);
-
-              // reset interval
-              clearInterval($interval);
-              $interval = setInterval(
-                function(){
-                  $active_index = $slider.find('.active').index();
-                  if ($slides.length == $active_index + 1) $active_index = 0; // loop to start
-                  else $active_index += 1;
-
-                  moveToSlide($active_index);
-
-                }, options.transition + options.interval
-              );
-            });
-            $indicators.append($indicator);
-          });
-          $this.append($indicators);
-          $indicators = $this.find('ul.indicators').find('li.indicator-item');
-        }
-
-        if ($active) {
-          $active.show();
-        }
-        else {
-          $slides.first().addClass('active').velocity({opacity: 1}, {duration: options.transition, queue: false, easing: 'easeOutQuad'});
-
-          $active_index = 0;
+        // Only do if index changes
+        if ($active_index != index) {
           $active = $slides.eq($active_index);
+          $caption = $active.find('.caption');
+
+          $active.removeClass('active');
+          $active.velocity({opacity: 0}, {duration: options.transition, queue: false, easing: 'easeOutQuad',
+                            complete: function() {
+                              $slides.not('.active').velocity({opacity: 0, translateX: 0, translateY: 0}, {duration: 0, queue: false});
+                            } });
+          captionTransition($caption, options.transition);
+
 
           // Update indicators
           if (options.indicators) {
-            $indicators.eq($active_index).addClass('active');
+            $indicators.eq($active_index).removeClass('active');
+          }
+
+          $slides.eq(index).velocity({opacity: 1}, {duration: options.transition, queue: false, easing: 'easeOutQuad'});
+          $slides.eq(index).find('.caption').velocity({opacity: 1, translateX: 0, translateY: 0}, {duration: options.transition, delay: options.transition, queue: false, easing: 'easeOutQuad'});
+          $slides.eq(index).addClass('active');
+
+
+          // Update indicators
+          if (options.indicators) {
+            $indicators.eq(index).addClass('active');
           }
         }
+      }
 
-        // Adjust height to current slide
-        $active.find('img').each(function() {
-          $active.find('.caption').velocity({opacity: 1, translateX: 0, translateY: 0}, {duration: options.transition, queue: false, easing: 'easeOutQuad'});
-        });
+      // Set height of slider
+      if (options.height != 400) {
+        $this.height(options.height + 40);
+        $slider.height(options.height);
+      }
 
-        // auto scroll
-        $interval = setInterval(
-          function(){
-            $active_index = $slider.find('.active').index();
-            moveToSlide($active_index + 1);
+      // Set initial positions of captions
+      $slides.find('.caption').each(function () {
+        captionTransition($(this), 0);
+      });
 
-          }, options.transition + options.interval
-        );
+      // Set initial dimensions of images
+      // $slides.find('img').each(function () {
+      //   $(this).load(function () {
+      //     if ($(this).width() < $(this).parent().width()) {
+      //       $(this).css({width: '100%', height: 'auto'});
+      //     }
+      //   });
+      // });
 
+      // Move img src into background-image
+      $slides.find('img').each(function () {
+        $(this).css('background-image', 'url(' + $(this).attr('src') + ')' );
+        $(this).attr('src', 'data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==');
+      });
 
-        // HammerJS, Swipe navigation
+      // dynamically add indicators
+      if (options.indicators) {
+        var $indicators = $('<ul class="indicators"></ul>');
+        $slides.each(function( index ) {
+          var $indicator = $('<li class="indicator-item"></li>');
 
-        // Touch Event
-        var panning = false;
-        var swipeLeft = false;
-        var swipeRight = false;
-
-        $this.hammer({
-            prevent_default: false
-        }).bind('pan', function(e) {
-          if (e.gesture.pointerType === "touch") {
+          // Handle clicks on indicators
+          $indicator.click(function () {
+            var $parent = $slider.parent();
+            var curr_index = $parent.find($(this)).index();
+            moveToSlide(curr_index);
 
             // reset interval
-            clearInterval($interval);
-
-            var direction = e.gesture.direction;
-            var x = e.gesture.deltaX;
-            var velocityX = e.gesture.velocityX;
-
-            $curr_slide = $slider.find('.active');
-            $curr_slide.velocity({ translateX: x
-                }, {duration: 50, queue: false, easing: 'easeOutQuad'});
-
-            // Swipe Left
-            if (direction === 4 && (x > ($this.innerWidth() / 2) || velocityX < -0.65)) {
-              swipeRight = true;
-            }
-            // Swipe Right
-            else if (direction === 2 && (x < (-1 * $this.innerWidth() / 2) || velocityX > 0.65)) {
-              swipeLeft = true;
-            }
-
-            // Make Slide Behind active slide visible
-            var next_slide;
-            if (swipeLeft) {
-              next_slide = $curr_slide.next();
-              if (next_slide.length === 0) {
-                next_slide = $slides.first();
-              }
-              next_slide.velocity({ opacity: 1
-                  }, {duration: 300, queue: false, easing: 'easeOutQuad'});
-            }
-            if (swipeRight) {
-              next_slide = $curr_slide.prev();
-              if (next_slide.length === 0) {
-                next_slide = $slides.last();
-              }
-              next_slide.velocity({ opacity: 1
-                  }, {duration: 300, queue: false, easing: 'easeOutQuad'});
-            }
-
-
-          }
-
-        }).bind('panend', function(e) {
-          if (e.gesture.pointerType === "touch") {
-
-            $curr_slide = $slider.find('.active');
-            panning = false;
-            curr_index = $slider.find('.active').index();
-
-            if (!swipeRight && !swipeLeft) {
-              // Return to original spot
-              $curr_slide.velocity({ translateX: 0
-                  }, {duration: 300, queue: false, easing: 'easeOutQuad'});
-            }
-            else if (swipeLeft) {
-              moveToSlide(curr_index + 1);
-              $curr_slide.velocity({translateX: -1 * $this.innerWidth() }, {duration: 300, queue: false, easing: 'easeOutQuad',
-                                    complete: function() {
-                                      $curr_slide.velocity({opacity: 0, translateX: 0}, {duration: 0, queue: false});
-                                    } });
-            }
-            else if (swipeRight) {
-              moveToSlide(curr_index - 1);
-              $curr_slide.velocity({translateX: $this.innerWidth() }, {duration: 300, queue: false, easing: 'easeOutQuad',
-                                    complete: function() {
-                                      $curr_slide.velocity({opacity: 0, translateX: 0}, {duration: 0, queue: false});
-                                    } });
-            }
-            swipeLeft = false;
-            swipeRight = false;
-
-            // Restart interval
             clearInterval($interval);
             $interval = setInterval(
               function(){
@@ -3155,14 +2933,127 @@ $(document).ready(function(){
 
               }, options.transition + options.interval
             );
-          }
+          });
+          $indicators.append($indicator);
         });
+        $this.append($indicators);
+        $indicators = $this.find('ul.indicators').find('li.indicator-item');
+      }
 
-        $this.on('sliderPause', function() {
+      if ($active) {
+        $active.show();
+      }
+      else {
+        $slides.first().addClass('active').velocity({opacity: 1}, {duration: options.transition, queue: false, easing: 'easeOutQuad'});
+
+        $active_index = 0;
+        $active = $slides.eq($active_index);
+
+        // Update indicators
+        if (options.indicators) {
+          $indicators.eq($active_index).addClass('active');
+        }
+      }
+
+      // Adjust height to current slide
+      $active.find('img').each(function() {
+        $active.find('.caption').velocity({opacity: 1, translateX: 0, translateY: 0}, {duration: options.transition, queue: false, easing: 'easeOutQuad'});
+      });
+
+      // auto scroll
+      $interval = setInterval(
+        function(){
+          $active_index = $slider.find('.active').index();
+          moveToSlide($active_index + 1);
+
+        }, options.transition + options.interval
+      );
+
+
+      // HammerJS, Swipe navigation
+
+      // Touch Event
+      var panning = false;
+      var swipeLeft = false;
+      var swipeRight = false;
+
+      $this.hammer({
+          prevent_default: false
+      }).bind('pan', function(e) {
+        if (e.gesture.pointerType === "touch") {
+
+          // reset interval
           clearInterval($interval);
-        });
 
-        $this.on('sliderStart', function() {
+          var direction = e.gesture.direction;
+          var x = e.gesture.deltaX;
+          var velocityX = e.gesture.velocityX;
+
+          $curr_slide = $slider.find('.active');
+          $curr_slide.velocity({ translateX: x
+              }, {duration: 50, queue: false, easing: 'easeOutQuad'});
+
+          // Swipe Left
+          if (direction === 4 && (x > ($this.innerWidth() / 2) || velocityX < -0.65)) {
+            swipeRight = true;
+          }
+          // Swipe Right
+          else if (direction === 2 && (x < (-1 * $this.innerWidth() / 2) || velocityX > 0.65)) {
+            swipeLeft = true;
+          }
+
+          // Make Slide Behind active slide visible
+          var next_slide;
+          if (swipeLeft) {
+            next_slide = $curr_slide.next();
+            if (next_slide.length === 0) {
+              next_slide = $slides.first();
+            }
+            next_slide.velocity({ opacity: 1
+                }, {duration: 300, queue: false, easing: 'easeOutQuad'});
+          }
+          if (swipeRight) {
+            next_slide = $curr_slide.prev();
+            if (next_slide.length === 0) {
+              next_slide = $slides.last();
+            }
+            next_slide.velocity({ opacity: 1
+                }, {duration: 300, queue: false, easing: 'easeOutQuad'});
+          }
+
+
+        }
+
+      }).bind('panend', function(e) {
+        if (e.gesture.pointerType === "touch") {
+
+          $curr_slide = $slider.find('.active');
+          panning = false;
+          curr_index = $slider.find('.active').index();
+
+          if (!swipeRight && !swipeLeft) {
+            // Return to original spot
+            $curr_slide.velocity({ translateX: 0
+                }, {duration: 300, queue: false, easing: 'easeOutQuad'});
+          }
+          else if (swipeLeft) {
+            moveToSlide(curr_index + 1);
+            $curr_slide.velocity({translateX: -1 * $this.innerWidth() }, {duration: 300, queue: false, easing: 'easeOutQuad',
+                                  complete: function() {
+                                    $curr_slide.velocity({opacity: 0, translateX: 0}, {duration: 0, queue: false});
+                                  } });
+          }
+          else if (swipeRight) {
+            moveToSlide(curr_index - 1);
+            $curr_slide.velocity({translateX: $this.innerWidth() }, {duration: 300, queue: false, easing: 'easeOutQuad',
+                                  complete: function() {
+                                    $curr_slide.velocity({opacity: 0, translateX: 0}, {duration: 0, queue: false});
+                                  } });
+          }
+          swipeLeft = false;
+          swipeRight = false;
+
+          // Restart interval
           clearInterval($interval);
           $interval = setInterval(
             function(){
@@ -3174,33 +3065,16 @@ $(document).ready(function(){
 
             }, options.transition + options.interval
           );
-        });
-
+        }
       });
 
+    });
 
 
-    },
-    pause : function() {
-      $(this).trigger('sliderPause');
-    },
-    start : function() {
-      $(this).trigger('sliderStart');
-    }
+
   };
-
-
-    $.fn.slider = function(methodOrOptions) {
-      if ( methods[methodOrOptions] ) {
-        return methods[ methodOrOptions ].apply( this, Array.prototype.slice.call( arguments, 1 ));
-      } else if ( typeof methodOrOptions === 'object' || ! methodOrOptions ) {
-        // Default to "init"
-        return methods.init.apply( this, arguments );
-      } else {
-        $.error( 'Method ' +  methodOrOptions + ' does not exist on jQuery.tooltip' );
-      }
-    }; // Plugin end
-}( jQuery ));;(function ($) {
+}( jQuery ));
+;(function ($) {
   $(document).ready(function() {
 
     $(document).on('click.card', '.card', function (e) {
@@ -3212,7 +3086,7 @@ $(document).ready(function(){
               duration: 225,
               queue: false,
               easing: 'easeInOutQuad',
-              complete: function() { $(this).css({ display: 'none'}); }
+              complete: function() { $(this).css({ display: 'none'}) }
             }
           );
         }
@@ -3295,32 +3169,7 @@ $(document).ready(function(){
 
     $(document).on('mouseenter.fixedActionBtn', '.fixed-action-btn', function(e) {
       var $this = $(this);
-      openFABMenu($this);
 
-    });
-
-    $(document).on('mouseleave.fixedActionBtn', '.fixed-action-btn', function(e) {
-      var $this = $(this);
-      closeFABMenu($this);
-    });
-
-  });
-
-  $.fn.extend({
-    openFAB: function() {
-      var $this = $(this);
-      openFABMenu($this);
-    },
-    closeFAB: function() {
-      closeFABMenu($this);
-    }
-  });
-
-
-  var openFABMenu = function (btn) {
-    $this = btn;
-    if ($this.hasClass('active') === false) {
-      $this.addClass('active');
       $this.find('ul .btn-floating').velocity(
         { scaleY: ".4", scaleX: ".4", translateY: "40px"},
         { duration: 0 });
@@ -3332,21 +3181,20 @@ $(document).ready(function(){
           { duration: 80, delay: time });
         time += 40;
       });
-    }
-  };
 
-  var closeFABMenu = function (btn) {
-    $this = btn;
-    $this.removeClass('active');
-    var time = 0;
-    $this.find('ul .btn-floating').velocity("stop", true);
-    $this.find('ul .btn-floating').velocity(
-      { opacity: "0", scaleX: ".4", scaleY: ".4", translateY: "40px"},
-      { duration: 80 }
-    );
-  };
+    });
 
+    $(document).on('mouseleave.fixedActionBtn', '.fixed-action-btn', function(e) {
+      var $this = $(this);
 
+      var time = 0;
+      $this.find('ul .btn-floating').velocity("stop", true);
+      $this.find('ul .btn-floating').velocity(
+        { opacity: "0", scaleX: ".4", scaleY: ".4", translateY: "40px"},
+        { duration: 80 });
+    });
+
+  });
 }( jQuery ));
 ;(function ($) {
   // Image transition function
@@ -3416,8 +3264,6 @@ $(document).ready(function(){
     var swipeLeft = false;
     var swipeRight = false;
 
-
-    // Dismissible Collections
     $('.dismissable').each(function() {
       $(this).hammer({
         prevent_default: false
@@ -3435,25 +3281,18 @@ $(document).ready(function(){
           if (direction === 4 && (x > ($this.innerWidth() / 2) || velocityX < -0.75)) {
             swipeLeft = true;
           }
-
           // Swipe Right
-          if (direction === 2 && (x < (-1 * $this.innerWidth() / 2) || velocityX > 0.75)) {
+          else if (direction === 2 && (x < (-1 * $this.innerWidth() / 2) || velocityX > 0.75)) {
             swipeRight = true;
           }
         }
       }).bind('panend', function(e) {
-        // Reset if collection is moved back into original position
-        if (Math.abs(e.gesture.deltaX) < ($(this).innerWidth() / 2)) {
-          swipeRight = false;
-          swipeLeft = false;
-        }
-
         if (e.gesture.pointerType === "touch") {
           var $this = $(this);
           if (swipeLeft || swipeRight) {
             var fullWidth;
-            if (swipeLeft) { fullWidth = $this.innerWidth(); }
-            else { fullWidth = -1 * $this.innerWidth(); }
+            if (swipeLeft) { fullWidth = $this.innerWidth() }
+            else { fullWidth = -1 * $this.innerWidth() }
 
             $this.velocity({ translateX: fullWidth,
               }, {duration: 100, queue: false, easing: 'easeOutQuad', complete:
@@ -3533,17 +3372,42 @@ $(document).ready(function(){
               var elementOffset = currentElement.getBoundingClientRect().top + document.body.scrollTop;
 
               if (windowScroll > (elementOffset + offset)) {
-                if (value.done !== true) {
+                if (value.done != true) {
                   var callbackFunc = new Function(callback);
                   callbackFunc();
                   value.done = true;
                 }
               }
             }
-          }
+          };
       }
     }, 100);
-  };
+
+
+    // $(window).scroll(function () {
+    //   var windowScroll = $(window).scrollTop() + $(window).height();
+
+    //   $.each( options, function( i, value ){
+    //     var selector = value.selector,
+    //         offset = value.offset,
+    //         callback = value.callback;
+
+    //     if ($(selector).length != 0) {
+    //       var elementOffset = $(selector).offset().top;
+
+    //       if (windowScroll > (elementOffset + offset)) {
+    //         if (value.done != true) {
+    //           var callbackFunc = new Function(callback);
+    //           callbackFunc();
+    //           value.done = true;
+    //         }
+    //       }
+    //     }
+
+    //   });
+    // });
+
+  }
 
 })(jQuery);;/*!
  * pickadate.js v3.5.0, 2014/04/13
@@ -6103,7 +5967,7 @@ Picker.extend( 'pickadate', DatePicker )
   $.fn.characterCounter = function(){
     return this.each(function(){
 
-      var itHasLengthAttribute = $(this).attr('length') !== undefined;
+      itHasLengthAttribute = $(this).attr('length') != undefined;
 
       if(itHasLengthAttribute){
         $(this).on('input', updateCounter);
@@ -6128,7 +5992,7 @@ Picker.extend( 'pickadate', DatePicker )
   }
 
   function addCounterElement($input){
-    var $counterElement = $('<span/>')
+    $counterElement = $('<span/>')
                         .addClass('character-counter')
                         .css('float','right')
                         .css('font-size','12px')
@@ -6142,7 +6006,7 @@ Picker.extend( 'pickadate', DatePicker )
   }
 
   function addInputStyle(isValidLength, $input){
-    var inputHasInvalidClass = $input.hasClass('invalid');
+    inputHasInvalidClass = $input.hasClass('invalid');
     if (isValidLength && inputHasInvalidClass) {
       $input.removeClass('invalid');
     }
