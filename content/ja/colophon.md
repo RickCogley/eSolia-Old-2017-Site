@@ -37,55 +37,58 @@ images:
   - /img/eSolia-Chicklet-Color-1024px.png
 ---
 
-## 履歴
+## ヒストリー
 
 <figure class="image-container">
 <img class="materialboxed right responsive-img" width="150" data-caption="eSolia Chicklet Logo" alt="eSolia Chicklet Logo" src="/img/eSolia-Chicklet-Color.svg" >
 </figure>
 
-As they say, we "[stand on the shoulders of giants](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants "Wikipedia article about etymology of standing on the shoulders of giants")", and this site is certainly no exception. We have built previous eSolia sites in Rapidweaver, two generations back, and Typo3 for the last generation. Other systems have their pluses of course, but for various reasons, each previous system we have used has had some fragility related to matters like upgrades or dependencies.　巨人の肩の上にのる矮人
+[巨人の肩の上にのる矮人](https://ja.wikipedia.org/wiki/%E5%B7%A8%E4%BA%BA%E3%81%AE%E8%82%A9%E3%81%AE%E4%B8%8A)という西洋の比喩表現がありますが、このサイトもその例外ではありません。
+以前のイソリアのサイトは2世代前にあたるサイトジェネレータである"Rapidweaver"と一世代前の"Typo3"にて作成されたものでした。各システムにはそれぞれの強みがありましたが、様々な理由から私達が利用していたそういったシステムには、アップグレードや依存関係などに関連するいくつかの脆弱性がありました。
 
 ## 静的サイトジェネレータ
 
-When we were deciding upon a system to run _this_ site in, we considered "static site generators", which allow you to weave a static website together from content files, script programs, and image files. However these static systems too have pre-requisites, in that a full development environment is required on the computer used to manage the site. This is as problematic as the requirements of a server-side CMS.
+このサイトのジェネレータの選定時には、コンテンツファイル、スクリプトプログラム、および画像ファイルから構成され表現することができる静的サイトジェネレータを検討しました。
+しかしながらこれらのシステムも、利用するための前提条件が多く、完全な開発環境がサイトを管理するためのコンピュータには求められました。この点はサーバーでの動的CMSの運用と同様のものでした。
 
-## ゴー Hugo
+## Go Hugo (ヒューゴについて) 
 
-Enter [Hugo](http://gohugo.io), a better static site generator, about which we learn:
+[Hugo](http://gohugo.io)と打ち込んでみよう。優れた静的サイトジェネレーターの紹介:
 
-> Hugo is written for speed and performance. Great care has been taken to ensure that Hugo build time is as short as possible. We're talking milliseconds to build your entire site for most setups. これの日本語がないので、翻訳してください
+> ヒューゴは優れた点はなんといってもスピードとそのパフォーマンスです。サイトを構成するための時間を最短にするための細心の注意が払われており、数秒でほとんどのセットアップが出来てしまいます。
 
-The reason Hugo's so fast is it's a single, binary program written in the "Go" language, that's been compiled for Windows, Mac and Linux. Users just install a single file appropriate to their system, then run it to merge their folders of content written in [Markdown](http://daringfireball.net/projects/markdown/) text format, HTML templates, CSS and Javascript files.
+ヒューゴが何故そんなに早いのかというとそれは、WindowsやMac、Linux向けのGo言語で書かれたシングル・バイナリー構成であることが挙げられるでしょう。 ユーザはシステムに沿った一つのファイルをインストールし、そして[マークダウン](https://ja.wikipedia.org/wiki/Markdown) 形式、HTMLテンプレート、CSS、Javaスクリプトファイルで構成されたフォルダを統合するだけです。
 
-Let us just say that _it takes far longer to upload the site to our web host, than it does for Hugo to generate it_. Its speed is truly a remarkable software engineering feat.
+敢えていうなら私達のウェブホストにそれらをアップロードするよりも、ヒューゴを使い作成する方がよっぽど早く完成できてしまいます。その驚くべき早さたるや、ソフトウェアエンジニア達の偉業とも言えるでしょう。
+
 
 <figure class="image-container">
 <img class="materialboxed right responsive-img" width="300" data-caption="Hugo Logo" alt="Hugo Logo" src="/img/hugo-logo.png" >
 </figure>
 
-So, a hearty "domo arigato" to [Steve Francia](http://spf13.com) ([@spf13](https://github.com/spf13)) and [contributors](https://github.com/spf13/hugo/graphs/contributors) for the giant amount of work in creating Hugo, especially [Bjørn Erik Pedersen](http://bep.is) ([@bep](https://github.com/bep)) for his great support on the Hugo [discussion forums](http://discuss.hugo.io)). スティーブ フランキア 氏、ビョーン エリック ペデルセン 氏
-
-Thanks also to the heavy hitters in the Go language [team](http://golang.org/CONTRIBUTORS), in which Hugo is written.
+心からのどうも有難う！を[スティーブ フランキア 氏](http://spf13.com) ([@spf13](https://github.com/spf13)) とヒューゴの作成に携わり沢山の苦労の形にしてくれた[関係者の皆様](https://github.com/spf13/hugo/graphs/contributors)（特に[ディスカッションフォーラム](http://discuss.hugo.io)で素晴らしかった [ビョーン エリック ペデルセン 氏](http://bep.is) ([@bep](https://github.com/bep))  へ贈りたいと思います。（ そして[Go言語チーム](http://golang.org/CONTRIBUTORS)の皆様にも）
 
 ## サイトの見た目
 
-The visual "look" of this website is based on Google's [Material Design](http://www.google.co.jp/design/spec/material-design/introduction.html) specification, about which development, Google says:
+このウェブサイトの外観・デザインはGoogle社の[マテリアル・デザイン](http://www.google.co.jp/design/spec/material-design/introduction.html) をベースとしています。サービスの開発環境・仕様に関してGoogle社より以下の様に述べられています。
 
-> We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. This is material design. グーグル様だから、どこかにMaterial Designについて日本語の説明はあるのでは？
+> We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. This is material design. 
+> 私達は技術や科学の可能性と革新を融合した良いデザインの、標準原則を統合した視覚的な言語の作成に挑戦しました。それがマテリアルデザインです。
 
-The implementation of Material Design is realized using the CSS framework called "[Materialize](http://materializecss.com/)". Materialize is a collection of developed and tested css, javascript and font files. It lets you easily specify components via css classes, and do things like set up responsive grids, that resize when you resize the browser or view on a mobile device like an iPad or iPhone.
+マテリアルデザインの実装は[マテリアライズ](http://materializecss.com/)と呼ばれるCSSのフレームワークを用いて実現されます。マテリアライズは開発済みCSS、Javaスクリプト、そしてフォントファイルの集合です。
+これによりCSSクラス名を通して簡単にコンポーネントを特定することが出来たり、ブラウザのサイズ変更時に応答しリサイズ、もしくはipadやiphoneなどのモバイル端末などからの閲覧を可能にするレスポンシブグリッドの設定が可能となります。
 
 <figure class="image-container">
 <img class="materialboxed right responsive-img" width="300" data-caption="Noto from Google" alt="Noto font from Google" src="/img/noto.png" >
 </figure>
 
-For the site "font", we're using Google's [Noto](https://github.com/googlei18n/noto-fonts) type face, a dramatically ambitious project in which Google is trying to design a font fact to represent _all_ the worlds languages.
+サイト内のフォントに関しては[Noto](https://github.com/googlei18n/noto-fonts)フォントを使用しています。このフォントはGoogle社の素晴らしい取り組みの一つですが、全ての人に世界中のどの様な言語でも読みやすく表示することを目標にして作られています。
 
-When characters on a web page cannot be correctly rendered, the little boxes that appear in your web browser are colloquially known as "tofu" from their shape. The name "Noto" therefore, comes from the phrase "no tofu".
+なお、ウェブページにて文字が正しく表示できない場合に四角いボックスの記号が代わりに表示されますが、これがよく"Tofu"(豆腐)と呼ばれることから、No Tofuの目標を込めてこの名前となったそうです。
 
-You'll see icons here and there as well, from Google's Material Design library, and, a custom subset of icons from the awesome [Font Awesome](http://fortawesome.github.io/Font-Awesome/) library, for usages that are not available in the former. Our custom icon font subset was extracted using the nifty service ["Fontello"](http://fontello.com/).
+前者の利用が向かない用途の際には、グーグル社のMaterial Design Libraryや、[Font Awesome](http://fortawesome.github.io/Font-Awesome/) libraryなどでも色々なアイコンフォントを発見出来ます。私達のカスタムアイコンフォントは["フォンテロ"](http://fontello.com/)というNiftyのサービスを利用しています。
 
-The photos on this site were mostly taken by Rick Cogley, with a couple from the public domain and stock photography services. The page galleries are being displayed by the slick javascript "[nanoGALLERY](http://nanogallery.brisbois.fr)".
+サイト内の写真については、いくつかは写真素材サービスを利用していますが、そのほとんどはリック・コグレーにより撮影されたものです。ページギャラリーは動きの滑らかなJavaスクリプト（"[nanoGALLERY](http://nanogallery.brisbois.fr)".）により表示されています。
 
 ## ホスティング
 
@@ -93,11 +96,11 @@ The photos on this site were mostly taken by Rick Cogley, with a couple from the
 <img class="materialboxed right responsive-img" width="300" data-caption="Webfaction Logo" alt="Webfaction Logo" src="/img/webfaction-logo.png" >
 </figure>
 
-This site, and a few others we manage, are hosted at the rock-solid [Webfaction](http://www.webfaction.com/?affiliate=rcogley). Webfaction offers great cost-performance for developers, and we have not seen any significant trouble during years of use.
+このサイトと私達が管理する他のいくつかのサイトは、とても信頼を置いている[ウェブファクション](http://www.webfaction.com/?affiliate=rcogley)にホストされています。. ウェブファクションは素晴らしい費用対効果のあるサービスを開発者に提供しており、その中で私達は何年も利用していますが、一度も大きな問題が起こったことはありません。
 
-DNS is hosted on Amazon Web Services [Route53](https://aws.amazon.com/route53/), a really robust and fast DNS service.
+DNSサービスは堅牢かつ高速なAmazonウェブサービス、[Route53](https://aws.amazon.com/route53/), を利用しています。
 
-The [repository](https://github.com/eSolia/eSolia) for this site is hosted at [Github](https://github.com).
+このサイトの[レポジトリ](https://github.com/eSolia/eSolia)は[Github(ギットハブ)](https://github.com)にてホストされています。
 
 ## 我々は Humans(.txt) だ
 
@@ -105,14 +108,14 @@ The [repository](https://github.com/eSolia/eSolia) for this site is hosted at [G
 <img class="materialboxed right responsive-img" width="220" data-caption="Humans.txt Logo" alt="Humans.txt Logo" src="/img/humans-txt-large-logo2.png" >
 </figure>
 
-We also have a [``humans.txt``](/humans.txt) file. [Humans.txt](http://humanstxt.org) is an attempt to standardize on a way of making a site colophon, in text format, and plays upon the ``robots.txt`` files that give directives about your site, to the search engine crawler programs that index it.
+[``Humans.txtファイル``](/humans.txt)をご存知でしょうか。これ（＝[Humans.txt](http://humanstxt.org)）はサイトの奥付（何を実際に使って書かれたかなど）を作る方法を標準化しようとする試みであり、またrobots.txtというテキストファイルに記述することで、検索エンジンのクローラープログラムに、クロールなどの指示をします。
 
-[Click](/humans.txt) it, and you'll see the same basic information as on this page, in a simple text only form.
+[クリック](/humans.txt)すると単純なテキストのみの形式で、この奥付ページと基本的に同じ内容の情報が表示されます。（robots.txtがシステム向けとするならhumans.txtは"人間"が読むように作られたファイルと言えますね）
 
 ## ありがとう!
 
-Sites don't always properly acknowledge contributions, but believe us, _every site on the Internet_ owes a debt of gratitude to many parties, other than the company that did the site design.
+通常世の中のウェブサイトはこの様な"どのサービスを利用しているか"などの内容を記載することは多くはないと思いますが、どの様なサイトであれ上記の様な色々なサービスの恩恵を受けて完成されていることを忘れてはいけません。（デザイン会社は別かもしれませんが）
 
-Finally, thanks also to team eSolia for the many hours working on content.  
+最後に、沢山の時間を費やししてくれたイソリアのみんなにありがとう。
 
-_Now to get back to business!_
+_さぁ、仕事に戻ろう！_
