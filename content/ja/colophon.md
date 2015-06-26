@@ -1,15 +1,15 @@
 ---
-author: eSolia
+author: イソリア
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
-description: eSolia Colophon - the technology behind this site.
+description: イソリア 奥付 - 当サイトが利用するテクノロジー
 draft: false
 slug: colophon
-title: eSolia Colophon
-subtitle: On the shoulders of giants.
+title: 当サイト奥付
+subtitle: 巨人の肩の上にのる矮人
 weight: 10
 alternatelocales:
-  - ja-JP
+  - en-US
 tags:
   - Colophon
   - Attributions
@@ -29,6 +29,7 @@ tags:
   - Markdown
 topics:
   - eSolia
+  - イソリア
 images:
   - /img/hugo-logo.png
   - /img/noto.png
@@ -36,23 +37,23 @@ images:
   - /img/eSolia-Chicklet-Color-1024px.png
 ---
 
-## History
+## 履歴
 
 <figure class="image-container">
 <img class="materialboxed right responsive-img" width="150" data-caption="eSolia Chicklet Logo" alt="eSolia Chicklet Logo" src="/img/eSolia-Chicklet-Color.svg" >
 </figure>
 
-As they say, we "[stand on the shoulders of giants](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants "Wikipedia article about etymology of standing on the shoulders of giants")", and this site is certainly no exception. We have built previous eSolia sites in Rapidweaver, two generations back, and Typo3 for the last generation. Other systems have their pluses of course, but for various reasons, each previous system we have used has had some fragility related to matters like upgrades or dependencies.
+As they say, we "[stand on the shoulders of giants](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants "Wikipedia article about etymology of standing on the shoulders of giants")", and this site is certainly no exception. We have built previous eSolia sites in Rapidweaver, two generations back, and Typo3 for the last generation. Other systems have their pluses of course, but for various reasons, each previous system we have used has had some fragility related to matters like upgrades or dependencies.　巨人の肩の上にのる矮人
 
-## Static Site Generators
+## 静的サイトジェネレータ
 
 When we were deciding upon a system to run _this_ site in, we considered "static site generators", which allow you to weave a static website together from content files, script programs, and image files. However these static systems too have pre-requisites, in that a full development environment is required on the computer used to manage the site. This is as problematic as the requirements of a server-side CMS.
 
-## Go Hugo
+## ゴー Hugo
 
 Enter [Hugo](http://gohugo.io), a better static site generator, about which we learn:
 
-> Hugo is written for speed and performance. Great care has been taken to ensure that Hugo build time is as short as possible. We're talking milliseconds to build your entire site for most setups.
+> Hugo is written for speed and performance. Great care has been taken to ensure that Hugo build time is as short as possible. We're talking milliseconds to build your entire site for most setups. これの日本語がないので、翻訳してください
 
 The reason Hugo's so fast is it's a single, binary program written in the "Go" language, that's been compiled for Windows, Mac and Linux. Users just install a single file appropriate to their system, then run it to merge their folders of content written in [Markdown](http://daringfireball.net/projects/markdown/) text format, HTML templates, CSS and Javascript files.
 
@@ -62,15 +63,15 @@ Let us just say that _it takes far longer to upload the site to our web host, th
 <img class="materialboxed right responsive-img" width="300" data-caption="Hugo Logo" alt="Hugo Logo" src="/img/hugo-logo.png" >
 </figure>
 
-So, a hearty "domo arigato" to [Steve Francia](http://spf13.com) ([@spf13](https://github.com/spf13)) and [contributors](https://github.com/spf13/hugo/graphs/contributors) for the giant amount of work in creating Hugo, especially [Bjørn Erik Pedersen](http://bep.is) ([@bep](https://github.com/bep)) for his great support on the Hugo [discussion forums](http://discuss.hugo.io)).
+So, a hearty "domo arigato" to [Steve Francia](http://spf13.com) ([@spf13](https://github.com/spf13)) and [contributors](https://github.com/spf13/hugo/graphs/contributors) for the giant amount of work in creating Hugo, especially [Bjørn Erik Pedersen](http://bep.is) ([@bep](https://github.com/bep)) for his great support on the Hugo [discussion forums](http://discuss.hugo.io)). スティーブ フランキア 氏、ビョーン エリック ペデルセン 氏
 
 Thanks also to the heavy hitters in the Go language [team](http://golang.org/CONTRIBUTORS), in which Hugo is written.
 
-## Site Look
+## サイトの見た目
 
 The visual "look" of this website is based on Google's [Material Design](http://www.google.co.jp/design/spec/material-design/introduction.html) specification, about which development, Google says:
 
-> We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. This is material design.
+> We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. This is material design. グーグル様だから、どこかにMaterial Designについて日本語の説明はあるのでは？
 
 The implementation of Material Design is realized using the CSS framework called "[Materialize](http://materializecss.com/)". Materialize is a collection of developed and tested css, javascript and font files. It lets you easily specify components via css classes, and do things like set up responsive grids, that resize when you resize the browser or view on a mobile device like an iPad or iPhone.
 
@@ -86,7 +87,7 @@ You'll see icons here and there as well, from Google's Material Design library, 
 
 The photos on this site were mostly taken by Rick Cogley, with a couple from the public domain and stock photography services. The page galleries are being displayed by the slick javascript "[nanoGALLERY](http://nanogallery.brisbois.fr)".
 
-## Hosting
+## ホスティング
 
 <figure class="image-container">
 <img class="materialboxed right responsive-img" width="300" data-caption="Webfaction Logo" alt="Webfaction Logo" src="/img/webfaction-logo.png" >
@@ -98,7 +99,7 @@ DNS is hosted on Amazon Web Services [Route53](https://aws.amazon.com/route53/),
 
 The [repository](https://github.com/eSolia/eSolia) for this site is hosted at [Github](https://github.com).
 
-## We're Humans(.txt)
+## 我々は Humans(.txt) だ
 
 <figure class="image-container">
 <img class="materialboxed right responsive-img" width="220" data-caption="Humans.txt Logo" alt="Humans.txt Logo" src="/img/humans-txt-large-logo2.png" >
@@ -108,7 +109,7 @@ We also have a [``humans.txt``](/humans.txt) file. [Humans.txt](http://humanstxt
 
 [Click](/humans.txt) it, and you'll see the same basic information as on this page, in a simple text only form.
 
-## Thanks!
+## ありがとう!
 
 Sites don't always properly acknowledge contributions, but believe us, _every site on the Internet_ owes a debt of gratitude to many parties, other than the company that did the site design.
 
