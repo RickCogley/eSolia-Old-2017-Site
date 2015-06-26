@@ -45,6 +45,8 @@ menu:
     Parent: services
 ---
 
+## The Sleepless Night before a Move
+
 Moves are physically and mentally demanding. And _office_ moves even more so. Just take a look around and it will become apparent. It's not just about desks, files and office supplies, it's also about moving all the PCs, monitors, printers and other equipment, so you can see that it might feel overwhelming. On top of that, there is the cabling, the system racks, the servers and network, that not only has to be moved, but also restored and tested to its current working state. Then there's the deadline and budget, that we mustn't forget. Until it's done, you can't really sleep soundly.
 
 eSolia has extensive experience in planning and executing office moves. We will act as your ombudsman during your next office move, communicating clearly and bilingually with the stakeholders involved in the project such as your Japan team, HQ IT and Facilities departments, as well as with our trusted partners.
