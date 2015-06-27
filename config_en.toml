@@ -73,7 +73,7 @@ languageCode = "en-US"
 
 [[menu.side]]
     name = "Telephone"
-    identifier = "telephone"
+    identifier = "telephonetopic"
     weight = 30
     url = "/topics/telephone"
     parent = "topics"
