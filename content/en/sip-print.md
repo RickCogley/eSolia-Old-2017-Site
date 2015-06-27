@@ -19,6 +19,7 @@ series:
   - ninki1
 topics:
   - Focus
+  - Telephone
 images:
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
