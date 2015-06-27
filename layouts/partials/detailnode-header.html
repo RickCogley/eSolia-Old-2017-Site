@@ -1,4 +1,4 @@
-{{ "<!-- ENTERING layouts/partials/detailpage-header.html -->" | safeHTML }}
+{{ "<!-- ENTERING layouts/partials/detailnode-header.html -->" | safeHTML }}
 <header>
   <div class="section amber" id="index-banner">
     <div class="container">
@@ -14,7 +14,7 @@
             {{ else if in "Series シリーズ" $nodetitle }}
             {{ ( index $.Site.Data.translations $.Site.Params.locale ).series }}
             {{ else }}
-            {{ .Title }}
+            {{ if eq .Title "Esolia" }}eSolia{{ else }}{{ .Title }}{{ end }}
             {{ end }}
           </h1>
           <h4 class="light light-blue-text center-on-small-only">
@@ -33,4 +33,4 @@
     </div>
   </div>
 </header>
-{{ "<!-- LEAVING layouts/partials/detailpage-header.html -->" | safeHTML }}
+{{ "<!-- LEAVING layouts/partials/detailnode-header.html -->" | safeHTML }}

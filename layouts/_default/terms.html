@@ -28,7 +28,7 @@
                  {{ $data := .Data }}
                  {{ range $key,$value := .Data.Terms.ByCount }}
                  {{ if ne $value.Name "summary" }}
-                   <article><i class="tiny mdi-action-label-outline blue-text text-accent-3"></i><a href="/{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ title $value.Name }} </a> &nbsp; {{ $value.Count }}</article>
+                   <article><i class="tiny mdi-action-label-outline blue-text text-accent-3"></i><a href="/{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ if eq $value.Name "esolia"}}eSolia{{ else }}{{ title $value.Name }}{{ end }} </a> &nbsp; {{ $value.Count }}</article>
                  {{ end }}
                  {{ end }}
             </div>
