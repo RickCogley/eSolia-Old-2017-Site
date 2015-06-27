@@ -51,6 +51,17 @@ To use it effectively, there's no need to try to handle everything internally. I
 
 ### An enemy named "process"
 
+<div class="esolia-card-panel pink darken-4 z-depth-1">
+  <h4 class="center green-text text-accent-3">Frequently Requested</h4>
+    <ol>
+      <li class="white-text">Project Management</li>
+      <li class="white-text">Server and Data Center Management</li>
+      <li class="white-text">Compliance Management</li>
+      <li class="white-text">Asset Management</li>
+      <li class="white-text">License Management</li>
+    </ol>
+</div>
+
 Processes tend to become more complicated over time, especially when it involves something you're not quite expert in. In the context of a master support agreement, eSolia will skillfully manage them on your behalf, using our refined procedures, or your desired methods.
 
 1. Strong project management for changing requirements, and imminent deadlines.

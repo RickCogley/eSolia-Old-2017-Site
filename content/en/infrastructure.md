@@ -48,6 +48,17 @@ menu:
 ## What's "Infrastructure"
 Companies define "infrastructure" differently, but mostly it includes all the basics from the facility to the network and servers, that make an IT system work. Starting with the office space itself, eSolia considers the electrical and HVAC capacity, access to data and telephone lines, your building's physical structure in whether it has a raised floor and so on.
 
+<div class="esolia-card-panel deep-purple darken-4 z-depth-1">
+  <h4 class="center green-text text-accent-3">From Server Room to Walls and Floors</h4>
+    <ol>
+      <li class="white-text">Electricity, Phone, LAN Cable</li>
+      <li class="white-text">Network Switch, Router Upgrades</li>
+      <li class="white-text">Server Design and Settings</li>
+      <li class="white-text">Virtualization</li>
+      <li class="white-text">HVAC and Office Furnishings</li>
+    </ol>
+</div>
+
 Next is the design of the on- or off-site data center, or sometimes both, where the equipment is to be housed. We must consider its access to independent electrical lines and cooling, security, access routes from there to the rest of the site.
 
 Inside the data center or sometimes the "server room", there will be systems racks, whether for network and telephone, or standard structured cabling. The rack size and capacity has to be done right, and there are plenty of considerations such as equipment weight, and earthquakes, to consider.

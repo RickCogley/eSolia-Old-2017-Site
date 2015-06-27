@@ -49,6 +49,17 @@ menu:
 * IMACサービス　("Install-インストール、Move-移動、Add-追加、Change-変更")
 * コンピュータの設定、ハードディスクのイメージング
 
+<div class="esolia-card-panel blue-grey darken-4 z-depth-1">
+  <h4 class="center green-text text-accent-3">メインとなる業務</h4>
+    <ol>
+      <li class="white-text">PC・周辺機器等のセットアップ</li>
+      <li class="white-text">IT全般トラブルシュート</li>
+      <li class="white-text">アカウント作成・管理</li>
+      <li class="white-text">本社へのエスカレート・バイリンガルでの連携</li>
+      <li class="white-text">相談や購入、修理の手配</li>
+    </ol>
+</div>
+
 常駐、半日、週１、オンデマンド(必要に応じて)等、様々な契約形態によるオンサイトサービスの提供が可能です。必要に応じて、下記のエンジニアが派遣されます。
 
 * ユーザーサポートプロフェッショナル

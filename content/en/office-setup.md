@@ -47,7 +47,20 @@ menu:
 
 ## The Sleepless Night before a Move
 
-Moves are physically and mentally demanding. And _office_ moves even more so. Just take a look around and it will become apparent. It's not just about desks, files and office supplies, it's also about moving all the PCs, monitors, printers and other equipment, so you can see that it might feel overwhelming. On top of that, there is the cabling, the system racks, the servers and network, that not only has to be moved, but also restored and tested to its current working state. Then there's the deadline and budget, that we mustn't forget. Until it's done, you can't really sleep soundly.
+Moves are physically and mentally demanding. And _office_ moves even more so. Just take a look around and it will become apparent. It's not just about desks, files and office supplies, it's also about moving all the PCs, monitors, printers and other equipment, so you can see that it might feel overwhelming.
+
+On top of that, there is the cabling, the system racks, the servers and network, that not only has to be moved, but also restored and tested to its current working state. Then there's the deadline and budget, that we mustn't forget. Until it's done, you can't really sleep soundly.
+
+<div class="esolia-card-panel blue darken-4 z-depth-1">
+  <h4 class="center green-text text-accent-3">What do we handle?</h4>
+    <ol>
+      <li class="white-text">New Offices</li>
+      <li class="white-text">General Moves</li>
+      <li class="white-text">Layout Changes</li>
+      <li class="white-text">Team and Resource Coordination</li>
+      <li class="white-text">Equipment Move and Testing</li>
+    </ol>
+</div>
 
 eSolia has extensive experience in planning and executing office moves. We will act as your ombudsman during your next office move, communicating clearly and bilingually with the stakeholders involved in the project such as your Japan team, HQ IT and Facilities departments, as well as with our trusted partners.
 

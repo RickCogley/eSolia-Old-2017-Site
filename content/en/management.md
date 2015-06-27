@@ -47,6 +47,18 @@ menu:
 In the context of eSolia's work, management, and more specifically project management, is the art of closely coupling tasks with actions, managing budget and schedule quality to ensure there are no problems with overages or slippages, and, ensuring that clients are getting their expected return on investment regarding the project's deliverables. All this, while maintaining the required administrative project structures, plans, and operational momentum.
 
 ### eSolia's Approach
+
+<div class="esolia-card-panel blue-grey darken-4 z-depth-1">
+  <h4 class="center green-text text-accent-3">Emphasizing:</h4>
+    <ol>
+      <li class="white-text">Budget!</li>
+      <li class="white-text">Quality!</li>
+      <li class="white-text">Schedule!</li>
+      <li class="white-text">Project!</li>
+      <li class="white-text">Bilingual!</li>
+    </ol>
+</div>
+
 Our practical project management approach is unique, and allows us to avoid typical project issues like the "parkinson's effect" where work mysteriously expands to fill available time, ill-managed schedules and scopes, too much analysis and other pitfalls.
 
 What are some of the keys? We think it's this:
