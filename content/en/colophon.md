@@ -28,7 +28,7 @@ tags:
   - Humans.txt
   - Markdown
 topics:
-  - eSolia
+  - Site
 images:
   - /img/hugo-logo.png
   - /img/noto.png

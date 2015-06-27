@@ -28,8 +28,7 @@ tags:
   - Humans.txt
   - Markdown
 topics:
-  - eSolia
-  - イソリア
+  - 当サイト
 images:
   - /img/hugo-logo.png
   - /img/noto.png
@@ -51,7 +50,7 @@ images:
 このサイトのジェネレータの選定時には、コンテンツファイル、スクリプトプログラム、および画像ファイルから構成され表現することができる静的サイトジェネレータを検討しました。
 しかしながらこれらのシステムも、利用するための前提条件が多く、完全な開発環境がサイトを管理するためのコンピュータには求められました。この点はサーバーでの動的CMSの運用と同様のものでした。
 
-## Go Hugo (ヒューゴについて) 
+## Go Hugo (ヒューゴについて)
 
 [Hugo](http://gohugo.io)と打ち込んでみよう。優れた静的サイトジェネレーターの紹介:
 
@@ -72,7 +71,7 @@ images:
 
 このウェブサイトの外観・デザインはGoogle社の[マテリアル・デザイン](http://www.google.co.jp/design/spec/material-design/introduction.html) をベースとしています。サービスの開発環境・仕様に関してGoogle社より以下の様に述べられています。
 
-> We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. This is material design. 
+> We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. This is material design.
 > 私達は技術や科学の可能性と革新を融合した良いデザインの、標準原則を統合した視覚的な言語の作成に挑戦しました。それがマテリアルデザインです。
 
 マテリアルデザインの実装は[マテリアライズ](http://materializecss.com/)と呼ばれるCSSのフレームワークを用いて実現されます。マテリアライズは開発済みCSS、Javaスクリプト、そしてフォントファイルの集合です。
