@@ -16,7 +16,8 @@ tags:
 title: ご挨拶
 subtitle: 当ウェブサイトへお越しいただいた皆様へ
 topics:
-  - ご挨拶
+  - イソリア
+  - eSolia
 type: aboutpage
 images:
   - /img/eSolia-Chicklet-Color-1024px.png

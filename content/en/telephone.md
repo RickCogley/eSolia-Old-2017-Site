@@ -21,6 +21,7 @@ series:
   - ninki1
 topics:
   - Services
+  - Telephone
 images:
   - /img/eSolia-Post-Slider-Telephone-01.jpg
   - /img/eSolia-Post-Slider-Telephone-02.jpg

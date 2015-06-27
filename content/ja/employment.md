@@ -21,6 +21,7 @@ tags:
   - 履歴書
 topics:
   - イソリア
+  - eSolia
 images:
   - /img/eSolia-Post-Slider-Management-02.png
   - /img/eSolia-Chicklet-Color-1024px.png

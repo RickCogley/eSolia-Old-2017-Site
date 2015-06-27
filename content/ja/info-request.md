@@ -15,6 +15,7 @@ tags:
 title: お問い合わせ
 topics:
   - イソリア
+  - eSolia
 images:
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
