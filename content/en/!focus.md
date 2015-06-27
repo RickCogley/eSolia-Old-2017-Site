@@ -13,7 +13,7 @@ tags:
   - product
 title: Focus on Solutions
 topics:
-  - eSolia
+  - Summary
 showtopics:
   - Focus
 images:

@@ -27,7 +27,9 @@
                </h2>
                  {{ $data := .Data }}
                  {{ range $key,$value := .Data.Terms.ByCount }}
+                 {{ if ne $value.Name "summary" }}
                    <article><i class="tiny mdi-action-label-outline blue-text text-accent-3"></i><a href="/{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ title $value.Name }} </a> &nbsp; {{ $value.Count }}</article>
+                 {{ end }}
                  {{ end }}
             </div>
           </div>
