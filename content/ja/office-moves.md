@@ -3,19 +3,18 @@ author: イソリア
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
 draft: false
-title: オフィス構築
-slug: office-setup
-subtitle: オフィス移転の劇的<wbr><nobr>ビフォア、アフター</nobr>
-description: イソリアから - 新規オフィスの立ち上げから、変更や改善、移転後のサポートに至るまでの全サポート
+title: オフィス移転
+slug: office-moves
+subtitle: 劇的なビフォア、アフター
+description: イソリアから - 新規オフィスの立ち上げ、オフィス移転、変更や改善、移転後のサポートに至るまでの全サポート
 weight: 10
 alternatelocales:
   - en-US
 tags:
   - 事務所
-  - オフィス
-  - 構築
-  - 移転
-  - 社内
+  - オフィス構築
+  - オフィス移転
+  - 社内移転
   - リスタック
   - オフィス引越し
   - レイアウト
@@ -39,12 +38,15 @@ formcheckboxes:
   - コンユーター移動
   - 配線追加
 gallery_id: 6159792914055009873
+aliases:
+  - /office-setup
+  - /office-move
 menu:
   side:
-    Name: オフィス構築
+    Name: オフィス移転
     Weight: 10
-    Identifier: officesetup
-    Url: /office-setup
+    Identifier: officemoves
+    Url: /office-moves
     Parent: services
 ---
 ## 引っ越し前の眠れぬ夜
