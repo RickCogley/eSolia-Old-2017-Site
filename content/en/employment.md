@@ -61,7 +61,7 @@ Do those fit you? We want to know more about you!
 
 ## How to Apply
 
-Please send your information by e-mail to: <esoliacareers@esolia.co.jp>, including:
+To apply for employment, please send your information by e-mail to <esoliacareers@esolia.co.jp>, including:
 
 * Full name & citizenship (and current Japan visa status for non-Japanese nationals)
 * Full contact information, including physical address, preferred telephone, email address

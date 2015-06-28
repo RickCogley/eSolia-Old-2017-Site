@@ -6,13 +6,14 @@ draft: false
 title: Website Design
 slug: website-design
 subtitle: Doing Right by your Business
-description: Modern, standards-based websites that benefit your business, whether starting from zero, or localization of an existing website. - from eSolia Inc.
+description: Modern, standards-based website design that benefits your business, whether starting from zero, or localizing an existing website. - from eSolia Inc.
 weight: 55
 alternatelocales:
   - ja-JP
 tags:
-  - Website
-  - Design
+  - Website Design
+  - Webpage Design
+  - Homepage Design
   - Standards
   - Front-end
 series:
@@ -45,7 +46,7 @@ menu:
     Parent: services
 ---
 
-## Your Website is Integral to Your Business
+## Your Website Design is Integral to Your Business
 
 **_Or, at least it should be._** When you launch a website, it should actively market to help your business grow, and not just act as a static brochure. The benefits of a well-designed website are enormous, but the primary goal of a site launch is to make a fantastic first impression immediately to visitors, with the perfect tone. Your corporate vision should be built directly in to how the site is designed and assembled, and be apparent to a visitor right away, either directly or subconsciously.
 

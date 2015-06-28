@@ -3,18 +3,20 @@ author: eSolia
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
 draft: false
-title: Process
+title: Process Management
 slug: process
-subtitle: Management for all your processes
-description: Skillful management of Projects, Procurement, Asset Mgt, Compliance, Upgrade or any other IT or business processes. - from eSolia Inc.
+subtitle: Relief for your Many Runaway Processes
+description: Skillful Process Management of Projects, Procurement, Asset Mgt, Compliance, Upgrade or any other IT or business processes. - from eSolia Inc.
 weight: 20
 alternatelocales:
   - ja-JP
 tags:
-  - process
-  - procurement
-  - asset
-  - compliance
+  - Process Management
+  - Procurement
+  - Asset
+  - Compliance
+  - Project
+  - Recycling
 series:
   - top1
 topics:
@@ -47,7 +49,7 @@ menu:
 
 If one uses IT efficiently, one can utilize the basic nature of IT freely, and leverage that to receive immeasurable benefits. However, if misunderstood, IT can be a double-edged sword, increasing work and even decreasing efficiency.
 
-To use it effectively, there's no need to try to handle everything internally. In fact, say goodbye to fear of processes!
+To use it effectively, there's no need to try to handle everything internally. In fact, say goodbye to fear of processes, and leave your process management to eSolia!
 
 ### An enemy named "process"
 

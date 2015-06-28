@@ -14,6 +14,7 @@ tags:
   - infrastructure
   - specs and standards
   - base technology
+  - nuts and bolts
 series:
   - top1
 topics:
@@ -46,6 +47,7 @@ menu:
 ---
 
 ## What's "Infrastructure"
+
 Companies define "infrastructure" differently, but mostly it includes all the basics from the facility to the network and servers, that make an IT system work. Starting with the office space itself, eSolia considers the electrical and HVAC capacity, access to data and telephone lines, your building's physical structure in whether it has a raised floor and so on.
 
 <div class="esolia-card-panel deep-purple darken-4 z-depth-1">

@@ -61,7 +61,7 @@ You have a sudden thought, search the Internet for a quick answer, and get a rea
     </ol>
 </div>
 
-In addition to general IT troubleshooting knowledge, the eSolia helpdesk has a wide range of experience in software and hardware questions, problem analysis, troubleshooting, via email or telephone. Also, we take advantage of modern remote support technology to provide support from our call center to your location. It's almost like being there.
+In addition to general IT troubleshooting knowledge, the eSolia Helpdesk service has a wide range of experience in software and hardware questions, problem analysis, troubleshooting, via email or telephone. Also, we take advantage of modern remote support technology to provide support from our call center to your location. It's almost like being there.
 
 But all of this is not done by just a single engineer. In fact, expecting one person to know all the past experience and hold all the past knowledge, is frankly a herculean task. Rather, all eSolia helpdesk-related data and knowledge is stored in our custom-built _PROdb_ IT operations database, for easy recall and reporting by any team member. It's there that we store the "wisdom of eSolia".
 

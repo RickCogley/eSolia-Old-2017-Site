@@ -2,17 +2,19 @@
 author: eSolia
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
-description: About eSolia Management - biographical information on CEO Rick Cogley and COO Takumi Fukuoka.
+description: About eSolia Management Team - biographical information on CEO Rick Cogley and COO Takumi Fukuoka.
 draft: false
 slug: management-team
-subtitle: Rick Cogley and Takumi Fukuoka
+subtitle: Rick Cogley & Takumi Fukuoka
 weight: 20
 alternatelocales:
   - ja-JP
 tags:
   - Principals
   - Management Team
-title: About eSolia Management
+  - Rick Cogley
+  - Takumi Fukuoka
+title: Management Team
 topics:
   - eSolia
 type: aboutpage
@@ -29,6 +31,7 @@ menu:
 ---
 
 ## Principals
+eSolia's Management Team comprises Rick Cogley and Takumi Fukuoka, who have been working together since the early 1990s.
 
 ### Rick Cogley, CEO
 

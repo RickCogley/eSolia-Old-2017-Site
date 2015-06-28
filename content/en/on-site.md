@@ -6,12 +6,13 @@ draft: false
 title: On-site
 slug: on-site
 subtitle: When remote is not enough
-description: Skilled bilingual engineers visit your site for user support, regular systems admin tasks, or troubleshooting. - from eSolia Inc.
+description: Skilled bilingual on-site engineers visit your site for user support, regular systems admin tasks, or troubleshooting. - from eSolia Inc.
 weight: 25
 alternatelocales:
   - ja-JP
 tags:
   - regular visits
+  - on-site dispatch
   - permanent onsite
   - resource dispatch
 series:

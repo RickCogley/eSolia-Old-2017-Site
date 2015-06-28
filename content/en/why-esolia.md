@@ -16,6 +16,8 @@ tags:
   - Process
   - Practices
   - Tools
+  - Why
+  - Difference
 topics:
   - eSolia
 type: aboutpage
@@ -90,13 +92,13 @@ eSolia fosters creativity in our problem-solving process with a core set of prac
 
 As mentioned elsewhere, we have sets of tools developed over years of experience:
 
-* support ticket system
-* engineering report system
-* procedure and policy system
-* client information storage system
-* secure text paste system, for sending passwords securely
-* document management
-* source code management
-* physical tools for engineering jobs
+* Support ticket system
+* Engineering report system
+* Procedure and policy system
+* Client information storage system
+* Secure text paste system, for sending passwords securely
+* Document management
+* Source code management
+* Physical tools for engineering jobs
 
 Interested in getting our help? Please contact us today using the form below.
