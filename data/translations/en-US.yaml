@@ -15,7 +15,7 @@ formfirstname: First Name
 formlastname: Last Name
 formmessage: Message
 formrequestmoreinfo: Request More Information
-formrequestmoreinfotext: "Fill in and submit the following form, for more information."
+formrequestmoreinfotext: "For more information, fill in and submit the following form. You can write in any message you'd like, and put a tick in the checkboxes provided for your convenience."
 formreset: Reset
 formsubmit: Submit
 formtel: Tel

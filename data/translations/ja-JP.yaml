@@ -15,7 +15,7 @@ formfirstname: 名
 formlastname: 氏
 formmessage: メッセージ
 formrequestmoreinfo: お問い合わせ
-formrequestmoreinfotext: 詳細は、下記フォームにご記入いただき、「送信」ボタンをクリックください。
+formrequestmoreinfotext: 下記フォームにご記入いただき、「送信」ボタンをクリックください。ご要望について、メッセージ欄にご自由にご記入の上、チェックボックスも必要に応じてお選びください。
 formreset: リセット
 formsubmit: 送信
 formtel: 電話番号
