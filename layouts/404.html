@@ -18,7 +18,7 @@
             {{ if eq $taxonomyname "topics" }}
             <a href="/{{ $taxonomyname | urlize }}"><h2>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topics }}</h2></a>
                 {{ range $key, $value := $taxonomy }}
-                <i class="tiny mdi-action-label-outline grey-text text-darken-1"></i> <span class="grey-text text-darken-2"><strong>{{ $key }}</strong></span>
+                <i class="tiny mdi-action-label-outline grey-text text-darken-1"></i> <span class="grey-text text-darken-2"><strong>{{ if eq $key "esolia" }}eSolia{{ else }}{{ title $key }}{{ end }}</strong></span>
                     <ul>
                     {{ range $value.Pages }}
                     <li hugo-nav="{{ .RelPermalink }}"><a href="{{ .Permalink}}"><em>{{ .LinkTitle | markdownify }}</em></a></li>
@@ -31,7 +31,7 @@
             {{ if eq $taxonomyname "tags" }}
             <a href="/{{ $taxonomyname | urlize }}"><h2>{{ ( index $.Site.Data.translations $.Site.Params.locale ).tags }}</h2></a>
                 {{ range $key, $value := $taxonomy }}
-                <i class="tiny mdi-action-label-outline grey-text text-darken-1"></i> <span class="grey-text text-darken-2"><strong>{{ $key }}</strong></span>
+                <i class="tiny mdi-action-label-outline grey-text text-darken-1"></i> <span class="grey-text text-darken-2"><strong>{{ if eq $key "esolia" }}eSolia{{ else }}{{ title $key }}{{ end }}</strong></span>
                     <ul>
                     {{ range $value.Pages }}
                     <li hugo-nav="{{ .RelPermalink }}"><a href="{{ .Permalink}}"><em>{{ .LinkTitle | markdownify }}</em></a></li>
