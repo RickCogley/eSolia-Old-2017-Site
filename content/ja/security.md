@@ -25,7 +25,7 @@ images:
   - /img/eSolia-Post-Slider-Security-04.jpg  
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
-  - 調査
+  - 評価
   - 災害復旧
   - セキュリティ管理
   - 物理的なセキュリティ
