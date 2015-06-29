@@ -2,7 +2,7 @@
 author: eSolia
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
-description: About eSolia - vision, general information such as HQ, entity type, directors, and lines of business.
+description: About eSolia - vision, general information such as HQ address, contact information, map, directors, and lines of business.
 draft: false
 slug: about
 subtitle: Basic Information
@@ -10,8 +10,11 @@ weight: 10
 alternatelocales:
   - ja-JP
 tags:
+  - eSolia
   - Information
   - Access Map
+  - Address
+  - Business Lines
 title: About eSolia Inc.
 topics:
   - eSolia
@@ -25,10 +28,20 @@ menu:
     Identifier: about
     Url: /about
     Parent: about-us
+  detailfooter1:
+    Name: About
+    Weight: 10
+    Identifier: about
+    Url: /about
+  homefooter1:
+    Name: About
+    Weight: 10
+    Identifier: about
+    Url: /about  
 ---
 
 ## Company Information
-### Vision
+### About eSolia: Our Vision
 As a leader in our market for outsourced IT services, eSolia's vision is to consistently provide our clients with comprehensive, exemplary IT services unbiased by maker affiliation, designed and delivered with a keen awareness of business and culture. Acting with the highest standards of ethics, professionalism and integrity, eSolia experts will help you grow the foundation for your business success.
 
 ### General

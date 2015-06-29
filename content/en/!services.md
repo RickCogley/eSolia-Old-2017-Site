@@ -14,7 +14,7 @@ tags:
   - topic
 title: Services
 topics:
-  - services
+  - Summary
 images:
   - /img/eSolia-Post-Our-Solutions-Your-Challenges.png
   - /img/eSolia-Chicklet-Color-1024px.png

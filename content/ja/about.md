@@ -17,6 +17,7 @@ tags:
 title: イソリアについて
 topics:
   - イソリア
+  - eSolia
 type: aboutpage
 images:
 - /img/eSolia-Chicklet-Color-1024px.png
@@ -27,6 +28,16 @@ menu:
     Identifier: about
     Url: /about
     Parent: about-us
+  detailfooter1:
+    Name: 会社概要
+    Weight: 10
+    Identifier: about
+    Url: /about
+  homefooter1:
+    Name: 会社概要
+    Weight: 10
+    Identifier: about
+    Url: /about
 ---
 
 ### ビジョン

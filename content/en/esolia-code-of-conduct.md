@@ -12,8 +12,9 @@ alternatelocales:
   - ja-JP
 tags:
   - Pledge
-  - CoC
+  - Code of Conduct
   - Ethics
+  - Standard of Behavior
 topics:
   - eSolia
 type: aboutpage
@@ -30,7 +31,7 @@ menu:
     Parent: about-us
 ---
 
-In order to promote the highest quality of performance in our consulting and engineering practices, and to facilitate equitable and satisfactory client relationships, eSolia has developed the following standards of good practice to which our professionals ascribe.
+In order to promote the highest quality of performance in our consulting and engineering practices, and to facilitate equitable and satisfactory client relationships, eSolia has developed the following "code of conduct", or standards of good practice to which our professionals ascribe.
 
 ## Pledge
 

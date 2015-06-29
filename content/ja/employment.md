@@ -21,6 +21,7 @@ tags:
   - 履歴書
 topics:
   - イソリア
+  - eSolia
 images:
   - /img/eSolia-Post-Slider-Management-02.png
   - /img/eSolia-Chicklet-Color-1024px.png
@@ -33,6 +34,11 @@ menu:
     Identifier: employment
     Url: /employment
     Parent: about-us
+  homefooter1:
+    Name: 採用情報
+    Weight: 40
+    Identifier: employment
+    Url: /employment
 ---
 
 ## 求めている人材の特長とは?
@@ -45,13 +51,13 @@ menu:
 
 我々は:
 
-* **言語、多文化に通じる**: we know how to succeed in a work environment where colleagues, and the clients we service, are the same way.
+* **言語、多文化に通じる**: 常に多文化を触れ合い、日々のコミュニケーションは客先に成果になり、成功に導く。
 * **創造的**: 因習にとらわれず、クリエイティブな発想で問題解決をする。
 * **目的達成志向**: 目的に向かって効率的・効果的なアプローチで邁進し、プロジェクトを完遂させる。
 * **チームワーク**: チームの一員として力を発揮し、より大きな結果を生み出せる。
-* **コミュニケーション**: despite any language or culture barriers、要点を的確につかめるコミュニケーション能力がある。
+* **コミュニケーション**: 言語や文化の壁を問わず、要点を的確につかめるコミュニケーション能力がある。
 * **スキル**: 専門知識を実践できるスキルがある。
-* **技術的なマインド**: even when we are not engineers, we possess a technical mind-set, and can resolve problems in an organized way.
+* **技術的なマインド**: 例え我々はエンジニアではなかろうか。我々は様々な専門技術の思考回路を持ち、どんな問題でも計画的に解決できる。
 
 フィットしそうですか？ ご応募お待ちしております！
 

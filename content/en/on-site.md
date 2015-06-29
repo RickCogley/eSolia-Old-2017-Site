@@ -6,12 +6,13 @@ draft: false
 title: On-site
 slug: on-site
 subtitle: When remote is not enough
-description: Skilled bilingual engineers visit your site for user support, regular systems admin tasks, or troubleshooting. - from eSolia Inc.
+description: Skilled bilingual on-site engineers visit your site for user support, regular systems admin tasks, or troubleshooting. - from eSolia Inc.
 weight: 25
 alternatelocales:
   - ja-JP
 tags:
   - regular visits
+  - on-site dispatch
   - permanent onsite
   - resource dispatch
 series:
@@ -49,6 +50,17 @@ eSolia professionals are dispatched to your office, to deliver on-site services 
 * Training for applications or new user on-boarding.
 * IMAC ("install, add, move, change") execution.
 * New system builds and hard disk "imaging".
+
+<div class="esolia-card-panel blue-grey darken-4 z-depth-1">
+  <h4 class="center green-text text-accent-3">Main Activities</h4>
+    <ol>
+      <li class="white-text">PC and Peripheral Setup</li>
+      <li class="white-text">General IT Troubleshooting</li>
+      <li class="white-text">Account Creation and Admin</li>
+      <li class="white-text">Escalation to HQ and Bilingual Coordination</li>
+      <li class="white-text">Consultation and Procurement, Repair Dispatch</li>
+    </ol>
+</div>
 
 With a master agreement, on-demand, part-time or full-time on-site coverage is available. We can dispatch engineers including the following:
 

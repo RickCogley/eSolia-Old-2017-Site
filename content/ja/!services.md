@@ -15,7 +15,7 @@ tags:
   - トピックス
 title: ご提供サービス案内
 topics:
-  - サービス
+  - Summary
 images:
   - /img/eSolia-Post-Our-Solutions-Your-Challenges.jp.png
   - /img/eSolia-Chicklet-Color-1024px.png

@@ -12,7 +12,7 @@ tags:
   - About Us
 title: About eSolia
 topics:
-  - eSolia
+  - Summary
 images:
   - /img/eSolia-Chicklet-Color-1024px.png
 aliases:

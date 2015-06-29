@@ -3,14 +3,15 @@ author: eSolia
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
 draft: false
-title: PROdb Cloud DB
+title: PROdb Cloud Database
 slug: prodb
 subtitle: It's Rock Solid
-description: Rapid development of your ops database in eSolia "PROdb" cloud database. General software development projects. - from eSolia Inc.
+description: Rapid development of your business operations database in eSolia PROdb cloud database. General software development projects. - from eSolia Inc.
 weight: 40
 alternatelocales:
   - ja-JP
 tags:
+  - Cloud Database
   - Cloud DB
   - PROdb
   - Dev
@@ -49,7 +50,7 @@ menu:
 
 ## Still Running on Spreadsheets?
 
-If you're still running your business on spreadsheets, perhaps you've noticed that consolidations or reconciliations can get rather complex and error-prone. If the cost and time of converting a spreadsheet to a proper database has put you off in the past, please consider having us convert your sheets into our flexible and professionally-run cloud-based database, PROdb.
+If you're still running your business on spreadsheets, perhaps you've noticed that consolidations or reconciliations can get rather complex and error-prone. If the cost and time of converting a spreadsheet to a proper database has put you off in the past, please consider having us convert your sheets into our flexible and professionally-run _cloud database_, PROdb.
 
 PROdb is our proven, rock-solid hosted database platform, which makes normally complex database setup and maintenance comparatively quick and easy.
 

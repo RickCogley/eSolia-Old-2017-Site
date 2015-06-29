@@ -1,0 +1,10 @@
+{{ "<!-- ENTERING layouts/shortcodes/list-taxo.html -->" | safeHTML }}
+{{ with .Get "term" }}
+<ul>
+{{ $mytopic := . }}
+{{ range $key, $taxonomy := .Site.Taxonomies.topics }}
+<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+{{ end }}
+</ul>
+{{ end }}
+{{ "<!-- LEAVING layouts/shortcodes/list-taxo.html -->" | safeHTML }}

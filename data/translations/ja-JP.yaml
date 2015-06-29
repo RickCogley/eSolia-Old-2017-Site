@@ -2,18 +2,25 @@ altphotoatagotunnel: 愛宕トンネル、コグレー リック作
 altphotoesoliaofficefront1: イソリア事務所ビル外、コグレー リック作
 altphotonetworkswitch: ネットワークスイッチ、コグレー リック作
 altphototemplecolumn: 飯倉のお寺、コグレー リック作
-footerallrightsreserved: 株式会社イソリア、全著作権所有します。
+footerallrightsreserved: eSolia Inc., All Rights Reserved.
+footerlinks1title: 一般
+footerlinks1text: 1999年創業以来、お客様のバーチャルIT部として強固な基盤作りのお手伝いを行っております。
+footerlinks2title: サービス
+footerlinks2text: イソリアの人気のあるサービスのセレクション。
+footerlinks3title: 最新
+footerlinks3text: ソーシャルメディアでつながりましょう。私たちの最新のブログもご覧ください。
+footerlinks4title: ツール
 formemail: メール
 formfirstname: 名
 formlastname: 氏
 formmessage: メッセージ
 formrequestmoreinfo: お問い合わせ
-formrequestmoreinfotext: 詳細は、下記フォームにご記入いただき、「送信」ボタンをクリックください。
+formrequestmoreinfotext: 下記フォームにご記入いただき「送信」ボタンをクリックしてください。ご要望について、メッセージ欄にご自由にご記入の上、チェックボックスも併せてお選びください。
 formreset: リセット
 formsubmit: 送信
 formtel: 電話番号
-formwarningsales: 営業でしょうか?
-formwarningsalestext: 営業は、こちらのお問い合わせフォームをご使用しないでください。 
+formwarningsales: 営業の方でしょうか?
+formwarningsalestext: こちらのフォームでは、営業連絡をお断り致します。
 gen404message: ご記入のページは、当サイトに見つかりません。アドレスが間違ってるか、変更されている場合もあります。下記の一覧からお探しください。ご検討のほど、どうぞよろしくお願いします。
 gen404subtitle: ページが見つかりません
 genfeature: おすすめ
@@ -26,6 +33,8 @@ genfeature2img: /img/sample-1.jpg
 genfeature2text: Get the "SIP Print" appliance, to record telephone calls for quality assurance & compliance.
 genfeature2url: /sip-print
 gengalleryname: ギャラリー
+genhomename: ホーム
+gencolophonname: 奥付
 genlatestfeature: 最新おすすめ
 genlatestposts: 最新プロ ブログ
 genmoreinfo: つづきを読む
@@ -62,7 +71,7 @@ topsectioncus: お問い合わせ
 topsectionwhy: なぜイソリアか？
 topsectionwwd: 主なソリューション
 topsectionwwdtext: イソリアのプロフェショナルスタッフはインフラから、オペレーション、開発、マネージメントとガバナンスまで幅広い範囲にわたるIT活動に対応いたします。貴社の指令、規格と委任に基づいて、貴社が必要とされるニーズに必ずお応えいたします。
-topslogan: イソリアにお任せください！
+topslogan: イソリアに<wbr><nobr>お任せください！</nobr>
 topsubslogan: 貴社の頼れるIT部門となります
 toptestimoninal1: イソリアは我々の複雑かつ複数年に及ぶプロジェクトを成功に導いてくれました。まるで長いトンネルの先に希望の光が差し込んだような状況でした。
 toptestimoninal2: イソリアのエンジニア達は豊富な知識を持ち合わせていますが、複雑な専門用語を多用せず、誰でも理解できるように分りやすく解決方法を説明してくれました。

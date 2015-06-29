@@ -28,7 +28,7 @@
       <div class="container">
         <br>
         <br>
-        <h1 class="header center orange-text text-lighten-1">{{ ( index $.Site.Data.translations $.Site.Params.locale ).topslogan }}</h1>
+        <h1 class="header center orange-text text-lighten-1">{{ ( index $.Site.Data.translations $.Site.Params.locale ).topslogan | markdownify }}</h1>
 
         <div class="row center">
           <h3 class="header col s12 light">{{ ( index $.Site.Data.translations $.Site.Params.locale ).topsubslogan }}</h3>
@@ -688,7 +688,7 @@
                   {{ $series := index .Site.Taxonomies.series "top1" }}
                   {{ range first 5 $series.Pages }}
                     <li>
-                    <div class="esListItemTitle blue-text text-darken-1"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+                    <div class="esListItemTitle blue-text text-darken-1"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></div>
                     <div class="esListItemDate grey-text text-lighten-2">{{ .Date.Format "02 Jan, 2006" }}</div>
                     </li>
                   {{ end }}
@@ -788,53 +788,7 @@
     </div>
   </div>
 
-  <footer class="page-footer grey darken-3">
-    <div class="container">
-      <div class="row center">
-        <div class="col l3 s12">
-          <h5 class="white-text">Resources</h5>
-          <ul>
-            <li><a class="white-text" href="#!">News 1</a></li>
-            <li><a class="white-text" href="#!">Zerobin 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Reference</h5>
-          <ul>
-            <li><a class="white-text" href="#!">FAQ 1</a></li>
-            <li><a class="white-text" href="#!">List 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Services</h5>
-          <ul>
-            <li><a class="white-text" href="#!">PM 1</a></li>
-            <li><a class="white-text" href="#!">PROdb 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Products</h5>
-          <ul>
-            <li><a class="white-text" href="#!">SIP Print 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright grey darken-2">
-      <div class="container">
-        <span class="grey-text text-lighten-1">Powered by <a href="http://gohugo.io" target="_blank">Hugo</a> & <a href="http://materializecss.com" target="_blank">Materialize</a></span>
-      </div>
-    </div>
-  </footer>
+  {{ partial "footer-home.html" . }}
   {{ partial "bodyend.html" . }}
 </body>
 

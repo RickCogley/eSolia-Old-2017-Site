@@ -3,21 +3,27 @@ author: eSolia
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
 draft: false
-title: Office Setup
-slug: office-setup
-subtitle: Any office move, executed.
-description: Full support for new office setup management, upgrades or internal moves - from eSolia Inc.
+title: Office Moves
+slug: office-moves
+subtitle: The Dramatic Before & After
+description: Full support for office moves, new office setup, upgrades or internal move management - from eSolia Inc.
 weight: 10
 alternatelocales:
   - ja-JP
 tags:
-  - office
-  - setup
-  - move
-  - internal
-  - re-stack
+  - Office Moves
+  - Office Setup
+  - Japan Move
+  - Tokyo Office
+  - Japan Office
+  - Move
+  - Internal
+  - Re-stack
+  - Construction
+  - Interior Design
 series:
   - top1
+  - ninki1
 topics:
   - Services
 images:
@@ -29,22 +35,45 @@ images:
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
   - New Office
+  - Japan Office
   - Internal Move
   - Rearrange
   - Upgrade
   - Computer Move
   - Add Cable
+  - Furniture
+  - Partitions
+  - Cubicles
+  - Construction Management
 gallery_id: 6159792914055009873
+aliases:
+  - /office-setup
+  - /office-move
 menu:
   side:
-    Name: Office Setup
+    Name: Office Moves
     Weight: 10
-    Identifier: officesetup
-    Url: /office-setup
+    Identifier: officemoves
+    Url: /office-moves
     Parent: services
 ---
 
-Moves are physically and mentally demanding. And _office_ moves even more so. Just take a look around and it will become apparent. It's not just about desks, files and office supplies, it's also about moving all the PCs, monitors, printers and other equipment, so you can see that it might feel overwhelming. On top of that, there is the cabling, the system racks, the servers and network, that not only has to be moved, but also restored and tested to its current working state. Then there's the deadline and budget, that we mustn't forget. Until it's done, you can't really sleep soundly.
+## Sleepless Nights before an Office Move
+
+Moves are physically and mentally demanding, _office_ moves even more so, and then add in an office move _in Japan_ and it's a recipe for stress. Just take a look around and it will become apparent. It's not just about desks, files and office supplies; it's also about coordinating the moves of all the PCs, monitors, printers and other equipment, so you can see that it might feel overwhelming.
+
+On top of that, there is the cabling, the system racks, the servers and network, that not only has to be moved, but also restored and tested to its current working state. Then there's the deadline and budget, that we mustn't forget. Until it's done, you can't really sleep soundly.
+
+<div class="esolia-card-panel blue darken-4 z-depth-1">
+  <h4 class="center green-text text-accent-3">What do we handle?</h4>
+    <ol>
+      <li class="white-text">New Offices</li>
+      <li class="white-text">General Moves</li>
+      <li class="white-text">Layout Changes</li>
+      <li class="white-text">Team and Resource Coordination</li>
+      <li class="white-text">Equipment Move and Testing</li>
+    </ol>
+</div>
 
 eSolia has extensive experience in planning and executing office moves. We will act as your ombudsman during your next office move, communicating clearly and bilingually with the stakeholders involved in the project such as your Japan team, HQ IT and Facilities departments, as well as with our trusted partners.
 
@@ -52,7 +81,7 @@ We'll confirm each point and system one by one, and stick to any mandates you su
 
 ## Our Craft
 
-here's a few words about the eSolia approach to moves:
+Here's a few words about the eSolia approach to moves:
 
 * We keep the big picture in mind, while managing move and construction projects to allow the highest flexibility for change.
 * Even if it's your first office move, you can feel safe leaving it to eSolia.
@@ -76,4 +105,4 @@ To paint all moves with the same brush is to ignore the many differences in scop
 
 As you can see our experience is wide-ranging, but there is one common thing: our clients have expressed the same satisfaction with our completed jobs.
 
-If you have a move or questions about moves, we hope you'll use the form below to contact us today!
+If you have a move or questions about office moves, we hope you'll use the form below to contact us today!

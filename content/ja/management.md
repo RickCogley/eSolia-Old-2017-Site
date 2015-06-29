@@ -24,14 +24,14 @@ images:
   - /img/eSolia-Post-Slider-Management-03.png
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
-  - Project tracking
-  - Multilingual
-  - Multicultural
-  - Just-in-time training
-  - Interim management
-  - Business process management
-  - IT project management
-  - Ongoing IT support management
+  - プロジェクト進捗管理
+  - 多言語対応
+  - 多文化共生
+  - 適切なトレーニング
+  - 一時的・恒久的なマネジメント
+  - ビジネスプロセス管理
+  - ITプロジェクト管理
+  - ITサポートマネジメント
 gallery_id: 6159792188653157249
 menu:
   side:
@@ -57,6 +57,17 @@ menu:
 マネージメント手法を組み合わせたイソリア独自のアプローチにより、多重プロジェクトによるマイナス効果、 パーキンソン効果（パーキンソンの法則）、間違ったプロジェクト・バッファー、プロジェクト・スコープ管理などといった、プロジェクト失敗に共通した原因を断ち切ることを可能とします。
 
 ### イソリアのアプローチ
+<div class="esolia-card-panel teal darken-4 z-depth-1">
+  <h4 class="center green-text text-accent-3">これらに重きをおいてます</h4>
+    <ol>
+      <li class="white-text">バジェットに！</li>
+      <li class="white-text">クオリティに！</li>
+      <li class="white-text">スケジュールに！</li>
+      <li class="white-text">プロジェクトに！</li>
+      <li class="white-text">バイリンガルに！</li>
+    </ol>
+</div>
+
 私達の実践的なプロジェクトマネージメントアプローチは独特で、例えば「パーキンソン効果」といった利用可能な時間を埋めるために展開された不可解な作業、予定と作業範囲の不適切な管理、多すぎる分析調査やその他落とし穴などの典型的なプロジェクト問題を回避することが可能でございます。
 
 鍵となるものとは何か？：

@@ -15,6 +15,7 @@ tags:
 title: イソリアの<wbr><nobr>マネージメントチーム</nobr>
 topics:
   - eSolia
+  - イソリア
 type: aboutpage
 images:
   - /img/eSolia-CEO-Rick-Cogley.jpg

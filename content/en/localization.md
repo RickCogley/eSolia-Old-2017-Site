@@ -6,13 +6,16 @@ draft: false
 title: Localization
 slug: localization
 subtitle: Not Machine Translation
-description: Don't localize "by machine"; hire eSolia to do it right. Our native speakers will localize your documents and apps to perfection. - from eSolia Inc.
+description: Don't do your localization "by machine"; hire eSolia to do it right. Our native speakers will localize your documents and apps to perfection. - from eSolia Inc.
 weight: 45
 alternatelocales:
   - ja-JP
 tags:
   - Localization
   - Translation
+  - Localize
+  - Machine Translation
+  - Editing
 series:
   - top1
 topics:
@@ -42,7 +45,7 @@ menu:
 
 ## Really? A Machine Translation?
 
-If you are localizing your application, website or documents for the Japan market, you must understand that machine translation still produces comically bad results. In addition, having a non-native speaker who speaks a little Japanese give their seal of approval is, well, not so meaningful and even damaging to your reputation. Your Japanese prospects will laugh at your attempt, and then move on. Do you really want that?
+If you are considering or performing a localization of an application, website or documents for the Japan market, you must understand that machine translation still produces _comically bad results_. In addition, having a non-native speaker who speaks a little Japanese give their seal of approval is, well, not so meaningful and even damaging to your reputation. Your Japanese prospects will laugh at your attempt, and then move on. Do you really want that?
 
 ## What is Japanese Localization?
 

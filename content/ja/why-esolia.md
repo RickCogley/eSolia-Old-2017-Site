@@ -18,6 +18,7 @@ tags:
   - Tools
 topics:
   - イソリア
+  - eSolia
 type: aboutpage
 images:
   - /img/eSolia-Chicklet-Color-1024px.png

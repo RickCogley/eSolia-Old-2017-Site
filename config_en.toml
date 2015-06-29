@@ -39,6 +39,46 @@ languageCode = "en-US"
     googleAnalytics = "UA-1040233-7"
 
 [[menu.side]]
+    name = "Topics"
+    identifier = "topics"
+    weight = 111
+
+[[menu.side]]
+    name = "All Topics"
+    identifier = "alltopics"
+    url = "/topics"
+    parent = "topics"
+    weight = 1
+
+[[menu.side]]
+    name = "All Tags"
+    identifier = "alltags"
+    url = "/tags"
+    parent = "topics"
+    weight = 2
+
+[[menu.side]]
+    name = "About eSolia"
+    identifier = "aboutesolia"
+    url = "/topics/esolia"
+    parent = "topics"
+    weight = 10
+
+[[menu.side]]
+    name = "Services"
+    identifier = "ourservices"
+    weight = 20
+    url = "/topics/services"
+    parent = "topics"
+
+[[menu.side]]
+    name = "Telephone"
+    identifier = "telephonetopic"
+    weight = 30
+    url = "/topics/telephone"
+    parent = "topics"
+
+[[menu.side]]
     name = "Tools"
     identifier = "tools"
     weight = 222
@@ -59,16 +99,34 @@ languageCode = "en-US"
     parent = "tools"
     weight = 33
 
-[[menu.side]]
-    name = "All Tags"
-    identifier = "tags"
-    url = "http://esolia.com/tags"
-    parent = "tools"
-    weight = 44
-
-[[menu.side]]
+[[menu.detailfooter1]]
     name = "All Topics"
     identifier = "topics"
-    url = "http://esolia.com/topics"
-    parent = "tools"
+    url = "/topics"
+    weight = 55
+
+[[menu.homefooter2]]
+    name = "Zerobin"
+    identifier = "zerobin"
+    url = "https://zerobin.esolia.com"
+    post = "_blank"
+    weight = 22
+
+[[menu.homefooter2]]
+    name = "eSolia Connect"
+    identifier = "connect"
+    url = "http://connect.esolia.com"
+    post = "_blank"
+    weight = 33
+
+[[menu.homefooter2]]
+    name = "All Topics"
+    identifier = "topics"
+    url = "/topics"
+    weight = 44
+
+[[menu.homefooter2]]
+    name = "All Tags"
+    identifier = "tags"
+    url = "/tags"
     weight = 55

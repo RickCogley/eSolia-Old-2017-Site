@@ -12,6 +12,8 @@ tags:
   - Message
   - Video
   - Letter
+  - Introduction
+  - Greeting
 title: Message from eSolia
 subtitle: To our Clients and Visitors
 topics:
@@ -28,9 +30,16 @@ menu:
     Identifier: message-from-esolia
     Url: /message-from-esolia
     Parent: about-us
+  homefooter1:
+    Name: Message
+    Weight: 20
+    Identifier: message-from-esolia
+    Url: /message-from-esolia
 ---
 
-Thank you for visiting, and for your support and business. When we founded eSolia in 1999, our goal was simply to develop a stable, well-rounded group of engineers to provide high-quality IT services to foreign multinationals in Japan. We've accomplished that, and stayed true to our initial mission, but are now serving Japanese organizations as well.
+Thank you for visiting, for your support and business, and for taking a moment to read this _message from eSolia_.
+
+When we founded eSolia in 1999, our goal was simply to develop a stable, well-rounded group of engineers to provide high-quality IT services to foreign multinationals in Japan. We've accomplished that, and stayed true to our initial mission, but are now serving Japanese organizations as well.
 
 We've been continuously and tenaciously refining our concept, services, practices and systems, so that we are able to provide clear information about client systems, work and project status, and any risks or problems we discover. We have been fortunate to have a successful track record managing high-pressure projects and consulting engagements - ones like Japan Market Entry, ERP rollouts, IT merges related to time-sensitive M&A's, technology refreshes, or, process re-engineering linked to a revenue target or operational metric.
 

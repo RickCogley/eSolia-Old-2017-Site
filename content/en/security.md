@@ -14,6 +14,8 @@ tags:
   - Security
   - Remediation
   - Compliance
+  - Risk
+  - Virus
 series:
   - top1
 topics:
