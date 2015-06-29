@@ -70,7 +70,7 @@ menu:
     <hr>
    </div>  
   <div class="col s12 m4"><strong>資本金</strong></div>
-  <div class="col s12 m8">３千万円
+  <div class="col s12 m8">3,000万円
     <hr>
     </div>
   <div class="col s12 m4"><strong>URL</strong></div>
