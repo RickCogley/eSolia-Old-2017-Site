@@ -15,12 +15,12 @@ formfirstname: 名
 formlastname: 氏
 formmessage: メッセージ
 formrequestmoreinfo: お問い合わせ
-formrequestmoreinfotext: 下記フォームにご記入いただき、「送信」ボタンをクリックください。ご要望について、メッセージ欄にご自由にご記入の上、チェックボックスも必要に応じてお選びください。
+formrequestmoreinfotext: 下記フォームにご記入いただき「送信」ボタンをクリックしてください。ご要望について、メッセージ欄にご自由にご記入の上、チェックボックスも併せてお選びください。
 formreset: リセット
 formsubmit: 送信
 formtel: 電話番号
-formwarningsales: 営業でしょうか?
-formwarningsalestext: 営業は、こちらのお問い合わせフォームをご使用しないでください。
+formwarningsales: 営業の方でしょうか?
+formwarningsalestext: こちらのフォームでは、営業連絡をお断り致します。
 gen404message: ご記入のページは、当サイトに見つかりません。アドレスが間違ってるか、変更されている場合もあります。下記の一覧からお探しください。ご検討のほど、どうぞよろしくお願いします。
 gen404subtitle: ページが見つかりません
 genfeature: おすすめ
