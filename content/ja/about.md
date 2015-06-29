@@ -50,7 +50,7 @@ menu:
 * * *
 <div class="row">
   <div class="col s12 m4"><strong>所在地（本社）</strong></div>
-  <div class="col s12 m8">〒105-0003br>
+  <div class="col s12 m8">〒105-0003<br>
     東京都港区西新橋2-2-2 澤ビル6階<br>
     <em>TEL（代表）</em>: <a href="tel:+81-3-6273-3510">+81-3-6273-3510</a><br>
     <em>FAX</em>: +81-3-3593-3511<br>
