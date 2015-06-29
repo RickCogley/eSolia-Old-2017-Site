@@ -24,14 +24,14 @@ images:
   - /img/eSolia-Post-Slider-Onsite-03.png
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
-  - 標準
-  - 仕様
+  - 基準・規格・仕様の標準化
   - テクノロジー更新
   - IMAC
-  - バーチュアライゼーション
-  - デザイン
+  - 仮想化
+  - システムデザイン
   - プロジェクト マネージメント
-  - 工事管理
+  - ベンダーマネージメント
+  - 工事管理・施工管理
   - 新規オフィスやオフィス移転
 gallery_id: 6159788300196964081
 menu:

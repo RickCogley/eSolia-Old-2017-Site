@@ -24,14 +24,14 @@ images:
   - /img/eSolia-Post-Slider-Management-03.png
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
-  - Project tracking
-  - Multilingual
-  - Multicultural
-  - Just-in-time training
-  - Interim management
-  - Business process management
-  - IT project management
-  - Ongoing IT support management
+  - プロジェクト進捗管理
+  - 多言語対応
+  - 多文化共生
+  - 適切なトレーニング
+  - 一時的・恒久的なマネジメント
+  - ビジネスプロセス管理
+  - ITプロジェクト管理
+  - ITサポートマネジメント
 gallery_id: 6159792188653157249
 menu:
   side:

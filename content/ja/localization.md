@@ -23,13 +23,13 @@ images:
   - /img/eSolia-Post-Slider-Localization-03.jpg
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
-  - Application localization
-  - Document localization
-  - Website localization
-  - Native Translation and Editing
-  - Typefaces and fonts
-  - Cultural check
-  - Japanese language tone
+  - アプリケーションのローカライゼーション
+  - 文書のローカライゼーション
+  - ウェブサイトのローカライゼーション
+  - ネイティブスピーカーによる翻訳・編集
+  - フォント・デザインのローカライゼーション
+  - 文化的チェック
+  - 適切な日本語の語調
 gallery_id: 6159789128838188721
 menu:
   side:

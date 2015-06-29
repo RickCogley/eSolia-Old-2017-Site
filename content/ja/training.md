@@ -33,10 +33,10 @@ images:
   - /img/eSolia-Post-Slider-Training-03.jpg
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
-  - IT engineer training
-  - End user training
-  - One-to-One Training
-  - User orientation
+  - ITエンジニアリングトレーニング
+  - エンドユーザートレーニング
+  - 個別トレーニング
+  - ユーザーオリエンテーション
 gallery_id: 6160196852058139841
 menu:
   side:
@@ -79,7 +79,7 @@ menu:
 * 検索しても見つからないものが多々あります。貴社の環境に特化したアプリケーションやコースウェアの対応
 * 突発的にトレーニングが必要なケースも柔軟に対応
 
-それらは、どの様な形で行うのでしょうか 
+それらは、どの様な形で行うのでしょうか
 
 * 実践が伝わりやすいオンサイト環境で
 * 一対一でのコンサルティング的な形式にて
@@ -117,4 +117,3 @@ menu:
 
 当社のトレーニングで新たな自分、新たな進歩を実感してください。
 是非ご連絡をお待ちしております。
-

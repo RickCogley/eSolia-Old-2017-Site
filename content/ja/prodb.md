@@ -30,13 +30,13 @@ images:
   - /img/eSolia-Post-Slider-PROdb-09.png  
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
-  - Spreadsheet conversion
-  - Access anywhere
-  - Pay-as-you-go
-  - Easy data import
-  - Rapid development in weeks not months
-  - Data entry validation
-  - Advanced features included
+  - 表計算ソフトからの脱却
+  - クラウドアクセス
+  - 利用した分のみの従量課金
+  - 簡単なデータインポート
+  - 高頻度の週間アップデート
+  - 入力データの整合性検証
+  - 多様な機能の実装
 gallery_id: 6159796184943702945
 menu:
   side:
