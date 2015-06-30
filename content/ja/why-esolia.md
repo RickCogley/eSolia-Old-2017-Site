@@ -11,11 +11,12 @@ weight: 30
 alternatelocales:
   - en-US
 tags:
-  - 日本語Value
-  - Mandate
-  - Process
-  - Practices
-  - Tools
+  - IT
+  - プロジェクトマネージメント
+  - PM
+  - アウトソース
+  - バイリンガル
+  - オフィス移転
 topics:
   - イソリア
   - eSolia
