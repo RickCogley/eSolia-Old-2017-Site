@@ -2,7 +2,7 @@
 author: イソリア
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
-description: イソリアからメッセージ - 弊社からあなたへのメッセージ
+description: イソリアから - イソリアからあなたへのメッセージ
 draft: false
 slug: message-from-esolia
 weight: 25
@@ -11,7 +11,7 @@ alternatelocales:
 tags:
   - メッセージ
   - ビデオ
-  - レッター
+  - レター
   - ご挨拶
 title: ご挨拶
 subtitle: 当ウェブサイトへお越しいただいた皆様へ
