@@ -40,10 +40,10 @@ aliases:
 menu:
   side:
     Name: お問い合わせ
-    Weight: 10
+    Weight: 45
     Identifier: info-request
     Url: /info-request
-    Parent: tools
+    Parent: about-us
   detailfooter1:
     Name: お問い合わせ
     Weight: 10
@@ -59,4 +59,5 @@ menu:
 当社サービスにご興味をお持ちくださり誠にありがとうございます。
 ご質問や資料のご請求等は、下記のお問い合わせフォームにご記入の上送信してください。各サービスページからの問い合わせフォームも合わせてご利用ください。お問い合わせいただきました内容に関しまして速やかにご返信いたします。
 また、メールでのお問い合わせはこちらへ<info@esolia.co.jp>。
-※メールは、@esoila.co.jpからお送りします。ドメイン指定の解除をお願いいたします。
+
+※メールは、``@esolia.co.jp``からお送りします。ドメイン指定の解除をお願いいたします。

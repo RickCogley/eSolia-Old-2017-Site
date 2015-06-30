@@ -38,10 +38,10 @@ aliases:
 menu:
   side:
     Name: Info Request
-    Weight: 10
+    Weight: 45
     Identifier: info-request
     Url: /info-request
-    Parent: tools
+    Parent: about-us
   detailfooter1:
     Name: Info Request
     Weight: 10
