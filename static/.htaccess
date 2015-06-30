@@ -1000,3 +1000,8 @@ require valid-user
 order allow,deny
 deny from all
 </Files>
+
+# Allow certain RSS files
+<FilesMatch "(/topics/services/index.xml)|(/topics/サービス/index.xml)">
+Allow from all
+</FilesMatch>
