@@ -765,7 +765,11 @@
           <h3><i class="mdi-communication-comment blue-text"></i></h3>
           <h4 class="center">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genlatestposts }}</h4>
           <p class="light">
+            {{ if eq .Site.Params.locale "ja-JP" }}
             <div id="divRss2"></div>
+            {{ else }}
+            <div id="divRss1"></div>
+            {{ end }}
           </p>
         </div>
       </div>
