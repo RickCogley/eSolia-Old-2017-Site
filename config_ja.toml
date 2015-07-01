@@ -49,6 +49,13 @@ languageCode = "ja-JP"
     weight = 10
 
 [[menu.side]]
+    name = "プロセス"
+    identifier = "proc"
+    weight = 10
+    url = "/process"
+    parent = "outsourcing"
+
+[[menu.side]]
     name = "コンサルティング"
     identifier = "consulting"
     weight = 15
@@ -62,6 +69,11 @@ languageCode = "ja-JP"
     name = "クラウド システム"
     identifier = "cloudsystem"
     weight = 25
+
+[[menu.side]]
+    name = "ソリューション フォーカス"
+    identifier = "solutionsfocus"
+    weight = 30
 
 [[menu.side]]
     name = "トピック"
