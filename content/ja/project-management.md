@@ -5,7 +5,7 @@ publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: プロジェクト管理
 slug: project-management
-subtitle: 成功する為のPM
+subtitle: 経験豊かなPMがスムーズなコーディネーションでプロジェクトを成功へと導きます
 description: イソリアから - 東京およびアジア太平洋地域の実施しているプロジェクトで成功を収めています。私たちのPMアプローチは実践的で独自性があります。
 weight: 37
 alternatelocales:
@@ -19,6 +19,8 @@ tags:
   - UPS
   - テクノロジーリフレッシュ
   - PM
+  - ITプロジェクト
+  - ガントチャート
 series:
   - top1
   - ninki1
