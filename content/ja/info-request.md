@@ -43,7 +43,7 @@ menu:
     Weight: 45
     Identifier: info-request
     Url: /info-request
-    Parent: about-us
+    Parent: esolia
   detailfooter1:
     Name: お問い合わせ
     Weight: 10

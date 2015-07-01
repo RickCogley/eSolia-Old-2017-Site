@@ -28,7 +28,7 @@ menu:
     Weight: 20
     Identifier: management-team
     Url: /management-team
-    Parent: about-us
+    Parent: esolia
 ---
 
 ### 代表取締役社長 ジェームズ R. コグレー

@@ -29,7 +29,7 @@ menu:
     Weight: 25
     Identifier: message-from-esolia
     Url: /message-from-esolia
-    Parent: about-us
+    Parent: esolia
   homefooter1:
     Name: ご挨拶
     Weight: 20

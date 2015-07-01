@@ -40,7 +40,7 @@ menu:
     Weight: 15
     Identifier: helpdesk
     Url: /helpdesk
-    Parent: services
+    Parent: outsourcing
 ---
 
 ## Wisdom of the Masses

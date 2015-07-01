@@ -46,7 +46,7 @@ menu:
     Weight: 30
     Identifier: why-esolia
     Url: /why-esolia
-    Parent: about-us
+    Parent: esolia
 ---
 
 ## 私たちの使命

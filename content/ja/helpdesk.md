@@ -42,7 +42,7 @@ menu:
     Weight: 15
     Identifier: helpdesk
     Url: /helpdesk
-    Parent: services
+    Parent: outsourcing
 ---
 
 ## 大衆の知

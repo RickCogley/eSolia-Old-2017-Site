@@ -28,7 +28,7 @@ menu:
     Weight: 35
     Identifier: esolia-code-of-conduct
     Url: /esolia-code-of-conduct
-    Parent: about-us
+    Parent: esolia
 ---
 
 イソリアでは、コンサルティング及びエンジニアリング・サービス業務において、高品質で質の高いパフォーマンスを提供し、クライアントとの信頼関係を促進する為に、以下の行動規範を定めています。

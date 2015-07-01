@@ -27,7 +27,7 @@ menu:
     Weight: 10
     Identifier: about
     Url: /about
-    Parent: about-us
+    Parent: esolia
   detailfooter1:
     Name: 会社概要
     Weight: 10

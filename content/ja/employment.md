@@ -34,7 +34,7 @@ menu:
     Weight: 40
     Identifier: employment
     Url: /employment
-    Parent: about-us
+    Parent: esolia
   homefooter1:
     Name: 採用情報
     Weight: 40

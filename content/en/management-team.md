@@ -27,7 +27,7 @@ menu:
     Weight: 20
     Identifier: management-team
     Url: /management-team
-    Parent: about-us
+    Parent: esolia
 ---
 
 ## Principals

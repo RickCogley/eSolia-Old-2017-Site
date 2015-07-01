@@ -41,7 +41,7 @@ menu:
     Weight: 45
     Identifier: info-request
     Url: /info-request
-    Parent: about-us
+    Parent: esolia
   detailfooter1:
     Name: Info Request
     Weight: 10
