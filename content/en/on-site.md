@@ -7,7 +7,7 @@ title: On-site
 slug: on-site
 subtitle: When remote is not enough
 description: Skilled bilingual on-site engineers visit your site for user support, regular systems admin tasks, or troubleshooting. - from eSolia Inc.
-weight: 25
+weight: 20
 alternatelocales:
   - ja-JP
 tags:
@@ -37,7 +37,7 @@ gallery_id: 6159793756174882513
 menu:
   side:
     Name: On-site
-    Weight: 25
+    Weight: 20
     Identifier: on-site
     Url: /on-site
     Parent: outsourcing

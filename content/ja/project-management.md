@@ -7,7 +7,7 @@ title: プロジェクト管理
 slug: project-management
 subtitle: 経験豊かなPMがスムーズなコーディネーションでプロジェクトを成功へと導きます
 description: イソリアから - 東京およびアジア太平洋地域の実施しているプロジェクトで成功を収めています。私たちの プロジェクト管理 アプローチは実践的で独自性があります。
-weight: 37
+weight: 20
 alternatelocales:
   - en-US
 tags:
@@ -49,7 +49,7 @@ gallery_id: 6160563368100442433
 menu:
   side:
     Name: プロジェクト管理
-    Weight: 37
+    Weight: 20
     Identifier: project-management
     Url: /project-management
     Parent: consulting

@@ -7,7 +7,7 @@ title: マネージメント
 slug: management
 subtitle: 多様なITプロジェクトをバイリンガルにてサポート
 description: イソリアから - 多種多様なプロジェクトを多方面、多言語でのサポートを実現
-weight: 35
+weight: 10
 alternatelocales:
   - en-US
 tags:
@@ -40,7 +40,7 @@ gallery_id: 6159792188653157249
 menu:
   side:
     Name: マネージメント
-    Weight: 35
+    Weight: 10
     Identifier: management
     Url: /management
     Parent: consulting

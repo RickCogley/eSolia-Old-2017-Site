@@ -7,7 +7,7 @@ title: Telephone Systems
 slug: telephone
 subtitle: IP Telephone Systems with modern features and functions, from eSolia
 description: Implement a superior, modern and full-featured unified communications IP telephone system, to reduce your costs and increase your efficiency. Cloud phone subscription service available. - from eSolia Inc.
-weight: 65
+weight: 20
 alternatelocales:
   - ja-JP
 tags:
@@ -45,7 +45,7 @@ gallery_id: 6160784839246541201
 menu:
   side:
     Name: Telephone
-    Weight: 65
+    Weight: 20
     Identifier: telephone
     Url: /telephone
     Parent: infra

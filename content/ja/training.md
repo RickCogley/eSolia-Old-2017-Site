@@ -7,7 +7,7 @@ title: 改善を意識したトレーニング
 slug: training
 subtitle: ITオリエンテーションから専門的なトレーニングまで幅広く対応
 description: イソリアから - 迷える新入社員に実用的なＩＴオリエンテーションを作成。初歩的ものから専門的なトレーニングまで。
-weight: 60
+weight: 40
 alternatelocales:
   - en-US
 tags:
@@ -41,7 +41,7 @@ gallery_id: 6160196852058139841
 menu:
   side:
     Name: トレーニング
-    Weight: 60
+    Weight: 40
     Identifier: training
     Url: /training
     Parent: outsourcing

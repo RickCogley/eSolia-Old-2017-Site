@@ -7,7 +7,7 @@ title: ローカライゼーション
 slug: localization
 subtitle: IT系翻訳をバイリンガルエンジニアがよりナチュラルに
 description: ローカライゼイションは直訳にあらず。ネイティブによって整合性のとれた本当の意味でのローカライゼーションを様々な分野で。
-weight: 45
+weight: 60
 alternatelocales:
   - en-US
 tags:
@@ -42,7 +42,7 @@ gallery_id: 6159789128838188721
 menu:
   side:
     Name: ローカライゼーション
-    Weight: 45
+    Weight: 60
     Identifier: localization
     Url: /localization
     Parent: outsourcing

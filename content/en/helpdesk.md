@@ -7,7 +7,7 @@ title: Helpdesk
 slug: helpdesk
 subtitle: Bilingual service via phone and remote
 description: User support questions answered quickly and completely by our bilingual professionals, with knowledge stored in our internal helpdesk operations database. - from eSolia Inc.
-weight: 15
+weight: 10
 alternatelocales:
   - ja-JP
 tags:
@@ -37,7 +37,7 @@ gallery_id: 6159786672282286673
 menu:
   side:
     Name: Helpdesk
-    Weight: 15
+    Weight: 10
     Identifier: helpdesk
     Url: /helpdesk
     Parent: outsourcing

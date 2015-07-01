@@ -7,7 +7,7 @@ title: ヘルプデスク
 slug: helpdesk
 subtitle: バイリンガルのITエンジニアがシステム不具合をサポート
 description: イソリア - 様々なトラブルや解決策を集結させた社内 ヘルプデスク 管理データベースを利用し、バイリンガルITエンジニアによる迅速で信頼性の高いサポートを提供。
-weight: 15
+weight: 10
 alternatelocales:
   - en-US
 tags:
@@ -43,7 +43,7 @@ gallery_id: 6159786672282286673
 menu:
   side:
     Name: ヘルプデスク
-    Weight: 15
+    Weight: 10
     Identifier: helpdesk
     Url: /helpdesk
     Parent: outsourcing

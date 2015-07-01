@@ -7,7 +7,7 @@ title: プロセス管理
 slug: process
 subtitle: プロジェクト・購買・資産・コンプライアンスなどプロセス管理はお任せを
 description: イソリアから - 卓逸されたプロジェクト管理や資産管理、コンプライアンスの徹底から購買のお手伝いまで、ＩＴやビジネス プロセスのレベルアップへ
-weight: 20
+weight: 30
 alternatelocales:
   - en-US
 tags:
@@ -45,7 +45,7 @@ gallery_id: 6159794668058542529
 menu:
   side:
     Name: プロセス
-    Weight: 20
+    Weight: 30
     Identifier: process
     Url: /process
     Parent: consulting

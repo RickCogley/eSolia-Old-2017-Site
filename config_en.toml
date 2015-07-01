@@ -51,7 +51,7 @@ languageCode = "en-US"
 [[menu.side]]
     name = "Process"
     identifier = "proc"
-    weight = 10
+    weight = 30
     url = "/process"
     parent = "outsourcing"
 
