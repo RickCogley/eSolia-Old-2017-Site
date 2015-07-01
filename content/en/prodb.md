@@ -19,6 +19,7 @@ series:
   - top1
 topics:
   - Services
+  - Cloud System
 images:
   - /img/eSolia-Post-Slider-PROdb-01.png
   - /img/eSolia-Post-Slider-PROdb-02.png

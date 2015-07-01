@@ -20,6 +20,7 @@ series:
   - ninki1
 topics:
   - Services
+  - Consulting
 images:
   - /img/eSolia-Post-Slider-Project-Management-01.png
   - /img/eSolia-Post-Slider-Project-Management-02.png

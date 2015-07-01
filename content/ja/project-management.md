@@ -26,6 +26,7 @@ series:
   - ninki1
 topics:
   - サービス
+  - コンサルティング
 images:
   - /img/eSolia-Post-Slider-Project-Management-01.png
   - /img/eSolia-Post-Slider-Project-Management-02.png

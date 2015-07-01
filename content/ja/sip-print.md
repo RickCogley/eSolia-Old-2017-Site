@@ -18,7 +18,7 @@ series:
   - top1
   - ninki1
 topics:
-  - フォーカス
+  - ソリューション フォーカス
   - 電話
 images:
   - /img/eSolia-Chicklet-Color-1024px.png

@@ -23,6 +23,7 @@ series:
   - top1
 topics:
   - サービス
+  - クラウド システム
 images:
   - /img/eSolia-Post-Slider-PROdb-01.png
   - /img/eSolia-Post-Slider-PROdb-02.png

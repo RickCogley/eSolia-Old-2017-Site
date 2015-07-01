@@ -26,6 +26,7 @@ series:
   - ninki1
 topics:
   - サービス
+  - アウトソーシング
 images:
   - /img/eSolia-Post-Slider-Helpdesk-01.png
   - /img/eSolia-Post-Slider-Helpdesk-02.png

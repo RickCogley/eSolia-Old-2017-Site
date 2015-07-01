@@ -20,6 +20,7 @@ series:
   - top1
 topics:
   - Services
+  - Infrastructure
 images:
   - /img/eSolia-Post-Slider-Security-01.jpg
   - /img/eSolia-Post-Slider-Security-02.jpg

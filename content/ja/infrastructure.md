@@ -24,6 +24,7 @@ series:
   - top1
 topics:
   - サービス
+  - インフラストラクチャ
 images:
   - /img/eSolia-Post-Slider-Onsite-01.png
   - /img/eSolia-Post-Slider-Onsite-02.png

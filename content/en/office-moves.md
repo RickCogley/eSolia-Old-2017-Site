@@ -26,6 +26,7 @@ series:
   - ninki1
 topics:
   - Services
+  - Infrastructure
 images:
   - /img/eSolia-Post-Slider-Office-Moves-01.jpg
   - /img/eSolia-Post-Slider-Office-Moves-02.jpg

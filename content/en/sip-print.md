@@ -18,7 +18,7 @@ series:
   - top1
   - ninki1
 topics:
-  - Focus
+  - Solutions Focus
   - Telephone
 images:
   - /img/eSolia-Chicklet-Color-1024px.png

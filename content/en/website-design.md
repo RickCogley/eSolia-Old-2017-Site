@@ -21,6 +21,7 @@ series:
   - ninki1
 topics:
   - Services
+  - Outsourcing
 images:
   - /img/eSolia-Post-Slider-Security-01.jpg
   - /img/eSolia-Post-Slider-Security-02.jpg

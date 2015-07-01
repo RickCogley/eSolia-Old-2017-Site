@@ -20,6 +20,7 @@ series:
   - ninki1
 topics:
   - Services
+  - Outsourcing
 images:
   - /img/eSolia-Post-Slider-Helpdesk-01.png
   - /img/eSolia-Post-Slider-Helpdesk-02.png

@@ -25,6 +25,7 @@ series:
   - top1
 topics:
   - Services
+  - Outsourcing
 images:
   - /img/eSolia-Post-Slider-Training-01.jpg
   - /img/eSolia-Post-Slider-Training-02.jpg

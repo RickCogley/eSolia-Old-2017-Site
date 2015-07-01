@@ -26,6 +26,7 @@ series:
 topics:
   - サービス
   - 電話
+  - インフラストラクチャ
 images:
   - /img/eSolia-Post-Slider-Telephone-01.jpg
   - /img/eSolia-Post-Slider-Telephone-02.jpg

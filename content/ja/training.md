@@ -27,6 +27,7 @@ series:
   - top1
 topics:
   - サービス
+  - アウトソーシング
 images:
   - /img/eSolia-Post-Slider-Training-01.jpg
   - /img/eSolia-Post-Slider-Training-02.jpg

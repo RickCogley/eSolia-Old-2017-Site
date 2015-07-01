@@ -26,6 +26,8 @@ series:
   - top1
 topics:
   - サービス
+  - アウトソーシング
+  - コンサルティング
 images:
   - /img/eSolia-Post-Slider-Process-01.png
   - /img/eSolia-Post-Slider-Process-02.png

@@ -21,6 +21,8 @@ series:
   - top1
 topics:
   - Services
+  - Outsourcing
+  - Consulting
 images:
   - /img/eSolia-Post-Slider-Process-01.png
   - /img/eSolia-Post-Slider-Process-02.png

@@ -22,6 +22,7 @@ series:
   - top1
 topics:
   - サービス
+  - コンサルティング
 images:
   - /img/eSolia-Post-Slider-Management-01.png
   - /img/eSolia-Post-Slider-Management-02.png

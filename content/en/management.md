@@ -19,6 +19,7 @@ series:
   - top1
 topics:
   - Services
+  - Consulting
 images:
   - /img/eSolia-Post-Slider-Management-01.png
   - /img/eSolia-Post-Slider-Management-02.png

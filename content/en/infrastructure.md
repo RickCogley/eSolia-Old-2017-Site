@@ -19,6 +19,7 @@ series:
   - top1
 topics:
   - Services
+  - Infrastructure
 images:
   - /img/eSolia-Post-Slider-Infra-01.jpg
   - /img/eSolia-Post-Slider-Infra-02.jpg

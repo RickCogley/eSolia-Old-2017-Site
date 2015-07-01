@@ -23,6 +23,7 @@ series:
   - ninki1
 topics:
   - サービス
+  - インフラストラクチャ
 images:
   - /img/eSolia-Post-Slider-Office-Moves-01.jpg
   - /img/eSolia-Post-Slider-Office-Moves-02.jpg
