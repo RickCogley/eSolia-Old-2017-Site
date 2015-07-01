@@ -5,7 +5,7 @@ publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: ローカライゼーション
 slug: localization
-subtitle: インターネットエクスプローラ　≠　インターネット探検家
+subtitle: IT系翻訳をバイリンガルエンジニアがよりナチュラルに
 description: ローカライゼイションは直訳にあらず。ネイティブによって整合性のとれた本当の意味でのローカライゼーションを様々な分野で
 weight: 45
 alternatelocales:
@@ -13,6 +13,14 @@ alternatelocales:
 tags:
   - ローカライゼーション
   - 翻訳
+  - ローカリゼーション
+  - ネイティブ
+  - 英語
+  - 多言語
+  - 直訳
+  - システム翻訳
+  - ロケール言語
+  - IT系翻訳
 series:
   - top1
 topics:

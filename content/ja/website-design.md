@@ -5,7 +5,7 @@ publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: ウェブサイト デザイン
 slug: website-design
-subtitle: 目的に合ったウェブサイトの構築を
+subtitle: 新規も既存も多言語でもウェブサイト構築のデザインをサポート
 description: イソリアから - 新時代と目的に合ったウェブサイトの構築を。新規、既存、多言語でも。
 weight: 55
 alternatelocales:
@@ -15,6 +15,12 @@ tags:
   - デザイン
   - 標準
   - フロントエンド
+  - CSS
+  - PHP
+  - ウェブ構築
+  - WEBサーバ
+  - 戦略的SEO
+  - リニューアル
 series:
   - top1
   - ninki1

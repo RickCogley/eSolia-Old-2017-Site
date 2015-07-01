@@ -5,7 +5,7 @@ publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: ヘルプデスク
 slug: helpdesk
-subtitle: ３人寄れば文殊のサポート
+subtitle: バイリンガルのITエンジニアがシステム不具合をサポート
 description: イソリア - 様々なトラブルや解決策を集結させた社内データベースを利用し、迅速で信頼性の高いサポートを提供
 weight: 15
 alternatelocales:
@@ -17,6 +17,10 @@ tags:
   - リモートアクセス
   - ベストプラクティス
   - バイリンガル
+  - システム不具合
+  - 社内ヘルプデスク
+  - ITサポート
+  - 情報システム
 series:
   - top1
   - ninki1
