@@ -43,7 +43,8 @@ menu:
     Parent: consulting
 ---
 
-## "Management" by eSolia
+## Management by eSolia
+
 In the context of eSolia's work, management, and more specifically project management, is the art of closely coupling tasks with actions, managing budget and schedule quality to ensure there are no problems with overages or slippages, and, ensuring that clients are getting their expected return on investment regarding the project's deliverables. All this, while maintaining the required administrative project structures, plans, and operational momentum.
 
 ### eSolia's Approach
