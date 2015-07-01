@@ -5,7 +5,7 @@ publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: 電話システム
 slug: telephone
-subtitle: 音声はネットに乗せて
+subtitle: IP電話、クラウド型電話サービスでビジネスの効率化を
 description: イソリアから - 私たちは、近代的で優れた電話システムをご提案することでお客様のコストを削減し、生産効率を高めます。クラウド型電話サービスが利用可能に。
 weight: 65
 alternatelocales:
@@ -14,8 +14,12 @@ tags:
   - 電話
   - クラウドフォン
   - VoIP
-  - テレフォニ
+  - テレフォニー
   - PBXL
+  - PBX
+  - 交換機
+  - ビジネスフォン
+  - ソフトフォン
 series:
   - top1
   - ninki1
