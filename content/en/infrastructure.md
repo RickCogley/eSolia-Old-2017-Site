@@ -43,7 +43,7 @@ menu:
     Weight: 30
     Identifier: infrastructure
     Url: /infrastructure
-    Parent: services
+    Parent: infra
 ---
 
 ## What's "Infrastructure"

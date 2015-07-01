@@ -48,7 +48,7 @@ menu:
     Weight: 65
     Identifier: telephone
     Url: /telephone
-    Parent: services
+    Parent: infra
 ---
 
 ## Business Telephone Systems

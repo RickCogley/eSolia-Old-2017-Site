@@ -41,11 +41,11 @@ formcheckboxes:
 gallery_id: 6159796184943702945
 menu:
   side:
-    Name: Cloud Database
+    Name: PROdb Database
     Weight: 40
     Identifier: prodb
     Url: /prodb
-    Parent: services
+    Parent: cloudsystem
 ---
 
 ## Still Running on Spreadsheets?

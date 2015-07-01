@@ -45,7 +45,7 @@ menu:
     Weight: 65
     Identifier: telephone
     Url: /telephone
-    Parent: services
+    Parent: infra
 ---
 
 ## 電話線からLAN線へ

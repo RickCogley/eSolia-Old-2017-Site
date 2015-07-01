@@ -40,7 +40,7 @@ menu:
     Weight: 50
     Identifier: security
     Url: /security
-    Parent: services
+    Parent: infra
 ---
 ## 鍵の種類から鍵の掛け方まで
 

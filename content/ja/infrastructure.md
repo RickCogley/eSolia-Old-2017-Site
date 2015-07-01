@@ -40,7 +40,7 @@ menu:
     Weight: 30
     Identifier: infrastructure
     Url: /infrastructure
-    Parent: services
+    Parent: infra
 ---
 
 ## 「インフラストラクチャー」とは

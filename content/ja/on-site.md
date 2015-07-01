@@ -44,7 +44,7 @@ menu:
     Weight: 25
     Identifier: on-site
     Url: /on-site
-    Parent: services
+    Parent: outsourcing
 ---
 
 イソリアのプロフェッショナルによるオンサイトサービス:

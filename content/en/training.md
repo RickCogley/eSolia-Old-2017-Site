@@ -42,7 +42,7 @@ menu:
     Weight: 60
     Identifier: training
     Url: /training
-    Parent: services
+    Parent: outsourcing
 ---
 
 ## Training is the Best Investment

@@ -44,7 +44,7 @@ menu:
     Weight: 60
     Identifier: training
     Url: /training
-    Parent: services
+    Parent: outsourcing
 ---
 
 ## トレーニングに投資してみるのも一手です

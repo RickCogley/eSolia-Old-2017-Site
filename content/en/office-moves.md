@@ -55,7 +55,7 @@ menu:
     Weight: 10
     Identifier: officemoves
     Url: /office-moves
-    Parent: services
+    Parent: infra
 ---
 
 ## Sleepless Nights before an Office Move

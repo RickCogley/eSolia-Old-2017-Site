@@ -48,7 +48,7 @@ menu:
     Weight: 20
     Identifier: process
     Url: /process
-    Parent: services
+    Parent: consulting
 ---
 
 ## IT管理に怯えるなかれ

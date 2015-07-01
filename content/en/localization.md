@@ -40,7 +40,7 @@ menu:
     Weight: 45
     Identifier: localization
     Url: /localization
-    Parent: services
+    Parent: outsourcing
 ---
 
 ## Really? A Machine Translation?

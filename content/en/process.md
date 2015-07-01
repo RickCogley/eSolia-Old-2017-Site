@@ -42,7 +42,7 @@ menu:
     Weight: 20
     Identifier: process
     Url: /process
-    Parent: services
+    Parent: consulting
 ---
 
 ## Double-edged IT

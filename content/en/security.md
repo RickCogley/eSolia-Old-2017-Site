@@ -42,7 +42,7 @@ menu:
     Weight: 50
     Identifier: security
     Url: /security
-    Parent: services
+    Parent: infra
 ---
 
 ## Introduction

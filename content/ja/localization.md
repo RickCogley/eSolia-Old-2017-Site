@@ -45,7 +45,7 @@ menu:
     Weight: 45
     Identifier: localization
     Url: /localization
-    Parent: services
+    Parent: outsourcing
 ---
 
 ## 頼るな危険　翻訳サイト

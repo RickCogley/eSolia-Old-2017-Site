@@ -40,11 +40,11 @@ formcheckboxes:
 gallery_id: 6159796184943702945
 menu:
   side:
-    Name: クラウド データベース
+    Name: PROdbデータベース
     Weight: 40
     Identifier: prodb
     Url: /prodb
-    Parent: services
+    Parent: cloudsystem
 ---
 
 ## Excelでの管理に飽きた方へ

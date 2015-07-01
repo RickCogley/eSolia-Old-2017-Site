@@ -47,7 +47,7 @@ menu:
     Weight: 10
     Identifier: officemoves
     Url: /office-moves
-    Parent: services
+    Parent: infra
 ---
 ## 引っ越し前の眠れぬ夜
 

@@ -40,7 +40,7 @@ menu:
     Weight: 25
     Identifier: on-site
     Url: /on-site
-    Parent: services
+    Parent: outsourcing
 ---
 
 eSolia professionals are dispatched to your office, to deliver on-site services such as:

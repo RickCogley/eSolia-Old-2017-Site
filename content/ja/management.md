@@ -39,7 +39,7 @@ menu:
     Weight: 35
     Identifier: management
     Url: /management
-    Parent: services
+    Parent: consulting
 ---
 
 ## イソリアによる“マネージメント”

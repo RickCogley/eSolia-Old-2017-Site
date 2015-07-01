@@ -49,7 +49,7 @@ menu:
     Weight: 55
     Identifier: website-design
     Url: /website-design
-    Parent: services
+    Parent: outsourcing
 ---
 
 ## そのサイトがないと話にならない！

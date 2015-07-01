@@ -31,7 +31,7 @@ menu:
     Weight: 10
     Identifier: sip-print
     Url: /sip-print
-    Parent: focus
+    Parent: solutionsfocus
 ---
 
 ## IP PBX Call Recording

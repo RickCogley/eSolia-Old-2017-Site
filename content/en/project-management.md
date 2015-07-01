@@ -46,7 +46,7 @@ menu:
     Weight: 37
     Identifier: project-management
     Url: /project-management
-    Parent: services
+    Parent: consulting
 ---
 
 ## What is Project Management?
