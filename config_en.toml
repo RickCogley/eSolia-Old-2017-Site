@@ -39,6 +39,31 @@ languageCode = "en-US"
     googleAnalytics = "UA-1040233-7"
 
 [[menu.side]]
+    name = "About eSolia"
+    identifier = "esolia"
+    weight = 5
+
+[[menu.side]]
+    name = "Outsourcing"
+    identifier = "outsourcing"
+    weight = 10
+
+[[menu.side]]
+    name = "Consulting"
+    identifier = "consulting"
+    weight = 15
+
+[[menu.side]]
+    name = "Infrastructure"
+    identifier = "infrastructure"
+    weight = 20
+
+[[menu.side]]
+    name = "Cloud System"
+    identifier = "cloudsystem"
+    weight = 25  
+
+[[menu.side]]
     name = "Topics"
     identifier = "topics"
     weight = 111

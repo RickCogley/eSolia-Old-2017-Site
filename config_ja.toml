@@ -39,6 +39,31 @@ languageCode = "ja-JP"
     googleAnalytics = "UA-1040233-8"
 
 [[menu.side]]
+    name = "イソリアについて"
+    identifier = "esolia"
+    weight = 5
+
+[[menu.side]]
+    name = "アウトソーシング"
+    identifier = "outsourcing"
+    weight = 10
+
+[[menu.side]]
+    name = "コンサルティング"
+    identifier = "consulting"
+    weight = 15
+
+[[menu.side]]
+    name = "インフラストラクチャ"
+    identifier = "infrastructure"
+    weight = 20
+
+[[menu.side]]
+    name = "クラウド システム"
+    identifier = "cloudsystem"
+    weight = 25
+
+[[menu.side]]
     name = "トピック"
     identifier = "topics"
     weight = 111
