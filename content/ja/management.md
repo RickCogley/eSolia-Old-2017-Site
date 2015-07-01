@@ -5,7 +5,7 @@ publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: マネージメント
 slug: management
-subtitle: 成功する為のコーディネーション
+subtitle:多様なITプロジェクトをバイリンガルにてサポート
 description: イソリアから - 多種多様なプロジェクトを多方面、多言語でのサポートを実現
 weight: 35
 alternatelocales:
@@ -14,6 +14,10 @@ tags:
   - マネージメント
   - 成功
   - コーディネーション
+  - ITプロジェクト
+  - バジェットコントロール
+  - クオリティコントロール
+  - パーキンソンの法則
 series:
   - top1
 topics:
