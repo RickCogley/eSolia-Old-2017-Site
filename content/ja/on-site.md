@@ -5,7 +5,7 @@ publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: オンサイト
 slug: on-site
-subtitle: 訪問サポート
+subtitle: ITトラブルを定期訪問や常駐型など様々な形態で出張サポート
 description: イソリアから - 面倒なシステム管理、度重なるユーザサポート、複雑なトラブルシューティングは経験豊富なエンジニアがオンサイトにてサポート致します
 weight: 25
 alternatelocales:
@@ -15,6 +15,12 @@ tags:
   - オンサイト
   - 常駐
   - 訪問サポート
+  - 外注
+  - ITサポート
+  - 出張サポート
+  - システム不具合
+  - アウトソース
+  - ヘルプデスク
 series:
   - top1
 topics:
