@@ -6,7 +6,7 @@ draft: false
 title: ヘルプデスク
 slug: helpdesk
 subtitle: バイリンガルのITエンジニアがシステム不具合をサポート
-description: イソリア - 様々なトラブルや解決策を集結させた社内データベースを利用し、迅速で信頼性の高いサポートを提供
+description: イソリア - 様々なトラブルや解決策を集結させた社内 ヘルプデスク 管理データベースを利用し、バイリンガルITエンジニアによる迅速で信頼性の高いサポートを提供。
 weight: 15
 alternatelocales:
   - en-US

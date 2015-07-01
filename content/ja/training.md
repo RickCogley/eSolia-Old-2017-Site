@@ -6,7 +6,7 @@ draft: false
 title: 改善を意識したトレーニング
 slug: training
 subtitle: ITオリエンテーションから専門的なトレーニングまで幅広く対応
-description: イソリアから - 迷える新入社員に実用的なＩＴオリエンテーションを作成。初歩的ものから専門的なトレーニングまで
+description: イソリアから - 迷える新入社員に実用的なＩＴオリエンテーションを作成。初歩的ものから専門的なトレーニングまで。
 weight: 60
 alternatelocales:
   - en-US

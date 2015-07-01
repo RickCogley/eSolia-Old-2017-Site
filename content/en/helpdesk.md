@@ -6,7 +6,7 @@ draft: false
 title: Helpdesk
 slug: helpdesk
 subtitle: Bilingual service via phone and remote
-description: User support questions answered quickly and completely, with knowledge stored in our internal ops database. - from eSolia Inc.
+description: User support questions answered quickly and completely by our bilingual professionals, with knowledge stored in our internal helpdesk operations database. - from eSolia Inc.
 weight: 15
 alternatelocales:
   - ja-JP

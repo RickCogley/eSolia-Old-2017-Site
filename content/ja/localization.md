@@ -6,7 +6,7 @@ draft: false
 title: ローカライゼーション
 slug: localization
 subtitle: IT系翻訳をバイリンガルエンジニアがよりナチュラルに
-description: ローカライゼイションは直訳にあらず。ネイティブによって整合性のとれた本当の意味でのローカライゼーションを様々な分野で
+description: ローカライゼイションは直訳にあらず。ネイティブによって整合性のとれた本当の意味でのローカライゼーションを様々な分野で。
 weight: 45
 alternatelocales:
   - en-US

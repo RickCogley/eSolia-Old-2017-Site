@@ -6,7 +6,7 @@ draft: false
 title: Effective Training
 slug: training
 subtitle: By experienced practitioners
-description: Effective new-hire orientation, software and technical training. Course development and delivery. - from eSolia Inc.
+description: Effective new-hire orientation, software and technical training. Training course development and delivery. - from eSolia Inc.
 weight: 60
 alternatelocales:
   - ja-JP
