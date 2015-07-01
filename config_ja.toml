@@ -55,7 +55,7 @@ languageCode = "ja-JP"
 
 [[menu.side]]
     name = "インフラストラクチャ"
-    identifier = "infrastructure"
+    identifier = "infra"
     weight = 20
 
 [[menu.side]]

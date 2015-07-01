@@ -55,13 +55,13 @@ languageCode = "en-US"
 
 [[menu.side]]
     name = "Infrastructure"
-    identifier = "infrastructure"
+    identifier = "infra"
     weight = 20
 
 [[menu.side]]
     name = "Cloud System"
     identifier = "cloudsystem"
-    weight = 25  
+    weight = 25
 
 [[menu.side]]
     name = "Topics"
