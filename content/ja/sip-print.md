@@ -41,9 +41,18 @@ menu:
     Parent: solutionsfocus
 ---
 
+<small>
+<a class="grey lighten-3 green-text waves-effect waves-light btn">トレーニング</a>
+<a class="grey lighten-3 green-text waves-effect waves-light btn">品質管理</a>
+<a class="grey lighten-3 green-text waves-effect waves-light btn">顧客満足度</a>
+<a class="grey lighten-3 green-text waves-effect waves-light btn">コンプライアンス</a>
+</small>
+
 ## IP PBX 電話録音
 
-**IP PBX 電話レコーディング機能**
+<figure class="image-container">
+<img class="materialboxed right responsive-img" width="200" data-caption="SIP Print ロゴ" alt="SIP Print ロゴ" src="/img/SIP-PRINT-Logo.png" >
+</figure>
 
 近頃は小規模の会社から大規模の企業までIP電話時代の幕を開かれ、所々でその普及を目にする機会が増えています。
 イソリアでもIP電話の利用を推しており、マルチファンクションという機能性以外にも、それには生産性の向上やコストに優しいというメリットが存在するからなのです。
@@ -54,6 +63,19 @@ menu:
 ## 3つのバージョンと3つの謳い文句
 
 従来の方法といえば、アナログチックに録音をするやり方はもとい、大きなコストを叩いてまで設備やサポートを用意する必要がありました。しかしSIP Printは『容易なインストール』『容易な操作』『容易なお買いもの』という謳い文句が存在します。
+
+<div class="esolia-card-panel blue-grey darken-4 z-depth-1">
+  <h4 class="center green-text text-accent-3">IP PBX 電話レコーディング適応</h4>
+    <ol>
+      <li class="white-text">コール センター</li>
+      <li class="white-text">Financial Services</li>
+      <li class="white-text">Legal Services</li>
+      <li class="white-text">Emergency Services</li>
+      <li class="white-text">Law Enforcement</li>
+      <li class="white-text">Educational Institutions</li>
+      <li class="white-text">State and Local Government</li>
+    </ol>
+</div>
 
 レコーディングという機能は単に録音をするというものではなく、電話応対のトレーニングやケーススタディにも応用する事ができます。
 品質管理やコンプライアンス、レギュラトリー、そしてお客様満足度の改善等にも多いに力を発揮出来ると自負しています。そして環境や規模によって分けれる3バージョンが用意されています。
@@ -75,13 +97,13 @@ IPネットワークを利用する事で下記の様な状況でも利用可能
 
 SIP PrintはメジャーなIP PBXシステムとの互換性があります。例えば:
 
-* **Systems**: Aastra, ADTRAN, Allworx, Altigen, Avaya,
+* **IP電話システム**: Aastra, ADTRAN, Allworx, Altigen, Avaya,
 Asterisk, Broadsoft, Cisco, Digium, Fonality,
 Grandstream, Microsoft, Mitel, NEC, Nortel,
 Shoretel, SIPfoundry, Verizon, Vertical, Zultys
-* **Codecs**: ``G.711`` support in all versions; additional ``G.722(HD)`` & ``G.729`` support in Small　Business and Enterprise Editions.
+* **コデック**: ``G.711`` support in all versions; additional ``G.722(HD)`` & ``G.729`` support in Small　Business and Enterprise Editions.
 
-##実際のプレイバック機能と録音
+## 実際のプレイバック機能と録音
 
 SIP Printは高額なレコーディングシステムよりも多くの機能をより安価なプライスで実現
 
