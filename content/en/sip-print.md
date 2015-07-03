@@ -46,23 +46,23 @@ SIP Print call recording is just like your phone system: easy to install, easy t
 
 With the ability to record advanced functions like voicemail and “follow-me” calls forwarded to mobile phones or off-premise phone numbers, SIP Print shows the expandability and value of IP standards.
 
-CALL RECORDING / PLAYBACK FEATURES
-▪	Call recording in standard .WAV format
-▪	Call playback on standard media players
-▪	Windows Media Player
-▪	Adobe Media Player
-▪	Apple QuickTime
-▪	Search by User Name
-▪	Search by Area Code and Prefix
-▪	Extension and Name lookup
-▪	Caller ID
-▪	Fast Forward and Rewind
-▪	Time and Date stamping
-▪	Email-ready call file formats
-▪	Multiple manager access
-▪	Remote access & remote administration
-▪	Archive and audit trail
-▪	Column sort (on the fly)
-▪	Web-based GUI
-Firefox & Safari)
+CALL RECORDING / PLAYBACK FEATURES  
+
+* Call recording in standard .WAV format
+* Call playback on standard media players
+* Windows Media Player
+* Adobe Media Player
+* Apple QuickTime
+* Search by User Name
+* Search by Area Code and Prefix
+* Extension and Name lookup
+* Caller ID
+* Fast Forward and Rewind
+* Time and Date stamping
+* Email-ready call file formats
+* Multiple manager access
+* Remote access & remote administration
+* Archive and audit trail
+* Column sort (on the fly)
+* Web-based GUI (Firefox & Safari)
 
