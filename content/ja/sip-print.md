@@ -6,7 +6,7 @@ draft: false
 title: SIP Print 電話録音
 slug: sip-print
 subtitle: VoIP Never Sounded So Good
-description: Phone recording etc - from eSolia Inc.
+description: SIP Printという名の多機能電話レコーディングシステム。トレーニング、ケーススタディ、コンプライアンスもこれ一台で様々なビジネスシーンの録音や応用が可能に。
 weight: 10
 alternatelocales:
   - en-US
@@ -16,6 +16,11 @@ tags:
   - 録音
   - レコーディング機能
   - IP PBX
+  - 監査
+  - トレーニング
+  - お客様満足度
+  - クレーム対応
+  - コールロギング
 series:
   - top1
   - ninki1
