@@ -5,7 +5,7 @@ publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: SIP Print 電話録音
 slug: sip-print
-subtitle: VoIP Never Sounded So Good
+subtitle: 多機能レコーディングSip Printで通話録音、コールセンターの質や顧客満足度を飛躍的にアップ
 description: SIP Printという名の多機能電話レコーディングシステム。トレーニング、ケーススタディ、コンプライアンスもこれ一台で様々なビジネスシーンの録音や応用が可能に。
 weight: 10
 alternatelocales:
@@ -13,14 +13,16 @@ alternatelocales:
 tags:
   - IP電話
   - SIP
-  - 録音
+  - 通話録音
   - レコーディング機能
   - IP PBX
   - 監査
   - トレーニング
-  - お客様満足度
+  - 顧客満足
   - クレーム対応
   - コールロギング
+  - コールセンター
+  - 法令順守
 series:
   - top1
   - ninki1
@@ -54,26 +56,27 @@ menu:
 <img class="materialboxed right responsive-img" width="200" data-caption="SIP Print ロゴ" alt="SIP Print ロゴ" src="/img/SIP-PRINT-Logo.png" >
 </figure>
 
-近頃は小規模の会社から大規模の企業までIP電話時代の幕を開かれ、所々でその普及を目にする機会が増えています。
-イソリアでもIP電話の利用を推しており、マルチファンクションという機能性以外にも、それには生産性の向上やコストに優しいというメリットが存在するからなのです。
+近頃は小規模の会社から大規模の企業までIP電話時代の幕が開かれ、所々でその普及を目にする機会が増えています。
+イソリアでもIP電話の利用を推しており、マルチファンクションという機能性以外にも、それには生産性の向上やコストに優しいというメリットが存在しています。
 
-実はそれら以外にも大いに役立つレコーディング機能を追加する事が出来るのです。
+実はもう一つ大いに役立つレコーディング機能を追加してみませんか？
 コストはどの程度かかるのか、操作性も複雑なのではないか、そもそも本当に必要な技術なのか、と疑問を持つ事は当然でしょうがSIP Printは全てを克服できるでしょう。
 
 ## 3つのバージョンと3つの謳い文句
 
-従来の方法といえば、アナログチックに録音をするやり方はもとい、大きなコストを叩いてまで設備やサポートを用意する必要がありました。しかしSIP Printは『容易なインストール』『容易な操作』『容易なお買いもの』という謳い文句が存在します。
+従来の方法といえば、アナログチックに録音はもとい、大きなコストを叩いてまで設備やサポートを用意する必要がありました。しかしSIP Printは『容易なインストール』『容易な操作』『容易なお買いもの』という謳い文句が存在します。
 
 <div class="esolia-card-panel blue-grey darken-4 z-depth-1">
-  <h4 class="center green-text text-accent-3">IP PBX 電話レコーディング適応</h4>
+  <h4 class="center green-text text-accent-3">きっとお役に立てます</h4>
     <ol>
-      <li class="white-text">コール センター</li>
-      <li class="white-text">Financial Services</li>
-      <li class="white-text">Legal Services</li>
-      <li class="white-text">Emergency Services</li>
-      <li class="white-text">Law Enforcement</li>
-      <li class="white-text">Educational Institutions</li>
-      <li class="white-text">State and Local Government</li>
+      <li class="white-text">コール センターの方々</li>
+      <li class="white-text">金融機関の方々</li>
+      <li class="white-text">法的機関の方々</li>
+      <li class="white-text">緊急通達受理機関の方々</li>
+      <li class="white-text">法執行機関の方々</li>
+      <li class="white-text">教育機関の方々</li>
+      <li class="white-text">地方自治体の方々</li>
+      <li class="white-text">一般オフィスの方々も</li>
     </ol>
 </div>
 
@@ -89,7 +92,7 @@ menu:
 IPネットワークを利用する事で下記の様な状況でも利用可能です
 
 * 特定の内線番号への着信
-* 内線どうしのコール
+* 内線同士のコール
 * フォローミーコール
 * SIPに登録されたイベント
 * SIP & RTP トラフィック
@@ -125,4 +128,4 @@ SIP Printは高額なレコーディングシステムよりも多くの機能�
 * 簡易的な並び替え機能
 * IE、Firefox、Safariに対応したウェブ管理画面
 
-インストールは10分程度、コンフィギュレーションに20分、これだけで上記全て能力が貴社のビジネス部隊にもたらされるのです。
+インストールは10分程度、コンフィギュレーションに20分、これだけの短時間で上記全ての能力が貴社のビジネス部隊にもたらされるのです。
