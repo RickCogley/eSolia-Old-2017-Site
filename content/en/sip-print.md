@@ -93,7 +93,7 @@ All offer enterprise-class call recording performance for training, Q/A, complia
 
 ### Strength in Standards
 
-With the ability to record advanced functions like voicemail and "follow-me"”" calls forwarded to mobile phones or off-premise phone numbers, SIP Print shows the expandability and value of IP standards. In fact, with network configuration, it is possible to capture:
+With the ability to record advanced functions like voicemail and "follow-me" calls forwarded to mobile phones or off-premise phone numbers, SIP Print shows the expandability and value of IP standards. In fact, with network configuration, it is possible to capture:
 
 * User- and extension-specific calls
 * Extension-to-extension calls
@@ -108,7 +108,7 @@ SIP Print is broadly compatible with the major IP PBX vendors as well:
 Asterisk, Broadsoft, Cisco, Digium, Fonality,
 Grandstream, Microsoft, Mitel, NEC, Nortel,
 Shoretel, SIPfoundry, Verizon, Vertical, Zultys
-* **Codecs**: G.711 support in all versions; additional G.722(HD) & G.729 support in Small
+* **Codecs**: ``G.711`` support in all versions; additional ``G.722(HD)`` & ``G.729`` support in Small
 Business and Enterprise Editions.
 
 ### Call Recording / Playback Features
