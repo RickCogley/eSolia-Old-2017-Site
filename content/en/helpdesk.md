@@ -6,8 +6,8 @@ draft: false
 title: Helpdesk
 slug: helpdesk
 subtitle: Bilingual service via phone and remote
-description: User support questions answered quickly and completely, with knowledge stored in our internal ops database. - from eSolia Inc.
-weight: 15
+description: User support questions answered quickly and completely by our bilingual professionals, with knowledge stored in our internal helpdesk operations database. - from eSolia Inc.
+weight: 10
 alternatelocales:
   - ja-JP
 tags:
@@ -20,6 +20,7 @@ series:
   - ninki1
 topics:
   - Services
+  - Outsourcing
 images:
   - /img/eSolia-Post-Slider-Helpdesk-01.png
   - /img/eSolia-Post-Slider-Helpdesk-02.png
@@ -37,7 +38,7 @@ gallery_id: 6159786672282286673
 menu:
   side:
     Name: Helpdesk
-    Weight: 15
+    Weight: 10
     Identifier: helpdesk
     Url: /helpdesk
     Parent: outsourcing

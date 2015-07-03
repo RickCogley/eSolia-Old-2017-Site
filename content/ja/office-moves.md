@@ -3,26 +3,27 @@ author: イソリア
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
 draft: false
-title: オフィス移転
+title: オフィス構築
 slug: office-moves
-subtitle: 劇的なビフォア、アフター
-description: イソリアから - 新規オフィスの立ち上げ、オフィス移転、変更や改善、移転後のサポートに至るまでの全サポート
+subtitle: オフィス構築から小規模なレイアウト変更までオーダーメイドでサポート
+description: イソリアから - 新規オフィスの立ち上げから、オフィスリロケーション、レイアウト変更、移転後のアフターサポートに至るまでの全サポート、ITヘッドオフィスとのバイリガルコーディネーションも対応致します。
 weight: 10
 alternatelocales:
   - en-US
 tags:
-  - 事務所
+  - 事務所移転
   - オフィス構築
   - オフィス移転
   - 社内移転
-  - リスタック
   - オフィス引越し
-  - レイアウト
+  - レイアウト変更
+  - リニューアル
 series:
   - top1
   - ninki1
 topics:
   - サービス
+  - インフラストラクチャ
 images:
   - /img/eSolia-Post-Slider-Office-Moves-01.jpg
   - /img/eSolia-Post-Slider-Office-Moves-02.jpg
@@ -47,7 +48,7 @@ menu:
     Weight: 10
     Identifier: officemoves
     Url: /office-moves
-    Parent: services
+    Parent: infra
 ---
 ## 引っ越し前の眠れぬ夜
 

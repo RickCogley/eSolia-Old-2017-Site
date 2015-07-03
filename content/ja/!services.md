@@ -33,12 +33,6 @@ formcheckboxes:
   - トレーニング
   - ウェブサイト デザイン
   - プロセス
-menu:
-  side:
-    Name: サービス
-    Weight: 20
-    Identifier: services
-    Url: /services
 ---
 
 貴社のビジネスとITの課題に対して、実践的且つ現実的で、将来に向けた持続性のあるソリューションを提案・導入することが、私達の使命です。

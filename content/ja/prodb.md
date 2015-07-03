@@ -5,7 +5,7 @@ publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: PROdbクラウド型データベース
 slug: prodb
-subtitle: 時代はクラウド　時代はPROdb
+subtitle: 時代はクラウド、社内のあらゆる情報管理はセキュアなPROdbで
 description: イソリアから - 急速に変化し続ける社内データベースはイソリアのPROdbにて一括管理。その他ソフトウェア開発も
 weight: 40
 alternatelocales:
@@ -14,10 +14,16 @@ tags:
   - クラウド型データベース
   - PROdb
   - 開発
+  - CRM
+  - 勤怠管理
+  - 顧客管理
+  - 資産管理
+  - 在庫管理
 series:
   - top1
 topics:
   - サービス
+  - クラウド システム
 images:
   - /img/eSolia-Post-Slider-PROdb-01.png
   - /img/eSolia-Post-Slider-PROdb-02.png
@@ -40,11 +46,11 @@ formcheckboxes:
 gallery_id: 6159796184943702945
 menu:
   side:
-    Name: クラウド データベース
+    Name: PROdbデータベース
     Weight: 40
     Identifier: prodb
     Url: /prodb
-    Parent: services
+    Parent: cloudsystem
 ---
 
 ## Excelでの管理に飽きた方へ

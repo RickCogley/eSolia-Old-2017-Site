@@ -6,7 +6,7 @@ draft: false
 title: ウェブサイト デザイン
 slug: website-design
 subtitle: 新規も既存も多言語でもウェブサイト構築のデザインをサポート
-description: イソリアから - 新時代と目的に合ったウェブサイトの構築を。新規、既存、多言語でも。
+description: イソリアから - 新時代と貴社目的に合ったウェブサイト デザインの構築を。新規、既存、多言語でもどうぞ。
 weight: 55
 alternatelocales:
   - en-US
@@ -26,6 +26,7 @@ series:
   - ninki1
 topics:
   - サービス
+  - アウトソーシング
 images:
   - /img/eSolia-Post-Slider-Security-01.jpg
   - /img/eSolia-Post-Slider-Security-02.jpg
@@ -49,7 +50,7 @@ menu:
     Weight: 55
     Identifier: website-design
     Url: /website-design
-    Parent: services
+    Parent: outsourcing
 ---
 
 ## そのサイトがないと話にならない！

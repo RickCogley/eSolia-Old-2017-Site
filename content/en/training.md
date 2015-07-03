@@ -6,8 +6,8 @@ draft: false
 title: Effective Training
 slug: training
 subtitle: By experienced practitioners
-description: Effective new-hire orientation, software and technical training. Course development and delivery. - from eSolia Inc.
-weight: 60
+description: Effective new-hire orientation, software and technical training. Training course development and delivery. - from eSolia Inc.
+weight: 40
 alternatelocales:
   - ja-JP
 tags:
@@ -25,6 +25,7 @@ series:
   - top1
 topics:
   - Services
+  - Outsourcing
 images:
   - /img/eSolia-Post-Slider-Training-01.jpg
   - /img/eSolia-Post-Slider-Training-02.jpg
@@ -39,10 +40,10 @@ gallery_id: 6160196852058139841
 menu:
   side:
     Name: Training
-    Weight: 60
+    Weight: 40
     Identifier: training
     Url: /training
-    Parent: services
+    Parent: outsourcing
 ---
 
 ## Training is the Best Investment

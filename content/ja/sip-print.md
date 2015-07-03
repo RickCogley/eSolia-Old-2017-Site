@@ -18,7 +18,7 @@ series:
   - top1
   - ninki1
 topics:
-  - フォーカス
+  - ソリューション フォーカス
   - 電話
 images:
   - /img/eSolia-Chicklet-Color-1024px.png
@@ -31,7 +31,7 @@ menu:
     Weight: 10
     Identifier: sip-print
     Url: /sip-print
-    Parent: focus
+    Parent: solutionsfocus
 ---
 
 ## IP PBX 電話録音

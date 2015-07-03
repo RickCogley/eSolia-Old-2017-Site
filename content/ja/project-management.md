@@ -6,8 +6,8 @@ draft: false
 title: プロジェクト管理
 slug: project-management
 subtitle: 経験豊かなPMがスムーズなコーディネーションでプロジェクトを成功へと導きます
-description: イソリアから - 東京およびアジア太平洋地域の実施しているプロジェクトで成功を収めています。私たちのPMアプローチは実践的で独自性があります。
-weight: 37
+description: イソリアから - 東京およびアジア太平洋地域の実施しているプロジェクトで成功を収めています。私たちの プロジェクト管理 アプローチは実践的で独自性があります。
+weight: 20
 alternatelocales:
   - en-US
 tags:
@@ -26,6 +26,7 @@ series:
   - ninki1
 topics:
   - サービス
+  - コンサルティング
 images:
   - /img/eSolia-Post-Slider-Project-Management-01.png
   - /img/eSolia-Post-Slider-Project-Management-02.png
@@ -49,10 +50,10 @@ gallery_id: 6160563368100442433
 menu:
   side:
     Name: プロジェクト管理
-    Weight: 37
+    Weight: 20
     Identifier: project-management
     Url: /project-management
-    Parent: services
+    Parent: consulting
 ---
 
 ## プロジェクト管理とは？

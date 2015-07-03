@@ -18,7 +18,7 @@ series:
   - top1
   - ninki1
 topics:
-  - Focus
+  - Solutions Focus
   - Telephone
 images:
   - /img/eSolia-Chicklet-Color-1024px.png
@@ -31,7 +31,7 @@ menu:
     Weight: 10
     Identifier: sip-print
     Url: /sip-print
-    Parent: focus
+    Parent: solutionsfocus
 ---
 
 ## IP PBX Call Recording

@@ -20,6 +20,7 @@ series:
   - top1
 topics:
   - Services
+  - Infrastructure
 images:
   - /img/eSolia-Post-Slider-Security-01.jpg
   - /img/eSolia-Post-Slider-Security-02.jpg
@@ -42,7 +43,7 @@ menu:
     Weight: 50
     Identifier: security
     Url: /security
-    Parent: services
+    Parent: infra
 ---
 
 ## Introduction

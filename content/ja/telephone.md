@@ -5,23 +5,28 @@ publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: 電話システム
 slug: telephone
-subtitle: 音声はネットに乗せて
+subtitle: IP電話、クラウド型電話サービスでビジネスの効率化を
 description: イソリアから - 私たちは、近代的で優れた電話システムをご提案することでお客様のコストを削減し、生産効率を高めます。クラウド型電話サービスが利用可能に。
-weight: 65
+weight: 20
 alternatelocales:
   - en-US
 tags:
   - 電話
   - クラウドフォン
   - VoIP
-  - テレフォニ
+  - テレフォニー
   - PBXL
+  - PBX
+  - 交換機
+  - ビジネスフォン
+  - ソフトフォン
 series:
   - top1
   - ninki1
 topics:
   - サービス
   - 電話
+  - インフラストラクチャ
 images:
   - /img/eSolia-Post-Slider-Telephone-01.jpg
   - /img/eSolia-Post-Slider-Telephone-02.jpg
@@ -42,10 +47,10 @@ gallery_id: 6160784839246541201
 menu:
   side:
     Name: IP電話
-    Weight: 65
+    Weight: 20
     Identifier: telephone
     Url: /telephone
-    Parent: services
+    Parent: infra
 ---
 
 ## 電話線からLAN線へ

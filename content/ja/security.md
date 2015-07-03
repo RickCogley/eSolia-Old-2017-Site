@@ -5,19 +5,27 @@ publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: セキュリティ
 slug: security
-subtitle: データのセキュア　心のセキュア
+subtitle: セキュリティ強化、ITコンプライアンス確立、リスク回避で心もセキュアに
 description: イソリアから - コンプライアンスやセキュリティの信頼性監査、強固なセキュリティをソフト＆ハードにて実装。システムも心もセキュアに
 weight: 50
 alternatelocales:
   - en-US
 tags:
-  - セキュリティ
-  - 改善
-  - コンプライアンス
+  - ITセキュリティ
+  - ITコンプライアンス
+  - 情報セキュリティポリシー
+  - オフィスセキュリティ
+  - 情報漏洩
+  - ファイヤーウォール
+  - 不正アクセス
+  - マイナンバー
+  - 個人情報
+  - BCP
 series:
   - top1
 topics:
   - サービス
+  - インフラストラクチャ
 images:
   - /img/eSolia-Post-Slider-Security-01.jpg
   - /img/eSolia-Post-Slider-Security-02.jpg
@@ -40,7 +48,7 @@ menu:
     Weight: 50
     Identifier: security
     Url: /security
-    Parent: services
+    Parent: infra
 ---
 ## 鍵の種類から鍵の掛け方まで
 

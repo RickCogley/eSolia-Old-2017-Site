@@ -5,19 +5,26 @@ publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: インフラ<wbr><nobr>ストラクチャ</nobr>
 slug: infrastructure
-subtitle: 縁の下のITシステム
-description: イソリアから - 機能と目的を実現させる為のインフラ実装。汎用的なものから新技術を備えた機器まで堅実に
+subtitle: 戦略的なITインフラストラクチャの提案、実現
+description: イソリアから - 機能と目的を実現させる為のITインフラ実装。汎用的なものから新技術を備えた機器まで堅実に
 weight: 30
 alternatelocales:
   - en-US
 tags:
   - インフラストラクチャ
-  - 仕様と標準
-  - 基礎テクノロジー
+  - サーバー導入
+  - LAN配線
+  - WAN
+  - LAN配線
+  - VPN構築
+  - ITインフラ
+  - IMAC
+  - 仮想化
 series:
   - top1
 topics:
   - サービス
+  - インフラストラクチャ
 images:
   - /img/eSolia-Post-Slider-Onsite-01.png
   - /img/eSolia-Post-Slider-Onsite-02.png
@@ -40,7 +47,7 @@ menu:
     Weight: 30
     Identifier: infrastructure
     Url: /infrastructure
-    Parent: services
+    Parent: infra
 ---
 
 ## 「インフラストラクチャー」とは

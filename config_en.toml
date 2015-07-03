@@ -49,6 +49,13 @@ languageCode = "en-US"
     weight = 10
 
 [[menu.side]]
+    name = "Process"
+    identifier = "proc"
+    weight = 30
+    url = "/process"
+    parent = "outsourcing"
+
+[[menu.side]]
     name = "Consulting"
     identifier = "consulting"
     weight = 15
@@ -62,6 +69,11 @@ languageCode = "en-US"
     name = "Cloud System"
     identifier = "cloudsystem"
     weight = 25
+
+[[menu.side]]
+    name = "Solutions Focus"
+    identifier = "solutionsfocus"
+    weight = 30
 
 [[menu.side]]
     name = "Topics"

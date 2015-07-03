@@ -19,6 +19,7 @@ series:
   - top1
 topics:
   - Services
+  - Cloud System
 images:
   - /img/eSolia-Post-Slider-PROdb-01.png
   - /img/eSolia-Post-Slider-PROdb-02.png
@@ -41,11 +42,11 @@ formcheckboxes:
 gallery_id: 6159796184943702945
 menu:
   side:
-    Name: Cloud Database
+    Name: PROdb Database
     Weight: 40
     Identifier: prodb
     Url: /prodb
-    Parent: services
+    Parent: cloudsystem
 ---
 
 ## Still Running on Spreadsheets?

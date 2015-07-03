@@ -7,7 +7,7 @@ title: Management
 slug: management
 subtitle: Coordination for success
 description: Interim or ongoing IT management services, on- or off-site. Successful coordination for all your local or global projects. - from eSolia Inc.
-weight: 35
+weight: 10
 alternatelocales:
   - ja-JP
 tags:
@@ -19,6 +19,7 @@ series:
   - top1
 topics:
   - Services
+  - Consulting
 images:
   - /img/eSolia-Post-Slider-Management-01.png
   - /img/eSolia-Post-Slider-Management-02.png
@@ -37,13 +38,14 @@ gallery_id: 6159792188653157249
 menu:
   side:
     Name: Management
-    Weight: 35
+    Weight: 10
     Identifier: management
     Url: /management
-    Parent: services
+    Parent: consulting
 ---
 
-## "Management" by eSolia
+## Management by eSolia
+
 In the context of eSolia's work, management, and more specifically project management, is the art of closely coupling tasks with actions, managing budget and schedule quality to ensure there are no problems with overages or slippages, and, ensuring that clients are getting their expected return on investment regarding the project's deliverables. All this, while maintaining the required administrative project structures, plans, and operational momentum.
 
 ### eSolia's Approach
