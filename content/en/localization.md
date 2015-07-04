@@ -12,10 +12,19 @@ alternatelocales:
   - ja-JP
 tags:
   - Localization
+  - i18n
+  - l10n
+  - l12y
+  - g11n
   - Translation
   - Localize
   - Machine Translation
   - Editing
+  - Japanese
+  - Internationalization
+  - localizability
+  - globalization
+  - Bilingual
 series:
   - top1
 topics:

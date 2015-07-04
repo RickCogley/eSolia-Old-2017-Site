@@ -2,7 +2,7 @@
 author: イソリア
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
-description: イソリアの会社案内 - 一般情報
+description: イソリアの会社案内 - ビジョン、会社概要、主なビジネス、住所やアクセス地図、その他一般情報。
 draft: false
 slug: about
 subtitle: 会社案内

@@ -3,7 +3,7 @@ author: イソリア
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
 draft: false
-title: 改善を意識したトレーニング
+title: 改善を意識した<wbr><nobr>トレーニング</nobr>
 slug: training
 subtitle: ITオリエンテーションから専門的なトレーニングまで幅広く対応
 description: イソリアから - 迷える新入社員に実用的なＩＴオリエンテーションを作成。初歩的ものから専門的なトレーニングまで。

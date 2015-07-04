@@ -5,8 +5,8 @@ publishdate: 2012-01-10T00:05:19.000Z
 description: イソリアの行動規範 -質の高いパフォーマンスを提供しお客様との信頼関係を促進する為の行動規範を定めています。
 draft: false
 slug: esolia-code-of-conduct
-title: イソリアの誓い
-subtitle: イソリアの行動規範
+title: 弊社の行動規範
+subtitle: イソリアの誓い
 weight: 35
 alternatelocales:
   - en-US

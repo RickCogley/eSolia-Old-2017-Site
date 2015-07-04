@@ -16,6 +16,13 @@ tags:
   - Homepage Design
   - Standards
   - Front-end
+  - CSS
+  - HTML5
+  - PHP
+  - Javascript
+  - Web server
+  - SEO
+  - Renewal
 series:
   - top1
   - ninki1

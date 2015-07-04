@@ -15,6 +15,9 @@ tags:
   - coordination
   - success
   - pm
+  - it project
+  - budget control
+  - quality control
 series:
   - top1
 topics:

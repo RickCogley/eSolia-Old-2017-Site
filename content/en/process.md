@@ -12,11 +12,15 @@ alternatelocales:
   - ja-JP
 tags:
   - Process Management
-  - Procurement
-  - Asset
-  - Compliance
-  - Project
-  - Recycling
+  - Procurement Process Management
+  - Asset Process Management
+  - Compliance Process Management
+  - Project Process Management
+  - Recycling Process Management
+  - Cabling Process Management
+  - License Process Management
+  - Data Center Process Management
+  - Server Process Management
 series:
   - top1
 topics:

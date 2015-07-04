@@ -2,7 +2,7 @@
 author: イソリア
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
-description: イソリアから - イソリアからあなたへのメッセージ
+description: イソリアから - 当ウェブサイトへお越しいただいた皆様へのメッセージ、ビデオ紹介
 draft: false
 slug: message-from-esolia
 weight: 25
@@ -14,7 +14,7 @@ tags:
   - レター
   - ご挨拶
 title: ご挨拶
-subtitle: 当ウェブサイトへお越しいただいた皆様へ
+subtitle: 当ウェブサイトへ<wbr><nobr>お越しいただいた皆様へ</nobr>
 topics:
   - イソリア
   - eSolia

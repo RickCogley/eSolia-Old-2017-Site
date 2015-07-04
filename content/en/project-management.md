@@ -15,6 +15,10 @@ tags:
   - Coordination
   - People Money Resources
   - Methodology
+  - Gantt
+  - Office Move Management
+  - Technology Refresh
+  - UPS Install Project
 series:
   - top1
   - ninki1

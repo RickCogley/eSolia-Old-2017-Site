@@ -15,6 +15,12 @@ tags:
   - specs and standards
   - base technology
   - nuts and bolts
+  - structured cable
+  - server deployment
+  - WAN provisioning
+  - IMAC
+  - virtualization
+  - vpn
 series:
   - top1
 topics:

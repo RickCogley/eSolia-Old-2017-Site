@@ -15,6 +15,12 @@ tags:
   - Cloud DB
   - PROdb
   - Dev
+  - CRM
+  - Time and Expense Tracking
+  - Paid Leave Tracking
+  - Sales Activity Reporting
+  - Asset Tracking
+  - Inventory Management
 series:
   - top1
 topics:

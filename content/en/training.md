@@ -11,16 +11,16 @@ weight: 40
 alternatelocales:
   - ja-JP
 tags:
-  - Development
-  - Personalized
-  - One-to-One
-  - Onboarding
+  - Development Training
+  - Personalized Training
+  - One-to-One Training
+  - Onboarding Training
   - Training
   - Education
-  - Technical
-  - Orientation
-  - Application
-  - Software
+  - Technical Training
+  - Orientation Training
+  - Application Training
+  - Software Training
 series:
   - top1
 topics:

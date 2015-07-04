@@ -14,6 +14,10 @@ tags:
   - Management Team
   - Rick Cogley
   - Takumi Fukuoka
+  - CEO
+  - COO
+  - RD
+  - BOD
 title: Management Team
 topics:
   - eSolia

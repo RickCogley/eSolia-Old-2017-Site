@@ -15,6 +15,11 @@ tags:
   - service desk
   - remote support
   - remote access
+  - best practice
+  - bilingual
+  - system trouble
+  - internal helpdesk
+  - IT support
 series:
   - top1
   - ninki1

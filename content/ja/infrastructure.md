@@ -6,7 +6,7 @@ draft: false
 title: インフラ<wbr><nobr>ストラクチャ</nobr>
 slug: infrastructure
 subtitle: 戦略的なITインフラストラクチャの提案、実現
-description: イソリアから - 機能と目的を実現させる為のITインフラ実装。汎用的なものから新技術を備えた機器まで堅実に
+description: イソリアから - 機能と目的を実現させる為のITインフラストラクチャ実装。汎用的なものから新技術を備えた機器まで堅実に。
 weight: 30
 alternatelocales:
   - en-US
@@ -50,7 +50,7 @@ menu:
     Parent: infra
 ---
 
-## 「インフラストラクチャー」とは
+## インフラストラクチャとは
 
 <div class="esolia-card-panel deep-purple darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">サーバルームから床下、壁でも何処へでも</h4>
