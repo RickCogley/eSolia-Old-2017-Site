@@ -58,7 +58,7 @@ menu:
 ## IP PBX Call Recording
 
 <figure class="image-container">
-<img class="materialboxed right responsive-img" width="200" data-caption="SIP Print Logo" alt="Logo of SIP Print" src="/img/SIP-PRINT-Logo.png" >
+<img class="materialboxed right responsive-img" width="350" data-caption="SIP Print Logo" alt="Logo of SIP Print" src="/img/SIP-PRINT-Logo-2.png" >
 </figure>
 
 Whatever the size of your organization - from a small professional corporation to a large enterprise - you chose to deploy a VoIP communications system for the capital and operational cost savings and the productivity advantages for your users. Now you are looking to add a call recording option to your system to either address legal mandates or increase operational effectiveness.

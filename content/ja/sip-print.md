@@ -55,7 +55,7 @@ menu:
 ## IP PBX 電話録音
 
 <figure class="image-container">
-<img class="materialboxed right responsive-img" width="200" data-caption="SIP Print ロゴ" alt="SIP Print ロゴ" src="/img/SIP-PRINT-Logo.png" >
+<img class="materialboxed right responsive-img" width="350" data-caption="SIP Print ロゴ" alt="SIP Print ロゴ" src="/img/SIP-PRINT-Logo-2.png" >
 </figure>
 
 近頃は小規模の会社から大規模の企業までIP電話時代の幕が開かれ、所々でその普及を目にする機会が増えています。
