@@ -110,7 +110,7 @@ menu:
 <img class="materialboxed right responsive-img" width="200" data-caption="イソリアのパートナーのPBXLロゴ" alt="PBXLのロゴ画像" src="/img/pbxl-logo.png" >
 </figure>
 
-PBXLの“クラウド電話”サービスは、固定電話とスマートフォン（iPhone・Android）より、「いつでも・どこでも」アクセス可能な最先端な電話システムの導入を実現してます。
+PBXLの“クラウド電話”サービスは、デスクフォンとスマートフォン（iPhone・Android）から、「いつでも・どこでも」アクセス可能な最先端な電話システムの導入を実現してます。
 
 PBXLサービスで実現可能なソリューション:
 
