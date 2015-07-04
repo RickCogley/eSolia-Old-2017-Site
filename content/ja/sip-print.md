@@ -5,7 +5,7 @@ publishdate: 2012-01-10T00:05:19.000Z
 draft: false
 title: SIP Print 電話録音
 slug: sip-print
-subtitle: 多機能レコーディングSip Printで通話録音、コールセンターの質や顧客満足度を飛躍的にアップ
+subtitle: 多機能レコーディング SIP Printで通話録音、コールセンターの質や顧客満足度を飛躍的にアップ
 description: SIP Printという名の多機能電話レコーディングシステム。トレーニング、ケーススタディ、コンプライアンスもこれ一台で様々なビジネスシーンの録音や応用が可能に。
 weight: 10
 alternatelocales:
@@ -25,7 +25,6 @@ tags:
   - 法令順守
 series:
   - top1
-  - ninki1
 topics:
   - ソリューション フォーカス
   - 電話

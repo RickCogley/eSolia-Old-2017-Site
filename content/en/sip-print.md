@@ -23,7 +23,6 @@ tags:
   - Call Center
 series:
   - top1
-  - ninki1
 topics:
   - Solutions Focus
   - Telephone
