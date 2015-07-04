@@ -36,7 +36,7 @@ eSolia's Management Team comprises Rick Cogley and Takumi Fukuoka, who have been
 ### Rick Cogley, CEO
 
 <figure class="image-container">
-<img class="materialboxed right responsive-img z-depth-1" width="200" data-caption="Rick Cogley, eSolia CEO (Takumi Fukuoka Photo)" alt="Photo of Rick Cogley, eSolia CEO (Takumi Fukuoka Photo)" src="/img/eSolia-CEO-Rick-Cogley.jpg" >
+<img class="materialboxed right responsive-img z-depth-1" width="200" data-caption="Rick Cogley, eSolia CEO" alt="Photo of Rick Cogley, eSolia CEO (photo by Takumi Fukuoka)" src="/img/eSolia-CEO-Rick-Cogley.jpg" >
 </figure>
 
 James Rickard Cogley has been working in the consulting and support industry in Japan, since 1990. He specializes in bilingual (Japanese - English) consulting, project management, and general management, and has focused his career on M&A-related IT migrations and merges, market entry assistance, IT department reorganization and interim turnaround management, cloud technology implementation, standards-based (COBIT, ITIL) governance implementation, and large corporate compliance projects.

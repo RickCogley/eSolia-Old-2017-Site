@@ -34,7 +34,7 @@ menu:
 ### 代表取締役社長 ジェームズ R. コグレー
 
 <figure class="image-container">
-<img class="materialboxed right responsive-img z-depth-1" width="200" data-caption="代表取締役社長 リック コグレー、CEO (写真：福岡 琢巳)" alt="代表取締役社長 リック コグレー、CEO (写真：福岡 琢巳)" src="/img/eSolia-CEO-Rick-Cogley.jpg" >
+<img class="materialboxed right responsive-img z-depth-1" width="200" data-caption="代表取締役社長 リック コグレー、CEO" alt="代表取締役社長 リック コグレー、CEO (写真：福岡 琢巳)" src="/img/eSolia-CEO-Rick-Cogley.jpg" >
 </figure>
 
 ジェームズ・リカード・コグレーは、1990年より、日本でコンサルティング＆サポート分野で、バイリンガルな（日本語-英語）コンサルティング、プロジェクトマネジメント、ジェネラルマネジメントを専門としております。
