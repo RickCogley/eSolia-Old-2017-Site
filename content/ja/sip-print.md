@@ -102,11 +102,8 @@ IPネットワークを利用する事で下記の様な状況でも利用可能
 
 SIP PrintはメジャーなIP PBXシステムとの互換性があります。例えば:
 
-* **IP電話システム**: Aastra, ADTRAN, Allworx, Altigen, Avaya,
-Asterisk, Broadsoft, Cisco, Digium, Fonality,
-Grandstream, Microsoft, Mitel, NEC, Nortel,
-Shoretel, SIPfoundry, Verizon, Vertical, Zultys
-* **コデック**: ``G.711`` support in all versions; additional ``G.722(HD)`` & ``G.729`` support in Small　Business and Enterprise Editions.
+* **IP電話システム**: Aastra, ADTRAN, Allworx, Altigen, Avaya,　Asterisk, Broadsoft, Cisco, Digium, Fonality,　Grandstream, Microsoft, Mitel, NEC, Nortel,　Shoretel, SIPfoundry, Verizon, Vertical, Zultys その他
+* **コデック**: 全バージョンには ``G.711`` をサポートし、スモールビジネス と エンタープライズ バージョンには ``G.722(HD)`` と ``G.729`` をさらにサポート
 
 ## 実際のプレイバック機能と録音
 

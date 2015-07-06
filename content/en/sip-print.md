@@ -103,12 +103,8 @@ With the ability to record advanced functions like voicemail and "follow-me" cal
 
 SIP Print is broadly compatible with the major IP PBX vendors as well:
 
-* **Systems**: Aastra, ADTRAN, Allworx, Altigen, Avaya,
-Asterisk, Broadsoft, Cisco, Digium, Fonality,
-Grandstream, Microsoft, Mitel, NEC, Nortel,
-Shoretel, SIPfoundry, Verizon, Vertical, Zultys
-* **Codecs**: ``G.711`` support in all versions; additional ``G.722(HD)`` & ``G.729`` support in Small
-Business and Enterprise Editions.
+* **Systems**: Aastra, ADTRAN, Allworx, Altigen, Avaya,　Asterisk, Broadsoft, Cisco, Digium, Fonality,　Grandstream, Microsoft, Mitel, NEC, Nortel,　Shoretel, SIPfoundry, Verizon, Vertical, Zultys and others
+* **Codecs**: ``G.711`` support in all versions; additional ``G.722(HD)`` & ``G.729`` support in Small Business and Enterprise Editions.
 
 ### Call Recording / Playback Features
 
