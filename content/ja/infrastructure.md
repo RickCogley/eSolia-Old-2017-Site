@@ -1,7 +1,7 @@
 ---
 author: イソリア
-date: 2015-05-09T00:05:19.000Z
-publishdate: 2012-01-10T00:05:19.000Z
+date: 2015-06-24T08:45:15+09:00
+publishdate: 2015-06-24T08:45:15+09:00
 draft: false
 title: インフラ<wbr><nobr>ストラクチャ</nobr>
 slug: infrastructure
