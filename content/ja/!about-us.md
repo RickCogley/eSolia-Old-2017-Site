@@ -12,7 +12,7 @@ tags:
   - 弊社
 title: イソリアについて
 topics:
-  - Summary
+  - サマリー
 images:
   - /img/eSolia-Chicklet-Color-1024px.png
 aliases:
