@@ -1,5 +1,5 @@
 baseurl = "http://esolia.co.jp/"
-title = "イソリア㊑"
+title = "イソリア"
 contentdir = "content/ja"
 publishdir = "public/ja"
 canonifyurls = "false"
