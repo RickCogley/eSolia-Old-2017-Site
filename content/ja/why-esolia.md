@@ -39,6 +39,7 @@ formcheckboxes:
 aliases:
   - /concept/cpt-core/
   - /concept/cpt-proc/
+  - /mandate
 menu:
   side:
     Name: 何故イソリアか?

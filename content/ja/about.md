@@ -23,7 +23,6 @@ images:
   - /img/eSolia-Chicklet-Color-1024px.png
 aliases:
   - /concept/cpt-vis/
-  - /mandate
 menu:
   side:
     Name: 会社概要

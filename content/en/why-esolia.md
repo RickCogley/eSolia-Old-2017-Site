@@ -40,6 +40,7 @@ formcheckboxes:
 aliases:
   - /concept/cpt-core/
   - /concept/cpt-proc/
+  - /mandate
 menu:
   side:
     Name: Why eSolia?
