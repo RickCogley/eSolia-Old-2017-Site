@@ -11,21 +11,22 @@ weight: 10
 alternatelocales:
   - en-US
 tags:
-  - Colophon
-  - Attributions
-  - Acknowledgements
-  - Technical
-  - Typography
-  - Hosting
+  - 奥付
+  - 援用
+  - 認知
+  - 技術
+  - タイポグラフィー
+  - ホスティング
   - AWS
   - Route53
   - Webfaction
   - nanoGallery
   - Noto
   - Hugo
-  - Golang
+  - Go言語
   - Go
   - Humans.txt
+  - マークダウン
   - Markdown
 topics:
   - 当サイト
@@ -50,7 +51,7 @@ images:
 このサイトのジェネレータの選定時には、コンテンツファイル、スクリプトプログラム、および画像ファイルから構成され表現することができる静的サイトジェネレータを検討しました。
 しかしながらこれらのシステムも、利用するための前提条件が多く、完全な開発環境がサイトを管理するためのコンピュータには求められました。この点はサーバーでの動的CMSの運用と同様のものでした。
 
-## Go Hugo (ヒューゴについて)
+## ヒューゴについて
 
 [Hugo](http://gohugo.io)と打ち込んでみよう。優れた静的サイトジェネレーターの紹介:
 
@@ -71,7 +72,6 @@ images:
 
 このウェブサイトの外観・デザインはGoogle社の[マテリアル・デザイン](http://www.google.co.jp/design/spec/material-design/introduction.html) をベースとしています。サービスの開発環境・仕様に関してGoogle社より以下の様に述べられています。
 
-> We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. This is material design.
 > 私達は技術や科学の可能性と革新を融合した良いデザインの、標準原則を統合した視覚的な言語の作成に挑戦しました。それがマテリアルデザインです。
 
 マテリアルデザインの実装は[マテリアライズ](http://materializecss.com/)と呼ばれるCSSのフレームワークを用いて実現されます。マテリアライズは開発済みCSS、Javaスクリプト、そしてフォントファイルの集合です。
@@ -107,13 +107,13 @@ DNSサービスは堅牢かつ高速なAmazonウェブサービス、[Route53](h
 <img class="materialboxed right responsive-img" width="220" data-caption="Humans.txt Logo" alt="Humans.txt Logo" src="/img/humans-txt-large-logo2.png" >
 </figure>
 
-[``Humans.txtファイル``](/humans.txt)をご存知でしょうか。これ（＝[Humans.txt](http://humanstxt.org)）はサイトの奥付（何を実際に使って書かれたかなど）を作る方法を標準化しようとする試みであり、またrobots.txtというテキストファイルに記述することで、検索エンジンのクローラープログラムに、クロールなどの指示をします。
+[``Humans.txt``](/humans.txt) ファイルをご存知でしょうか。これ（＝[Humans.txt](http://humanstxt.org)）はサイトの奥付（何を実際に使って書かれたかなど）を作る方法を標準化しようとする試みであり、またrobots.txtというテキストファイルに記述することで、検索エンジンのクローラープログラムに、クロールなどの指示をします。
 
 [クリック](/humans.txt)すると単純なテキストのみの形式で、この奥付ページと基本的に同じ内容の情報が表示されます。（robots.txtがシステム向けとするならhumans.txtは"人間"が読むように作られたファイルと言えますね）
 
 ## ありがとう!
 
-通常世の中のウェブサイトはこの様な"どのサービスを利用しているか"などの内容を記載することは多くはないと思いますが、どの様なサイトであれ上記の様な色々なサービスの恩恵を受けて完成されていることを忘れてはいけません。（デザイン会社は別かもしれませんが）
+通常世の中のウェブサイトはこの様な「どのサービスを利用しているか」などの内容を記載することは多くはないと思いますが、どの様なサイトであれ上記の様な色々なサービスの恩恵を受けて完成されていることを忘れてはいけません。（デザイン会社は別かもしれませんが）
 
 最後に、沢山の時間を費やししてくれたイソリアのみんなにありがとう。
 
