@@ -17,7 +17,7 @@ tags:
   - 役員
   - マネージメント チーム
   - BOD
-title: イソリアの<wbr><nobr>マネージメントチーム</nobr>
+title: マネージメントチーム
 topics:
   - eSolia
   - イソリア
