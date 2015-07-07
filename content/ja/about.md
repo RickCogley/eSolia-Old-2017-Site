@@ -20,7 +20,9 @@ topics:
   - eSolia
 type: aboutpage
 images:
-- /img/eSolia-Chicklet-Color-1024px.png
+  - /img/eSolia-Chicklet-Color-1024px.png
+aliases:
+  - /concept/cpt-vis/
 menu:
   side:
     Name: 会社概要

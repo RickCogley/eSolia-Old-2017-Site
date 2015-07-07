@@ -43,6 +43,7 @@ aliases:
   - /voip
   - /pbxl
   - /telephony
+  - /openuc
 gallery_id: 6160784839246541201
 menu:
   side:
