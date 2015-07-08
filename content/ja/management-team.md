@@ -18,6 +18,7 @@ tags:
   - マネージメント チーム
   - BOD
 title: マネージメントチーム
+titlewbr: マネージメント<wbr><nobr>チーム</nobr>
 topics:
   - eSolia
   - イソリア

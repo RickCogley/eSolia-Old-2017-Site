@@ -3,7 +3,8 @@ author: イソリア
 date: 2015-06-24T08:45:15+09:00
 publishdate: 2015-06-24T08:45:15+09:00
 draft: false
-title: インフラ<wbr><nobr>ストラクチャ</nobr>
+title: インフラストラクチャ
+titlewbr: インフラ<wbr><nobr>ストラクチャ</nobr>
 slug: infrastructure
 subtitle: 戦略的なITインフラストラクチャの提案、実現
 description: イソリアから - 機能と目的を実現させる為のITインフラストラクチャ実装。汎用的なものから新技術を備えた機器まで堅実に。
