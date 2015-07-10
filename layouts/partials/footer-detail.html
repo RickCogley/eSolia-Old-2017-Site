@@ -35,10 +35,12 @@
     </div>
   </div>
   <div class="footer-copyright">
+    <small>
     <div class="container">
-      &copy;1999-{{ .Now.Year }} {{ ( index $.Site.Data.translations $.Site.Params.locale ).footerallrightsreserved }}
+      &copy;1999-{{ .Now.Year }} {{ ( index $.Site.Data.translations $.Site.Params.locale ).footerallrightsreserved }}&nbsp;(<a class="grey-text text-lighten-4" href="/license">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genlicensename }}</a>)
       <a class="grey-text text-lighten-4 right" href="/colophon">{{ ( index $.Site.Data.translations $.Site.Params.locale ).gencolophonname }}</a>
     </div>
+    </small>
   </div>
 </footer>
 {{ "<!-- LEAVING layouts/partials/footer-DETAIL.html -->" | safeHTML }}
