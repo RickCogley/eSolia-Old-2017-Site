@@ -8,6 +8,7 @@ slug: office-moves
 subtitle: オフィス構築から小規模なレイアウト変更までオーダーメイドでサポート
 description: イソリアのオフィス構築サービス - 新規オフィスの立ち上げから、オフィスリロケーション、レイアウト変更、移転後のアフターサポートに至るまでの全サポート、ITヘッドオフィスとのバイリガルコーディネーションも対応致します。
 weight: 10
+menusection: Infrastructure
 alternatelocales:
   - en-US
 tags:

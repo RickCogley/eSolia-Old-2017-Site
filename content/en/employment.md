@@ -8,6 +8,7 @@ slug: employment
 title: Employment
 subtitle: Be Part of the eSolia Team?
 weight: 40
+menusection: eSolia
 alternatelocales:
   - ja-JP
 tags:

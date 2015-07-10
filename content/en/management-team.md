@@ -22,6 +22,7 @@ title: Management Team
 topics:
   - eSolia
 type: aboutpage
+menusection: eSolia
 images:
   - /img/eSolia-CEO-Rick-Cogley.jpg
   - /img/eSolia-COO-Takumi-Fukuoka.jpg

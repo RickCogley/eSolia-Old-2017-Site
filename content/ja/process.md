@@ -8,6 +8,7 @@ slug: process
 subtitle: プロジェクト・購買・資産・コンプライアンスなどプロセス管理はお任せを
 description: イソリアから - 卓逸されたプロジェクト管理や資産管理、コンプライアンスの徹底から購買のお手伝いまで、ＩＴやビジネス プロセス管理のレベルアップへ
 weight: 30
+menusection: Outsourcing
 alternatelocales:
   - en-US
 tags:

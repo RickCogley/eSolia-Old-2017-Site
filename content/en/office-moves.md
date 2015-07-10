@@ -8,6 +8,7 @@ slug: office-moves
 subtitle: The Dramatic Before & After
 description: Full support for office moves, new office setup, upgrades or internal move management - from eSolia Inc.
 weight: 10
+menusection: Infrastructure
 alternatelocales:
   - ja-JP
 tags:

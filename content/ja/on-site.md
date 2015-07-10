@@ -8,6 +8,7 @@ slug: on-site
 subtitle: ITトラブルを定期訪問や常駐型など様々な形態で出張サポート
 description: イソリアから - 面倒なシステム管理、度重なるユーザサポート、複雑なトラブルシューティングは経験豊富なエンジニアがオンサイトにてサポート致します
 weight: 20
+menusection: Outsourcing
 alternatelocales:
   - en-US
 tags:

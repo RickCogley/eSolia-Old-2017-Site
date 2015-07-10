@@ -8,6 +8,7 @@ slug: training
 subtitle: By experienced practitioners
 description: Effective new-hire orientation, software and technical training. Training course development and delivery. - from eSolia Inc.
 weight: 40
+menusection: Outsourcing
 alternatelocales:
   - ja-JP
 tags:

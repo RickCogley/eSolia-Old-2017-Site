@@ -8,6 +8,7 @@ slug: management
 subtitle: 多様なITプロジェクトをバイリンガルにてサポート
 description: イソリア マネージメント - 多種多様なプロジェクトを多方面、多言語でのサポートを実現
 weight: 10
+menusection: Consulting
 alternatelocales:
   - en-US
 tags:

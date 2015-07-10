@@ -19,6 +19,7 @@ title: About eSolia Inc.
 topics:
   - eSolia
 type: aboutpage
+menusection: eSolia
 images:
   - /img/eSolia-Chicklet-Color-1024px.png
 aliases:

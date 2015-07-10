@@ -23,6 +23,7 @@ topics:
   - eSolia
   - イソリア
 type: aboutpage
+menusection: eSolia
 images:
   - /img/eSolia-CEO-Rick-Cogley.jpg
   - /img/eSolia-COO-Takumi-Fukuoka.jpg

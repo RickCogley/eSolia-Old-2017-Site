@@ -9,6 +9,7 @@ slug: license
 title: eSolia License
 subtitle: For Content, Multimedia and Source Code
 weight: 10
+menusection: Site
 type: licensepage
 alternatelocales:
   - ja-JP

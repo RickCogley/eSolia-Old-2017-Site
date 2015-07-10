@@ -8,6 +8,7 @@ slug: telephone
 subtitle: IP電話、クラウド型電話サービスでビジネスの効率化を
 description: イソリアから - 私たちは、近代的で優れた電話システムをご提案することでお客様のコストを削減し、生産効率を高めます。クラウド型電話サービスが利用可能に。
 weight: 20
+menusection: Infrastructure
 alternatelocales:
   - en-US
 tags:

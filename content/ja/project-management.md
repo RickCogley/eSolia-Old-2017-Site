@@ -8,6 +8,7 @@ slug: project-management
 subtitle: 経験豊かなPMがスムーズなコーディネーションでプロジェクトを成功へと導きます
 description: イソリアから - 東京およびアジア太平洋地域の実施しているプロジェクトで成功を収めています。私たちの プロジェクト管理 アプローチは実践的で独自性があります。
 weight: 20
+menusection: Consulting
 alternatelocales:
   - en-US
 tags:

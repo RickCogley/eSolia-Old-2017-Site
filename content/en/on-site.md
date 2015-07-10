@@ -8,6 +8,7 @@ slug: on-site
 subtitle: When remote is not enough
 description: Skilled bilingual on-site engineers visit your site for user support, regular systems admin tasks, or troubleshooting. - from eSolia Inc.
 weight: 20
+menusection: Outsourcing
 alternatelocales:
   - ja-JP
 tags:

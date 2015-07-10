@@ -8,6 +8,7 @@ slug: website-design
 subtitle: Doing Right by your Business
 description: Modern, standards-based website design that benefits your business, whether starting from zero, or localizing an existing website. - from eSolia Inc.
 weight: 55
+menusection: Outsourcing
 alternatelocales:
   - ja-JP
 tags:

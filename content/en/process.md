@@ -8,6 +8,7 @@ slug: process
 subtitle: Relief for your Many Runaway Processes
 description: Skillful Process Management of Projects, Procurement, Asset Mgt, Compliance, Upgrade or any other IT or business processes. - from eSolia Inc.
 weight: 30
+menusection: Outsourcing
 alternatelocales:
   - ja-JP
 tags:

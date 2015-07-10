@@ -8,6 +8,7 @@ slug: sip-print
 subtitle: 多機能レコーディング SIP Printで通話録音、コールセンターの質や顧客満足度を飛躍的にアップ
 description: SIP Printという名の多機能電話レコーディングシステム。トレーニング、ケーススタディ、コンプライアンスもこれ一台で様々なビジネスシーンの録音や応用が可能に。
 weight: 10
+menusection: Solutions-Focus
 alternatelocales:
   - en-US
 tags:

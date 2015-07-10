@@ -8,6 +8,7 @@ slug: helpdesk
 subtitle: Bilingual service via phone and remote
 description: User support questions answered quickly and completely by our bilingual professionals, with knowledge stored in our internal helpdesk operations database. - from eSolia Inc.
 weight: 10
+menusection: Outsourcing
 alternatelocales:
   - ja-JP
 tags:

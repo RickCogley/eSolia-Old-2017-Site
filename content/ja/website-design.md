@@ -8,6 +8,7 @@ slug: website-design
 subtitle: 新規も既存も多言語でもウェブサイト構築のデザインをサポート
 description: イソリアから - 新時代と貴社目的に合ったウェブサイト デザインの構築を。新規、既存、多言語でもどうぞ。
 weight: 55
+menusection: Outsourcing
 alternatelocales:
   - en-US
 tags:

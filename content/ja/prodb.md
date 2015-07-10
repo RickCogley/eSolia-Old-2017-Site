@@ -8,6 +8,7 @@ slug: prodb
 subtitle: 時代はクラウド、社内のあらゆる情報管理はセキュアなPROdbで
 description: イソリアから - 急速に変化し続ける社内データベースはイソリアのPROdbにて一括管理。その他ソフトウェア開発も
 weight: 40
+menusection: Cloud-System
 alternatelocales:
   - en-US
 tags:

@@ -8,6 +8,7 @@ slug: project-management
 subtitle: For Transparency and Success
 description: Real experience means success for all your projects in Japan and the Asia Pacific region. eSolia's Project Management methodology is practical and unique. - from eSolia Inc.
 weight: 20
+menusection: Consulting
 alternatelocales:
   - en-US
 tags:

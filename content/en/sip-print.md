@@ -8,6 +8,7 @@ slug: sip-print
 subtitle: VoIP Never Sounded So Good
 description: IP Phone system recording from multi-function SIP Print, used for training, compliance, customer service scenarios - from eSolia Inc.
 weight: 10
+menusection: Solutions-Focus
 alternatelocales:
   - ja-JP
 tags:
