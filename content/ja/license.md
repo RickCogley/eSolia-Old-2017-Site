@@ -9,6 +9,7 @@ slug: license
 title: イソリア ライセンス
 subtitle: コンテンツ、マルチメディア、ソースコードに関して
 weight: 10
+menusection: Site
 type: licensepage
 alternatelocales:
   - en-US

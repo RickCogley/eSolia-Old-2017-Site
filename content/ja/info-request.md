@@ -8,6 +8,7 @@ slug: info-request
 subtitle: イソリアのサービスについて
 weight: 10
 warning: sales
+menusection: eSolia
 alternatelocales:
   - en-US
 tags:

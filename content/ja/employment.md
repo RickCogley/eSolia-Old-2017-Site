@@ -8,6 +8,7 @@ slug: employment
 title: 採用情報
 subtitle: 一緒に成長しましょう。
 weight: 40
+menusection: eSolia
 alternatelocales:
   - en-US
 tags:
