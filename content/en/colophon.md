@@ -8,6 +8,7 @@ slug: colophon
 title: eSolia Colophon
 subtitle: On the shoulders of giants.
 weight: 10
+type: colophonpage
 alternatelocales:
   - ja-JP
 tags:

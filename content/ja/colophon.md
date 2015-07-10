@@ -8,6 +8,7 @@ slug: colophon
 title: 当サイト奥付
 subtitle: 巨人の肩の上にのる矮人
 weight: 10
+type: colophonpage
 alternatelocales:
   - en-US
 tags:
