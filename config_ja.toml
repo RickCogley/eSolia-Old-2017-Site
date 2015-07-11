@@ -6,7 +6,7 @@ canonifyurls = "false"
 copyright = "This work is copyright. All rights reserved by eSolia Inc."
 MetaDataFormat = "yaml"
 # For RSS only, apparently
-languageCode = "ja-JP"
+languageCode = "ja"
 
 [author]
     name = "Rick Cogley"
