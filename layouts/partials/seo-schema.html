@@ -27,7 +27,7 @@
 {
     "@context" : "http://schema.org",
     "@type" : "BlogPosting",
-    "articleSection" : "{{ .Section }}",
+    "articleSection" : "{{ if isset .Params "menusection" }}{{ .Params.menusection }}{{ else if ne .Section "" }}{{ .Section }}{{ else }}eSolia{{ end }}",
     "name" : "{{ .Title }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}",
     "headline" : "{{ .Title }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}",
     "description" : "{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}",
@@ -42,6 +42,29 @@
     "dateModified" : "{{ .Date.Format $.Site.Params.ISO8601 }}",
     "url" : "{{ .Permalink }}",
     "wordCount" : "{{ .WordCount }}",
+    "image" : {{ apply .Params.images "absURL" "." }},
+    "keywords" : [ {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} ]
+}
+</script>
+
+{{ else if eq .Type "page" }}
+<script type="application/ld+json">
+{
+    "@context" : "http://schema.org",
+    "@type" : "WebPage",
+    "name" : "{{ .Title }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}",
+    "headline" : "{{ .Title }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}",
+    "description" : "{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}",
+    "inLanguage" : "{{ .Site.Params.locale }}",
+    "author" : "{{ .Site.Params.author }}",
+    "creator" : "{{ .Site.Params.author }}",
+    "accountablePerson" : "{{ .Site.Params.accountableperson }}",
+    "copyrightHolder" : "{{ .Site.Params.entityname }}",
+    "copyrightYear" : "{{ .Date.Format "2006" }}",
+    "license" : "/license",
+    "datePublished": "{{ .PublishDate.Format $.Site.Params.ISO8601 }}",
+    "dateModified" : "{{ .Date.Format $.Site.Params.ISO8601 }}",
+    "url" : "{{ .Permalink }}",
     "image" : {{ apply .Params.images "absURL" "." }},
     "keywords" : [ {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} ]
 }
