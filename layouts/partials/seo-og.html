@@ -8,7 +8,7 @@
 <meta property="og:url" content="{{ .Permalink }}" />
 <!-- Optional Open Graph Info -->
 <meta property="og:description" content="{{ .Site.Params.description }}" />
-<meta property="og:locale" content="{{ .Site.Params.locale }}" />
+<meta property="og:locale" content="{{ replace .Site.Params.locale "-" "_" }}" />
 {{ with .Site.Params.alternatelocales }}{{ range . }}<meta property="og:locale:alternate" content="{{ . }}" />{{ end }}{{ end }}
 {{ with $.Site.Data.general.videos }}{{ range . }}<meta property="og:video" content="{{ . }}" />{{ end }}{{ end }}
 
@@ -23,8 +23,8 @@
 <meta property="og:url" content="{{ .Permalink }}" />
 <!-- Optional Open Graph Info -->
 <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}" />
-<meta property="og:locale" content="{{ if .Site.Params.locale }}{{ .Site.Params.locale }}{{ else }}en_US{{ end }}" />
-{{ with .Params.alternatelocales }}{{ range . }}<meta property="og:locale:alternate" content="{{ . }}" />{{ end }}{{ end }}
+<meta property="og:locale" content="{{ if .Site.Params.locale }}{{ replace .Site.Params.locale "-" "_" }}{{ else }}en_US{{ end }}" />
+{{ with .Params.alternatelocales }}{{ range . }}<meta property="og:locale:alternate" content="{{ replace . "-" "_" }}" />{{ end }}{{ end }}
 {{ with .Params.audio }}<meta property="og:audio" content="{{ . }}" />{{ end }}
 {{ with .Params.videos }}{{ range . }}<meta property="og:video" content="{{ . }}" />{{ end }}{{ end }}
 {{ with .Site.Title }}<meta property="og:site_name" content="{{ . }}" />{{ end }}
