@@ -90,6 +90,11 @@ eSolia fosters creativity in our problem-solving process with a core set of prac
 
 ...to name a few.
 
+<figure class="image-container">
+<img class="materialboxed responsive-img" width="400" data-caption="eSolia Practices" alt="Graphic showing eSolia practices" src="/img/eSolia-Post-Practices-en.png" >
+<figcaption><em>eSolia Practices</em></figcaption>
+</figure>
+
 ## Our Tools
 
 As mentioned elsewhere, we have sets of tools developed over years of experience:

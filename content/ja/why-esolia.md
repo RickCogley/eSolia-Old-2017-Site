@@ -95,6 +95,11 @@ menu:
 * 積極的な学習とブレインストーミング
 * 完全なサービスへの継続的な改良
 
+<figure class="image-container">
+<img class="materialboxed responsive-img" width="400" data-caption="イソリアの活動" alt="イソリアの活動を表示する図面" src="/img/eSolia-Post-Practices-ja.png" >
+<figcaption><em>イソリアの活動</em></figcaption>
+</figure>
+
 ## 私たちのツール
 
 前途の通り、私たちは経験によって洗練された、最善のシステムやツールを使用しております。
