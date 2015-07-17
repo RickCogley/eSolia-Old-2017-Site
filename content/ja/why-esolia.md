@@ -99,7 +99,7 @@ menu:
 * 完璧なサービスへの継続的な改良
 
 <figure class="image-container">
-<img class="materialboxed responsive-img" width="400" data-caption="イソリアの活動" alt="イソリアの活動を表示する図面" src="/img/eSolia-Post-Practices-ja.png" >
+<img class="materialboxed responsive-img" width="400" data-caption="イソリアの活動" alt="イソリアの活動を表示する図面 - 知識共有、積極的な学習、ブレインストーミング、守秘義務の遵守、セキュリティへの意識、明瞭かつ的確な表現、継続的な改良や改善" src="/img/eSolia-Post-Practices-ja.png" >
 <figcaption><em>イソリアの活動</em></figcaption>
 </figure>
 
