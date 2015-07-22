@@ -54,14 +54,14 @@ main ul li {
 
 h1  {
   color: #01579b;
-  font-size: 3.5rem;
-  line-height: 3.6rem;
+  font-size: 3.0rem;
+  line-height: 3.1rem;
   margin: 2.1rem 0 1.68rem 0;
 }
 h2  {
   color: #0277bd;
-  font-size: 3.0rem;
-  line-height: 3.1rem;
+  font-size: 2.8rem;
+  line-height: 2.9rem;
   margin: 1.78rem 0 1.424rem 0;
 }
 h3  {
@@ -168,7 +168,7 @@ figcaption {
     }
 
 #index-banner h1 {
-    font-size: 3.9rem;
+    font-size: 3.0rem;
 }
 
 #index-banner h4 {
