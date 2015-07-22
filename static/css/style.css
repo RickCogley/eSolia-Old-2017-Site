@@ -13,13 +13,16 @@ html {
   color: rgba(0, 0, 0, 0.87); }
   @media only screen and (min-width: 0) {
     html {
-      font-size: 15.5px; } }
+      font-size: 13px; } }
+  @media only screen and (min-width: 320px) {
+    html {
+      font-size: 14px; } }
   @media only screen and (min-width: 992px) {
     html {
-      font-size: 16px; } }
+      font-size: 15px; } }
   @media only screen and (min-width: 1200px) {
     html {
-      font-size: 16.5px; } }
+      font-size: 16px; } }
 
 nav ul a, nav .brand-logo {
     color: #444;
