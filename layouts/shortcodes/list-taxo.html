@@ -1,10 +1,9 @@
 {{ "<!-- ENTERING layouts/shortcodes/list-taxo.html -->" | safeHTML }}
-{{ with .Get "term" }}
+{{ $myterm := .Get "term" }}
 <ul>
-{{ $mytopic := . }}
-{{ range $key, $taxonomy := .Site.Taxonomies.topics }}
+{{ $mytopicpages := index $.Page.Site.Taxonomies.tags $myterm }}
+{{ range $mytopicpages.Pages }}
 <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
 {{ end }}
 </ul>
-{{ end }}
 {{ "<!-- LEAVING layouts/shortcodes/list-taxo.html -->" | safeHTML }}
