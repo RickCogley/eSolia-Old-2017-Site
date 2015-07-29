@@ -1,7 +1,7 @@
 ---
 author: eSolia
-date: 2015-05-09T00:05:19.000Z
-publishdate: 2012-01-10T00:05:19.000Z
+date: 2015-07-29T13:0:15+09:00
+publishdate: 2012-01-10T00:05:19+09:00
 description: eSolia Colophon - the technology behind this site.
 draft: false
 slug: colophon
@@ -44,11 +44,13 @@ images:
 <img class="materialboxed right responsive-img" width="150" data-caption="eSolia Chicklet Logo" alt="eSolia Chicklet Logo" src="/img/eSolia-Chicklet-Color.svg" >
 </figure>
 
-As they say, we "[stand on the shoulders of giants](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants "Wikipedia article about etymology of standing on the shoulders of giants")", and this site is certainly no exception. We have built previous eSolia sites in Rapidweaver, two generations back, and Typo3 for the last generation. Other systems have their pluses of course, but for various reasons, each previous system we have used has had some fragility related to matters like upgrades or dependencies.
+As they say, we "[stand on the shoulders of giants](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants "Wikipedia article about etymology of standing on the shoulders of giants")", and this site is certainly no exception. We have built previous eSolia sites in Rapidweaver, two generations back, and Typo3 for the last generation.
+
+Other systems have their pluses of course, but for various reasons, each previous system we have used has had some fragility related to matters like upgrades or dependencies.
 
 ## Static Site Generators
 
-When we were deciding upon a system to run _this_ site in, we considered "static site generators", which allow you to weave a static website together from content files, script programs, and image files. However these static systems too have pre-requisites, in that a full development environment is required on the computer used to manage the site. This is as problematic as the requirements of a server-side CMS.
+When we were deciding upon a system to run _this_ site in, we considered various systems known as "static site generators", which allow you to weave a static website together from content files, script programs, and image files. However these static systems too have pre-requisites, in that a full development environment is required on the computer used to manage the site. This is as problematic as the requirements of a server-side CMS.
 
 ## Go Hugo
 
@@ -84,7 +86,7 @@ For the site "font", we're using Google's [Noto](https://github.com/googlei18n/n
 
 When characters on a web page cannot be correctly rendered, the little boxes that appear in your web browser are colloquially known as "tofu" from their shape. The name "Noto" therefore, comes from the phrase "no tofu".
 
-You'll see icons here and there as well, from Google's Material Design library, and, a custom subset of icons from the awesome [Font Awesome](http://fortawesome.github.io/Font-Awesome/) library, for usages that are not available in the former. Our custom icon font subset was extracted using the nifty service ["Fontello"](http://fontello.com/).
+You'll see icons here and there as well, from Google's Material Design library, and, a custom subset of icons from the awesome [Font Awesome](http://fortawesome.github.io/Font-Awesome/) library, for usages that are not available in the former. Our custom icon font subset was extracted using the nifty service "[Fontello](http://fontello.com/)".
 
 The photos on this site were mostly taken by Rick Cogley, with a couple from the public domain and stock photography services. The page galleries are being displayed by the slick javascript "[nanoGALLERY](http://nanogallery.brisbois.fr)".
 
