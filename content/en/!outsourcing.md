@@ -1,7 +1,7 @@
 ---
 date: 2015-07-29T13:00:15+09:00
 publishdate: 2012-01-10T13:00:15+09:00
-description: eSolia Outsourcing - five steps to success - Agree, Discover, Plan, Implement and Maintain - to be completed for a successful engagement.
+description: eSolia Outsourcing for Japan IT - five steps to success - Agree, Discover, Plan, Implement and Maintain - to be completed for a successful engagement.
 draft: false
 slug: outsourcing
 subtitle: Leverage Our Professional Expertise
@@ -10,28 +10,26 @@ alternatelocales:
   - ja-JP
 tags:
   - Outsource
-title: Outsourcing
+title: Japan IT Outsourcing
 topics:
   - Summary
 images:
-  - /img/eSolia-Post-Our-Solutions-Your-Challenges.png
+  - /img/eSolia-Post-Outsource-Benefits-en.gif
+  - /img/eSolia-Post-Our-Solutions-Your-Challenges-2.png
   - /img/eSolia-Chicklet-Color-1024px.png
 aliases:
   - /services/svc-sa/svc-sa-out/
 formcheckboxes:
-  - Office move
   - Helpdesk
-  - Infrastructure
-  - Localization
-  - Management
   - On-site support
-  - Cloud database PROdb
-  - Telephone
-  - Project Management
-  - Security
+  - Process management
   - Training
   - Website Design
-  - Process
+  - Localization
+  - Project management for office moves
+  - Project management for software projects
+  - Project management for infrastructure projects
+  - Interim Management
 ---
 
 <small>
@@ -43,7 +41,9 @@ formcheckboxes:
 <a class="grey lighten-3 green-text waves-effect waves-light btn" href="/localization">Localization</a>
 </small>
 
-_When you need assistance with IT and user support in Japan, outsource with eSolia to leverage our professional expertise to your advantage._
+## IT Assistance in Japan
+
+_When you need assistance with **IT and user support in Japan**, outsource with eSolia to leverage our professional expertise to your advantage._
 
 **Get immediate access** to a range of support, engineering and integration services performed by bilingual professionals armed with eSolia frameworks, tools, and the latest product knowledge.
 
@@ -66,3 +66,7 @@ eSolia's support and engineering team "teamITMS" is focused on providing you wit
 * **Latest knowledge** - teamITMS experience works for you in a way that you would not get by hiring an individual.
 * **Focus** - eSolia outsourcing allows decision-makers to concentrate on their business.
 * **TCO Reduction** - total cost of ownership is reduced when you outsource your IT operations.
+
+<figure class="image-container">
+<img class="materialboxed responsive-img" width="500" data-caption="Benefits for eSolia Outsourcing" alt="Graphic with eSolia's outsourcing benefits" src="/img/eSolia-Post-Outsource-Benefits-en.gif" >
+</figure>
