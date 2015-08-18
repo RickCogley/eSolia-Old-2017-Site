@@ -29,9 +29,12 @@
       </div>
       <div class="col l3 s12">
         <h5 class="white-text">{{ ( index $.Site.Data.translations $.Site.Params.locale ).footerlinks5title }}</h5>
-        <ul>
-          <li><a class="white-text" href="/sip-print">SIP Print</a></li>
-        </ul>
+          <ul class="esListFooter">
+            {{ $series := index .Site.Taxonomies.series "top2" }}
+            {{ range first 5 $series.Pages }}
+            <li><a class="white-text" href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          </ul>
       </div>
     </div>
   </div>
