@@ -1,7 +1,7 @@
 ---
 author: eSolia
-date: 2015-08-18T18:30:15+09:00
-publishdate: 2015-08-18T18:30:15+09:00
+date: 2015-09-17T10:30:15+09:00
+publishdate: 2015-09-17T10:30:15+09:00
 draft: true
 title: Home Computer Setup
 slug: japan-expat-home-setup
@@ -41,6 +41,7 @@ formcheckboxes:
   - PC Setup
   - Mac Setup
   - Wireless / Wifi Setup
+  - Printer Setup
   - Peripheral Setup
   - Data Migration or Transfer
   - Router or Firewall Setup

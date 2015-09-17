@@ -1,11 +1,11 @@
 ---
 author: イソリア
-date: 2015-08-18T18:30:15+09:00
-publishdate: 2015-08-18T18:30:15+09:00
+date: 2015-09-17T10:30:15+09:00
+publishdate: 2015-09-17T10:30:15+09:00
 draft: true
 title: 来日外国人用...
-slug: japan-expat-home-setup
 subtitle: ... 自宅パソコンシステム購買や設定
+slug: japan-expat-home-setup
 description: If you're new to Japan and Nihongo, or just not so confident about dealing with Japan telecomm carriers or your building superintendent, leave it to eSolia bilingual IT professionals to arrange and connect your home computer system in Japan.
 weight: 20
 menusection: Solutions-Focus
@@ -41,6 +41,7 @@ formcheckboxes:
   - PC Setup
   - Mac Setup
   - Wireless / Wifi Setup
+  - Printer Setup
   - Peripheral Setup
   - Data Migration or Transfer
   - Router or Firewall Setup
@@ -66,6 +67,8 @@ menu:
 </small>
 
 ## A Stranger in a Strange Land?
+
+この記事は、IT知らないが、お手伝いしなければならない日本人向けに、書きたい。
 
 If you're new to Japan and its language, or even if you're simply not so confident about dealing with Japan telecomm carriers or your building superintendent, eSolia's bilingual IT professionals can help get you sorted. We have been [in business since 1999](/about/), and can help you with any computer-related tasks at your new home in Japan.
 
