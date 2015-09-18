@@ -1,12 +1,12 @@
 baseurl = "http://esolia.co.jp/"
-title = "イソリア㊑"
+title = "イソリア"
 contentdir = "content/ja"
 publishdir = "public/ja"
 canonifyurls = "false"
 copyright = "This work is copyright. All rights reserved by eSolia Inc."
 MetaDataFormat = "yaml"
 # For RSS only, apparently
-languageCode = "ja-JP"
+languageCode = "ja"
 
 [author]
     name = "Rick Cogley"
@@ -28,7 +28,7 @@ languageCode = "ja-JP"
     locale = "ja-JP"
     alternatelocales = ["en-US"]
     description = "東京をベースにしたITマネージメントやサポート会社、株式会社イソリアのウェブサイト"
-    keywords = ["日本","IT","マネージメント","サポート","アウトソーシング","ヘルプデスク","ウェブサイト","開発","統括"]
+    keywords = ["東京","東京近郊","都内","23区","ICT","IT","バイリンガル","サポート","アウトソーシング","外注","ヘルプデスク","ウェブサイト","マネージメント","コンサルティング","開発","統括","日本"]
     author = "チーム イソリア"
     accountableperson = "コブレー ジェームズ"
     entityname = "株式会社イソリア"
@@ -37,6 +37,83 @@ languageCode = "ja-JP"
     defaultKeywords = "イソリア"
     ISO8601 = "2006-01-02T15:04:05JST"
     googleAnalytics = "UA-1040233-8"
+
+[[menu.side]]
+    name = "イソリアについて"
+    identifier = "esolia"
+    weight = 5
+
+[[menu.side]]
+    name = "アウトソーシング"
+    identifier = "outsourcing"
+    weight = 10
+
+[[menu.side]]
+    name = "プロセス"
+    identifier = "proc"
+    weight = 30
+    url = "/process"
+    parent = "outsourcing"
+
+[[menu.side]]
+    name = "コンサルティング"
+    identifier = "consulting"
+    weight = 15
+
+[[menu.side]]
+    name = "インフラストラクチャ"
+    identifier = "infra"
+    weight = 20
+
+[[menu.side]]
+    name = "クラウド システム"
+    identifier = "cloudsystem"
+    weight = 25
+
+[[menu.side]]
+    name = "ソリューション フォーカス"
+    identifier = "solutionsfocus"
+    weight = 30
+
+[[menu.side]]
+    name = "トピック"
+    identifier = "topics"
+    weight = 111
+
+[[menu.side]]
+    name = "全トピック一覧"
+    identifier = "alltopics"
+    url = "/topics"
+    parent = "topics"
+    weight = 1
+
+[[menu.side]]
+    name = "全タグ一覧"
+    identifier = "alltags"
+    url = "/tags"
+    parent = "topics"
+    weight = 2
+
+[[menu.side]]
+    name = "イソリアについて"
+    identifier = "aboutesolia"
+    url = "/topics/イソリア"
+    parent = "topics"
+    weight = 10
+
+[[menu.side]]
+    name = "サービス"
+    identifier = "ourservices"
+    weight = 20
+    url = "/topics/サービス"
+    parent = "topics"
+
+[[menu.side]]
+    name = "電話"
+    identifier = "telephonetopic"
+    weight = 30
+    url = "/topics/電話"
+    parent = "topics"
 
 [[menu.side]]
     name = "便利ツール"
@@ -59,16 +136,34 @@ languageCode = "ja-JP"
     parent = "tools"
     weight = 33
 
-[[menu.side]]
-    name = "全てのタグ一覧"
-    identifier = "tags"
-    url = "http://esolia.co.jp/tags"
-    parent = "tools"
-    weight = 44
-
-[[menu.side]]
+[[menu.detailfooter1]]
     name = "全てのトピック一覧"
     identifier = "topics"
-    url = "http://esolia.co.jp/topics"
-    parent = "tools"
+    url = "/topics"
+    weight = 55
+
+[[menu.homefooter2]]
+    name = "ゼロビン"
+    identifier = "zerobin"
+    url = "https://zerobin.esolia.com/?language=jp"
+    post = "_blank"
+    weight = 22
+
+[[menu.homefooter2]]
+    name = "イソリア コネクト"
+    identifier = "connect"
+    url = "http://connect.esolia.com"
+    post = "_blank"
+    weight = 33
+
+[[menu.homefooter2]]
+    name = "全てのトピック一覧"
+    identifier = "topics"
+    url = "/topics"
+    weight = 44
+
+[[menu.homefooter2]]
+    name = "全てのタグ一覧"
+    identifier = "tags"
+    url = "/tags"
     weight = 55

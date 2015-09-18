@@ -1,0 +1,9 @@
+{{ "<!-- ENTERING layouts/shortcodes/list-taxo.html -->" | safeHTML }}
+{{ $myterm := .Get "term" }}
+<ul>
+{{ $mytopicpages := index $.Page.Site.Taxonomies.tags $myterm }}
+{{ range $mytopicpages.Pages }}
+<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+{{ end }}
+</ul>
+{{ "<!-- LEAVING layouts/shortcodes/list-taxo.html -->" | safeHTML }}

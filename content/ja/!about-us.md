@@ -12,17 +12,11 @@ tags:
   - 弊社
 title: イソリアについて
 topics:
-  - イソリア
+  - サマリー
 images:
   - /img/eSolia-Chicklet-Color-1024px.png
 aliases:
   - /concept
-menu:
-  side:
-    Name: イソリアについて
-    Weight: 10
-    Identifier: about-us
-    Url: /about-us
 ---
 
 ## イソリアでシステムインフラを強化する

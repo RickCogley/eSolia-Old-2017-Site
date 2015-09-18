@@ -8,6 +8,7 @@ slug: info-request
 subtitle: About eSolia Services
 weight: 10
 warning: sales
+menusection: eSolia
 alternatelocales:
   - ja-JP
 tags:
@@ -38,10 +39,20 @@ aliases:
 menu:
   side:
     Name: Info Request
+    Weight: 45
+    Identifier: info-request
+    Url: /info-request
+    Parent: esolia
+  detailfooter1:
+    Name: Info Request
     Weight: 10
     Identifier: info-request
     Url: /info-request
-    Parent: tools
+  homefooter1:
+    Name: Info Request
+    Weight: 30
+    Identifier: info-request
+    Url: /info-request
 ---
 
 ## Thank You

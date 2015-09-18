@@ -6,6 +6,7 @@ draft: false
 slug: form-thanks
 subtitle: フォームの送信を完了しました
 weight: 9999
+menusection: Site
 alternatelocales:
   - en-US
 tags:

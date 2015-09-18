@@ -1,23 +1,30 @@
 ---
 author: イソリア
-date: 2015-05-09T00:05:19.000Z
-publishdate: 2012-01-10T00:05:19.000Z
+date: 2015-07-01T08:45:15+09:00
+publishdate: 2015-07-01T08:45:15+09:00
 draft: false
 title: PROdbクラウド型データベース
 slug: prodb
-subtitle: 信用できるシステム
+subtitle: 時代はクラウド、社内のあらゆる情報管理はセキュアなPROdbで
 description: イソリアから - 急速に変化し続ける社内データベースはイソリアのPROdbにて一括管理。その他ソフトウェア開発も
 weight: 40
+menusection: Cloud-System
 alternatelocales:
   - en-US
 tags:
   - クラウド型データベース
   - PROdb
   - 開発
+  - CRM
+  - 勤怠管理
+  - 顧客管理
+  - 資産管理
+  - 在庫管理
 series:
   - top1
 topics:
   - サービス
+  - クラウド システム
 images:
   - /img/eSolia-Post-Slider-PROdb-01.png
   - /img/eSolia-Post-Slider-PROdb-02.png
@@ -30,29 +37,29 @@ images:
   - /img/eSolia-Post-Slider-PROdb-09.png  
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
-  - Spreadsheet conversion
-  - Access anywhere
-  - Pay-as-you-go
-  - Easy data import
-  - Rapid development in weeks not months
-  - Data entry validation
-  - Advanced features included
+  - 表計算ソフトからの脱却
+  - クラウドアクセス
+  - 利用した分のみの従量課金
+  - 簡単なデータインポート
+  - 高頻度の週間アップデート
+  - 入力データの整合性検証
+  - 多様な機能の実装
 gallery_id: 6159796184943702945
 menu:
   side:
-    Name: クラウド データベース
+    Name: PROdbデータベース
     Weight: 40
     Identifier: prodb
     Url: /prodb
-    Parent: services
+    Parent: cloudsystem
 ---
 
-## まだ表計算（Excel）を使用していますか？
+## Excelでの管理に飽きた方へ
 
 もし御社の大事なデータがまだExcelなどの表計算で管理されているのであれば、恐らく表計算のデータ統合や改変をするのがとても複雑で、エラーが発生しやすい事にお気づきでしょう。
 もし適切なデータベースへの切り替えをご検討するにあたり、多大な時間やコストを気にされていたのであれば、是非イソリアの柔軟なクラウド型データベースPROdbをご検討ください。
 
-## データベースへの切り替え
+## 今こそデータベースへ移行してみよう
 
 重要なデータを表計算からきちんとしたデータベースシステムに変換しようと検討された事があれば、移管のコストと複雑さは十分認識されていることでしょう。
 もしこれを理由に先送りしてきたのであれば、是非この機会に安全で運用性の高いクラウド型データベースPROdbをご検討ください。

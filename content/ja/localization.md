@@ -1,50 +1,69 @@
 ---
 author: イソリア
-date: 2015-05-09T00:05:19.000Z
-publishdate: 2012-01-10T00:05:19.000Z
+date: 2015-06-22T08:45:15+09:00
+publishdate: 2015-06-22T08:45:15+09:00
 draft: false
 title: ローカライゼーション
 slug: localization
-subtitle: 直訳で意味が通じますか？
-description: ローカライゼイションは直訳にあらず。ネイティブによって整合性のとれた本当の意味でのローカライゼーションを様々な分野で
-weight: 45
+subtitle: IT系翻訳をバイリンガルエンジニアがよりナチュラルに
+description: ローカライゼイションは直訳にあらず。ネイティブによって整合性のとれた本当の意味でのローカライゼーションを様々な分野で。
+weight: 60
+menusection: Outsourcing
 alternatelocales:
   - en-US
 tags:
   - ローカライゼーション
+  - グローバライゼーション
+  - インタナショナライゼーション
+  - i18n
+  - l10n
+  - l12y
+  - g11n
+  - 国際化
+  - 地域化
+  - 母国語対応
+  - 現地語対応
   - 翻訳
+  - ネイティブ
+  - 英語
+  - 多言語
+  - 直訳
+  - システム翻訳
+  - ロケール言語
+  - IT系翻訳
 series:
   - top1
 topics:
   - サービス
+  - アウトソーシング
 images:
   - /img/eSolia-Post-Slider-Localization-01.jpg
   - /img/eSolia-Post-Slider-Localization-02.jpg
   - /img/eSolia-Post-Slider-Localization-03.jpg
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
-  - Application localization
-  - Document localization
-  - Website localization
-  - Native Translation and Editing
-  - Typefaces and fonts
-  - Cultural check
-  - Japanese language tone
+  - アプリケーションのローカライゼーション
+  - 文書のローカライゼーション
+  - ウェブサイトのローカライゼーション
+  - ネイティブスピーカーによる翻訳・編集
+  - フォント・デザインのローカライゼーション
+  - 文化的チェック
+  - 適切な日本語の語調
 gallery_id: 6159789128838188721
 menu:
   side:
     Name: ローカライゼーション
-    Weight: 45
+    Weight: 60
     Identifier: localization
     Url: /localization
-    Parent: services
+    Parent: outsourcing
 ---
 
-## 直訳翻訳サイトだけで十分？
+## 頼るな危険　翻訳サイト
 
 海外にて作成されたアプリケーション、ウェブサイトや文書をローカライズされる場合、翻訳サイトによる直訳では資料として役に立たない事はご存じかと思います。また、両言語を話せる非ネイティブスピーカーによる直訳でもほぼ意味がなく、これにより時には御社の評判にダメージを与えてしまう事もあります。こういった直訳だけでは、見込顧客が御社の表現されたい内容を理解できずにそのまま見過ごしてしまう事もあるでしょう。ではどのようなローカライゼーションが必要になるのでしょうか。
 
-## ローカライゼイションとは何か？
+## ローカライゼーションとは何か？
 
 <div class="esolia-card-panel cyan darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">キーポイント</h4>

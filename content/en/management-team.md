@@ -2,20 +2,27 @@
 author: eSolia
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
-description: About eSolia Management - biographical information on CEO Rick Cogley and COO Takumi Fukuoka.
+description: About eSolia Management Team - biographical information on CEO Rick Cogley and COO Takumi Fukuoka.
 draft: false
 slug: management-team
-subtitle: Rick Cogley and Takumi Fukuoka
+subtitle: Rick Cogley & Takumi Fukuoka
 weight: 20
 alternatelocales:
   - ja-JP
 tags:
   - Principals
   - Management Team
-title: About eSolia Management
+  - Rick Cogley
+  - Takumi Fukuoka
+  - CEO
+  - COO
+  - RD
+  - BOD
+title: Management Team
 topics:
   - eSolia
 type: aboutpage
+menusection: eSolia
 images:
   - /img/eSolia-CEO-Rick-Cogley.jpg
   - /img/eSolia-COO-Takumi-Fukuoka.jpg
@@ -25,15 +32,16 @@ menu:
     Weight: 20
     Identifier: management-team
     Url: /management-team
-    Parent: about-us
+    Parent: esolia
 ---
 
 ## Principals
+eSolia's Management Team comprises Rick Cogley and Takumi Fukuoka, who have been working together since the early 1990s.
 
 ### Rick Cogley, CEO
 
 <figure class="image-container">
-<img class="materialboxed right responsive-img z-depth-1" width="200" data-caption="Rick Cogley, eSolia CEO (Takumi Fukuoka Photo)" alt="Photo of Rick Cogley, eSolia CEO (Takumi Fukuoka Photo)" src="/img/eSolia-CEO-Rick-Cogley.jpg" >
+<img class="materialboxed right responsive-img z-depth-1" width="200" data-caption="Rick Cogley, eSolia CEO" alt="Photo of Rick Cogley, eSolia CEO (photo by Takumi Fukuoka)" src="/img/eSolia-CEO-Rick-Cogley.jpg" >
 </figure>
 
 James Rickard Cogley has been working in the consulting and support industry in Japan, since 1990. He specializes in bilingual (Japanese - English) consulting, project management, and general management, and has focused his career on M&A-related IT migrations and merges, market entry assistance, IT department reorganization and interim turnaround management, cloud technology implementation, standards-based (COBIT, ITIL) governance implementation, and large corporate compliance projects.

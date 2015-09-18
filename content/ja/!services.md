@@ -15,7 +15,7 @@ tags:
   - トピックス
 title: ご提供サービス案内
 topics:
-  - サービス
+  - サマリー
 images:
   - /img/eSolia-Post-Our-Solutions-Your-Challenges.jp.png
   - /img/eSolia-Chicklet-Color-1024px.png
@@ -33,12 +33,6 @@ formcheckboxes:
   - トレーニング
   - ウェブサイト デザイン
   - プロセス
-menu:
-  side:
-    Name: サービス
-    Weight: 20
-    Identifier: services
-    Url: /services
 ---
 
 貴社のビジネスとITの課題に対して、実践的且つ現実的で、将来に向けた持続性のあるソリューションを提案・導入することが、私達の使命です。

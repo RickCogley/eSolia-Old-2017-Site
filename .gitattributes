@@ -41,6 +41,8 @@
 *.sln text eol=crlf
 
 # Denote all files that are truly binary and should not be modified.
+*.PDF binary
+*.pdf binary
 *.png binary
 *.PNG binary
 *.jpg binary

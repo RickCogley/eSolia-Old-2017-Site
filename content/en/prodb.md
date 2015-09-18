@@ -1,23 +1,32 @@
 ---
 author: eSolia
-date: 2015-05-09T00:05:19.000Z
-publishdate: 2012-01-10T00:05:19.000Z
+date: 2015-07-01T08:45:15+09:00
+publishdate: 2015-07-01T08:45:15+09:00
 draft: false
-title: PROdb Cloud DB
+title: PROdb Cloud Database
 slug: prodb
 subtitle: It's Rock Solid
-description: Rapid development of your ops database in eSolia "PROdb" cloud database. General software development projects. - from eSolia Inc.
+description: Rapid development of your business operations database in eSolia PROdb cloud database. General software development projects. - from eSolia Inc.
 weight: 40
+menusection: Cloud-System
 alternatelocales:
   - ja-JP
 tags:
+  - Cloud Database
   - Cloud DB
   - PROdb
   - Dev
+  - CRM
+  - Time and Expense Tracking
+  - Paid Leave Tracking
+  - Sales Activity Reporting
+  - Asset Tracking
+  - Inventory Management
 series:
   - top1
 topics:
   - Services
+  - Cloud System
 images:
   - /img/eSolia-Post-Slider-PROdb-01.png
   - /img/eSolia-Post-Slider-PROdb-02.png
@@ -40,16 +49,16 @@ formcheckboxes:
 gallery_id: 6159796184943702945
 menu:
   side:
-    Name: Cloud Database
+    Name: PROdb Database
     Weight: 40
     Identifier: prodb
     Url: /prodb
-    Parent: services
+    Parent: cloudsystem
 ---
 
 ## Still Running on Spreadsheets?
 
-If you're still running your business on spreadsheets, perhaps you've noticed that consolidations or reconciliations can get rather complex and error-prone. If the cost and time of converting a spreadsheet to a proper database has put you off in the past, please consider having us convert your sheets into our flexible and professionally-run cloud-based database, PROdb.
+If you're still running your business on spreadsheets, perhaps you've noticed that consolidations or reconciliations can get rather complex and error-prone. If the cost and time of converting a spreadsheet to a proper database has put you off in the past, please consider having us convert your sheets into our flexible and professionally-run _cloud database_, PROdb.
 
 PROdb is our proven, rock-solid hosted database platform, which makes normally complex database setup and maintenance comparatively quick and easy.
 

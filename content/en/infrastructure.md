@@ -1,23 +1,32 @@
 ---
 author: eSolia
-date: 2015-05-09T00:05:19.000Z
-publishdate: 2012-01-10T00:05:19.000Z
+date: 2015-06-24T08:45:15+09:00
+publishdate: 2015-06-24T08:45:15+09:00
 draft: false
 title: Infrastructure
 slug: infrastructure
 subtitle: The 'nuts and bolts' of any office IT system
 description: Perfect implementation to spec and standards; regular IT infrastructure or technology refreshes, performed with aplomb. - from eSolia Inc.
 weight: 30
+menusection: Infrastructure
 alternatelocales:
   - ja-JP
 tags:
   - infrastructure
   - specs and standards
   - base technology
+  - nuts and bolts
+  - structured cable
+  - server deployment
+  - WAN provisioning
+  - IMAC
+  - virtualization
+  - vpn
 series:
   - top1
 topics:
   - Services
+  - Infrastructure
 images:
   - /img/eSolia-Post-Slider-Infra-01.jpg
   - /img/eSolia-Post-Slider-Infra-02.jpg
@@ -42,11 +51,23 @@ menu:
     Weight: 30
     Identifier: infrastructure
     Url: /infrastructure
-    Parent: services
+    Parent: infra
 ---
 
 ## What's "Infrastructure"
+
 Companies define "infrastructure" differently, but mostly it includes all the basics from the facility to the network and servers, that make an IT system work. Starting with the office space itself, eSolia considers the electrical and HVAC capacity, access to data and telephone lines, your building's physical structure in whether it has a raised floor and so on.
+
+<div class="esolia-card-panel deep-purple darken-4 z-depth-1">
+  <h4 class="center green-text text-accent-3">From Server Room to Walls and Floors</h4>
+    <ol>
+      <li class="white-text">Electricity, Phone, LAN Cable</li>
+      <li class="white-text">Network Switch, Router Upgrades</li>
+      <li class="white-text">Server Design and Settings</li>
+      <li class="white-text">Virtualization</li>
+      <li class="white-text">HVAC and Office Furnishings</li>
+    </ol>
+</div>
 
 Next is the design of the on- or off-site data center, or sometimes both, where the equipment is to be housed. We must consider its access to independent electrical lines and cooling, security, access routes from there to the rest of the site.
 

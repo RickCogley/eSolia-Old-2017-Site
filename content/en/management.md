@@ -1,13 +1,14 @@
 ---
 author: eSolia
-date: 2015-05-09T00:05:19.000Z
-publishdate: 2012-01-10T00:05:19.000Z
+date: 2015-06-25T08:45:15+09:00
+publishdate: 2015-06-25T08:45:15+09:00
 draft: false
 title: Management
 slug: management
 subtitle: Coordination for success
 description: Interim or ongoing IT management services, on- or off-site. Successful coordination for all your local or global projects. - from eSolia Inc.
-weight: 35
+weight: 10
+menusection: Consulting
 alternatelocales:
   - ja-JP
 tags:
@@ -15,10 +16,14 @@ tags:
   - coordination
   - success
   - pm
+  - it project
+  - budget control
+  - quality control
 series:
   - top1
 topics:
   - Services
+  - Consulting
 images:
   - /img/eSolia-Post-Slider-Management-01.png
   - /img/eSolia-Post-Slider-Management-02.png
@@ -37,16 +42,29 @@ gallery_id: 6159792188653157249
 menu:
   side:
     Name: Management
-    Weight: 35
+    Weight: 10
     Identifier: management
     Url: /management
-    Parent: services
+    Parent: consulting
 ---
 
-## "Management" by eSolia
+## Management by eSolia
+
 In the context of eSolia's work, management, and more specifically project management, is the art of closely coupling tasks with actions, managing budget and schedule quality to ensure there are no problems with overages or slippages, and, ensuring that clients are getting their expected return on investment regarding the project's deliverables. All this, while maintaining the required administrative project structures, plans, and operational momentum.
 
 ### eSolia's Approach
+
+<div class="esolia-card-panel blue-grey darken-4 z-depth-1">
+  <h4 class="center green-text text-accent-3">Emphasizing:</h4>
+    <ol>
+      <li class="white-text">Budget!</li>
+      <li class="white-text">Quality!</li>
+      <li class="white-text">Schedule!</li>
+      <li class="white-text">Project!</li>
+      <li class="white-text">Bilingual!</li>
+    </ol>
+</div>
+
 Our practical project management approach is unique, and allows us to avoid typical project issues like the "parkinson's effect" where work mysteriously expands to fill available time, ill-managed schedules and scopes, too much analysis and other pitfalls.
 
 What are some of the keys? We think it's this:

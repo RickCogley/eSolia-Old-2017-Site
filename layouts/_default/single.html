@@ -11,8 +11,11 @@
         <div class="col s12 m9 l10">
           <!--  Material Design -->
           <div id="materialdesign" class="section scrollspy">
-
+            
             {{ .Content }}
+            {{if isset .Params "showtopics" }}
+              {{ partial "detailpage-topics.html" . }}
+            {{ end }}
             {{if isset .Params "gallery_id" }}
               {{ partial "gallery.html" . }}
             {{ end }}

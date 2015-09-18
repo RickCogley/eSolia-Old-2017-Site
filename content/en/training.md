@@ -1,30 +1,32 @@
 ---
 author: eSolia
-date: 2015-05-09T00:05:19.000Z
-publishdate: 2012-01-10T00:05:19.000Z
+date: 2015-06-29T08:45:15+09:00
+publishdate: 2015-06-29T08:45:15+09:00
 draft: false
 title: Effective Training
 slug: training
 subtitle: By experienced practitioners
-description: Effective new-hire orientation, software and technical training. Course development and delivery. - from eSolia Inc.
-weight: 60
+description: Effective new-hire orientation, software and technical training. Training course development and delivery. - from eSolia Inc.
+weight: 40
+menusection: Outsourcing
 alternatelocales:
   - ja-JP
 tags:
-  - Development
-  - Personalized
-  - One-to-One
-  - Onboarding
+  - Development Training
+  - Personalized Training
+  - One-to-One Training
+  - Onboarding Training
   - Training
   - Education
-  - Technical
-  - Orientation
-  - Application
-  - Software
+  - Technical Training
+  - Orientation Training
+  - Application Training
+  - Software Training
 series:
   - top1
 topics:
   - Services
+  - Outsourcing
 images:
   - /img/eSolia-Post-Slider-Training-01.jpg
   - /img/eSolia-Post-Slider-Training-02.jpg
@@ -39,10 +41,10 @@ gallery_id: 6160196852058139841
 menu:
   side:
     Name: Training
-    Weight: 60
+    Weight: 40
     Identifier: training
     Url: /training
-    Parent: services
+    Parent: outsourcing
 ---
 
 ## Training is the Best Investment

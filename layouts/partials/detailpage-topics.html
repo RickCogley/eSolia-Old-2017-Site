@@ -1,0 +1,13 @@
+{{ "<!-- ENTERING layouts/partials/detailpage-topics.html -->" | safeHTML }}
+{{ with .Params.showtopics }}
+<ul>
+{{ range $mytopic := . }}
+{{ $mytopiclc := lower $mytopic }}
+{{ $mytopicpages := index $.Site.Taxonomies.topics $mytopiclc }}
+{{ range $mytopicpages.Pages }}
+<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+{{ end }}
+{{ end }}
+</ul>
+{{ end }}
+{{ "<!-- LEAVING layouts/partials/detailpage-topics.html -->" | safeHTML }}

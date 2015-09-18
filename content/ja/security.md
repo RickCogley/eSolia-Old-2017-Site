@@ -1,23 +1,32 @@
 ---
 author: イソリア
-date: 2015-05-09T00:05:19.000Z
-publishdate: 2012-01-10T00:05:19.000Z
+date: 2015-06-26T08:45:15+09:00
+publishdate: 2015-06-26T08:45:15+09:00
 draft: false
 title: セキュリティ
 slug: security
-subtitle: 安心して利用していただくために
-description: イソリアから - コンプライアンスやセキュリティの信頼性監査、強固なセキュリティをソフト＆ハードにて実装。システムも心もセキュアに
+subtitle: セキュリティ強化、ITコンプライアンス確立、リスク回避で心もセキュアに
+description: イソリアから - コンプライアンスやセキュリティの信頼性監査、強固なセキュリティをソフト＆ハードにて実装。システムも心もセキュアに。
 weight: 50
+menusection: Infrastructure
 alternatelocales:
   - en-US
 tags:
-  - セキュリティ
-  - 改善
-  - コンプライアンス
+  - ITセキュリティ
+  - ITコンプライアンス
+  - 情報セキュリティポリシー
+  - オフィスセキュリティ
+  - 情報漏洩
+  - ファイヤーウォール
+  - 不正アクセス
+  - マイナンバー
+  - 個人情報
+  - BCP
 series:
   - top1
 topics:
   - サービス
+  - インフラストラクチャ
 images:
   - /img/eSolia-Post-Slider-Security-01.jpg
   - /img/eSolia-Post-Slider-Security-02.jpg
@@ -25,7 +34,7 @@ images:
   - /img/eSolia-Post-Slider-Security-04.jpg  
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
-  - 調査
+  - 評価
   - 災害復旧
   - セキュリティ管理
   - 物理的なセキュリティ
@@ -40,9 +49,9 @@ menu:
     Weight: 50
     Identifier: security
     Url: /security
-    Parent: services
+    Parent: infra
 ---
-## はじめに
+## 鍵の種類から鍵の掛け方まで
 
 多くの多国籍企業様ではすでに本社で定められたグローバルセキュリティが存在しているかとおもいます。
 しかし多くの場合、正しく国内のユーザ様に伝わっていなかったり、また風土に合わないものがあります。
@@ -57,7 +66,7 @@ menu:
 イソリアは様々な業種の企業様にてセキュリティルールを遵守してきた経験から、
 包括的なセキュリティから日次単位まで、様々なセキュリティの査定をお手伝いさせていただきます。
 
-### イソリアのセキュリティへの取り組み
+### イソリア流　システム護身術
 
 イソリアのセキュリティサポートプログラムについてご紹介いたします。
 

@@ -1,25 +1,33 @@
 ---
 author: イソリア
-date: 2015-05-09T00:05:19.000Z
-publishdate: 2012-01-10T00:05:19.000Z
+date: 2015-07-05T08:45:15+09:00
+publishdate: 2015-07-05T08:45:15+09:00
 draft: false
 title: 電話システム
 slug: telephone
-subtitle: 多機能クラウドIPフォンを使いやすく
+subtitle: IP電話、クラウド型電話サービスでビジネスの効率化を
 description: イソリアから - 私たちは、近代的で優れた電話システムをご提案することでお客様のコストを削減し、生産効率を高めます。クラウド型電話サービスが利用可能に。
-weight: 65
+weight: 20
+menusection: Infrastructure
 alternatelocales:
   - en-US
 tags:
   - 電話
   - クラウドフォン
   - VoIP
-  - テレフォニ
+  - テレフォニー
   - PBXL
+  - PBX
+  - 交換機
+  - ビジネスフォン
+  - ソフトフォン
 series:
   - top1
+  - ninki1
 topics:
   - サービス
+  - 電話
+  - インフラストラクチャ
 images:
   - /img/eSolia-Post-Slider-Telephone-01.jpg
   - /img/eSolia-Post-Slider-Telephone-02.jpg
@@ -28,25 +36,26 @@ images:
   - /img/eSolia-Post-Slider-Telephone-05.jpg
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
-  - PBXL cloud phone service
-  - Phone system upgrade
-  - IP phone system
-  - Voice over IP
+  - PBXLクラウド型電話サービス
+  - 電話システムアップグレード
+  - IP電話システム
+  - ボイス オーバー IP (Voice over IP, VoIP)
 aliases:
   - /voip
   - /pbxl
   - /telephony
+  - /openuc
 gallery_id: 6160784839246541201
 menu:
   side:
     Name: IP電話
-    Weight: 65
+    Weight: 20
     Identifier: telephone
     Url: /telephone
-    Parent: services
+    Parent: infra
 ---
 
-## ビジネスフォンシステム
+## 電話線からLAN線へ
 
 <div class="esolia-card-panel blue darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">導入までのプロセス</h4>
@@ -61,7 +70,7 @@ menu:
     </ol>
 </div>
 
-**オールドスタイルPBXの交換を検討しませんか？** 
+**オールドスタイルPBXの交換を検討しませんか？**
 
 新たな電話システムやIP PBXシステム、SkypeやGoogleVoiceなどを含めた「VoIP」の導入にご興味はありますか？
 イソリアは既存システムからの乗り換えでも、新規のシステム設計であっても、必要な機能を備えたの最新のIP PBX、またはユニファイドコミュニケーション（UC）システムをご提案いたします。
@@ -70,7 +79,7 @@ menu:
 
 イソリアは、システム導入の上で「設計」、「機器調達」、「システム実装」、「カスタマイズ」、「トレーニング」、「トラブルシューティング」を行うとともに、その後の保守管理もご提案しております。
 
-### IP電話システムの利点
+### IP電話のメリット
 
 以下に当てはまる場合イソリアをご検討ください：
 
@@ -80,7 +89,7 @@ menu:
 * 企業レベルの拡張性または相互運用性を考慮し、利便性を求めている
 * ボイスメール、自動音声案内、自動転送、スピードダイヤル、通話転送、会議ブリッジ、保留音楽、一時保留（コールパーク）などのあらゆる最新機能に加えて、UC、ACD、またはIVRなどの高度な機能も検討している
 
-### すぐ使えるクラウド電話サービス
+### 安心と安定のPBXLサービスを
 
 <div class="card">
   <div class="card-image waves-effect waves-block waves-light">
@@ -103,7 +112,7 @@ menu:
 <img class="materialboxed right responsive-img" width="200" data-caption="イソリアのパートナーのPBXLロゴ" alt="PBXLのロゴ画像" src="/img/pbxl-logo.png" >
 </figure>
 
-PBXLの“クラウド電話”サービスは、固定電話とスマートフォン（iPhone・Android）より、「いつでも・どこでも」アクセス可能な最先端な電話システムの導入を実現してます。
+PBXLの“クラウド電話”サービスは、デスクフォンとスマートフォン（iPhone・Android）から、「いつでも・どこでも」アクセス可能な最先端な電話システムの導入を実現してます。
 
 PBXLサービスで実現可能なソリューション:
 

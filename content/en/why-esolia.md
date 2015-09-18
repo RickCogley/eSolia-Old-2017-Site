@@ -16,9 +16,12 @@ tags:
   - Process
   - Practices
   - Tools
+  - Why
+  - Difference
 topics:
   - eSolia
 type: aboutpage
+menusection: eSolia
 images:
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
@@ -38,13 +41,14 @@ formcheckboxes:
 aliases:
   - /concept/cpt-core/
   - /concept/cpt-proc/
+  - /mandate
 menu:
   side:
     Name: Why eSolia?
     Weight: 30
     Identifier: why-esolia
     Url: /why-esolia
-    Parent: about-us
+    Parent: esolia
 ---
 
 ## Our Mandate
@@ -86,17 +90,22 @@ eSolia fosters creativity in our problem-solving process with a core set of prac
 
 ...to name a few.
 
+<figure class="image-container">
+<img class="materialboxed responsive-img" width="400" data-caption="eSolia Practices" alt="Graphic showing eSolia practices" src="/img/eSolia-Post-Practices-en.png" >
+<figcaption><em>eSolia Practices</em></figcaption>
+</figure>
+
 ## Our Tools
 
 As mentioned elsewhere, we have sets of tools developed over years of experience:
 
-* support ticket system
-* engineering report system
-* procedure and policy system
-* client information storage system
-* secure text paste system, for sending passwords securely
-* document management
-* source code management
-* physical tools for engineering jobs
+* Support ticket system
+* Engineering report system
+* Procedure and policy system
+* Client information storage system
+* Secure text paste system, for sending passwords securely
+* Document management
+* Source code management
+* Physical tools for engineering jobs
 
 Interested in getting our help? Please contact us today using the form below.

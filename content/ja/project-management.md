@@ -1,13 +1,14 @@
 ---
 author: イソリア
-date: 2015-05-09T00:05:19.000Z
-publishdate: 2012-01-10T00:05:19.000Z
+date: 2015-06-27T08:45:15+09:00
+publishdate: 2015-06-27T08:45:15+09:00
 draft: false
 title: プロジェクト管理
 slug: project-management
-subtitle: 成功する為のPM
-description: イソリアから - 東京およびアジア太平洋地域の実施しているプロジェクトで成功を収めています。私たちのPMアプローチは実践的で独自性があります。
-weight: 37
+subtitle: 経験豊かなPMがスムーズなコーディネーションでプロジェクトを成功へと導きます
+description: イソリアから - 東京およびアジア太平洋地域の実施しているプロジェクトで成功を収めています。私たちの プロジェクト管理 アプローチは実践的で独自性があります。
+weight: 20
+menusection: Consulting
 alternatelocales:
   - en-US
 tags:
@@ -19,10 +20,14 @@ tags:
   - UPS
   - テクノロジーリフレッシュ
   - PM
+  - ITプロジェクト
+  - ガントチャート
 series:
   - top1
+  - ninki1
 topics:
   - サービス
+  - コンサルティング
 images:
   - /img/eSolia-Post-Slider-Project-Management-01.png
   - /img/eSolia-Post-Slider-Project-Management-02.png
@@ -46,10 +51,10 @@ gallery_id: 6160563368100442433
 menu:
   side:
     Name: プロジェクト管理
-    Weight: 37
+    Weight: 20
     Identifier: project-management
     Url: /project-management
-    Parent: services
+    Parent: consulting
 ---
 
 ## プロジェクト管理とは？
@@ -58,7 +63,7 @@ menu:
 
 イソリアのプロジェクトマネージャーはこれらの技法を用いて、体系的にプロジェクト管理を行います。
 
-### イソリアによる<wbr><nobr>プロジェクト成功</nobr><nobr>への導き</nobr>
+## プロジェクトの成功は貴社の成功へ
 
 <div class="esolia-card-panel purple darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">何故PMか?</h4>

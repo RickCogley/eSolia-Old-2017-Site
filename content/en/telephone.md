@@ -1,25 +1,32 @@
 ---
 author: eSolia
-date: 2015-05-09T00:05:19.000Z
-publishdate: 2012-01-10T00:05:19.000Z
+date: 2015-07-05T08:45:15+09:00
+publishdate: 2015-07-05T08:45:15+09:00
 draft: false
 title: Telephone Systems
 slug: telephone
-subtitle: IP Phone Systems with modern features and functions, from eSolia
+subtitle: IP Telephone Systems with modern features and functions, from eSolia
 description: Implement a superior, modern and full-featured unified communications IP telephone system, to reduce your costs and increase your efficiency. Cloud phone subscription service available. - from eSolia Inc.
-weight: 65
+weight: 20
+menusection: Infrastructure
 alternatelocales:
   - ja-JP
 tags:
-  - Tel
+  - Telephone System
   - Phone
   - VoIP
   - Telephony
   - PBXL
+  - PBX
+  - IP PBX
+  - IP Phone
 series:
   - top1
+  - ninki1
 topics:
   - Services
+  - Telephone
+  - Infrastructure
 images:
   - /img/eSolia-Post-Slider-Telephone-01.jpg
   - /img/eSolia-Post-Slider-Telephone-02.jpg
@@ -36,17 +43,18 @@ aliases:
   - /voip
   - /pbxl
   - /telephony
+  - /openuc
 gallery_id: 6160784839246541201
 menu:
   side:
     Name: Telephone
-    Weight: 65
+    Weight: 20
     Identifier: telephone
     Url: /telephone
-    Parent: services
+    Parent: infra
 ---
 
-## Business Phone Systems
+## Business Telephone Systems
 
 <div class="esolia-card-panel blue darken-4 z-depth-1">
   <h4 class="center green-text text-accent-3">PROCESS</h4>
@@ -61,7 +69,7 @@ menu:
     </ol>
 </div>
 
-**Isn't it Time?** ...that you seriously considered replacing your aging and old-fashioned PBX? If you are in the market for a new Telephone or IP PBX System or have interest in "Voice Over IP" thinking about the benefits of something like Skype or Google Voice, eSolia will implement your modern, full-featured, IP PBX or Unified Communications system.
+**Isn't it Time?** ...that you seriously considered replacing your aging and old-fashioned PBX? If you are in the market for a new Telephone or IP PBX System or have interest in "Voice Over IP" thinking about the benefits of something like Skype or Google Voice, eSolia will implement a modern telephone system for you: a full-featured, IP PBX or Unified Communications system.
 
 Of course, since we opened in 1999, we have run projects to implement the Cisco, Avaya or Nortel systems that our multinational clients require, but there are alternatives out there that will get you up and running on a modern system, with all the desirable features, at a great cost-performance price point.
 

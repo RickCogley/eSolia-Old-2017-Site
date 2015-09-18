@@ -35,7 +35,7 @@ sectionpagesmenu: ""
 sitemap: {ChangeFreq: Priority:-1}
 staticdir: "static"
 taxonomies: map[tag:tags topic:topics series:series]
-title: "イソリア㊑"
+title: "イソリア"
 uglyurls: false
 verbose: false
 watch: false

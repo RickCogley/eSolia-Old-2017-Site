@@ -2,20 +2,28 @@
 author: eSolia
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
-description: マネージメント チーム - ジェームズ R. コグレー、福岡 琢巳 の 経歴/略歴などなど 日本語日本語
+description: イソリアのマネージメント チーム - CEO ジェームズ R. コグレー、COO 福岡 琢巳
 draft: false
 slug: management-team
-subtitle: 略歴
+subtitle: ご紹介
 weight: 20
 alternatelocales:
   - en-US
 tags:
-  - 主役
+  - 社長
+  - 副社長
+  - 代表
+  - 取締役
+  - 役員
   - マネージメント チーム
-title: イソリアの<wbr><nobr>マネージメントチーム</nobr>
+  - BOD
+title: マネージメントチーム
+titlewbr: マネージメント<wbr><nobr>チーム</nobr>
 topics:
   - eSolia
+  - イソリア
 type: aboutpage
+menusection: eSolia
 images:
   - /img/eSolia-CEO-Rick-Cogley.jpg
   - /img/eSolia-COO-Takumi-Fukuoka.jpg
@@ -25,13 +33,13 @@ menu:
     Weight: 20
     Identifier: management-team
     Url: /management-team
-    Parent: about-us
+    Parent: esolia
 ---
 
-### 代表取締役社長 ジェームズ R. コグレー
+### 代表取締役社長 <wbr><nobr>ジェームズ R. コグレー</nobr>
 
 <figure class="image-container">
-<img class="materialboxed right responsive-img z-depth-1" width="200" data-caption="代表取締役社長 リック コグレー、CEO (写真：福岡 琢巳)" alt="代表取締役社長 リック コグレー、CEO (写真：福岡 琢巳)" src="/img/eSolia-CEO-Rick-Cogley.jpg" >
+<img class="materialboxed right responsive-img z-depth-1" width="200" data-caption="代表取締役社長 リック コグレー、CEO" alt="代表取締役社長 リック コグレー、CEO (写真：福岡 琢巳)" src="/img/eSolia-CEO-Rick-Cogley.jpg" >
 </figure>
 
 ジェームズ・リカード・コグレーは、1990年より、日本でコンサルティング＆サポート分野で、バイリンガルな（日本語-英語）コンサルティング、プロジェクトマネジメント、ジェネラルマネジメントを専門としております。
@@ -55,7 +63,7 @@ Allegheny Collegeのアドバイザーが東京大学の薬学教授をコグレ
 
 コグレーはeSoliaを、やりがいのあるプロジェクトにおいて、ビジネスに焦点をあてたバイリンガルなコンサルティングをお客様に提供することに着目した、国際的なコンサルタント会社に発展させる事を目標としております。
 
-### 代表取締役副社長 福岡　琢巳
+### 代表取締役副社長 <wbr><nobr>福岡 琢巳</nobr>
 
 <figure class="image-container">
 <img class="materialboxed right responsive-img z-depth-1" width="200" data-caption="取締役副社長 福岡 琢巳、COO (写真：リック コグレー)" alt="取締役副社長 福岡 琢巳、COO の写真 (写真：リック コグレー)" src="/img/eSolia-COO-Takumi-Fukuoka.jpg" >
@@ -66,5 +74,4 @@ Allegheny Collegeのアドバイザーが東京大学の薬学教授をコグレ
 1999年7月、株式会社イソリアの設立と同時に入社し、2000年システムサポート担当役員に就任。各種プロジェクト、コンサルティング業務を手掛ける。2006年9月からは管理部門の担当役員を兼任。2009年9月、同社取締役副社長に就任。
 
 日常的に、学生時代から続けているバドミントンに参加しています。
-
-彼のゴールは、eSoliaの成長を支援するために円滑なオペレーションを行うことです。
+福岡のゴールは、eSoliaの成長を支援するために円滑なオペレーションを行うことです。

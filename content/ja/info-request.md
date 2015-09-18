@@ -2,22 +2,26 @@
 author: イソリア
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
-description: イソリアお問い合わせ - お客様よう情報リクエストフォーム
+description: イソリア - お問い合わせフォーム
 draft: false
 slug: info-request
-subtitle: イソリアご提供サービスについて
+subtitle: イソリアのサービスについて
 weight: 10
 warning: sales
+menusection: eSolia
 alternatelocales:
   - en-US
 tags:
   - お問い合わせ
+  - 連絡先
 title: お問い合わせ
 topics:
   - イソリア
+  - eSolia
 images:
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
+  - ITアウトソーシング
   - オフィス構築
   - ヘルプデスク
   - インフラストラクチャー
@@ -37,12 +41,23 @@ aliases:
 menu:
   side:
     Name: お問い合わせ
+    Weight: 45
+    Identifier: info-request
+    Url: /info-request
+    Parent: esolia
+  detailfooter1:
+    Name: お問い合わせ
     Weight: 10
     Identifier: info-request
     Url: /info-request
-    Parent: tools
+  homefooter1:
+    Name: お問い合わせ
+    Weight: 30
+    Identifier: info-request
+    Url: /info-request
 ---
 
-## ありがとうございます
-
-日本語 Thank you sincerely for your interest. If you have a general enquiry about eSolia services, please use the below form to ask your questions or request more information, or use the form provided on each service page. It is our pleasure to be of service, and we will respond as quickly as practical. Feel free to contact us via <info@esolia.co.jp> if you prefer email.
+イソリアに興味をお持ちいただきまして誠にありがとうございます。
+他に何か質問や資料請求等が御座いましたら、下記のお問い合わせフォームをご記入ください。各ページのフォームも合わせてご利用ください。
+お問い合わせに関しては速やかにご返信に致します。
+また、メールでのお問い合わせはこちらへ<info@esolia.co.jp>。

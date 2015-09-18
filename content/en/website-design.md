@@ -1,24 +1,35 @@
 ---
 author: eSolia
-date: 2015-05-09T00:05:19.000Z
-publishdate: 2012-01-10T00:05:19.000Z
+date: 2015-07-04T08:45:15+09:00
+publishdate: 2015-07-04T08:45:15+09:00
 draft: false
 title: Website Design
 slug: website-design
 subtitle: Doing Right by your Business
-description: Modern, standards-based websites that benefit your business, whether starting from zero, or localization of an existing website. - from eSolia Inc.
+description: Modern, standards-based website design that benefits your business, whether starting from zero, or localizing an existing website. - from eSolia Inc.
 weight: 55
+menusection: Outsourcing
 alternatelocales:
   - ja-JP
 tags:
-  - Website
-  - Design
+  - Website Design
+  - Webpage Design
+  - Homepage Design
   - Standards
   - Front-end
+  - CSS
+  - HTML5
+  - PHP
+  - Javascript
+  - Web server
+  - SEO
+  - Renewal
 series:
   - top1
+  - ninki1
 topics:
   - Services
+  - Outsourcing
 images:
   - /img/eSolia-Post-Slider-Security-01.jpg
   - /img/eSolia-Post-Slider-Security-02.jpg
@@ -41,10 +52,10 @@ menu:
     Weight: 55
     Identifier: website-design
     Url: /website-design
-    Parent: services
+    Parent: outsourcing
 ---
 
-## Your Website is Integral to Your Business
+## Your Website Design is Integral to Your Business
 
 **_Or, at least it should be._** When you launch a website, it should actively market to help your business grow, and not just act as a static brochure. The benefits of a well-designed website are enormous, but the primary goal of a site launch is to make a fantastic first impression immediately to visitors, with the perfect tone. Your corporate vision should be built directly in to how the site is designed and assembled, and be apparent to a visitor right away, either directly or subconsciously.
 

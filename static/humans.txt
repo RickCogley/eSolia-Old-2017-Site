@@ -3,53 +3,53 @@
 
 /* TEAM */
 
-    Owner & Jack-of-all-trades: Rick Cogley
-    Contact: http://rick.cogley.info/about
-    Twitter: @rickcogley
-    
+    Owner: eSolia Inc.
+    Contact: http://esolia.com/about
+    Twitter: @eSolia_Inc
+
 /* THANKS */
 
     Hugo Author: Steve Francia
     Contact: http://spf13.com
     Twitter: @spf13
-    
+
     Hugo Contributor: Bjørn Erik Pedersen
     Contact: http://bep.is/
-    
+
     Various Hugo Contributors: https://github.com/spf13/hugo/graphs/contributors
-    
-    Hugo Theme Authors: @tmaiaroto, @halostatue
-    
-    Alegreya Font Author: Juan Pablo del Peral
-    Contact: http://www.huertatipografica.com/about
-    
+
+    Google, for Material Design, Go Language
+    Contact: http://www.google.co.jp/design/spec/material-design/introduction.html
+    Contact: http://golang.org/
+
+    Alvin Wang, Alan Chang, Alex Mark, Kevin Louie, for MaterializeCSS
+    Contact: http://materializecss.com/about.html
+
 /* TECHNOLOGY */
 
     Static Site Generator: Hugo, http://gohugo.io/
-    
+
     Language Used by Hugo, go, http://golang.org/
-    
-    Site Base: HTML5, CSS3, PureCSS http://purecss.io/, Markdown http://localhost:1313/colophon/Markdown
-    
-    Type Hosting: Google Web Fonts
-    
+
+    Site Base: HTML5, CSS3, Javascript, jQuery
+
+    Site CSS Framework: MaterializeCSS http://materializecss.com
+
     Icons: Font Awesome, http://fortawesome.github.io/Font-Awesome/
-    
-    Site Repository: Github, https://github.com/RickCogley/RCC-Hugo2015
-    
+
+    Site Repository: Github, https://github.com/eSolia/eSolia
+
     Site Hosting: Webfaction, http://www.webfaction.com/?affiliate=rcogley
-    
+
     DNS Hosting: Amazon AWS Route53, https://aws.amazon.com/route53/
-    
+
     Markup: Markdown, http://daringfireball.net/projects/markdown/
-    
+
     Gallery: nanoGallery, http://nanogallery.brisbois.fr
-    
-    Libraries: jQuery
-    
+
 /* SITE */
 
-	Last update: 2015/05/14
-	Language: English / Japanese
+	Last update: 2015/06/27
+	Languages: English / Japanese
 	Doctype: HTML5
-	IDE: Panic Coda 2, Atom, iTerm2
+	IDE: Atom, iTerm2, SmartGit

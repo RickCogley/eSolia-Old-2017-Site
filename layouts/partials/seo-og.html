@@ -1,45 +1,33 @@
 {{ "<!-- ENTERING partial seo-og.html (opengraph) -->" | safeHTML }}
 {{ $baseurl := .Site.BaseURL }}
+<!-- Start node check -->
 {{ if .IsNode }}
 <!-- Required Open Graph Info -->
 <meta property="og:title" content="{{ .Title }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}" />
-{{ with $.Site.Data.general.images }}{{ range first 6 . }}<meta property="og:image" content="{{ if in . "http" }}{{ . }}{{ else }}{{ $baseurl }}{{ . }}{{ end }}" />
-{{ end }}
-{{ end }}
+{{ with $.Site.Data.general.images }}{{ range first 6 . }}<meta property="og:image" content="{{ if in . "http" }}{{ . }}{{ else }}{{ $baseurl }}{{ . }}{{ end }}" />{{ end }}{{ end }}
 <meta property="og:url" content="{{ .Permalink }}" />
 <!-- Optional Open Graph Info -->
 <meta property="og:description" content="{{ .Site.Params.description }}" />
-<meta property="og:locale" content="{{ .Site.Params.locale }}" />
-{{ with .Site.Params.alternatelocales }}{{ range . }}
-<meta property="og:locale:alternate" content="{{ . }}" />
-{{ end }}
-{{ end }}
-{{ with $.Site.Data.general.videos }}{{ range . }}<meta property="og:video" content="{{ . }}" />
-{{ end }}
-{{ end }}
+<meta property="og:locale" content="{{ replace .Site.Params.locale "-" "_" }}" />
+{{ with .Site.Params.alternatelocales }}{{ range . }}<meta property="og:locale:alternate" content="{{ . }}" />{{ end }}{{ end }}
+{{ with $.Site.Data.general.videos }}{{ range . }}<meta property="og:video" content="{{ . }}" />{{ end }}{{ end }}
 
 {{ end }}
+<!-- End node check -->
+<!-- Start page check -->
 {{ if .IsPage }}
 <!-- Required Open Graph Info -->
 <meta property="og:title" content="{{ .Title }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}" />
 {{ with .Params.images }}{{ range first 6 . }}<meta property="og:image" content="{{ if in . "http" }}{{ . }}{{ else }}{{ $baseurl }}{{ . }}{{ end }}" />
-{{ end }}
-{{ end }}
+{{ end }}{{ end }}
 <meta property="og:url" content="{{ .Permalink }}" />
 <!-- Optional Open Graph Info -->
 <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}" />
-<meta property="og:locale" content="{{ if .Params.locale }}{{ .Params.locale }}{{ else }}en_US{{ end }}" />
-{{ with .Params.alternatelocales }}{{ range . }}
-<meta property="og:locale:alternate" content="{{ . }}" />
-{{ end }}
-{{ end }}
+<meta property="og:locale" content="{{ if .Site.Params.locale }}{{ replace .Site.Params.locale "-" "_" }}{{ else }}en_US{{ end }}" />
+{{ with .Params.alternatelocales }}{{ range . }}<meta property="og:locale:alternate" content="{{ replace . "-" "_" }}" />{{ end }}{{ end }}
 {{ with .Params.audio }}<meta property="og:audio" content="{{ . }}" />{{ end }}
-{{ with .Params.videos }}{{ range . }}
-<meta property="og:video" content="{{ . }}" />
-{{ end }}
-{{ end }}
-{{ with .Site.Params.title }}<meta property="og:site_name" content="{{ . }}" />{{ end }}
-{{ if eq .Type "post" }}
+{{ with .Params.videos }}{{ range . }}<meta property="og:video" content="{{ . }}" />{{ end }}{{ end }}
+{{ with .Site.Title }}<meta property="og:site_name" content="{{ . }}" />{{ end }}
 <!-- Required Open Graph Info -->
 <meta property="og:type" content="article" />
 <!-- ARTICLE Open Graph Info -->
@@ -47,10 +35,9 @@
 <meta property="article:modified_time" content="{{ .Date.Format $.Site.Params.ISO8601 }}"/>
 <meta property="article:author" content="http://www.facebook.com/eSolia" />
 <meta property="article:publisher" content="http://www.facebook.com/eSolia" />
-<meta property="article:section" content="{{ .Section }}" />
+{{ if isset .Params "menusection" }}<meta property="article:section" content="{{ .Params.menusection }}" />{{ end }}
 {{ with .Params.tags }}{{ range first 6 . }}<meta property="article:tag" content="{{ . }}" />
-{{ end }}
-{{ end }}
+{{ end }}{{ end }}
 <!-- If it is part of a series, link to related articles -->
 {{ $permalink := .Permalink }}
 {{ $siteSeries := .Site.Taxonomies.series }}
@@ -60,12 +47,14 @@
         {{ if ne $page.Permalink $permalink }}<meta property="og:see_also" content="{{ $page.Permalink }}" />{{ end }}
     {{ end }}
 {{ end }}{{ end }}
-{{ else if eq .Type "aboutpage" }}
+{{ if eq .Type "aboutpage" }}
 <!-- PROFILE Open Graph Info -->
 <meta property="profile:first_name" content="Rick" />
 <meta property="profile:last_name" content="Cogley" />
 <meta property="profile:username" content="rickcogley" />
 <meta property="profile:gender" content="male" />
 {{ end }}
+
 {{ end }}
+<!-- End page check -->
 {{ "<!-- LEAVING partial seo-og.html -->" | safeHTML }}

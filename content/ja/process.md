@@ -1,13 +1,14 @@
 ---
 author: イソリア
-date: 2015-05-09T00:05:19.000Z
-publishdate: 2012-01-10T00:05:19.000Z
+date: 2015-06-23T08:45:15+09:00
+publishdate: 2015-06-23T08:45:15+09:00
 draft: false
 title: プロセス管理
 slug: process
-subtitle: 暴走する幾多のプロセスに救いの手を
-description: イソリアから - 卓逸されたプロジェクト管理や資産管理、コンプライアンスの徹底から購買のお手伝いまで、ＩＴやビジネスのレベルアップへ
-weight: 20
+subtitle: プロジェクト・購買・資産・コンプライアンスなどプロセス管理はお任せを
+description: イソリアから - 卓逸されたプロジェクト管理や資産管理、コンプライアンスの徹底から購買のお手伝いまで、ＩＴやビジネス プロセス管理のレベルアップへ
+weight: 30
+menusection: Outsourcing
 alternatelocales:
   - en-US
 tags:
@@ -15,10 +16,19 @@ tags:
   - 購買管理
   - 資産管理
   - コンプライアンス管理
+  - 配線管理
+  - プロジェクト管理
+  - ライセンス管理
+  - 廃棄物管理
+  - データセンター管理
+  - サーバ管理
+  - QC
 series:
   - top1
 topics:
   - サービス
+  - アウトソーシング
+  - コンサルティング
 images:
   - /img/eSolia-Post-Slider-Process-01.png
   - /img/eSolia-Post-Slider-Process-02.png
@@ -38,17 +48,28 @@ gallery_id: 6159794668058542529
 menu:
   side:
     Name: プロセス
-    Weight: 20
+    Weight: 30
     Identifier: process
     Url: /process
-    Parent: services
+    Parent: consulting
 ---
 
-## 諸刃のＩＴ
+## IT管理に怯えるなかれ
 
 ＩＴを効率よく利用すれば、本来持っているポテンシャルを自在に扱う事が可能になり、それにより生み出されるメリットは計り知れないものになるでしょう。 ただしキチンと管理しない事による仕事量の増加、生産性の減少、まさに社員への諸刃になり得るツールなのです。 上手く駆使するには、なにもインターナルでそれら全ての作業を担う必要はありません。そう、プロセス管理に怯える日々にお別れを。
 
-### プロセスという名のエネミー
+### プロセス撃退法
+
+<div class="esolia-card-panel pink darken-4 z-depth-1">
+  <h4 class="center green-text text-accent-3">依頼の頻度の高いカテゴリ</h4>
+    <ol>
+      <li class="white-text">プロジェクトの管理</li>
+      <li class="white-text">サーバー・データセンターの管理</li>
+      <li class="white-text">コンプライアンスの管理</li>
+      <li class="white-text">資産の管理</li>
+      <li class="white-text">ライセンスや保証の管理</li>
+    </ol>
+</div>
 
 日々複雑化するプロセスを当社の洗練されたプロシージャ且つ、貴社の希望に極力沿ったメソッドで対応いたします。
 
@@ -71,5 +92,3 @@ menu:
 * ゴーサインは貴社の手で。ITプロフェッショナルという観点での戦略や助言にて縁の下から支えます
 * 1プロセス1プロセスに責任を。準備、調整、実行、ドキュメント化、フォローアップ含め自信を持ってアシストします
 * プロセスの詳細はデータベース上で精巧に考査され、洗練されたレポートとして貴社に提供します
-
-

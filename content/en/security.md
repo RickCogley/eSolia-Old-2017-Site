@@ -1,23 +1,34 @@
 ---
 author: eSolia
-date: 2015-05-09T00:05:19.000Z
-publishdate: 2012-01-10T00:05:19.000Z
+date: 2015-06-26T08:45:15+09:00
+publishdate: 2015-06-26T08:45:15+09:00
 draft: false
 title: Security
 slug: security
 subtitle: An inconvenient, necessary evil
 description: Security assessment, program & infrastructure implementation, compliance auditing, and remediation for your peace of mind. - from eSolia Inc.
 weight: 50
+menusection: Infrastructure
 alternatelocales:
   - ja-JP
 tags:
   - Security
   - Remediation
   - Compliance
+  - Risk
+  - Virus
+  - Compliance
+  - Risk
+  - Security Policy
+  - Security controls
+  - Firewall
+  - Privacy
+  - BCP
 series:
   - top1
 topics:
   - Services
+  - Infrastructure
 images:
   - /img/eSolia-Post-Slider-Security-01.jpg
   - /img/eSolia-Post-Slider-Security-02.jpg
@@ -40,7 +51,7 @@ menu:
     Weight: 50
     Identifier: security
     Url: /security
-    Parent: services
+    Parent: infra
 ---
 
 ## Introduction

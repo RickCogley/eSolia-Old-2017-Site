@@ -1,22 +1,36 @@
 ---
 author: eSolia
-date: 2015-05-09T00:05:19.000Z
-publishdate: 2012-01-10T00:05:19.000Z
+date: 2015-06-22T08:45:15+09:00
+publishdate: 2015-06-22T08:45:15+09:00
 draft: false
 title: Localization
 slug: localization
 subtitle: Not Machine Translation
-description: Don't localize "by machine"; hire eSolia to do it right. Our native speakers will localize your documents and apps to perfection. - from eSolia Inc.
-weight: 45
+description: Don't do your localization "by machine"; hire eSolia to do it right. Our native speakers will localize your documents and apps to perfection. - from eSolia Inc.
+weight: 60
+menusection: Outsourcing
 alternatelocales:
   - ja-JP
 tags:
   - Localization
+  - i18n
+  - l10n
+  - l12y
+  - g11n
   - Translation
+  - Localize
+  - Machine Translation
+  - Editing
+  - Japanese
+  - Internationalization
+  - localizability
+  - globalization
+  - Bilingual
 series:
   - top1
 topics:
   - Services
+  - Outsourcing
 images:
   - /img/eSolia-Post-Slider-Localization-01.jpg
   - /img/eSolia-Post-Slider-Localization-02.jpg
@@ -34,15 +48,15 @@ gallery_id: 6159789128838188721
 menu:
   side:
     Name: Localization
-    Weight: 45
+    Weight: 60
     Identifier: localization
     Url: /localization
-    Parent: services
+    Parent: outsourcing
 ---
 
 ## Really? A Machine Translation?
 
-If you are localizing your application, website or documents for the Japan market, you must understand that machine translation still produces comically bad results. In addition, having a non-native speaker who speaks a little Japanese give their seal of approval is, well, not so meaningful and even damaging to your reputation. Your Japanese prospects will laugh at your attempt, and then move on. Do you really want that?
+If you are considering or performing a localization of an application, website or documents for the Japan market, you must understand that machine translation still produces _comically bad results_. In addition, having a non-native speaker who speaks a little Japanese give their seal of approval is, well, not so meaningful and even damaging to your reputation. Your Japanese prospects will laugh at your attempt, and then move on. Do you really want that?
 
 ## What is Japanese Localization?
 

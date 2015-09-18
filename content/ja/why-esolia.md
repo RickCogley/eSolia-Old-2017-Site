@@ -2,7 +2,7 @@
 author: イソリア
 date: 2015-05-09T00:05:19.000Z
 publishdate: 2012-01-10T00:05:19.000Z
-description: 日本語Why eSolia - information about our mandate, value, process, practices and tools.
+description: 何故イソリアか - 弊社の使命、価値、プロセス、活動、ツールなどについて
 draft: false
 slug: why-esolia
 title: 何故イソリアか?
@@ -11,14 +11,19 @@ weight: 30
 alternatelocales:
   - en-US
 tags:
-  - 日本語Value
-  - Mandate
-  - Process
-  - Practices
-  - Tools
+  - 使命
+  - 価値
+  - 活動
+  - ツール
+  - 何故イソリア
+  - 知識共有
+  - 守秘義務
+  - ヒヤリング
 topics:
   - イソリア
+  - eSolia
 type: aboutpage
+menusection: eSolia
 images:
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
@@ -38,13 +43,14 @@ formcheckboxes:
 aliases:
   - /concept/cpt-core/
   - /concept/cpt-proc/
+  - /mandate
 menu:
   side:
     Name: 何故イソリアか?
     Weight: 30
     Identifier: why-esolia
     Url: /why-esolia
-    Parent: about-us
+    Parent: esolia
 ---
 
 ## 私たちの使命
@@ -54,22 +60,22 @@ menu:
 
 ## 私たちの価値
 
-イソリアの価値は何をどれだけしたという事よりも、どれだけお客様の役に立ち、有益だと感じて頂く事にあります。
+イソリアの価値は何をどれだけしたという事よりも、どれ程お客様の役に立ち、有益だと感じて頂く事にあります。
 我々は依頼をただこなす一般的なアウトソースのベンダーとは異なります。
 これを可能にするために我々は：
 
-<i class="small mdi-social-people grey-text text-darken-2 left"></i> イソリアはエンジニアを単体で派遣することはありません。 私たちは常に _チームで動きます。_これにより、幅広い知識やスキルをもって包括的に対応することができ、ヘルプデスクからネットワーク、セキュリティのデザインやプロジェクトマネージメントまで、一般のIT部で必要になるすべてのスキルをカバーすることができます。
+<i class="small mdi-social-people grey-text text-darken-2 left"></i> イソリアはエンジニアを単体で派遣することはありません。 私たちは常に **チームで動きます。** これにより、幅広い知識やスキルをもって包括的に対応することができ、ヘルプデスクからネットワーク、セキュリティのデザインやプロジェクトマネージメントまで、一般のIT部で必要になるすべてのスキルをカバーすることができます。
 
-<i class="small mdi-hardware-security grey-text text-darken-2 left"></i> イソリアは _お客様の問題_ を解決します。単にITベンダーとしてだけではなく、私たちは常にお客様のスタッフとして動き、企業ITポリシーに従って、私たちの経験とスキルを用い、お客様の環境と調和しつつ最善な結果を出します。
+<i class="small mdi-hardware-security grey-text text-darken-2 left"></i> イソリアは**お客様の問題**を解決します。単にITベンダーとしてだけではなく、私たちは常にお客様のスタッフとして動き、企業ITポリシーに従って、私たちの経験とスキルを用い、お客様の環境と調和しつつ最善な結果を出します。
 
-<i class="small mdi-communication-forum grey-text text-darken-2 left"></i> イソリアは多言語を習得し、生まれとは違う国の文化を経験したプロフェッショナルを採用しています。これにより強いコミュニケーションスキルを習得し、問題を解決できる能力が備わっております。
+<i class="small mdi-communication-forum grey-text text-darken-2 left"></i> イソリアは多言語を習得し、生まれとは違う国の文化を経験したプロフェッショナルを採用しています。これにより**強いコミュニケーションスキル**を習得し、問題を解決できる能力が備わっております。
 
 <i class="small mdi-action-bookmark-outline grey-text text-darken-2 left"></i> 強いコミュニケーション能力だけでなく、マイクロソフトやシスコ、CompTIAやITILなどの資格の取得も積極的に推進しております。
-イソリアの新規プロフェッショナルは基本的なIT知識を身に着ける為、最初にCompTIA A+, Network+ やITIL Foundationなどの資格を取得しております。
+イソリアの新規プロフェッショナルは**基本的なIT知識を身に着ける**為、最初にCompTIA A+, Network+ やITIL Foundationなどの資格を取得しております。
 
-<i class="small mdi-editor-mode-edit grey-text text-darken-2 left"></i> イソリアのプロフェッショナルはプロセスに則って確実に業務を完遂し、情報のドキュメント化をします。特にドキュメント化はリスクを最小限に収めるための必須事項で、徹底しております。
+<i class="small mdi-editor-mode-edit grey-text text-darken-2 left"></i> イソリアのプロフェッショナルはプロセスに則って確実に業務を完遂し、**情報のドキュメント化**をします。特にドキュメント化はリスクを最小限に収めるための必須事項で、徹底しております。
 
-<i class="small mdi-toggle-check-box grey-text text-darken-2 left"></i> イソリアが使用するツールはすべて洗練され、チームが効率よくお客様のお役に立つことができます。
+<i class="small mdi-toggle-check-box grey-text text-darken-2 left"></i> イソリアが**使用するツールはすべて洗練され**、チームが効率よくお客様のお役に立つことができます。
 プロフェッショナルの業務レポートは月次請求書と共に送付し、チケットシステムからは必要に応じてEメールでご希望の方々に送付いたします。
 
 ## 私たちのプロセス
@@ -85,12 +91,17 @@ menu:
 イソリアは、よりクリエイティブなソリューションをお客様へ提供する為、実務におけるコア・プラクティス（核となる概念）を掲げています。一例として、イソリアの社員は次のようなコア・セットアイテムを常に心がけています。
 
 * 守秘義務の遵守
-* セキュリティの警戒
-* チーム内の知識の共有
+* セキュリティへの意識
+* ナレッジシェアリング
 * 誠実なヒヤリング
-* 主体的な表現
-* 積極的な学習とブレインストーミング
-* 完全なサービスへの継続的な改良
+* 明瞭かつ的確な表現
+* アクティブラーニングとブレインストーミング
+* 完璧なサービスへの継続的な改良
+
+<figure class="image-container">
+<img class="materialboxed responsive-img" width="400" data-caption="イソリアの活動" alt="イソリアの活動を表示する図面 - 知識共有、積極的な学習、ブレインストーミング、守秘義務の遵守、セキュリティへの意識、明瞭かつ的確な表現、継続的な改良や改善" src="/img/eSolia-Post-Practices-ja.png" >
+<figcaption><em>イソリアの活動</em></figcaption>
+</figure>
 
 ## 私たちのツール
 

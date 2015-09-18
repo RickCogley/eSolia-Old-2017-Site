@@ -25,13 +25,13 @@
 
   <div id="index-banner" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot valign">
-      <div class="container">
+      <div class="container valign">
         <br>
         <br>
-        <h1 class="header center orange-text text-lighten-1">{{ ( index $.Site.Data.translations $.Site.Params.locale ).topslogan }}</h1>
+        <h1 class="header center green-text text-accent-4 valign"><strong>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topslogan | markdownify }}</strong></h1>
 
         <div class="row center">
-          <h3 class="header col s12 light">{{ ( index $.Site.Data.translations $.Site.Params.locale ).topsubslogan }}</h3>
+          <h3 class="header col s12 light-blue-text text-accent-4">{{ ( index $.Site.Data.translations $.Site.Params.locale ).topsubslogan }}</h3>
         </div>
       </div>
     </div>
@@ -51,13 +51,17 @@
 
               <div class="col s12 m9 center">
               {{ if eq .Site.Params.locale "en-US" }}
-                <p class="left-align light"><span class="green-text text-accent-4"><strong>eSolia is an Information Technology management firm based in Tokyo,</strong></span> that has been providing high-quality business-focused consulting, project and outsourcing services since 1999, to a variety of blue-chip foreign and Japanese organizations in Japan, the Asia Pacific region and any location abroad. We are a globally-minded organization that focuses on the challenges of multi-cultural, multi-language environments, and have a successful track record in handling complex high-pressure projects.</p>
+                <p class="left-align light"><span class="green-text text-accent-4"><strong>eSolia is an Information Technology management firm based in Tokyo,</strong></span> that has been providing high-quality business-focused consulting, project and outsourcing services since 1999.</p>
+
+                <p class="left-align light">We serve a variety of blue-chip foreign and Japanese organizations in Japan, the Asia Pacific region and around the world. We are a globally-minded organization that focuses on the challenges of multi-cultural, multi-language environments, and have a successful track record in handling complex high-pressure projects.</p>
 
                 <p class="left-align light">We have the confidence to find solutions for all your system and process challenges.</p>
 
                 <p class="left-align light"><em>At eSolia, we build on strong foundations</em> – let us develop a long-term relationship together.</p>
                 {{ else if eq .Site.Params.locale "ja-JP" }}
-                <p class="left-align light"><span class="green-text text-accent-4"><strong>株式会社イソリアは1999年設立以降東京を拠点に、</strong></span> 「ITコンサルティング」、「ITプロジェクト・マネージメント」、「ITアウトソーシング」サービスを、外資系・日本国内の企業のお客様に提供するITマネージメント企業です。当社はミックスカルチャーに焦点をあてたグローバル企業であり過去に複雑なプロジェクトを数多く手がけ、クリエイティブな問題解決をお客様へ提供しております。</p>
+                <p class="left-align light"><span class="green-text text-accent-4"><strong>株式会社イソリアは1999年設立以降東京を拠点に、</strong></span> 「ITコンサルティング」、「ITプロジェクト・マネージメント」、「ITアウトソーシング」サービスを、外資系・日本国内の企業のお客様に提供するITマネージメント企業です。</p>
+
+                <p class="left-align light">当社はミックスカルチャーに焦点をあてたグローバル企業であり過去に複雑なプロジェクトを数多く手がけ、クリエイティブな問題解決をお客様へ提供しております。</p>
 
                 <p class="left-align light">これまでの成功実績と経験を基に、貴社のITシステム全般に対するソリューションを見出し、チャレンジを推し進めることに多大な自信を持っています。 </p>
 
@@ -486,7 +490,7 @@
                 <a class="btn-floating waves-effect waves-light brown darken-2"><i class="mdi-toggle-radio-button-off"></i></a>
               </div>
               <div class="col s10 left-align">
-                <strong>We act with company health and stability in mind</strong>, never engaging in dodgy business practices or gamesmanship.
+                <strong>We act with company health and stability in mind</strong>, never engaging in questionable business practices or gamesmanship.
               </div>
             </div>
             <div class="row left-align">
@@ -688,7 +692,7 @@
                   {{ $series := index .Site.Taxonomies.series "top1" }}
                   {{ range first 5 $series.Pages }}
                     <li>
-                    <div class="esListItemTitle blue-text text-darken-1"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+                    <div class="esListItemTitle blue-text text-darken-1"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></div>
                     <div class="esListItemDate grey-text text-lighten-2">{{ .Date.Format "02 Jan, 2006" }}</div>
                     </li>
                   {{ end }}
@@ -765,7 +769,11 @@
           <h3><i class="mdi-communication-comment blue-text"></i></h3>
           <h4 class="center">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genlatestposts }}</h4>
           <p class="light">
+            {{ if eq .Site.Params.locale "ja-JP" }}
             <div id="divRss2"></div>
+            {{ else }}
+            <div id="divRss1"></div>
+            {{ end }}
           </p>
         </div>
       </div>
@@ -788,53 +796,7 @@
     </div>
   </div>
 
-  <footer class="page-footer grey darken-3">
-    <div class="container">
-      <div class="row center">
-        <div class="col l3 s12">
-          <h5 class="white-text">Resources</h5>
-          <ul>
-            <li><a class="white-text" href="#!">News 1</a></li>
-            <li><a class="white-text" href="#!">Zerobin 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Reference</h5>
-          <ul>
-            <li><a class="white-text" href="#!">FAQ 1</a></li>
-            <li><a class="white-text" href="#!">List 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Services</h5>
-          <ul>
-            <li><a class="white-text" href="#!">PM 1</a></li>
-            <li><a class="white-text" href="#!">PROdb 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Products</h5>
-          <ul>
-            <li><a class="white-text" href="#!">SIP Print 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright grey darken-2">
-      <div class="container">
-        <span class="grey-text text-lighten-1">Powered by <a href="http://gohugo.io" target="_blank">Hugo</a> & <a href="http://materializecss.com" target="_blank">Materialize</a></span>
-      </div>
-    </div>
-  </footer>
+  {{ partial "footer-home.html" . }}
   {{ partial "bodyend.html" . }}
 </body>
 

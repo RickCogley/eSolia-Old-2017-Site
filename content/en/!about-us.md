@@ -12,17 +12,11 @@ tags:
   - About Us
 title: About eSolia
 topics:
-  - eSolia
+  - Summary
 images:
   - /img/eSolia-Chicklet-Color-1024px.png
 aliases:
   - /concept
-menu:
-  side:
-    Name: About eSolia
-    Weight: 10
-    Identifier: about-us
-    Url: /about-us
 ---
 
 ## Foundations take root with eSolia

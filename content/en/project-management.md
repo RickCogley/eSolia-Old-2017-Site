@@ -1,23 +1,31 @@
 ---
 author: eSolia
-date: 2015-05-09T00:05:19.000Z
-publishdate: 2012-01-10T00:05:19.000Z
+date: 2015-06-27T08:45:15+09:00
+publishdate: 2015-06-27T08:45:15+09:00
 draft: false
 title: Project Management
 slug: project-management
 subtitle: For Transparency and Success
-description: Real experience means success for all your projects in Japan and the Asia Pacific region. eSolia's PM approach is practical and unique. - from eSolia Inc.
-weight: 37
+description: Real experience means success for all your projects in Japan and the Asia Pacific region. eSolia's Project Management methodology is practical and unique. - from eSolia Inc.
+weight: 20
+menusection: Consulting
 alternatelocales:
   - en-US
 tags:
   - PM
   - Coordination
   - People Money Resources
+  - Methodology
+  - Gantt
+  - Office Move Management
+  - Technology Refresh
+  - UPS Install Project
 series:
   - top1
+  - ninki1
 topics:
   - Services
+  - Consulting
 images:
   - /img/eSolia-Post-Slider-Project-Management-01.png
   - /img/eSolia-Post-Slider-Project-Management-02.png
@@ -41,10 +49,10 @@ gallery_id: 6160563368100442433
 menu:
   side:
     Name: Project Management
-    Weight: 37
+    Weight: 20
     Identifier: project-management
     Url: /project-management
-    Parent: services
+    Parent: consulting
 ---
 
 ## What is Project Management?
