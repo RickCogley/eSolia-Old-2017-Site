@@ -20,7 +20,7 @@ tags:
   - コンテンツ
   - MIT
 topics:
-  - Site
+  - 当サイト
 images:
   - /img/eSolia-Chicklet-Color-1024px.png
 ---
