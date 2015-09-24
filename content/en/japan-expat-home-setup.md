@@ -1,8 +1,8 @@
 ---
 author: eSolia
-date: 2015-09-17T10:30:15+09:00
-publishdate: 2015-09-17T10:30:15+09:00
-draft: true
+date: 2015-09-24T16:00:15+09:00
+publishdate: 2015-09-24T16:00:15+09:00
+draft: false
 title: Home Computer Setup
 slug: japan-expat-home-setup
 subtitle: ... for Japan Expats

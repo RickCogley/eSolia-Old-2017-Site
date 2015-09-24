@@ -1,12 +1,12 @@
 ---
 author: イソリア
-date: 2015-09-17T10:30:15+09:00
-publishdate: 2015-09-17T10:30:15+09:00
-draft: true
+date: 2015-09-24T16:00:15+09:00
+publishdate: 2015-09-24T16:00:15+09:00
+draft: false
 title: 来日外国人向け...
 subtitle: ... 自宅パソコンシステム購入や設定
 slug: japan-expat-home-setup
-description: If you're new to Japan and Nihongo, or just not so confident about dealing with Japan telecomm carriers or your building superintendent, leave it to eSolia bilingual IT professionals to arrange and connect your home computer system in Japan.
+description: 日本に来たばかりで日本語に慣れていない方、または、日本のテレコムキャリアやお住いの管理会社とのやり取りに自信のない方、イソリアのバイリンガルITプロフェッショナルはそんなあなたをお助けすることが可能です。
 weight: 20
 menusection: Solutions-Focus
 alternatelocales:
@@ -14,20 +14,23 @@ alternatelocales:
 tags:
   - PC
   - Mac
-  - Printer
+  - パソコン
+  - マック
+  - 印刷
+  - 周辺機器
   - Wifi
-  - Wireless
-  - Data Transfer
-  - Security
-  - Bilingual
-  - Home Setup
-  - Japan Expat
+  - 無線LAN
+  - データ転送
+  - ITセキュリティ
+  - バイリンガル
+  - 来日する外国人
+  - ホーム パソコン 設定
 series:
   - top1
   - top2
 topics:
-  - Solutions Focus
-  - Services
+  - ソリューション フォーカス
+  - サービス
 aliases:
   - /expat-home-setup
   - /home-setup
@@ -38,16 +41,16 @@ images:
   - /img/eSolia-Post-Slider-Home-Setup-03.jpg
   - /img/eSolia-Chicklet-Color-1024px.png
 formcheckboxes:
-  - PC Setup
-  - Mac Setup
-  - Wireless / Wifi Setup
-  - Printer Setup
-  - Peripheral Setup
-  - Data Migration or Transfer
-  - Router or Firewall Setup
-  - Internet or Phone Line Install
-  - Telephone System
-  - Cabling
+  - 自宅パソコン設定
+  - 自宅マック設定
+  - 無線LAN / WiFi設定
+  - プリンター設定
+  - 周辺機器設定
+  - データ移動
+  - ルーターやファイヤウォール設定
+  - インターネットや固定電話のインストール
+  - 電話システム
+  - 配線
 gallery_id: 6184303398196337009
 menu:
   side:
@@ -110,4 +113,4 @@ menu:
 * 古いまたは欠陥のあるシステムにおいて(外付けハードディスクを含む）、作業処理時間は長くなることがあります。
 * 作業中にタスクの追加があれば、作業完了時間に遅延が生じます。
 
-イソリアのバイリンガルIT技術者による家庭用パソコン設定に関しては_以下のフォームからお問い合わせください。今すぐ始めましょう。_
+イソリアのバイリンガルIT技術者による家庭用パソコン設定に関しては _以下のフォームからお問い合わせください。今すぐ始めましょう。_
