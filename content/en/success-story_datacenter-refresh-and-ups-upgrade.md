@@ -7,7 +7,6 @@ slug: success-story_datacenter-refresh-and-ups-upgrade
 title: Datacenter Refresh and UPS Upgrade
 subtitle: at a Major US Law Firm
 description: Provision of project management and engineering for a Tokyo data center, upgrading APC Symmetra to the latest Symmetra LX. - from eSolia Inc.
-weight: 10
 menusection: Success-Stories
 alternatelocales:
   - ja-JP
@@ -34,13 +33,11 @@ formcheckboxes:
 menu:
   side:
     Name: DC & UPS Upgrade
-    Weight: 10
     Identifier: dcrefreshandupsupgrade
     Url: /success-story_datacenter-refresh-and-ups-upgrade
     Parent: successstories
+    Weight: 10000
 ---
-
-**Tuesday 1 May 2012**
 
 ## Project Background
 
@@ -54,7 +51,7 @@ Parameter | Value
 ------|------
 _Team Members_ | PM x 2, Consultant x 2, Engineer x 10, Construction-related x 20, Key User x 2
 _Users_ | 40
-_Project Duration (Months)_ | 36 person-months
+_Project Duration (Months)_ | 36 months
 _Project Effort (Months)_ | 400 person-months
 _Sites_ | Tokyo, NY
 

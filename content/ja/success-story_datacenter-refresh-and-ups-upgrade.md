@@ -7,7 +7,6 @@ slug: success-story_datacenter-refresh-and-ups-upgrade
 title: データーセンター技術刷新及びUPSアップグレード
 subtitle: 外国法人弁護事務所にて
 description: イソリアから - 東京データセンターにて、プロジェクト管理とエンジニアリングを実施し、APCシメトラを最新LXモデルへのアップグレード。
-weight: 10
 menusection: Success-Stories
 alternatelocales:
   - en-US
@@ -35,13 +34,11 @@ formcheckboxes:
 menu:
   side:
     Name: 大型UPSアップグレード
-    Weight: 10
     Identifier: dcrefreshandupsupgrade
     Url: /success-story_datacenter-refresh-and-ups-upgrade
     Parent: successstories
+    Weight: 10000
 ---
-
-**2012年5月1日 火曜日**
 
 ## プロジェクト バックグランド
 
@@ -54,10 +51,10 @@ menu:
 パラメーター | 値
 ------|------
 _チーム_ | PM x 2, コンサル x 2, 技術者 x 10, 工事関連 x 20, キーユーザ x 2
-_ユーザー_ | 40人
-_期間_ | 36 人月
-_工数_ | 400 人月
-サイト | 東京, ニューヨーク
+_ユーザー_ | 100人
+_期間_ | 24ヶ月
+_工数_ | 400人月
+_サイト_ | 東京、ニューヨーク
 
 ## 問題点
 
