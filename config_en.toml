@@ -76,6 +76,11 @@ languageCode = "en-US"
     weight = 30
 
 [[menu.side]]
+    name = "Success Stories"
+    identifier = "successstories"
+    weight = 40
+
+[[menu.side]]
     name = "Topics"
     identifier = "topics"
     weight = 111

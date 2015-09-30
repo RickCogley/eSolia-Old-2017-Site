@@ -76,6 +76,11 @@ languageCode = "ja"
     weight = 30
 
 [[menu.side]]
+    name = "成功事例"
+    identifier = "successstories"
+    weight = 40
+
+[[menu.side]]
     name = "トピック"
     identifier = "topics"
     weight = 111
