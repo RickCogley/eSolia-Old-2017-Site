@@ -15,7 +15,7 @@ tags:
   - Sitemap
   - Index
 topics:
-  - eSolia
+  - Site
 images:
   - /img/eSolia-Chicklet-Color-1024px.png
 aliases:
