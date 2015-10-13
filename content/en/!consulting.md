@@ -18,6 +18,7 @@ images:
   - /img/eSolia-Chicklet-Color-1024px.png
 aliases:
   - /services/svc-sa/svc-sa-cnsl/
+  - /services/svc-sa-cnsl.htm
 formcheckboxes:
   - Office move
   - Helpdesk
