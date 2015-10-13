@@ -24,6 +24,7 @@ images:
   - /img/eSolia-Chicklet-Color-1024px.png
 aliases:
   - /concept/cpt-vis/
+  - /esolia-eng/about.htm
 menu:
   side:
     Name: Basic Info
