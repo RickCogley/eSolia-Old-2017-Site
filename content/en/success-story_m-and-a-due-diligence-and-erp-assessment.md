@@ -30,6 +30,8 @@ formcheckboxes:
   - Business Intelligence
   - Liaison between Japan Buyer and US HQ
   - EDI Electronic Data Interchange
+aliases:
+  - /resources/success-stories/marine-products-maker/
 menu:
   side:
     Name: M&A ERP Assess

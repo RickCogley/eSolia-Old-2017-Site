@@ -36,6 +36,8 @@ formcheckboxes:
   - Business Intelligence
   - Liaison between Japan and HQ
   - EDI Electronic Data Interchange
+aliases:
+  - /resources/success-stories/optical-maker/
 menu:
   side:
     Name: ERP rollout

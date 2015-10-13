@@ -30,6 +30,8 @@ formcheckboxes:
   - Earthquake proofing
   - Cabling Cleanup
   - Technology Refresh
+aliases:
+  - /resources/success-stories/major-us-law-firm/
 menu:
   side:
     Name: DC & UPS Upgrade

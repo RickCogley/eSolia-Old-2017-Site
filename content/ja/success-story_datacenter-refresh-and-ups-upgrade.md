@@ -31,6 +31,8 @@ formcheckboxes:
   - 配線や配線撤去
   - 耐震対策
   - 技術アップグレード
+aliases:
+  - /resources/success-stories/major-us-law-firm/
 menu:
   side:
     Name: 大型UPSアップグレード

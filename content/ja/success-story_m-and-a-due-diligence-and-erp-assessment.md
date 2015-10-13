@@ -31,6 +31,8 @@ formcheckboxes:
   - ビジネス インテリジェンス
   - 日本の買い手と米国本社のリエーゾン
   - EDI 電子データ交換
+aliases:
+  - /resources/success-stories/marine-products-maker/
 menu:
   side:
     Name: 買収合併ERP確認

@@ -28,6 +28,8 @@ formcheckboxes:
   - Liaison between Japan and HQ
   - EDI Electronic Data Interchange
   - IT Technology Refresh
+aliases:
+  - /resources/success-stories/hearing-aid-manufacturer/
 menu:
   side:
     Name: BPR for factory

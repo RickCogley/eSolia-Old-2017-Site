@@ -36,6 +36,8 @@ formcheckboxes:
   - ビジネス インテリジェンス
   - 日本と外国の「仲人」リエーゾン
   - EDI 電子データ交換
+aliases:
+  - /resources/success-stories/optical-maker/
 menu:
   side:
     Name: ERP展開

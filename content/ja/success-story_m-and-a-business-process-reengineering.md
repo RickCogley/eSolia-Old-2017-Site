@@ -29,6 +29,8 @@ formcheckboxes:
   - 本社の日本の仲人リエーゾン
   - EDI 電子データ交換
   - IT 機器更新
+aliases:
+  - /resources/success-stories/hearing-aid-manufacturer/
 menu:
   side:
     Name: 工場のBPR
