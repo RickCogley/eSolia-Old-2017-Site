@@ -5,8 +5,8 @@
 <head>
   <meta charset="utf-8">
   <!-- IN .HTACCESS!! <meta http-equiv="x-ua-compatible" content="ie=edge"> -->
-  <title>{{ if eq .Site.Params.locale "en-US" }}{{ if .IsHome }}Welcome to {{ end }}{{ end }}{{ .Title }}{{ if eq .Site.Params.locale "ja-JP" }}{{ if .IsHome }}へようこそ{{ end }}{{ end }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}</title>
-  <meta name="description" content="{{if .IsPage}}{{ .Description }}{{else}}{{.Site.Params.description}}{{end}}">
+  <title>{{ if eq .Site.Params.locale "en-US" }}{{ if .IsHome }}Welcome to {{ end }}{{ end }}{{ .Title }}{{ if eq .Site.Params.locale "ja-JP" }}{{ if .IsHome }}へようこそ{{ end }}{{ end }}{{ if ne .Title .Site.Title }} | {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{if .IsPage}}{{ .Description }}{{else}}{{ if .IsHome }}{{.Site.Params.description}}{{ else}}{{ if eq .Site.Params.locale "en-US" }}Pages on '{{ .Title }}' from eSolia Inc., a Tokyo-based IT management and support company.{{ end }}{{ if eq .Site.Params.locale "ja-JP" }}'{{ .Title }}' に関するページ、東京をベースにしたITマネージメントやサポート会社、株式会社イソリアから。{{ end }}{{ end }}{{end}}">
   <meta name="keywords" content="{{if .IsPage}}{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}{{else}}{{ range $i, $e := .Site.Params.keywords }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}{{end}}">
   {{ if .Params.author }}<meta name="author" content="{{ .Params.author }}">{{ end }}
   <link href="http://gmpg.org/xfn/11" rel="profile">
