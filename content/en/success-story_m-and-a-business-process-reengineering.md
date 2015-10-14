@@ -81,8 +81,7 @@ _Sites_ | Tokyo, Yokohama, Osaka, Belgium
 
 ## Technology
 
-* Frame-relay WAN.
-* Cisco-based Network.
+* Cisco-based Network for LAN and WAN.
 * Smile Alpha sales / accounting.
-* eSolia custom applications for inventory data-entry to replace DOS programs and link to the Smile Alpha system.
+* eSolia custom applications for inventory data-entry to replace antiquated programs and link to the sales and accounting system.
 * Standardization on Dell equipment for PCs and Servers.
