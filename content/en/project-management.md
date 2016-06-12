@@ -10,7 +10,7 @@ description: Real experience means success for all your projects in Japan and th
 weight: 20
 menusection: Consulting
 alternatelocales:
-  - en-US
+  - ja-JP 
 tags:
   - PM
   - Coordination
