@@ -1,14 +1,40 @@
+baseURL = "http://esolia.com/"
 DefaultContentLanguage = "en"
 copyright = "This work is copyright. All rights reserved by eSolia Inc."
 canonifyurls = "false"
 MetaDataFormat = "yaml"
+enableMissingTranslationPlaceholders = "true"
+
+[author]
+    name = "Rick Cogley"
+
+[permalinks]
+    # Optional. Change the permalink format for the 'post' content type.
+    # The format shown here is the same one Jekyll/Octopress uses by default.
+    post = "/:section/:slug"
+
+[taxonomies]
+    tag = "tags"
+    topic = "topics"
+    series = "series"
+
+[blackfriday]
+    plainIdAnchors = true
+
+[imaging]
+# Default resample filter used for resizing. Default is Box,
+# a simple and fast averaging filter appropriate for downscaling.
+# See https://github.com/disintegration/imaging
+    resampleFilter = "box"
+# JPEG quality setting. Default is 75.
+    quality = 80
 
 [params.navigation]
 help  = "Help"
 
 [Languages]
 [Languages.en]
-baseurl = "http://esolia.com/"
+baseURL = "http://esolia.com/"
 title = "eSolia Inc."
 languageName = "English"
 weight = 1
@@ -30,14 +56,149 @@ languageCode = "en-US"
     ISO8601 = "2006-01-02T15:04:05JST"
     googleAnalytics = "UA-1040233-7"
 
+[[languages.en.menu.side]]
+    name = "About eSolia"
+    identifier = "esolia"
+    weight = 5
+
+[[languages.en.menu.side]]
+    name = "Outsourcing"
+    identifier = "outsourcing"
+    weight = 10
+
+[[languages.en.menu.side]]
+    name = "Process"
+    identifier = "proc"
+    weight = 30
+    url = "/process"
+    parent = "outsourcing"
+
+[[languages.en.menu.side]]
+    name = "Consulting"
+    identifier = "consulting"
+    weight = 15
+
+[[languages.en.menu.side]]
+    name = "Infrastructure"
+    identifier = "infra"
+    weight = 20
+
+[[languages.en.menu.side]]
+    name = "Cloud System"
+    identifier = "cloudsystem"
+    weight = 25
+
+[[languages.en.menu.side]]
+    name = "Solutions Focus"
+    identifier = "solutionsfocus"
+    weight = 30
+
+[[menu.side]]
+    name = "Success Stories"
+    identifier = "successstories"
+    weight = 40
+
+[[languages.en.menu.side]]
+    name = "Topics"
+    identifier = "topics"
+    weight = 111
+
+[[languages.en.menu.side]]
+    name = "All Topics"
+    identifier = "alltopics"
+    url = "/topics"
+    parent = "topics"
+    weight = 1
+
+[[languages.en.menu.side]]
+    name = "All Tags"
+    identifier = "alltags"
+    url = "/tags"
+    parent = "topics"
+    weight = 2
+
+[[languages.en.menu.side]]
+    name = "About eSolia"
+    identifier = "aboutesolia"
+    url = "/topics/esolia"
+    parent = "topics"
+    weight = 10
+
+[[languages.en.menu.side]]
+    name = "Services"
+    identifier = "ourservices"
+    weight = 20
+    url = "/topics/services"
+    parent = "topics"
+
+[[languages.en.menu.side]]
+    name = "Telephone"
+    identifier = "telephonetopic"
+    weight = 30
+    url = "/topics/telephone"
+    parent = "topics"
+
+[[languages.en.menu.side]]
+    name = "Tools"
+    identifier = "tools"
+    weight = 222
+
+[[languages.en.menu.side]]
+    name = "Zerobin"
+    identifier = "zerobin"
+    url = "https://zerobin.esolia.com"
+    post = "_blank"
+    parent = "tools"
+    weight = 22
+
+[[languages.en.menu.side]]
+    name = "eSolia Connect"
+    identifier = "connect"
+    url = "http://connect.esolia.com"
+    post = "_blank"
+    parent = "tools"
+    weight = 33
+
+[[languages.en.menu.detailfooter1]]
+    name = "All Topics"
+    identifier = "topics"
+    url = "/topics"
+    weight = 55
+
+[[languages.en.menu.homefooter2]]
+    name = "Zerobin"
+    identifier = "zerobin"
+    url = "https://zerobin.esolia.com"
+    post = "_blank"
+    weight = 22
+
+[[languages.en.menu.homefooter2]]
+    name = "eSolia Connect"
+    identifier = "connect"
+    url = "http://connect.esolia.com"
+    post = "_blank"
+    weight = 33
+
+[[languages.en.menu.homefooter2]]
+    name = "All Topics"
+    identifier = "topics"
+    url = "/topics"
+    weight = 44
+
+[[languages.en.menu.homefooter2]]
+    name = "All Tags"
+    identifier = "tags"
+    url = "/tags"
+    weight = 55
 
 [Languages.ja]
-baseurl = "http://esolia.co.jp/"
+baseURL = "http://esolia.co.jp/"
 title = "イソリア"
 languageName = "日本語"
 weight = 2
 # For RSS only, apparently
 languageCode = "ja"
+hasCJKLanguage = "true"
 
 [Languages.ja.params]
     linkedin = "リンクドイン"
@@ -57,167 +218,143 @@ languageCode = "ja"
 [Languages.ja.navigation]
 help  = "ヘルプ"
 
-
-
-
-[author]
-    name = "Rick Cogley"
-
-[permalinks]
-    # Optional. Change the permalink format for the 'post' content type.
-    # The format shown here is the same one Jekyll/Octopress uses by default.
-    post = "/:section/:slug"
-
-[taxonomies]
-    tag = "tags"
-    topic = "topics"
-    series = "series"
-
-[blackfriday]
-    plainIdAnchors = true
-
-
-
-[imaging]
-# Default resample filter used for resizing. Default is Box,
-# a simple and fast averaging filter appropriate for downscaling.
-# See https://github.com/disintegration/imaging
-    resampleFilter = "box"
-# JPEG quality setting. Default is 75.
-    quality = 80
-
-
-[[menu.side]]
-    name = "About eSolia"
+[[languages.ja.menu.side]]
+    name = "イソリアについて"
     identifier = "esolia"
     weight = 5
 
-[[menu.side]]
-    name = "Outsourcing"
+[[languages.ja.menu.side]]
+    name = "アウトソーシング"
     identifier = "outsourcing"
     weight = 10
 
-[[menu.side]]
-    name = "Process"
+[[languages.ja.menu.side]]
+    name = "プロセス"
     identifier = "proc"
     weight = 30
     url = "/process"
     parent = "outsourcing"
 
-[[menu.side]]
-    name = "Consulting"
+[[languages.ja.menu.side]]
+    name = "コンサルティング"
     identifier = "consulting"
     weight = 15
 
-[[menu.side]]
-    name = "Infrastructure"
+[[languages.ja.menu.side]]
+    name = "インフラストラクチャ"
     identifier = "infra"
     weight = 20
 
-[[menu.side]]
-    name = "Cloud System"
+[[languages.ja.menu.side]]
+    name = "クラウド システム"
     identifier = "cloudsystem"
     weight = 25
 
-[[menu.side]]
-    name = "Solutions Focus"
+[[languages.ja.menu.side]]
+    name = "ソリューション フォーカス"
     identifier = "solutionsfocus"
     weight = 30
 
-[[menu.side]]
-    name = "Success Stories"
+[[languages.ja.menu.side]]
+    name = "成功事例"
     identifier = "successstories"
     weight = 40
 
-[[menu.side]]
-    name = "Topics"
+[[languages.ja.menu.side]]
+    name = "トピック"
     identifier = "topics"
     weight = 111
 
-[[menu.side]]
-    name = "All Topics"
+[[languages.ja.menu.side]]
+    name = "全トピック一覧"
     identifier = "alltopics"
     url = "/topics"
     parent = "topics"
     weight = 1
 
-[[menu.side]]
-    name = "All Tags"
+[[languages.ja.menu.side]]
+    name = "全タグ一覧"
     identifier = "alltags"
     url = "/tags"
     parent = "topics"
     weight = 2
 
-[[menu.side]]
-    name = "About eSolia"
+[[languages.ja.menu.side]]
+    name = "イソリアについて"
     identifier = "aboutesolia"
-    url = "/topics/esolia"
+    url = "/topics/イソリア"
     parent = "topics"
     weight = 10
 
-[[menu.side]]
-    name = "Services"
+[[languages.ja.menu.side]]
+    name = "サービス"
     identifier = "ourservices"
     weight = 20
-    url = "/topics/services"
+    url = "/topics/サービス"
     parent = "topics"
 
-[[menu.side]]
-    name = "Telephone"
+[[languages.ja.menu.side]]
+    name = "電話"
     identifier = "telephonetopic"
     weight = 30
-    url = "/topics/telephone"
+    url = "/topics/電話"
     parent = "topics"
 
-[[menu.side]]
-    name = "Tools"
+[[languages.ja.menu.side]]
+    name = "便利ツール"
     identifier = "tools"
     weight = 222
 
-[[menu.side]]
-    name = "Zerobin"
+[[languages.ja.menu.side]]
+    name = "ゼロビン"
     identifier = "zerobin"
-    url = "https://zerobin.esolia.com"
+    url = "https://zerobin.esolia.com/?language=jp"
     post = "_blank"
     parent = "tools"
     weight = 22
 
-[[menu.side]]
-    name = "eSolia Connect"
+[[languages.ja.menu.side]]
+    name = "イソリア コネクト"
     identifier = "connect"
     url = "http://connect.esolia.com"
     post = "_blank"
     parent = "tools"
     weight = 33
 
-[[menu.detailfooter1]]
-    name = "All Topics"
+[[languages.ja.menu.detailfooter1]]
+    name = "全てのトピック一覧"
     identifier = "topics"
     url = "/topics"
     weight = 55
 
-[[menu.homefooter2]]
-    name = "Zerobin"
+[[languages.ja.menu.homefooter2]]
+    name = "ゼロビン"
     identifier = "zerobin"
-    url = "https://zerobin.esolia.com"
+    url = "https://zerobin.esolia.com/?language=jp"
     post = "_blank"
     weight = 22
 
-[[menu.homefooter2]]
-    name = "eSolia Connect"
+[[languages.ja.menu.homefooter2]]
+    name = "イソリア コネクト"
     identifier = "connect"
     url = "http://connect.esolia.com"
     post = "_blank"
     weight = 33
 
-[[menu.homefooter2]]
-    name = "All Topics"
+[[languages.ja.menu.homefooter2]]
+    name = "全てのトピック一覧"
     identifier = "topics"
     url = "/topics"
     weight = 44
 
-[[menu.homefooter2]]
-    name = "All Tags"
+[[languages.ja.menu.homefooter2]]
+    name = "全てのタグ一覧"
     identifier = "tags"
     url = "/tags"
     weight = 55
+
+
+
+
+
+
