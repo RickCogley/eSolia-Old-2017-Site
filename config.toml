@@ -1,37 +1,64 @@
 DefaultContentLanguage = "en"
 copyright = "This work is copyright. All rights reserved by eSolia Inc."
-
+canonifyurls = "false"
+MetaDataFormat = "yaml"
 
 [params.navigation]
 help  = "Help"
 
 [Languages]
 [Languages.en]
-title = "My blog"
-weight = 1
-[Languages.en.params]
-linkedin = "english-link"
-
-[Languages.ja]
-copyright = "Tout est à moi"
-title = "Mon blog"
-weight = 2
-[Languages.fr.params]
-linkedin = "lien-francais"
-[Languages.fr.navigation]
-help  = "Aide"
-
-
-
-
 baseurl = "http://esolia.com/"
 title = "eSolia Inc."
-contentdir = "content/en"
-publishdir = "public/en"
-canonifyurls = "false"
-MetaDataFormat = "yaml"
+languageName = "English"
+weight = 1
 # For RSS only, apparently
 languageCode = "en-US"
+
+[Languages.en.params]
+    linkedin = "english-link"
+    locale = "en-US"
+    alternatelocales = ["ja-JP"]
+    description = "Website of eSolia Inc. - a Tokyo-based IT Management and support firm."
+    keywords = ["Japan","ICT","IT","Tokyo","Greater Tokyo","Kanto","IT","Management","Support","Outsourcing","Helpdesk","Website","Project Management","Consulting","Development","Operations"]
+    author = "Team eSolia"
+    accountableperson = "Rick Cogley"
+    entityname = "eSolia Inc."
+    # Used when a given page doesn't set its own.
+    defaultDescription = "Content by eSolia Inc."
+    defaultKeywords = "eSolia"
+    ISO8601 = "2006-01-02T15:04:05JST"
+    googleAnalytics = "UA-1040233-7"
+
+
+[Languages.ja]
+baseurl = "http://esolia.co.jp/"
+title = "イソリア"
+languageName = "日本語"
+weight = 2
+# For RSS only, apparently
+languageCode = "ja"
+
+[Languages.ja.params]
+    linkedin = "リンクドイン"
+    locale = "ja-JP"
+    alternatelocales = ["en-US"]
+    description = "東京をベースにしたITマネージメントやサポート会社、株式会社イソリアのウェブサイト"
+    keywords = ["東京","東京近郊","都内","23区","ICT","IT","バイリンガル","サポート","アウトソーシング","外注","ヘルプデスク","ウェブサイト","マネージメント","コンサルティング","開発","統括","日本"]
+    author = "チーム イソリア"
+    accountableperson = "コブレー ジェームズ"
+    entityname = "株式会社イソリア"
+    # Used when a given page doesn't set its own.
+    defaultDescription = "このコンテンツはイソリアの提供でお送りいたします。"
+    defaultKeywords = "イソリア"
+    ISO8601 = "2006-01-02T15:04:05JST"
+    googleAnalytics = "UA-1040233-8"
+
+[Languages.ja.navigation]
+help  = "ヘルプ"
+
+
+
 
 [author]
     name = "Rick Cogley"
@@ -49,19 +76,7 @@ languageCode = "en-US"
 [blackfriday]
     plainIdAnchors = true
 
-[params]
-    locale = "en-US"
-    alternatelocales = ["ja-JP"]
-    description = "Website of eSolia Inc. - a Tokyo-based IT Management and support firm."
-    keywords = ["Japan","ICT","IT","Tokyo","Greater Tokyo","Kanto","IT","Management","Support","Outsourcing","Helpdesk","Website","Project Management","Consulting","Development","Operations"]
-    author = "Team eSolia"
-    accountableperson = "Rick Cogley"
-    entityname = "eSolia Inc."
-    # Used when a given page doesn't set its own.
-    defaultDescription = "Content by eSolia Inc."
-    defaultKeywords = "eSolia"
-    ISO8601 = "2006-01-02T15:04:05JST"
-    googleAnalytics = "UA-1040233-7"
+
 
 [imaging]
 # Default resample filter used for resizing. Default is Box,
