@@ -58,12 +58,12 @@ languageCode = "en-US"
 
 [[languages.en.menu.side]]
     name = "About eSolia"
-    identifier = "esolia"
+    identifier = "en_esolia"
     weight = 5
 
 [[languages.en.menu.side]]
     name = "Outsourcing"
-    identifier = "outsourcing"
+    identifier = "en_outsourcing"
     weight = 10
 
 [[languages.en.menu.side]]
@@ -71,81 +71,81 @@ languageCode = "en-US"
     identifier = "proc"
     weight = 30
     url = "/process"
-    parent = "outsourcing"
+    parent = "en_outsourcing"
 
 [[languages.en.menu.side]]
     name = "Consulting"
-    identifier = "consulting"
+    identifier = "en_consulting"
     weight = 15
 
 [[languages.en.menu.side]]
     name = "Infrastructure"
-    identifier = "infra"
+    identifier = "en_infra"
     weight = 20
 
 [[languages.en.menu.side]]
     name = "Cloud System"
-    identifier = "cloudsystem"
+    identifier = "en_cloudsystem"
     weight = 25
 
 [[languages.en.menu.side]]
     name = "Solutions Focus"
-    identifier = "solutionsfocus"
+    identifier = "en_solutionsfocus"
     weight = 30
 
 [[menu.side]]
     name = "Success Stories"
-    identifier = "successstories"
+    identifier = "en_successstories"
     weight = 40
 
 [[languages.en.menu.side]]
     name = "Topics"
-    identifier = "topics"
+    identifier = "en_topics"
     weight = 111
 
 [[languages.en.menu.side]]
     name = "All Topics"
-    identifier = "alltopics"
+    identifier = "en_alltopics"
     url = "/topics"
     parent = "topics"
     weight = 1
 
 [[languages.en.menu.side]]
     name = "All Tags"
-    identifier = "alltags"
+    identifier = "en_alltags"
     url = "/tags"
     parent = "topics"
     weight = 2
 
 [[languages.en.menu.side]]
     name = "About eSolia"
-    identifier = "aboutesolia"
+    identifier = "en_aboutesolia"
     url = "/topics/esolia"
     parent = "topics"
     weight = 10
 
 [[languages.en.menu.side]]
     name = "Services"
-    identifier = "ourservices"
+    identifier = "en_ourservices"
     weight = 20
     url = "/topics/services"
     parent = "topics"
 
 [[languages.en.menu.side]]
     name = "Telephone"
-    identifier = "telephonetopic"
+    identifier = "en_telephonetopic"
     weight = 30
     url = "/topics/telephone"
     parent = "topics"
 
 [[languages.en.menu.side]]
     name = "Tools"
-    identifier = "tools"
+    identifier = "en_tools"
     weight = 222
 
 [[languages.en.menu.side]]
     name = "Zerobin"
-    identifier = "zerobin"
+    identifier = "en_zerobin"
     url = "https://zerobin.esolia.com"
     post = "_blank"
     parent = "tools"
@@ -153,7 +153,7 @@ languageCode = "en-US"
 
 [[languages.en.menu.side]]
     name = "eSolia Connect"
-    identifier = "connect"
+    identifier = "en_connect"
     url = "http://connect.esolia.com"
     post = "_blank"
     parent = "tools"
@@ -161,33 +161,33 @@ languageCode = "en-US"
 
 [[languages.en.menu.detailfooter1]]
     name = "All Topics"
-    identifier = "topics"
+    identifier = "en_topics"
     url = "/topics"
     weight = 55
 
 [[languages.en.menu.homefooter2]]
     name = "Zerobin"
-    identifier = "zerobin"
+    identifier = "en_zerobin"
     url = "https://zerobin.esolia.com"
     post = "_blank"
     weight = 22
 
 [[languages.en.menu.homefooter2]]
     name = "eSolia Connect"
-    identifier = "connect"
+    identifier = "en_connect"
     url = "http://connect.esolia.com"
     post = "_blank"
     weight = 33
 
 [[languages.en.menu.homefooter2]]
     name = "All Topics"
-    identifier = "topics"
+    identifier = "en_topics"
     url = "/topics"
     weight = 44
 
 [[languages.en.menu.homefooter2]]
     name = "All Tags"
-    identifier = "tags"
+    identifier = "en_tags"
     url = "/tags"
     weight = 55
 
@@ -220,94 +220,94 @@ help  = "ヘルプ"
 
 [[languages.ja.menu.side]]
     name = "イソリアについて"
-    identifier = "esolia"
+    identifier = "ja_esolia"
     weight = 5
 
 [[languages.ja.menu.side]]
     name = "アウトソーシング"
-    identifier = "outsourcing"
+    identifier = "ja_outsourcing"
     weight = 10
 
 [[languages.ja.menu.side]]
     name = "プロセス"
-    identifier = "proc"
+    identifier = "ja_proc"
     weight = 30
     url = "/process"
     parent = "outsourcing"
 
 [[languages.ja.menu.side]]
     name = "コンサルティング"
-    identifier = "consulting"
+    identifier = "ja_consulting"
     weight = 15
 
 [[languages.ja.menu.side]]
     name = "インフラストラクチャ"
-    identifier = "infra"
+    identifier = "ja_infra"
     weight = 20
 
 [[languages.ja.menu.side]]
     name = "クラウド システム"
-    identifier = "cloudsystem"
+    identifier = "ja_cloudsystem"
     weight = 25
 
 [[languages.ja.menu.side]]
     name = "ソリューション フォーカス"
-    identifier = "solutionsfocus"
+    identifier = "ja_solutionsfocus"
     weight = 30
 
 [[languages.ja.menu.side]]
     name = "成功事例"
-    identifier = "successstories"
+    identifier = "ja_successstories"
     weight = 40
 
 [[languages.ja.menu.side]]
     name = "トピック"
-    identifier = "topics"
+    identifier = "ja_topics"
     weight = 111
 
 [[languages.ja.menu.side]]
     name = "全トピック一覧"
-    identifier = "alltopics"
+    identifier = "ja_alltopics"
     url = "/topics"
     parent = "topics"
     weight = 1
 
 [[languages.ja.menu.side]]
     name = "全タグ一覧"
-    identifier = "alltags"
+    identifier = "ja_alltags"
     url = "/tags"
     parent = "topics"
     weight = 2
 
 [[languages.ja.menu.side]]
     name = "イソリアについて"
-    identifier = "aboutesolia"
+    identifier = "ja_aboutesolia"
     url = "/topics/イソリア"
     parent = "topics"
     weight = 10
 
 [[languages.ja.menu.side]]
     name = "サービス"
-    identifier = "ourservices"
+    identifier = "ja_ourservices"
     weight = 20
     url = "/topics/サービス"
     parent = "topics"
 
 [[languages.ja.menu.side]]
     name = "電話"
-    identifier = "telephonetopic"
+    identifier = "ja_telephonetopic"
     weight = 30
     url = "/topics/電話"
     parent = "topics"
 
 [[languages.ja.menu.side]]
     name = "便利ツール"
-    identifier = "tools"
+    identifier = "ja_tools"
     weight = 222
 
 [[languages.ja.menu.side]]
     name = "ゼロビン"
-    identifier = "zerobin"
+    identifier = "ja_zerobin"
     url = "https://zerobin.esolia.com/?language=jp"
     post = "_blank"
     parent = "tools"
@@ -315,7 +315,7 @@ help  = "ヘルプ"
 
 [[languages.ja.menu.side]]
     name = "イソリア コネクト"
-    identifier = "connect"
+    identifier = "ja_connect"
     url = "http://connect.esolia.com"
     post = "_blank"
     parent = "tools"
@@ -323,33 +323,33 @@ help  = "ヘルプ"
 
 [[languages.ja.menu.detailfooter1]]
     name = "全てのトピック一覧"
-    identifier = "topics"
+    identifier = "ja_topics"
     url = "/topics"
     weight = 55
 
 [[languages.ja.menu.homefooter2]]
     name = "ゼロビン"
-    identifier = "zerobin"
+    identifier = "ja_zerobin"
     url = "https://zerobin.esolia.com/?language=jp"
     post = "_blank"
     weight = 22
 
 [[languages.ja.menu.homefooter2]]
     name = "イソリア コネクト"
-    identifier = "connect"
+    identifier = "ja_connect"
     url = "http://connect.esolia.com"
     post = "_blank"
     weight = 33
 
 [[languages.ja.menu.homefooter2]]
     name = "全てのトピック一覧"
-    identifier = "topics"
+    identifier = "ja_topics"
     url = "/topics"
     weight = 44
 
 [[languages.ja.menu.homefooter2]]
     name = "全てのタグ一覧"
-    identifier = "tags"
+    identifier = "ja_tags"
     url = "/tags"
     weight = 55
 
