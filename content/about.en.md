@@ -29,9 +29,9 @@ menu:
   side:
     Name: Basic Info
     Weight: 10
-    Identifier: about
+    Identifier: en_about_page
     Url: /about
-    Parent: esolia
+    Parent: en_esolia
   detailfooter1:
     Name: About
     Weight: 10
