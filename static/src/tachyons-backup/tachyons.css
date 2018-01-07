@@ -1,0 +1,396 @@
+/*! TACHYONS v4.9.0 | http://tachyons.io */
+
+/*
+ *
+ *      ________            ______
+ *      ___  __/_____ _________  /______  ______________________
+ *      __  /  _  __ `/  ___/_  __ \_  / / /  __ \_  __ \_  ___/
+ *      _  /   / /_/ // /__ _  / / /  /_/ // /_/ /  / / /(__  )
+ *      /_/    \__,_/ \___/ /_/ /_/_\__, / \____//_/ /_//____/
+ *                                 /____/
+ *
+ *    TABLE OF CONTENTS
+ *
+ *    1. External Library Includes
+ *       - Normalize.css | http://normalize.css.github.io
+ *    2. Tachyons Modules
+ *    3. Variables
+ *       - Media Queries
+ *       - Colors
+ *    4. Debugging
+ *       - Debug all
+ *       - Debug children
+ *
+ */
+
+
+/* External Library Includes */
+@import './_normalize';
+
+
+/* Modules */
+@import './_box-sizing';
+@import './_aspect-ratios';
+@import './_images';
+@import './_background-size';
+@import './_background-position';
+@import './_outlines';
+@import './_borders';
+@import './_border-colors';
+@import './_border-radius';
+@import './_border-style';
+@import './_border-widths';
+@import './_box-shadow';
+@import './_code';
+@import './_coordinates';
+@import './_clears';
+@import './_display';
+@import './_flexbox';
+@import './_floats';
+@import './_font-family';
+@import './_font-style';
+@import './_font-weight';
+@import './_forms';
+@import './_heights';
+@import './_letter-spacing';
+@import './_line-height';
+@import './_links';
+@import './_lists';
+@import './_max-widths';
+@import './_widths';
+@import './_overflow';
+@import './_position';
+@import './_opacity';
+@import './_rotations';
+@import './_skins';
+@import './_skins-pseudo';
+@import './_spacing';
+@import './_negative-margins';
+@import './_tables';
+@import './_text-decoration';
+@import './_text-align';
+@import './_text-transform';
+@import './_type-scale';
+@import './_typography';
+@import './_utilities';
+@import './_visibility';
+@import './_white-space';
+@import './_vertical-align';
+@import './_hovers';
+@import './_z-index';
+@import './_nested';
+@import './_styles';
+
+/* Variables */
+/* Importing here will allow you to override any variables in the modules */
+@import './_colors';
+@import './_media-queries';
+
+/* Debugging */
+@import './_debug-children';
+@import './_debug-grid';
+
+/* Uncomment out the line below to help debug layout issues */
+/* @import './_debug'; */
+
+/* CUSTOM CLASSES FOR SITE FROM HERE */
+
+/* COLORS */
+
+:root {
+/* Uses shades and tints of the tachyon default purple */
+  --near-black-purple: #0f071a;
+  --darkest-purple: #200f39;
+  --darker-purple: #321758;
+  --dark-purple: #442077;
+  --washed-purple:  #dbcbf1;
+
+}
+
+.near-black-purple { color: var(--near-black-purple); }
+.darkest-purple { color: var(--darkest-purple); }
+.darker-purple { color: var(--darker-purple); }
+.dark-purple { color: var(--dark-purple); }
+.washed-purple { color: var(--washed-purple); }
+
+.bg-near-black-purple { background-color: var(--near-black-purple); }
+.bg-darkest-purple { background-color: var(--darkest-purple); }
+.bg-darker-purple { background-color: var(--darker-purple); }
+.bg-dark-purple { background-color: var(--dark-purple); }
+.bg-washed-purple { background-color: var(--washed-purple); }
+
+/* ======================================================
+ * hr,ul			        /*リストとか罫線かざり
+====================================================== */
+hr.gray {	color:#CCC;	margin:15px 0;}
+
+.bluedot li {      color: #a5bfe5;	margin-left:1.5em;}
+.toplist ul, ol { margin-left: 1.5em;}
+.mainbody ul, ol { margin-left: 2.2em;}
+
+.bluedot span {      color: #505050;  }
+
+img.border { border:#CCC 1px solid;}
+
+/* ======================================================
+ * div			        /*いれもの
+====================================================== */
+
+.DLboxPDF {
+	background: url(/img/icon_pdf.png) right no-repeat;
+	border:#b2800a 2px solid;
+	float:left;
+	border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+	-moz-box-shadow: 2px 2px 2px #CCC;
+	-webkit-box-shadow: 2px 2px 2px #CCC;
+	box-shadow: 2px 2px 2px #CCC;
+	padding:15px 50px 15px 10px;
+	margin:10px 0;
+}
+
+.DLboxEXC {
+	background: url(/img/icon_exc.png) right no-repeat;
+	border:#b2800a 2px solid;
+	float:left;
+	border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+	-moz-box-shadow: 2px 2px 2px #CCC;
+	-webkit-box-shadow: 2px 2px 2px #CCC;
+	box-shadow: 2px 2px 2px #CCC;
+	padding:15px 60px 15px 10px;
+	margin:10px 0;
+}
+
+.DLboxDOC {
+	background: url(/img/icon_doc.png) right no-repeat;
+	border:#b2800a 2px solid;
+	float:left;
+	border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+	-moz-box-shadow: 2px 2px 2px #CCC;
+	-webkit-box-shadow: 2px 2px 2px #CCC;
+	box-shadow: 2px 2px 2px #CCC;
+	padding:15px 60px 15px 10px;
+	margin:10px 0;
+}
+
+.blueSQ{
+	width:520px;
+	border:#076982 1px solid;
+	padding:13px;
+	margin:10px 0;
+}
+
+/* PRODB DB EMBED STYLING */
+
+table.fs-grid {
+font: normal 11px/12px ""Hiragino Kaku Gothic ProN",　"メイリオ", sans-serif;"
+}
+table.fs-grid caption {
+display: none;
+}
+table.fs-grid tbody.fs-tfoot {
+display: none;
+}
+#hideheader table.fs-grid thead {
+display: none;
+}
+table.fs-grid>tbody.fs-groupfoot, table.fs-grid>tbody.fs-grouphead span:nth-child(2)  {
+display: none;
+}
+
+/*
+section.fs-layouttile header {
+display: none;
+}
+section.fs-layouttile p.td-numrecords {
+display: none;
+}
+ */
+
+/* ANTI-SPAM */
+
+span.gyaku {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+/* Media Queries */
+
+@custom-media --breakpoint-not-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 30em) and (max-width: 60em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
+@custom-media --breakpoint-not-large screen and (max-width: 60em);
+@custom-media --breakpoint-small screen and (max-width: 30em);
+
+
+
+@media (--breakpoint-not-large) {
+  .dn-nl {              display: none; }
+  .di-nl {              display: inline; }
+  .db-nl {              display: block; }
+  .dib-nl {             display: inline-block; }
+  .dit-nl {             display: inline-table; }
+  .dt-nl {              display: table; }
+  .dtc-nl {             display: table-cell; }
+  .dt-row-nl {          display: table-row; }
+  .dt-row-group-nl {    display: table-row-group; }
+  .dt-column-nl {       display: table-column; }
+  .dt-column-group-nl { display: table-column-group; }
+
+  .dt--fixed-nl {
+    table-layout: fixed;
+    width: 100%;
+  }
+}
+
+@media (--breakpoint-small) {
+  .dn-s {              display: none; }
+  .di-s {              display: inline; }
+  .db-s {              display: block; }
+  .dib-s {             display: inline-block; }
+  .dit-s {             display: inline-table; }
+  .dt-s {              display: table; }
+  .dtc-s {             display: table-cell; }
+  .dt-row-s {          display: table-row; }
+  .dt-row-group-s {    display: table-row-group; }
+  .dt-column-s {       display: table-column; }
+  .dt-column-group-s { display: table-column-group; }
+
+  .dt--fixed-s {
+    table-layout: fixed;
+    width: 100%;
+  }
+}
+
+/* Max Width String Properties */
+
+@media (--breakpoint-not-small) {
+  .mw-100-ns  { max-width: 100%; }
+
+  .mw1-ns  {  max-width: 1rem; }
+  .mw2-ns  {  max-width: 2rem; }
+  .mw3-ns  {  max-width: 4rem; }
+  .mw4-ns  {  max-width: 8rem; }
+  .mw5-ns  {  max-width: 16rem; }
+  .mw6-ns  {  max-width: 32rem; }
+  .mw7-ns  {  max-width: 48rem; }
+  .mw7half-ns  {  max-width: 56rem; }
+  .mw8-ns  {  max-width: 64rem; }
+  .mw9-ns  {  max-width: 96rem; }
+
+  .mw-none-ns { max-width: none; }
+}
+
+@media (--breakpoint-medium) {
+  .mw-100-m  { max-width: 100%; }
+
+  .mw1-m  {  max-width: 1rem; }
+  .mw2-m  {  max-width: 2rem; }
+  .mw3-m  {  max-width: 4rem; }
+  .mw4-m  {  max-width: 8rem; }
+  .mw5-m  {  max-width: 16rem; }
+  .mw6-m  {  max-width: 32rem; }
+  .mw7-m  {  max-width: 48rem; }
+  .mw7half-m  {  max-width: 56rem; }
+  .mw8-m  {  max-width: 64rem; }
+  .mw9-m  {  max-width: 96rem; }
+
+  .mw-none-m { max-width: none; }
+}
+
+@media (--breakpoint-large) {
+  .mw-100-l  { max-width: 100%; }
+
+  .mw1-l  {  max-width: 1rem; }
+  .mw2-l  {  max-width: 2rem; }
+  .mw3-l  {  max-width: 4rem; }
+  .mw4-l  {  max-width: 8rem; }
+  .mw5-l  {  max-width: 16rem; }
+  .mw6-l  {  max-width: 32rem; }
+  .mw7-l  {  max-width: 48rem; }
+  .mw7half-l  {  max-width: 56rem; }
+  .mw8-l  {  max-width: 64rem; }
+  .mw9-l  {  max-width: 96rem; }
+
+  .mw-none-l { max-width: none; }
+}
+
+@media (--breakpoint-not-large) {
+  .mw-100-nl  { max-width: 100%; }
+
+  .mw1-nl  {  max-width: 1rem; }
+  .mw2-nl  {  max-width: 2rem; }
+  .mw3-nl  {  max-width: 4rem; }
+  .mw4-nl  {  max-width: 8rem; }
+  .mw5-nl  {  max-width: 16rem; }
+  .mw6-nl  {  max-width: 32rem; }
+  .mw7-nl  {  max-width: 48rem; }
+  .mw7half-nl  {  max-width: 56rem; }
+  .mw8-nl  {  max-width: 64rem; }
+  .mw9-nl  {  max-width: 96rem; }
+
+  .mw-none-nl { max-width: none; }
+}
+
+@media (--breakpoint-small) {
+  .mw-100-s  { max-width: 100%; }
+
+  .mw1-s  {  max-width: 1rem; }
+  .mw2-s  {  max-width: 2rem; }
+  .mw3-s  {  max-width: 4rem; }
+  .mw4-s  {  max-width: 8rem; }
+  .mw5-s  {  max-width: 16rem; }
+  .mw6-s  {  max-width: 32rem; }
+  .mw7-s  {  max-width: 48rem; }
+  .mw7half-s  {  max-width: 56rem; }
+  .mw8-s  {  max-width: 64rem; }
+  .mw9-s  {  max-width: 96rem; }
+
+  .mw-none-s { max-width: none; }
+}
+
+@media (--breakpoint-not-large) {
+  .tl-nl  { text-align: left; }
+  .tr-nl  { text-align: right; }
+  .tc-nl  { text-align: center; }
+  .tj-nl  { text-align: justify; }
+}
+
+@media (--breakpoint-small) {
+  .tl-s  { text-align: left; }
+  .tr-s  { text-align: right; }
+  .tc-s  { text-align: center; }
+  .tj-s  { text-align: justify; }
+}
+
+/* FONT */
+
+.japanese-sans {
+  font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', sans-serif;
+}
+
+/* ICON */
+
+/*
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+ */
+
+/* PRINTING */
+
+@media print {
+  .dn-p {
+    display:none;
+  }
+}
