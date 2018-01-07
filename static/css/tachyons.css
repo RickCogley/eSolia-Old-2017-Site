@@ -2081,7 +2081,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .debug-grid-16-solid { background: white url( data:image/gif;base64,R0lGODdhEAAQAPEAAADw/wDx/xXy/////ywAAAAAEAAQAAACIZyPKckYDQFsb6ZqD85jZ2+BkwiRFKehhqQCQgDHcgwEBQA7 ) repeat top left; }
 /* Uncomment out the line below to help debug layout issues */
 /* @import './_debug'; */
-/* CUSTOM CLASSES FOR SITE FROM HERE */
+/* ======== CUSTOM CLASSES FOR SITE FROM HERE ========== */
 /* COLORS */
 :root {/* Uses shades and tints of the tachyon default purple */ }
 .near-black-purple { color: #0f071a; }

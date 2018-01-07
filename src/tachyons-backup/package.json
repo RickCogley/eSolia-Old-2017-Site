@@ -41,11 +41,13 @@
   "scripts": {
     "start": "npm run build:watch",
     "mutations": "immutable-css src/tachyons.css --strict",
-    "build": "npm run build:css && npm run build:minify && npm run build:css2 && npm run build:minify2",
+    "build": "npm run build:css && npm run build:minify && npm run build:css2 && npm run build:minify2 && npm run build:bak1 && npm run build:bak2",
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
-    "build:css2": "tachyons src/tachyons.css > ../../css/tachyons.css",
+    "build:css2": "tachyons src/tachyons.css > ../../static/css/tachyons.css",
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
-    "build:minify2": "tachyons src/tachyons.css -m > ../../css/tachyons.min.css",
+    "build:minify2": "tachyons src/tachyons.css -m > ../../static/css/tachyons.min.css",
+    "build:bak1": "/bin/cp -rf src/tachyons.css ../tachyons-backup/tachyons.css",
+    "build:bak2": "/bin/cp -rf package.json ../tachyons-backup/package.json",
     "build:watch": "watch \"npm run build\" ./src/"
   }
 }
