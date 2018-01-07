@@ -2094,6 +2094,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-darker-purple { background-color: #321758; }
 .bg-dark-purple { background-color: #442077; }
 .bg-washed-purple { background-color: #dbcbf1; }
+.bg-washed-platypus { background-color: #dbcbf1; }
 /* ======================================================
  * hr,ul			        /*リストとか罫線かざり
 ====================================================== */
