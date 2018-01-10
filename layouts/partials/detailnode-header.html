@@ -8,24 +8,24 @@
           {{ $taxoname := .Data.Plural }}
           <h1 class="header center-on-small-only">
             {{ if in "Tags タグ" $nodetitle }}
-            {{ ( index $.Site.Data.translations $.Site.Params.locale ).tags }}
+            REPLACE with tags }}
             {{ else if in "Topics トピック" $nodetitle }}
-            {{ ( index $.Site.Data.translations $.Site.Params.locale ).topics }}
+            REPLACE with topics }}
             {{ else if in "Series シリーズ" $nodetitle }}
-            {{ ( index $.Site.Data.translations $.Site.Params.locale ).series }}
+            REPLACE with series }}
             {{ else }}
             {{ if eq .Title "Esolia" }}eSolia{{ else }}{{ .Title }}{{ end }}
             {{ end }}
           </h1>
           <h4 class="light light-blue-text center-on-small-only">
             {{ if in "tags タグ" $taxoname }}
-            {{ ( index $.Site.Data.translations $.Site.Params.locale ).taxotagbrowse }}
+            REPLACE with taxotagbrowse }}
             {{ else if in "topics トピック" $taxoname }}
-            {{ ( index $.Site.Data.translations $.Site.Params.locale ).taxotopicbrowse }}
+            REPLACE with taxotopicbrowse }}
             {{ else if in "series シリーズ" $taxoname }}
-            {{ ( index $.Site.Data.translations $.Site.Params.locale ).taxoseriesbrowse }}
+            REPLACE with taxoseriesbrowse }}
             {{ else }}
-            {{ ( index $.Site.Data.translations $.Site.Params.locale ).taxobrowse }}
+            REPLACE with taxobrowse }}
             {{ end }}
           </h4>
         </div>

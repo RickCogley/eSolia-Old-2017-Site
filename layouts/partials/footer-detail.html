@@ -3,18 +3,18 @@
   <div class="container">
     <div class="row">
       <div class="col l4 s12">
-        <h5 class="white-text">{{ ( index $.Site.Data.translations $.Site.Params.locale ).footerlinks1title }}</h5>
-        <p class="grey-text text-lighten-4">{{ ( index $.Site.Data.translations $.Site.Params.locale ).footerlinks1text }}</p>
+        <h5 class="white-text">REPLACE with footerlinks1title }}</h5>
+        <p class="grey-text text-lighten-4">REPLACE with footerlinks1text }}</p>
           <ul class="esListFooter">
-            <li><a class="green-text text-accent-3" href="{{ .Site.BaseURL }}">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genhomename }}</a></li>
+            <li><a class="green-text text-accent-3" href="{{ .Site.BaseURL }}">REPLACE with genhomename }}</a></li>
             {{ range .Site.Menus.detailfooter1 }}
             <li><a class="green-text text-accent-3" href="{{ .URL }}">{{ .Name }}</a></li>
             {{ end }}
           </ul>
       </div>
       <div class="col l4 s12">
-        <h5 class="white-text">{{ ( index $.Site.Data.translations $.Site.Params.locale ).footerlinks2title }}</h5>
-        <p class="grey-text text-lighten-4">{{ ( index $.Site.Data.translations $.Site.Params.locale ).footerlinks2text }}</p>
+        <h5 class="white-text">REPLACE with footerlinks2title }}</h5>
+        <p class="grey-text text-lighten-4">REPLACE with footerlinks2text }}</p>
           <ul class="esListFooter">
             {{ $series := index .Site.Taxonomies.series "ninki1" }}
             {{ range first 5 $series.Pages }}
@@ -23,8 +23,8 @@
           </ul>
       </div>
       <div class="col l4 s12" style="overflow: hidden;">
-        <h5 class="white-text">{{ ( index $.Site.Data.translations $.Site.Params.locale ).footerlinks3title }}</h5>
-        <p class="grey-text text-lighten-4">{{ ( index $.Site.Data.translations $.Site.Params.locale ).footerlinks3text }}</p>
+        <h5 class="white-text">REPLACE with footerlinks3title }}</h5>
+        <p class="grey-text text-lighten-4">REPLACE with footerlinks3text }}</p>
         <a href="https://plus.google.com/+Esolia/posts" target="_blank"><i class="tiny icon-gplus red-text text-darken-1"></i></a>
         <a href="https://twitter.com/esolia_inc" target="_blank"><i class="tiny icon-twitter light-blue-text"></i></a>
         <a href="http://www.linkedin.com/company/esolia-inc" target="_blank"><i class="tiny icon-linkedin white-text"></i></a>
@@ -37,8 +37,8 @@
   <div class="footer-copyright">
     <small>
     <div class="container">
-      &copy;1999-{{ .Now.Year }} {{ ( index $.Site.Data.translations $.Site.Params.locale ).footerallrightsreserved }}&nbsp;(<a class="grey-text text-lighten-4" href="/license">{{ ( index $.Site.Data.translations $.Site.Params.locale ).genlicensename }}</a>)
-      <a class="grey-text text-lighten-4 right" href="/colophon">{{ ( index $.Site.Data.translations $.Site.Params.locale ).gencolophonname }}</a>
+      &copy;1999-{{ .Now.Year }} REPLACE with footerallrightsreserved }}&nbsp;(<a class="grey-text text-lighten-4" href="/license">REPLACE with genlicensename }}</a>)
+      <a class="grey-text text-lighten-4 right" href="/colophon">REPLACE with gencolophonname }}</a>
     </div>
     </small>
   </div>

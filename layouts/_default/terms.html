@@ -14,15 +14,15 @@
             <div class="posts">
                <h2 id="title">
                  {{ $taxoname := .Data.Plural }}
-                 {{ ( index $.Site.Data.translations $.Site.Params.locale ).taxositename }}
+                 REPLACE with taxositename }}
                  {{ if in "tags タグ" $taxoname }}
-                 {{ ( index $.Site.Data.translations $.Site.Params.locale ).tags }}
+                 REPLACE with tags }}
                  {{ else if in "topics トピック" $taxoname }}
-                 {{ ( index $.Site.Data.translations $.Site.Params.locale ).topics }}
+                 REPLACE with topics }}
                  {{ else if in "series シリーズ" $taxoname }}
-                 {{ ( index $.Site.Data.translations $.Site.Params.locale ).series }}
+                 REPLACE with series }}
                  {{ else }}
-                 {{ ( index $.Site.Data.translations $.Site.Params.locale ).labels }}
+                 REPLACE with labels }}
                  {{ end }}
                </h2>
                  {{ $data := .Data }}

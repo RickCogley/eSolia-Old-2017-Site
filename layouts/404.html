@@ -13,10 +13,10 @@
           <div id="materialdesign" class="section scrollspy">
 
             <article>
-            {{ ( index $.Site.Data.translations $.Site.Params.locale ).gen404message }}
+            REPLACE with gen404message }}
             {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
             {{ if eq $taxonomyname "topics" }}
-            <a href="/{{ $taxonomyname | urlize }}"><h2>{{ ( index $.Site.Data.translations $.Site.Params.locale ).topics }}</h2></a>
+            <a href="/{{ $taxonomyname | urlize }}"><h2>REPLACE with topics }}</h2></a>
                 {{ range $key, $value := $taxonomy }}
                 <i class="tiny mdi-action-label-outline grey-text text-darken-1"></i> <span class="grey-text text-darken-2"><strong>{{ if eq $key "esolia" }}eSolia{{ else }}{{ title $key }}{{ end }}</strong></span>
                     <ul>
@@ -29,7 +29,7 @@
             {{ end }}
             {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
             {{ if eq $taxonomyname "tags" }}
-            <a href="/{{ $taxonomyname | urlize }}"><h2>{{ ( index $.Site.Data.translations $.Site.Params.locale ).tags }}</h2></a>
+            <a href="/{{ $taxonomyname | urlize }}"><h2>REPLACE with tags }}</h2></a>
                 {{ range $key, $value := $taxonomy }}
                 <i class="tiny mdi-action-label-outline grey-text text-darken-1"></i> <span class="grey-text text-darken-2"><strong>{{ if eq $key "esolia" }}eSolia{{ else }}{{ title $key }}{{ end }}</strong></span>
                     <ul>

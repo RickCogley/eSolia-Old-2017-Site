@@ -4,6 +4,7 @@ copyright = "This work is copyright. All rights reserved by eSolia Inc."
 canonifyurls = "false"
 MetaDataFormat = "yaml"
 enableMissingTranslationPlaceholders = "true"
+ISO8601 = "2006-01-02T15:04:05JST"
 
 [author]
     name = "Rick Cogley"

@@ -31,8 +31,8 @@
 <!-- Required Open Graph Info -->
 <meta property="og:type" content="article" />
 <!-- ARTICLE Open Graph Info -->
-<meta property="article:published_time" content="{{ .PublishDate.Format $.Site.Params.ISO8601 }}"/>
-<meta property="article:modified_time" content="{{ .Date.Format $.Site.Params.ISO8601 }}"/>
+<meta property="article:published_time" content="{{ .PublishDate.Format "$.Site.Params.ISO8601" }}"/>
+<meta property="article:modified_time" content="{{ .Date.Format "$.Site.Params.ISO8601" }}"/>
 <meta property="article:author" content="http://www.facebook.com/eSolia" />
 <meta property="article:publisher" content="http://www.facebook.com/eSolia" />
 {{ if isset .Params "menusection" }}<meta property="article:section" content="{{ .Params.menusection }}" />{{ end }}
