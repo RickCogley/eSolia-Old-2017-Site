@@ -1,2 +1,314 @@
 [wordCount]
-other = "{{ .WordCount }} words"
+other = "合計 {{ .WordCount }} 数の単語"
+
+[altphotoatagotunnel]
+other = "愛宕トンネル、コグレー リック作"
+
+[altphotoesoliaofficefront1]
+other = "イソリア事務所ビル外、コグレー リック作"
+
+[altphotonetworkswitch]
+other = "ネットワークスイッチ、コグレー リック作"
+
+[altphototemplecolumn]
+other = "飯倉のお寺、コグレー リック作"
+
+[altphotoenoshimafuji]
+other = "江ノ島と富士山、コグレー リック作"
+
+[footerallrightsreserved]
+other = "eSolia Inc., All Rights Reserved."
+
+[footerlinks1title]
+other = "一般"
+
+[footerlinks1text]
+other = "1999年創業以来、お客様のバーチャルIT部として強固な基盤作りのお手伝いを行っております。"
+
+[footerlinks2title]
+other = "サービス"
+
+[footerlinks2text]
+other = "イソリアの人気のあるサービスのセレクション。"
+
+[footerlinks3title]
+other = "最新"
+
+[footerlinks3text]
+other = "ソーシャルメディアでつながりましょう。私たちの最新のブログもご覧ください。"
+
+[footerlinks4title]
+other = "ツール"
+
+[footerlinks5title]
+other = "フォーカス"
+
+[formemail]
+other = "メール"
+
+[formfirstname]
+other = "名"
+
+[formlastname]
+other = "氏"
+
+[formmessage]
+other = "メッセージ"
+
+[formrequestmoreinfo]
+other = "お問い合わせ"
+
+[formrequestmoreinfotext]
+other = "下記フォームにご記入いただき「送信」ボタンをクリックしてください。ご要望について、メッセージ欄にご自由にご記入の上、チェックボックスも併せてお選びください。"
+
+[formreset]
+other = "リセット"
+
+[formsubmit]
+other = "送信"
+
+[formtel]
+other = "電話番号"
+
+[formwarningsales]
+other = "営業の方でしょうか?"
+
+[formwarningsalestext]
+other = "こちらのフォームでは、営業連絡をお断り致します。"
+
+[gen404message]
+other = "ご記入のページは、当サイトに見つかりません。アドレスが間違ってるか、変更されている場合もあります。下記の一覧からお探しください。ご検討のほど、どうぞよろしくお願いします。"
+
+[gen404subtitle]
+other = "ページが見つかりません"
+
+[genfeature]
+other = "おすすめ"
+
+[genfeature1]
+other = "電話サービス"
+
+[genfeature1img]
+other = "/img/eSolia-Post-Slider-Telephone-03.jpg"
+
+[genfeature1text]
+other = "クラウド電話サービスは、デスクフォンとスマートフォンから、いつでも・どこでもアクセス可能な最先端な電話システムを実現してます。"
+
+[genfeature1url]
+other = "/telephone"
+
+[genfeature2]
+other = "PROcr電話録音"
+
+[genfeature2img]
+other = "/img/eSolia-Post-Slider-SIP-Print-04.jpg"
+
+[genfeature2text]
+other = "多機能PROcrで通話録音、コールセンターの質や顧客満足度を飛躍的にアップ。"
+
+[genfeature2url]
+other = "/procr"
+
+[gengalleryname]
+other = "ギャラリー"
+
+[genhomename]
+other = "ホーム"
+
+[gencolophonname]
+other = "奥付"
+
+[genlicensename]
+other = "ライセンス"
+
+[genlatestfeature]
+other = "最新おすすめ"
+
+[genlatestposts]
+other = "最新プロ ブログ"
+
+[genmoreinfo]
+other = "つづきを読む"
+
+[genviewgooglemap]
+other = "グーグルマップで見る"
+
+[languagename]
+other = "日本語"
+
+[languageswitch]
+other = "言語切り替え"
+
+[languageurl]
+other = "http://esolia.co.jp"
+
+[menuabout]
+other = "イソリアについて"
+
+[menulanguageswitch]
+other = "English"
+
+[menulanguageswitchurl]
+other = "http://esolia.com"
+
+[photocaptionesoliaofficefront1]
+other = "イソリア虎ノ門事務所ビル外見"
+
+[taxobrowse]
+other = "ラベル付きコンテンツの一覧"
+
+[taxodraft]
+other = "ドラフト"
+
+[taxositename]
+other = "当サイトの"
+
+[taxotagbrowse]
+other = "タグ付きコンテンツの一覧"
+
+[taxotagorbrowse]
+other = "...又は全タグを"
+
+[taxotagalltags]
+other = "閲覧する。"
+
+[taxotopicbrowse]
+other = "トピック付きコンテンツの一覧"
+
+[taxotopicorbrowse]
+other = "...又は全トピックを"
+
+[taxotopicalltopics]
+other = "閲覧する。"
+
+[taxoseriesbrowse]
+other = "シリーズ付きコンテンツの一覧"
+
+[taxoseriesorbrowse]
+other = "...又は全シーリズを"
+
+[taxoseriesallseries]
+other = "閲覧する。"
+
+[topics]
+other = "トピック"
+
+[tags]
+other = "タグ"
+
+[series]
+other = "シリーズ"
+
+[labels]
+other = "ラベル"
+
+[topsectionbsf]
+other = "イソリアにお任せください"
+
+[topsectioncus]
+other = "お問い合わせ"
+
+[topsectionwhy]
+other = "なぜイソリアか？"
+
+[topsectionwwd]
+other = "主なソリューション"
+
+[topsectionwwdtext]
+other = "イソリアのプロフェショナルスタッフはインフラから、オペレーション、開発、マネージメントとガバナンスまで幅広い範囲にわたるIT活動に対応いたします。貴社の指令、規格と委任に基づいて、貴社が必要とされるニーズに必ずお応えいたします。"
+
+[topslogan]
+other = "バイリンガル IT <nobr><wbr>アウトソーシング <wbr>サービス</nobr>"
+
+[topsubslogan]
+other = "貴社の頼れるIT部門となります"
+
+[toptestimoninal1]
+other = "イソリアは我々の複雑かつ複数年に及ぶプロジェクトを成功に導いてくれました。まるで長いトンネルの先に希望の光が差し込んだような状況でした。"
+
+[toptestimoninal2]
+other = "イソリアのエンジニア達は豊富な知識を持ち合わせていますが、複雑な専門用語を多用せず、誰でも理解できるように分りやすく解決方法を説明してくれました。"
+
+[topwwdclouddb]
+other = "クラウド型データベース"
+
+[topwwdclouddbtext]
+other = "急速に変化し続ける社内データベースはイソリアのPRODBにて一括管理。その他ソフトウェア開発も"
+
+[topwwdhelpdesk]
+other = "ヘルプデスク"
+
+[topwwdhelpdesktext]
+other = "様々なトラブルや解決策を集結させた社内データベースを利用し、迅速で信頼性の高いサポートを提供"
+
+[topwwdinfrastructure]
+other = "インフラストラクチャー"
+
+[topwwdinfrastructuretext]
+other = "機能と目的を実現させる為のインフラ実装。汎用的なものから新技術を備えた機器まで堅実に"
+
+[topwwdlocalization]
+other = "ローカライゼーション"
+
+[topwwdlocalizationtext]
+other = "翻訳サイトに頼るくらいなら是非イソリアに。ネイティブによって整合性のとれたローカライゼーションを様々な分野で"
+
+[topwwdmanagement]
+other = "マネージメント"
+
+[topwwdmanagementtext]
+other = "多種多様なプロジェクトを多方面、多言語でのサポートを実現"
+
+[topwwdmandate]
+other = "委任"
+
+[topwwdmandatetext]
+other = "基準やレギュレーション、指示は臨機応変に適応"
+
+[topwwdofficesetup]
+other = "オフィス構築"
+
+[topwwdofficesetuptext]
+other = "新規オフィスの立ち上げから、変更や改善に至るまでの全サポート"
+
+[topwwdonsite]
+other = "オンサイト"
+
+[topwwdonsitetext]
+other = "面倒なシステム管理、度重なるユーザサポート、複雑なトラブルシュートは経験豊富なエンジニアがオンサイトにて"
+
+[topwwdpm]
+other = "プロジェクト管理"
+
+[topwwdpmtext]
+other = "東京およびアジア太平洋地域の実施しているプロジェクトで成功を収めています。私たちのPMアプローチは実践的で独自性があります。"
+
+[topwwdprocess]
+other = "プロセス"
+
+[topwwdprocesstext]
+other = "卓逸されたプロジェクト管理やアセット管理、コンプライアンスの徹底から購入のお手伝いまで、ＩＴやビジネスのレベルアップへ"
+
+[topwwdsecurity]
+other = "セキュリティ"
+
+[topwwdsecuritytext]
+other = "コンプライアンスやセキュリティの信頼性監査、強固なセキュリティをソフト＆ハードにて実装。システムも心もセキュアに"
+
+[topwwdtelephone]
+other = "電話システム"
+
+[topwwdtelephonetext]
+other = "フル機能備えで近代的IP電話システムの導入を成功させることでお客様のコストを削減し、効率を高めます。クラウド型もあります。"
+
+[topwwdtraining]
+other = "トレーニング"
+
+[topwwdtrainingtext]
+other = "迷える新入社員に実用的なＩＴオリエンテーションを作成。初歩的ものから専門的なトレーニングまで"
+
+[topwwdwebsite]
+other = "ウェブサイト"
+
+[topwwdwebsitetext]
+other = "新時代と目的に合ったウェブサイトの構築を。新規、既存、多言語でも"

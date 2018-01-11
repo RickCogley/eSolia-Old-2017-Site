@@ -1,2 +1,314 @@
 [wordCount]
 other = "{{ .WordCount }} words total"
+
+[altphotoatagotunnel]
+other = "Photo of Atago Tunnel, by Rick Cogley"
+
+[altphotoesoliaofficefront1]
+other = "Photo of eSolia office exterior, by Rick Cogley"
+
+[altphotonetworkswitch]
+other = "Photo of Network Switch, by Rick Cogley"
+
+[altphototemplecolumn]
+other = "Photo of Iikura Temple column, by Rick Cogley"
+
+[altphotoenoshimafuji]
+other = "Photo of Enoshima and Mt Fuji, by Rick Cogley"
+
+[footerallrightsreserved]
+other = "eSolia Inc., All Rights Reserved."
+
+[footerlinks1title]
+other = "General"
+
+[footerlinks1text]
+other = "eSolia is a 'virtual IT department', building strong foundations for your business since 1999."
+
+[footerlinks2title]
+other = "Popular"
+
+[footerlinks2text]
+other = "Our most popular services."
+
+[footerlinks3title]
+other = "Latest"
+
+[footerlinks3text]
+other = "Connect with us on social media, or see our latest posts."
+
+[footerlinks4title]
+other = "Tools"
+
+[footerlinks5title]
+other = "Focus"
+
+[formemail]
+other = "Email"
+
+[formfirstname]
+other = "First Name"
+
+[formlastname]
+other = "Last Name"
+
+[formmessage]
+other = "Message"
+
+[formrequestmoreinfo]
+other = "Request More Information"
+
+[formrequestmoreinfotext]
+other = "For more information, fill in and submit the following form. You can write in any message you'd like, and put a tick in the checkboxes provided for your convenience."
+
+[formreset]
+other = "Reset"
+
+[formsubmit]
+other = "Submit"
+
+[formtel]
+other = "Tel"
+
+[formwarningsales]
+other = "Sales?"
+
+[formwarningsalestext]
+other = "If you are selling something, please do not use this form to tell us about it."
+
+[gen404message]
+other = "Thanks for visiting. You've reached our 404 page, meaning the content you tried to access cannot be found. Use the site search feature, or scan the below list of site taxonomies and click through to something of interest."
+
+[gen404subtitle]
+other = "Page Not Found"
+
+[genfeature]
+other = "Featured"
+
+[genfeature1]
+other = "Tel Service"
+
+[genfeature1img]
+other = "/img/eSolia-Post-Slider-Telephone-03.jpg"
+
+[genfeature1text]
+other = "Get a full-featured 'Cloud Phone' service, a modern phone system accessible from desk phones & smart phones."
+
+[genfeature1url]
+other = "/telephone"
+
+[genfeature2]
+other = "Tel Recording"
+
+[genfeature2img]
+other = "/img/eSolia-Post-Slider-SIP-Print-04.jpg"
+
+[genfeature2text]
+other = "Get eSolia PROcr to record telephone calls for quality assurance & compliance. Powered by SIP Print."
+
+[genfeature2url]
+other = "/procr"
+
+[gengalleryname]
+other = "Gallery"
+
+[genhomename]
+other = "Home"
+
+[gencolophonname]
+other = "Colophon"
+
+[genlicensename]
+other = "License"
+
+[genlatestfeature]
+other = "Latest Features"
+
+[genlatestposts]
+other = "Latest Pro Blog"
+
+[genmoreinfo]
+other = "More Info"
+
+[genviewgooglemap]
+other = "View on Google Maps"
+
+[languagename]
+other = "English"
+
+[languageswitch]
+other = "Language"
+
+[languageurl]
+other = "http://esolia.com"
+
+[menuabout]
+other = "About"
+
+[menulanguageswitch]
+other = "日本語"
+
+[menulanguageswitchurl]
+other = "http://esolia.co.jp"
+
+[photocaptionesoliaofficefront1]
+other = "Photo of eSolia Toranomon office exterior"
+
+[taxobrowse]
+other = "Browse Labeled Content"
+
+[taxodraft]
+other = "DRAFT"
+
+[taxositename]
+other = "Site"
+
+[taxotagbrowse]
+other = "Browse Tagged Content"
+
+[taxotagorbrowse]
+other = "...or browse"
+
+[taxotagalltags]
+other = "all tags."
+
+[taxotopicbrowse]
+other = "Browse Topical Content"
+
+[taxotopicorbrowse]
+other = "...or browse"
+
+[taxotopicalltopics]
+other = "all topics."
+
+[taxoseriesbrowse]
+other = "Browse Series Content"
+
+[taxoseriesorbrowse]
+other = "...or browse"
+
+[taxoseriesallseries]
+other = "all series."
+
+[topics]
+other = "Topics"
+
+[tags]
+other = "Tags"
+
+[series]
+other = "Series"
+
+[labels]
+other = "Labels"
+
+[topsectionbsf]
+other = "You Can Rely on eSolia"
+
+[topsectioncus]
+other = "Contact Us"
+
+[topsectionwhy]
+other = "Why eSolia?"
+
+[topsectionwwd]
+other = "What We Do"
+
+[topsectionwwdtext]
+other = "eSolia's professional staff handles a wide range of IT activities, from infrastructure, operations, development, to management and governance. You're sure to find that we can cover your needs, and we'll do so following your directives, standards and mandate."
+
+[topslogan]
+other = "Bilingual IT <nobr><wbr>Outsourcing <wbr>Service</nobr>"
+
+[topsubslogan]
+other = "eSolia is Your Japan IT Department"
+
+[toptestimoninal1]
+other = "eSolia helped us to see the light at the end of the tunnel, when they successfully managed our complex, multi-year project."
+
+[toptestimoninal2]
+other = "eSolia's technical knowledge was second-to-none, and they could explain difficult solutions in layman's terms so that everyone understood every detail."
+
+[topwwdclouddb]
+other = "CLOUD DB & DEV"
+
+[topwwdclouddbtext]
+other = "Rapid development of your ops database in eSolia 'PROdb' cloud database. General software development projects."
+
+[topwwdhelpdesk]
+other = "HELPDESK"
+
+[topwwdhelpdesktext]
+other = "Your users' support questions, answered quickly & completely, stored in our internal ops database."
+
+[topwwdinfrastructure]
+other = "INFRASTRUCTURE"
+
+[topwwdinfrastructuretext]
+other = "Perfect implementation to spec and standards. Regular IT infrastructure or technology refreshes, performed with aplomb."
+
+[topwwdlocalization]
+other = "LOCALIZATION"
+
+[topwwdlocalizationtext]
+other = "Don't do it by machine; hire eSolia to do it right. Our native speakers will localize your documents and apps to perfection."
+
+[topwwdmanagement]
+other = "MANAGEMENT"
+
+[topwwdmanagementtext]
+other = "Interim or ongoing IT management services, on- or off-site. Successful coordination for all your local or global projects."
+
+[topwwdmandate]
+other = "MANDATE"
+
+[topwwdmandatetext]
+other = "Flexible accommodation of your directives, your standards, your mandate."
+
+[topwwdofficesetup]
+other = "OFFICE SETUP"
+
+[topwwdofficesetuptext]
+other = "Full support for new office setup management, upgrades or internal moves."
+
+[topwwdonsite]
+other = "ON-SITE"
+
+[topwwdonsitetext]
+other = "Engineers visit your site for user support, regular systems admin tasks, or troubleshooting."
+
+[topwwdpm]
+other = "PROJECT MGT"
+
+[topwwdpmtext]
+other = "Our real experience means success for all your projects. Try eSolia's unique and practical approach to project management."
+
+[topwwdprocess]
+other = "PROCESS"
+
+[topwwdprocesstext]
+other = "Skillful management of Projects, Procurement, Asset Mgt, Compliance, Upgrade or any other IT or business processes."
+
+[topwwdsecurity]
+other = "SECURITY"
+
+[topwwdsecuritytext]
+other = "Security assessment, program & infrastructure implementation, compliance auditing, and remediation for your peace of mind."
+
+[topwwdtelephone]
+other = "TELEPHONE"
+
+[topwwdtelephonetext]
+other = "Superior, modern and full-featured IP phone systems reduce your costs and increase your efficiency. Cloud phone subscription service available."
+
+[topwwdtraining]
+other = "TRAINING"
+
+[topwwdtrainingtext]
+other = "Effective new-hire orientation, software and technical training. Course development and delivery."
+
+[topwwdwebsite]
+other = "WEBSITE"
+
+[topwwdwebsitetext]
+other = "Modern, standards-based websites that benefit your business, whether starting from zero, or localization of an existing website."
