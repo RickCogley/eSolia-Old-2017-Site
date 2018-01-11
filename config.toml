@@ -14,7 +14,7 @@ ISO8601 = "2006-01-02T15:04:05JST"
     # The format shown here is the same one Jekyll/Octopress uses by default.
     post = "/:section/:slug"
 
-[taxonomies]
+[Taxonomies]
     tag = "tags"
     topic = "topics"
     series = "series"
@@ -41,6 +41,7 @@ languageName = "English"
 weight = 1
 # For RSS only, apparently
 languageCode = "en-US"
+
 
 [Languages.en.params]
     linkedin = "english-link"
